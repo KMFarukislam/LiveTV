@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>LiveTV – Free IPTV Channel Index</title>
-<meta name="description" content="LiveTV is a free IPTV channel index powered by iptv-org. Filter channels by country, category and quality.">
+<title>LiveTV – IPTV Channel Index</title>
+<meta name="description" content="LiveTV IPTV channel index. Search and filter live TV channels.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -11,15 +11,14 @@
 
 <style>
 body{background:#0f1115;color:#eaeaf0;padding-top:360px}
-header, #player, #toolbar{position:fixed;width:100%;left:0}
-header{top:0;z-index:1000;background:#141720;padding:10px;text-align:center}
-#player{top:52px;z-index:999;background:#000}
-#toolbar{top:312px;z-index:998;background:#141720;padding:8px}
+header,#player,#toolbar{position:fixed;width:100%;left:0}
+header{top:0;background:#141720;padding:10px;text-align:center;z-index:1000}
+#player{top:52px;background:#000;z-index:999}
+#toolbar{top:312px;background:#141720;padding:8px;z-index:998}
 video{width:100%;max-height:260px;background:#000}
-.card{background:#181b22;border:1px solid #252a34;border-radius:12px;padding:10px;cursor:pointer}
-.card:hover{border-color:#4da3ff}
-.logo{width:48px;height:48px;object-fit:contain;background:#000;border-radius:8px}
-.badge{background:#222735;font-size:11px}
+.logo{width:40px;height:40px;object-fit:contain;background:#000;border-radius:6px}
+.status.active{color:#2ecc71}
+.status.dead{color:#e74c3c}
 .btn-q.active{background:#4da3ff;color:#000}
 </style>
 </head>
@@ -32,9 +31,8 @@ video{width:100%;max-height:260px;background:#000}
   <video id="video" controls></video>
 </div>
 
-<div id="toolbar" class="d-flex gap-2 flex-wrap">
+<div id="toolbar" class="d-flex gap-2">
   <div id="qualities" class="d-flex gap-2"></div>
-  <button id="favBtn" class="btn btn-sm btn-outline-warning">⭐ Favourite</button>
 </div>
 
 <div class="container mt-3">
@@ -52,20 +50,27 @@ video{width:100%;max-height:260px;background:#000}
 </div>
 
 <div class="container mt-3">
-  <div class="row g-3" id="grid"></div>
+<table class="table table-dark table-hover table-sm">
+<thead>
+<tr>
+<th>Logo</th>
+<th>Category</th>
+<th>Channel</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody id="grid"></tbody>
+</table>
 </div>
 
 <script>
 const DATA="data/channels.min.json";
-const PAGE=60;
-const favKey="livetv_fav";
-let channels=[],view=[],page=0,current=[],name="",hls;
-const favs=new Set(JSON.parse(localStorage.getItem(favKey)||"[]"));
+const PAGE=80;
+let channels=[],view=[],page=0,hls;
 
-const video=document.getElementById("video");
 const grid=document.getElementById("grid");
+const video=document.getElementById("video");
 const qualities=document.getElementById("qualities");
-const favBtn=document.getElementById("favBtn");
 const search=document.getElementById("search");
 const country=document.getElementById("country");
 const category=document.getElementById("category");
@@ -73,7 +78,7 @@ const category=document.getElementById("category");
 const qOf=n=>{const m=n.match(/(\\d{3,4})p/i);return m?m[1]+"p":"Auto"};
 
 fetch(DATA).then(r=>r.json()).then(d=>{
-  channels=d;
+  channels=d.map(c=>({...c,active:!!c.u}));
   buildFilters();
   apply();
 });
@@ -81,16 +86,16 @@ fetch(DATA).then(r=>r.json()).then(d=>{
 function buildFilters(){
   country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.c))].sort().map(c=>`<option>${c}</option>`).join("");
   category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
-  category.value="Sports";
 }
 
 function apply(){
   page=0;grid.innerHTML="";
   const q=search.value.toLowerCase();
   view=channels.filter(c=>{
-    if(q && !c.n.toLowerCase().includes(q))return false;
-    if(country.value!="All" && c.c!=country.value)return false;
-    if(category.value!="All" && !(c.g||"").includes(category.value))return false;
+    if(!c.active) return false;
+    if(q && !c.n.toLowerCase().includes(q)) return false;
+    if(country.value!=="All" && c.c!==country.value) return false;
+    if(category.value!=="All" && !(c.g||"").includes(category.value)) return false;
     return true;
   });
   render();
@@ -98,39 +103,29 @@ function apply(){
 
 function render(){
   view.slice(page*PAGE,(page+1)*PAGE).forEach(c=>{
-    const col=document.createElement("div");
-    col.className="col-md-4 col-lg-3";
-    col.innerHTML=`
-      <div class="card d-flex gap-2">
-        <img class="logo" src="${c.l||''}">
-        <div>
-          <div class="fw-semibold small">${c.n}</div>
-          <div class="text-muted small">${c.c}</div>
-          <div>
-            ${(c.g||"").split(";").map(x=>`<span class="badge me-1">${x}</span>`).join("")}
-            <span class="badge">${qOf(c.n)}</span>
-          </div>
-        </div>
-      </div>`;
-    col.onclick=()=>play(c.n);
-    grid.appendChild(col);
+    const tr=document.createElement("tr");
+    tr.innerHTML=`
+      <td><img class="logo" src="${c.l||''}"></td>
+      <td>${(c.g||"").split(";")[0]||"-"}</td>
+      <td>${c.n}</td>
+      <td class="status active">● Active</td>`;
+    tr.onclick=()=>play(c.n);
+    grid.appendChild(tr);
   });
   page++;
 }
 
 function play(n){
-  name=n;
-  current=channels.filter(c=>c.n===n);
+  const list=channels.filter(c=>c.n===n);
   qualities.innerHTML="";
-  current.forEach((c,i)=>{
+  list.forEach((c,i)=>{
     const b=document.createElement("button");
     b.className="btn btn-sm btn-outline-light btn-q"+(i===0?" active":"");
     b.textContent=qOf(c.n);
     b.onclick=()=>switchQ(c.u,b);
     qualities.appendChild(b);
   });
-  switchQ(current[0].u,qualities.firstChild);
-  favBtn.classList.toggle("active",favs.has(n));
+  switchQ(list[0].u,qualities.firstChild);
 }
 
 function switchQ(u,b){
@@ -143,14 +138,8 @@ function switchQ(u,b){
   video.play();
 }
 
-favBtn.onclick=()=>{
-  favs.has(name)?favs.delete(name):favs.add(name);
-  localStorage.setItem(favKey,JSON.stringify([...favs]));
-  favBtn.classList.toggle("active");
-};
-
 window.addEventListener("scroll",()=>{
-  if(innerHeight+scrollY>=document.body.offsetHeight-400 && page*PAGE<view.length)render();
+  if(innerHeight+scrollY>=document.body.offsetHeight-300 && page*PAGE<view.length)render();
 });
 [search,country,category].forEach(e=>e.oninput=apply);
 </script>
