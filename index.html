@@ -1,82 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>LiveTV</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8" />
+<title>LiveTV – IPTV Channel Index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <style>
+:root{
+  --bg:#0f1115;
+  --card:#181b22;
+  --text:#eaeaf0;
+  --muted:#9aa0aa;
+  --accent:#4da3ff;
+  --border:#252a34;
+}
+
 *{box-sizing:border-box}
 body{
   margin:0;
-  font-family:system-ui,Arial,sans-serif;
-  background:#0f1115;
-  color:#fff;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto;
+  background:var(--bg);
+  color:var(--text);
 }
+
 header{
-  padding:12px;
+  padding:24px 16px;
   text-align:center;
-  background:#151822;
-  position:sticky;
-  top:0;
-  z-index:10;
 }
 header h1{
   margin:0;
-  font-size:22px;
+  font-size:28px;
 }
+header p{
+  color:var(--muted);
+  margin-top:6px;
+}
+
 .controls{
-  display:flex;
-  gap:6px;
-  margin-top:10px;
-}
-input,select{
-  flex:1;
-  padding:8px;
-  border:none;
-  border-radius:6px;
-}
-main{
-  display:flex;
-  flex-direction:column;
-}
-#player{
-  width:100%;
-  height:220px;
-  background:#000;
-}
-video{
-  width:100%;
-  height:100%;
-}
-#list{
-  padding:8px;
-}
-.channel{
-  display:flex;
-  align-items:center;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
   gap:10px;
-  padding:8px;
-  border-bottom:1px solid #222;
-  cursor:pointer;
+  padding:16px;
 }
-.channel:hover{
-  background:#1b1f2e;
+@media(max-width:900px){
+  .controls{grid-template-columns:1fr 1fr}
 }
-.channel img{
-  width:40px;
-  height:40px;
-  object-fit:contain;
+
+input,select{
+  background:var(--card);
+  color:var(--text);
+  border:1px solid var(--border);
+  padding:10px;
+  border-radius:8px;
 }
-.channel span{
+
+.stats{
+  padding:0 16px 10px;
+  color:var(--muted);
   font-size:14px;
 }
-footer{
-  padding:10px;
-  text-align:center;
-  font-size:12px;
-  color:#aaa;
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:14px;
+  padding:16px;
 }
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:14px;
+  display:flex;
+  gap:12px;
+  transition:.15s;
+}
+.card:hover{
+  border-color:var(--accent);
+  transform:translateY(-2px);
+}
+
+.logo{
+  width:56px;
+  height:56px;
+  border-radius:8px;
+  object-fit:contain;
+  background:#000;
+}
+
+.info{
+  flex:1;
+}
+.info h3{
+  margin:0 0 4px;
+  font-size:15px;
+}
+.meta{
+  font-size:12px;
+  color:var(--muted);
+}
+.badges{
+  margin-top:6px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px;
+}
+.badge{
+  font-size:11px;
+  padding:2px 6px;
+  border-radius:6px;
+  background:#222735;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  font-size:13px;
+  color:var(--muted);
+}
+a{color:var(--accent);text-decoration:none}
 </style>
 </head>
 
@@ -84,85 +127,145 @@ footer{
 
 <header>
   <h1>📺 LiveTV</h1>
-  <div class="controls">
-    <input id="search" placeholder="Search channel…">
-    <select id="country"></select>
-    <select id="category"></select>
-  </div>
+  <p>Automatic IPTV channel index powered by iptv-org</p>
 </header>
 
-<main>
-  <div id="player">
-    <video id="video" controls autoplay></video>
-  </div>
-  <div id="list"></div>
-</main>
+<div class="controls">
+  <input id="search" placeholder="Search channel…" />
+  <select id="country"></select>
+  <select id="category"></select>
+  <select id="quality"></select>
+</div>
+
+<div class="stats" id="stats">Loading channels…</div>
+
+<div class="grid" id="grid"></div>
 
 <footer>
-  Powered by iptv-org • This site does not host any streams
+  This site does not host any streams.<br>
+  Source: <a href="https://github.com/iptv-org/iptv" target="_blank">iptv-org</a>
 </footer>
 
 <script>
-const jsonURL = "data/channels.json";
+const DATA_URL = "data/channels.json";
+const CACHE_KEY = "livetv_channels_v1";
 
-const list = document.getElementById("list");
-const video = document.getElementById("video");
-const search = document.getElementById("search");
-const countrySel = document.getElementById("country");
-const categorySel = document.getElementById("category");
+const grid = document.getElementById("grid");
+const stats = document.getElementById("stats");
+
+const searchEl = document.getElementById("search");
+const countryEl = document.getElementById("country");
+const categoryEl = document.getElementById("category");
+const qualityEl = document.getElementById("quality");
 
 let channels = [];
+let filtered = [];
 
-fetch(jsonURL)
-  .then(r => r.json())
-  .then(data => {
-    channels = data;
-    buildFilters();
-    render();
-  });
+/* ---------- UTIL ---------- */
+const getQuality = n => {
+  const m = n.match(/(\d{3,4})p/i);
+  return m ? m[1]+"p" : "Unknown";
+};
 
+const flag = c =>
+  c && c !== "International"
+  ? `https://flagcdn.com/w40/${c.slice(0,2).toLowerCase()}.png`
+  : "";
+
+/* ---------- LOAD ---------- */
+async function load(){
+  const cached = localStorage.getItem(CACHE_KEY);
+  if(cached){
+    channels = JSON.parse(cached);
+    init();
+  }
+  const res = await fetch(DATA_URL);
+  channels = await res.json();
+  localStorage.setItem(CACHE_KEY, JSON.stringify(channels));
+  init();
+}
+
+function init(){
+  buildFilters();
+  apply();
+}
+
+/* ---------- FILTERS ---------- */
 function buildFilters(){
-  const countries = [...new Set(channels.map(c=>c.country))].sort();
-  const cats = [...new Set(channels.map(c=>c.category))].sort();
+  const countries = new Set();
+  const categories = new Set();
+  const qualities = new Set();
 
-  countrySel.innerHTML = `<option value="">All Countries</option>` +
-    countries.map(c=>`<option>${c}</option>`).join("");
-
-  categorySel.innerHTML = `<option value="">All Categories</option>` +
-    cats.map(c=>`<option>${c}</option>`).join("");
-}
-
-function render(){
-  const q = search.value.toLowerCase();
-  const co = countrySel.value;
-  const ca = categorySel.value;
-
-  list.innerHTML = "";
-
-  channels.filter(c =>
-    (!q || c.name.toLowerCase().includes(q)) &&
-    (!co || c.country===co) &&
-    (!ca || c.category===ca)
-  ).forEach(c=>{
-    const div = document.createElement("div");
-    div.className="channel";
-    div.innerHTML = `
-      <img src="${c.logo}" onerror="this.src='https://via.placeholder.com/40'">
-      <span>${c.name}</span>
-    `;
-    div.onclick = ()=> play(c.url);
-    list.appendChild(div);
+  channels.forEach(c=>{
+    countries.add(c.country || "International");
+    (c.category||"Undefined").split(";").forEach(x=>categories.add(x));
+    qualities.add(getQuality(c.name));
   });
+
+  fill(countryEl, ["All",...countries]);
+  fill(categoryEl, ["All",...categories]);
+  fill(qualityEl, ["All",...qualities]);
+
+  autoCountry();
 }
 
-function play(url){
-  video.src = url;
-  video.play();
+function fill(el, arr){
+  el.innerHTML = arr.map(v=>`<option>${v}</option>`).join("");
 }
 
-search.oninput = render;
-countrySel.onchange = render;
-categorySel.onchange = render;
+/* ---------- AUTO COUNTRY ---------- */
+async function autoCountry(){
+  try{
+    const r = await fetch("https://ipapi.co/country_name/");
+    const c = await r.text();
+    [...countryEl.options].forEach(o=>{
+      if(o.value === c) countryEl.value = c;
+    });
+  }catch{}
+}
+
+/* ---------- APPLY ---------- */
+function apply(){
+  const q = searchEl.value.toLowerCase();
+  const ctry = countryEl.value;
+  const cat = categoryEl.value;
+  const qual = qualityEl.value;
+
+  filtered = channels.filter(ch=>{
+    if(q && !ch.name.toLowerCase().includes(q)) return false;
+    if(ctry!=="All" && ch.country!==ctry) return false;
+    if(cat!=="All" && !(ch.category||"").includes(cat)) return false;
+    if(qual!=="All" && getQuality(ch.name)!==qual) return false;
+    return true;
+  });
+
+  render();
+}
+
+/* ---------- RENDER ---------- */
+function render(){
+  stats.textContent = `${filtered.length} channels`;
+  grid.innerHTML = filtered.slice(0,500).map(c=>`
+    <a class="card" href="${c.url}" target="_blank">
+      <img class="logo" loading="lazy" src="${c.logo||''}">
+      <div class="info">
+        <h3>${c.name}</h3>
+        <div class="meta">${c.country}</div>
+        <div class="badges">
+          ${(c.category||"").split(";").map(x=>`<span class="badge">${x}</span>`).join("")}
+          <span class="badge">${getQuality(c.name)}</span>
+        </div>
+      </div>
+    </a>
+  `).join("");
+}
+
+/* ---------- EVENTS ---------- */
+[searchEl,countryEl,categoryEl,qualityEl].forEach(e=>{
+  e.addEventListener("input",apply);
+});
+
+load();
 </script>
 
 </body>
