@@ -1,0 +1,66 @@
+name: Normalize & Optimize IPTV JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * *"
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Normalize & optimize JSON
+        run: |
+          python3 << 'EOF'
+          import json,re
+
+          with open("data/channels.json","r",encoding="utf-8") as f:
+              data=json.load(f)
+
+          MAP={
+            "bangla":"Bangladesh",
+            "bd":"Bangladesh",
+            "hindi":"India",
+            "india":"India",
+            "pak":"Pakistan",
+            "usa":"United States",
+            "uk":"United Kingdom",
+            "arab":"United Arab Emirates"
+          }
+
+          normalized=[]
+          for c in data:
+              country="International"
+              if c.get("country") and c["country"]!="International":
+                  country=c["country"]
+              else:
+                  s=(c.get("name","")+c.get("url","")).lower()
+                  for k,v in MAP.items():
+                      if k in s:
+                          country=v
+                          break
+
+              normalized.append({
+                "n":c.get("name"),
+                "u":c.get("url"),
+                "l":c.get("logo"),
+                "c":country,
+                "g":c.get("category")
+              })
+
+          with open("data/channels.min.json","w",encoding="utf-8") as f:
+              json.dump(normalized,f,separators=(',',':'))
+
+          print("Optimized channels:",len(normalized))
+          EOF
+
+      - name: Commit optimized file
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add data/channels.min.json
+          git commit -m "Normalize & optimize IPTV channels" || echo "No changes"
+          git push
