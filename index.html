@@ -8,25 +8,30 @@
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 <style>
+:root{
+  --header-h:50px;
+  --footer-h:30px;
+}
+
+/* RESET */
 *{box-sizing:border-box}
 body{
   margin:0;
   font-family:system-ui,Arial;
   background:#0f1115;
   color:#eaeaf0;
+  height:100dvh;
   overflow:hidden;
 }
 
 /* HEADER */
 header{
-  position:fixed;
-  top:0;left:0;right:0;
-  height:50px;
+  height:var(--header-h);
   background:#141720;
   display:flex;
   align-items:center;
   justify-content:center;
-  z-index:1000;
+  position:relative;
 }
 #netStatus{
   position:absolute;
@@ -38,55 +43,44 @@ header{
 
 /* FOOTER */
 footer{
+  height:var(--footer-h);
   background:#141720;
-  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   font-size:12px;
   color:#9aa0aa;
-  padding:10px;
-}
-@media(min-width:768px){
-  footer{
-    position:fixed;
-    bottom:0;left:0;right:0;
-    height:40px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
 }
 
 /* MAIN */
 main{
-  position:fixed;
-  top:50px;
-  bottom:0;
-  left:0;
-  right:0;
-  display:grid;
-  grid-template-columns:1fr;
+  height:calc(100dvh - var(--header-h) - var(--footer-h));
+  display:flex;
+  flex-direction:column;
 }
+
+/* DESKTOP */
 @media(min-width:992px){
   main{
-    bottom:40px;
+    display:grid;
     grid-template-columns:360px 1fr;
   }
 }
 
 /* PLAYER */
 .player-box{
-  position:relative;
   width:100%;
+  aspect-ratio:16/9;
+  max-height:40vh;
   background:#000;
+  position:relative;
   overflow:hidden;
 }
 video{
-  display:block;
   width:100%;
-  height:auto;
-  margin:0 auto;
-  background:#000;
+  height:100%;
   object-fit:cover;
-  object-position:center;
+  display:block;
 }
 
 /* PLAYER OVERLAY */
@@ -98,7 +92,6 @@ video{
   align-items:center;
   justify-content:center;
   flex-direction:column;
-  z-index:5;
   pointer-events:none;
 }
 .spinner{
@@ -137,7 +130,7 @@ video{
   min-height:0;
 }
 
-/* FILTERS */
+/* FILTER BAR */
 .filters{
   display:grid;
   grid-template-columns:1fr .8fr .8fr;
@@ -170,11 +163,10 @@ video{
 }
 .chips span.active{background:#4da3ff;color:#000}
 
-/* TABLE */
+/* CHANNEL LIST */
 .table-wrap{
   flex:1;
   overflow-y:auto;
-  min-height:0;
   -webkit-overflow-scrolling:touch;
   overscroll-behavior:contain;
 }
@@ -183,7 +175,7 @@ thead{
   position:sticky;
   top:0;
   background:#141720;
-  z-index:10;
+  z-index:5;
 }
 th,td{
   padding:8px;
@@ -194,7 +186,7 @@ tr{height:52px}
 tr:hover{background:#222735;cursor:pointer}
 tr.playing{background:#1f3b5c}
 
-/* CHANNEL */
+/* CHANNEL CELLS */
 .logo{
   width:36px;height:36px;
   object-fit:contain;
@@ -300,10 +292,6 @@ const reloadBtn=document.getElementById("reloadBtn");
 
 let favOnly=false;
 
-/* UTIL */
-const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,"");
-const qOf=n=>(n.match(/(\d{3,4})p/i)||[])[1]||"Auto";
-
 /* NETWORK */
 const net=document.getElementById("netStatus");
 function netUpdate(){
@@ -313,28 +301,16 @@ function netUpdate(){
   }else{
     net.textContent="● Offline";
     net.classList.add("offline");
-    showRetry();
+    overlay.style.display="flex";
   }
 }
 window.addEventListener("online",netUpdate);
 window.addEventListener("offline",netUpdate);
 netUpdate();
 
-/* PLAYER SIZE */
-function resizePlayer(){
-  let h=Math.round(window.innerWidth*9/16);
-  h=Math.max(180,Math.min(420,h));
-  video.style.height=h+"px";
-}
-window.addEventListener("resize",resizePlayer);
-resizePlayer();
-
-/* OVERLAY */
-function showRetry(){
-  overlay.style.display="flex";
-  retryText.textContent=`Reconnecting… (${retryCount}/${MAX_RETRY})`;
-}
-function hideRetry(){overlay.style.display="none"}
+/* HELPERS */
+const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,"");
+const qOf=n=>(n.match(/(\d{3,4})p/i)||[])[1]||"Auto";
 
 /* LOAD DATA */
 fetch(DATA).then(r=>r.json()).then(d=>{
@@ -348,7 +324,6 @@ function buildFilters(){
   country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.country))].sort().map(c=>`<option>${c}</option>`).join("");
   category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
 }
-
 function apply(){
   start=0;
   const q=norm(search.value);
@@ -369,7 +344,6 @@ function render(){
   grid.innerHTML="";
   grid.style.paddingTop=(start*ROW)+"px";
   grid.style.paddingBottom=((view.length-end)*ROW)+"px";
-
   view.slice(start,end).forEach(c=>{
     const tr=document.createElement("tr");
     if(c.n===current) tr.classList.add("playing");
@@ -383,14 +357,12 @@ function render(){
     grid.appendChild(tr);
   });
 }
-
-/* SCROLL */
 scrollBox.addEventListener("scroll",()=>{
   const i=Math.floor(scrollBox.scrollTop/ROW);
   if(i!==start){start=i;render();}
 });
 
-/* PLAY */
+/* PLAY + RETRY */
 function play(name){
   current=name;
   retryCount=0;
@@ -407,21 +379,19 @@ function play(name){
   switchQuality(qualityList[0].u,qualities.firstChild);
   render();
 }
-
 function switchQuality(url,btn){
   currentUrl=url;
   [...qualities.children].forEach(b=>b.classList.remove("active"));
   if(btn)btn.classList.add("active");
-
   if(hls){hls.destroy();hls=null}
-
   if(Hls.isSupported()){
     hls=new Hls();
     hls.on(Hls.Events.ERROR,(e,d)=>{
       if(!d.fatal) return;
       if(retryCount<MAX_RETRY){
         retryCount++;
-        showRetry();
+        overlay.style.display="flex";
+        retryText.textContent=`Reconnecting… (${retryCount}/${MAX_RETRY})`;
         setTimeout(()=>switchQuality(currentUrl,qualities.children[qIndex]),2000);
         return;
       }
@@ -433,14 +403,10 @@ function switchQuality(url,btn){
     hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play().catch(()=>{}));
     hls.loadSource(url);
     hls.attachMedia(video);
-  }else{
-    video.src=url;
-  }
+  }else video.src=url;
   video.play().catch(()=>{});
 }
-
-video.addEventListener("playing",()=>{retryCount=0;hideRetry()});
-video.addEventListener("canplay",hideRetry);
+video.addEventListener("playing",()=>overlay.style.display="none");
 
 /* BUTTONS */
 reloadBtn.onclick=()=>currentUrl&&switchQuality(currentUrl,qualities.children[qIndex]);
@@ -455,7 +421,6 @@ favOnlyBtn.onclick=()=>{
   favOnlyBtn.classList.toggle("active");
   apply();
 };
-
 document.getElementById("chips").onclick=e=>{
   if(e.target.dataset.cat){
     document.querySelectorAll(".chips span").forEach(x=>x.classList.remove("active"));
@@ -464,7 +429,6 @@ document.getElementById("chips").onclick=e=>{
     apply();
   }
 };
-
 [search,country,category].forEach(e=>e.oninput=apply);
 </script>
 
