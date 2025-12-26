@@ -93,12 +93,23 @@ video{
   border-radius:6px;
 }
 
-/* TABLE */
-.table-wrap{
-  position:relative;
+/* RIGHT PANEL */
+.right-panel{
+  display:flex;
+  flex-direction:column;
   height:100%;
-  overflow:hidden;
+  min-height:0;
 }
+
+/* TABLE SCROLL */
+.table-wrap{
+  flex:1;
+  overflow-y:auto;
+  min-height:0;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior:smooth;
+}
+
 table{
   width:100%;
   border-collapse:collapse;
@@ -114,27 +125,16 @@ th,td{
   border-bottom:1px solid #252a34;
   font-size:14px;
 }
-tbody{
-  display:block;
-  overflow-y:auto;
-  height:100%;
-}
-thead,tr{
-  display:table;
-  width:100%;
-  table-layout:fixed;
-}
 tr:hover{background:#222735;cursor:pointer}
 tr.playing{background:#1f3b5c !important}
 
-/* LOGO & STATUS */
+/* LOGO */
 .logo{
   width:36px;height:36px;
   object-fit:contain;
   background:#000;
   border-radius:6px;
 }
-.status.active{color:#2ecc71}
 
 /* FOOTER */
 footer{
@@ -171,14 +171,14 @@ footer{
   </section>
 
   <!-- RIGHT -->
-  <section>
+  <section class="right-panel">
     <div class="filters">
       <input id="search" placeholder="Search channel">
       <select id="country"></select>
       <select id="category"></select>
     </div>
 
-    <div class="table-wrap">
+    <div class="table-wrap" id="scrollBox">
       <table>
         <thead>
           <tr>
@@ -199,32 +199,34 @@ footer{
 
 <script>
 const DATA="data/channels.min.json";
-const PAGE=100;
+const PAGE=120;
 let channels=[],view=[],page=0,hls;
-let currentChannel=null,currentUrl=null;
+let currentChannel=null,currentUrl=null,selectedIndex=0;
 
 const video=document.getElementById("video");
 const grid=document.getElementById("grid");
 const qualities=document.getElementById("qualities");
-const favBtn=document.getElementById("favBtn");
-const reloadBtn=document.getElementById("reloadBtn");
+const scrollBox=document.getElementById("scrollBox");
+
 const search=document.getElementById("search");
 const country=document.getElementById("country");
 const category=document.getElementById("category");
-
-const favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]"));
+const reloadBtn=document.getElementById("reloadBtn");
 
 const qOf=n=>{
   const m=n.match(/(\\d{3,4})p/i);
   return m?m[1]+"p":"Auto";
 };
 
+/* LOAD DATA */
 fetch(DATA).then(r=>r.json()).then(d=>{
   channels=d.map(c=>({...c,active:!!c.u,country:c.c||"International"}));
   buildFilters();
   apply();
+  restoreScroll();
 });
 
+/* FILTERS */
 function buildFilters(){
   country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.country))].sort().map(c=>`<option>${c}</option>`).join("");
   category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
@@ -243,22 +245,26 @@ function apply(){
   render();
 }
 
+/* RENDER */
 function render(){
-  view.slice(page*PAGE,(page+1)*PAGE).forEach(c=>{
+  view.slice(page*PAGE,(page+1)*PAGE).forEach((c,i)=>{
     const tr=document.createElement("tr");
+    tr.dataset.index=page*PAGE+i;
     if(c.n===currentChannel) tr.classList.add("playing");
     tr.innerHTML=`
       <td><img class="logo" src="${c.l||''}"></td>
       <td>${(c.g||"").split(";")[0]||"-"}</td>
       <td>${c.n}</td>
-      <td class="status active">● Active</td>`;
+      <td style="color:#2ecc71">● Active</td>`;
     tr.onclick=()=>play(c.n);
     grid.appendChild(tr);
   });
   page++;
 }
 
+/* PLAY */
 function play(name){
+  saveScroll();
   currentChannel=name;
   const list=channels.filter(c=>c.n===name);
   qualities.innerHTML="";
@@ -290,27 +296,47 @@ reloadBtn.onclick=()=>{
   }
 };
 
-favBtn.onclick=()=>{
-  if(!currentChannel) return;
-  favs.has(currentChannel)?favs.delete(currentChannel):favs.add(currentChannel);
-  localStorage.setItem("favs",JSON.stringify([...favs]));
-};
-
+/* HIGHLIGHT */
 function highlight(){
   document.querySelectorAll("tr").forEach(r=>r.classList.remove("playing"));
   [...grid.children].forEach(r=>{
     if(r.children[2].textContent===currentChannel){
       r.classList.add("playing");
+      selectedIndex=parseInt(r.dataset.index);
     }
   });
 }
 
-grid.addEventListener("scroll",()=>{
-  if(grid.scrollTop+grid.clientHeight>=grid.scrollHeight-200 && page*PAGE<view.length){
+/* SCROLL MEMORY */
+function saveScroll(){
+  sessionStorage.setItem("scrollTop",scrollBox.scrollTop);
+}
+function restoreScroll(){
+  const y=sessionStorage.getItem("scrollTop");
+  if(y) scrollBox.scrollTop=parseInt(y);
+}
+
+/* INFINITE SCROLL */
+scrollBox.addEventListener("scroll",()=>{
+  saveScroll();
+  if(scrollBox.scrollTop+scrollBox.clientHeight>=scrollBox.scrollHeight-300 && page*PAGE<view.length){
     render();
   }
 });
 
+/* KEYBOARD NAV */
+document.addEventListener("keydown",e=>{
+  if(!view.length) return;
+  if(e.key==="ArrowDown"){
+    selectedIndex=Math.min(selectedIndex+1,view.length-1);
+  }
+  if(e.key==="ArrowUp"){
+    selectedIndex=Math.max(selectedIndex-1,0);
+  }
+  if(e.key==="Enter"){
+    play(view[selectedIndex].n);
+  }
+});
 [search,country,category].forEach(e=>e.oninput=apply);
 </script>
 
