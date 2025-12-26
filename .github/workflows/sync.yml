@@ -1,9 +1,9 @@
 name: IPTV Auto Sync
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"
-  workflow_dispatch:
 
 jobs:
   sync:
@@ -19,38 +19,34 @@ jobs:
         run: |
           python3 << 'EOF'
           import json, re
-
-          channels = []
-          current = {}
-
-          with open("index.m3u", encoding="utf-8", errors="ignore") as f:
+          channels=[]
+          current={}
+          with open("index.m3u",encoding="utf-8",errors="ignore") as f:
               for line in f:
-                  line = line.strip()
+                  line=line.strip()
                   if line.startswith("#EXTINF"):
                       def g(p):
-                          m = re.search(p, line)
+                          m=re.search(p,line)
                           return m.group(1) if m else ""
-                      current = {
-                          "name": g('tvg-name="([^"]*)"') or g(',([^,]+)$'),
-                          "country": g('tvg-country="([^"]*)"') or "International",
-                          "category": g('group-title="([^"]*)"') or "Other",
-                          "logo": g('tvg-logo="([^"]*)"'),
-                          "url": ""
+                      current={
+                        "name": g('tvg-name="([^"]*)"') or g(',([^,]+)$'),
+                        "country": g('tvg-country="([^"]*)"') or "",
+                        "category": g('group-title="([^"]*)"') or "",
+                        "logo": g('tvg-logo="([^"]*)"'),
+                        "url": ""
                       }
                   elif line and not line.startswith("#"):
-                      current["url"] = line
+                      current["url"]=line
                       channels.append(current)
-
-          with open("data/channels.json", "w", encoding="utf-8") as out:
-              json.dump(channels, out, ensure_ascii=False)
-
-          print("Channels synced:", len(channels))
+          with open("data/channels.json","w",encoding="utf-8") as out:
+              json.dump(channels,out,ensure_ascii=False)
+          print("Channels:",len(channels))
           EOF
 
-      - name: Commit updated channels
+      - name: Commit channels.json
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name github-actions
+          git config user.email actions@github.com
           git add data/channels.json
           git commit -m "Auto sync IPTV channels" || echo "No changes"
           git push
