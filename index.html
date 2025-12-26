@@ -17,24 +17,54 @@ body{
   overflow:hidden;
 }
 
-/* HEADER & FOOTER */
-header,footer{
-  position:fixed;left:0;right:0;
+/* HEADER */
+header{
+  position:fixed;
+  top:0;left:0;right:0;
+  height:50px;
   background:#141720;
-  display:flex;align-items:center;justify-content:center
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
 }
-header{top:0;height:50px;z-index:1000}
-footer{bottom:0;height:40px;font-size:12px;color:#9aa0aa}
+
+/* FOOTER */
+footer{
+  background:#141720;
+  text-align:center;
+  font-size:12px;
+  color:#9aa0aa;
+  padding:10px;
+}
+
+/* Desktop footer fixed */
+@media(min-width:768px){
+  footer{
+    position:fixed;
+    bottom:0;left:0;right:0;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+}
 
 /* MAIN */
 main{
   position:fixed;
-  top:50px;bottom:40px;left:0;right:0;
+  top:50px;
+  bottom:0;
+  left:0;
+  right:0;
   display:grid;
   grid-template-columns:1fr;
 }
 @media(min-width:992px){
-  main{grid-template-columns:360px 1fr}
+  main{
+    bottom:40px;
+    grid-template-columns:360px 1fr;
+  }
 }
 
 /* PLAYER */
@@ -73,18 +103,13 @@ video{
   min-height:0;
 }
 
-/* FILTER BAR (COMPACT) */
+/* FILTER BAR */
 .filters{
   display:grid;
   grid-template-columns:1fr 0.8fr 0.8fr;
   gap:6px;
   padding:8px;
   background:#181b22;
-}
-@media(max-width:600px){
-  .filters{
-    grid-template-columns:1.2fr 1fr 1fr;
-  }
 }
 .filters input,
 .filters select{
@@ -96,7 +121,7 @@ video{
   font-size:14px;
 }
 
-/* QUICK CATEGORY CHIPS */
+/* QUICK CHIPS */
 .chips{
   display:flex;
   gap:6px;
@@ -122,6 +147,8 @@ video{
   overflow-y:auto;
   min-height:0;
   -webkit-overflow-scrolling:touch;
+  overscroll-behavior:contain;
+  scroll-behavior:smooth;
 }
 table{
   width:100%;
@@ -144,7 +171,7 @@ tr{
 tr:hover{background:#222735;cursor:pointer}
 tr.playing{background:#1f3b5c}
 
-/* CHANNEL INFO */
+/* CHANNEL */
 .logo{
   width:36px;
   height:36px;
@@ -153,8 +180,16 @@ tr.playing{background:#1f3b5c}
   border-radius:6px;
 }
 .star{color:#f1c40f}
-.active{color:#2ecc71}
-.unstable{color:#f39c12}
+
+/* STATUS DOT */
+.dot{
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  display:inline-block;
+}
+.dot.green{background:#2ecc71}
+.dot.red{background:#e74c3c}
 </style>
 </head>
 
@@ -179,15 +214,14 @@ tr.playing{background:#1f3b5c}
 <!-- RIGHT -->
 <section class="right-panel">
 
-  <!-- COMPACT FILTER BAR -->
   <div class="filters">
     <input id="search" placeholder="🔍 Search">
     <select id="country"></select>
     <select id="category"></select>
   </div>
 
-  <!-- QUICK CATEGORY -->
   <div class="chips" id="chips">
+    <span data-cat="All" class="active">All</span>
     <span data-cat="Sports">Sports</span>
     <span data-cat="News">News</span>
     <span data-cat="Movies">Movies</span>
@@ -195,7 +229,6 @@ tr.playing{background:#1f3b5c}
     <span data-cat="Music">Music</span>
   </div>
 
-  <!-- CHANNEL LIST -->
   <div class="table-wrap" id="scrollBox">
     <table>
       <thead>
@@ -224,7 +257,6 @@ const VISIBLE=15;
 
 let channels=[],view=[],start=0,current=null,currentUrl=null,hls;
 const favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]"));
-const unstable=JSON.parse(localStorage.getItem("unstable")||"{}");
 
 const grid=document.getElementById("grid");
 const scrollBox=document.getElementById("scrollBox");
@@ -244,20 +276,18 @@ let favOnly=false;
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,"");
 const qOf=n=>(n.match(/(\\d{3,4})p/i)||[])[1]||"Auto";
 
-/* LOAD DATA */
+/* LOAD */
 fetch(DATA).then(r=>r.json()).then(d=>{
   channels=d.map(c=>({...c,active:!!c.u,country:c.c||"International"}));
   buildFilters();
   apply();
 });
 
-/* FILTER BUILD */
 function buildFilters(){
   country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.country))].sort().map(c=>`<option>${c}</option>`).join("");
   category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
 }
 
-/* APPLY FILTERS */
 function apply(){
   start=0;
   const q=norm(search.value);
@@ -272,7 +302,6 @@ function apply(){
   render();
 }
 
-/* VIRTUAL LIST RENDER */
 function render(){
   const end=Math.min(start+VISIBLE,view.length);
   grid.innerHTML="";
@@ -287,9 +316,7 @@ function render(){
       <td><img class="logo" src="${c.l||''}"></td>
       <td>${(c.g||"").split(";")[0]||"-"}</td>
       <td>${c.n}</td>
-      <td class="${unstable[c.n]?'unstable':'active'}">
-        ● ${unstable[c.n]?'Unstable':'Active'}
-      </td>`;
+      <td><span class="dot ${c.active?'green':'red'}"></span></td>`;
     tr.onclick=()=>play(c.n);
     grid.appendChild(tr);
   });
@@ -324,20 +351,12 @@ function switchQ(url,btn){
   if(hls){hls.destroy();hls=null}
   if(Hls.isSupported()){
     hls=new Hls();
-    hls.on(Hls.Events.ERROR,()=>{
-      unstable[current]=1;
-      localStorage.setItem("unstable",JSON.stringify(unstable));
-      render();
-    });
     hls.loadSource(url);
     hls.attachMedia(video);
-  }else{
-    video.src=url;
-  }
+  }else video.src=url;
   video.play();
 }
 
-/* TOOLBAR */
 reloadBtn.onclick=()=>currentUrl && switchQ(currentUrl,qualities.querySelector(".active"));
 favBtn.onclick=()=>{
   if(!current) return;
@@ -354,9 +373,9 @@ favOnlyBtn.onclick=()=>{
 /* QUICK CATEGORY */
 document.getElementById("chips").onclick=e=>{
   if(e.target.dataset.cat){
-    category.value=e.target.dataset.cat;
     document.querySelectorAll(".chips span").forEach(x=>x.classList.remove("active"));
     e.target.classList.add("active");
+    category.value = e.target.dataset.cat==="All" ? "All" : e.target.dataset.cat;
     apply();
   }
 };
