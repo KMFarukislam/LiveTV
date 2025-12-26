@@ -3,74 +3,40 @@
 <head>
 <meta charset="UTF-8">
 <title>LiveTV – Free IPTV Channel Index</title>
-<meta name="description" content="LiveTV is a free IPTV channel index powered by iptv-org. Watch live TV channels by country, category and quality.">
+<meta name="description" content="LiveTV is a free IPTV channel index powered by iptv-org. Filter channels by country, category and quality.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Bootstrap CSS (only CSS, no JS) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- HLS.js -->
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 <style>
-body{
-  background:#0f1115;
-  color:#eaeaf0;
-  padding-top:360px; /* space for fixed header + player + toolbar */
-}
-.fixed-header{position:fixed;top:0;width:100%;z-index:1000;background:#141720}
-.fixed-player{position:fixed;top:56px;width:100%;z-index:999;background:#000}
-.fixed-toolbar{position:fixed;top:316px;width:100%;z-index:998;background:#141720}
-
+body{background:#0f1115;color:#eaeaf0;padding-top:360px}
+header, #player, #toolbar{position:fixed;width:100%;left:0}
+header{top:0;z-index:1000;background:#141720;padding:10px;text-align:center}
+#player{top:52px;z-index:999;background:#000}
+#toolbar{top:312px;z-index:998;background:#141720;padding:8px}
 video{width:100%;max-height:260px;background:#000}
-
-.channel-card{
-  background:#181b22;
-  border:1px solid #252a34;
-  border-radius:12px;
-  padding:10px;
-  cursor:pointer;
-}
-.channel-card:hover{border-color:#4da3ff}
-
-.channel-logo{
-  width:48px;height:48px;
-  object-fit:contain;
-  background:#000;
-  border-radius:8px;
-}
-
-.badge-custom{
-  background:#222735;
-  font-size:11px;
-}
-
-.btn-quality.active{
-  background:#4da3ff;
-  color:#000;
-}
+.card{background:#181b22;border:1px solid #252a34;border-radius:12px;padding:10px;cursor:pointer}
+.card:hover{border-color:#4da3ff}
+.logo{width:48px;height:48px;object-fit:contain;background:#000;border-radius:8px}
+.badge{background:#222735;font-size:11px}
+.btn-q.active{background:#4da3ff;color:#000}
 </style>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<div class="fixed-header py-2 text-center">
-  <h5 class="m-0">📺 LiveTV</h5>
-</div>
+<header><h5 class="m-0">📺 LiveTV</h5></header>
 
-<!-- PLAYER -->
-<div class="fixed-player">
+<div id="player">
   <video id="video" controls></video>
 </div>
 
-<!-- TOOLBAR -->
-<div class="fixed-toolbar p-2 d-flex gap-2 flex-wrap">
+<div id="toolbar" class="d-flex gap-2 flex-wrap">
   <div id="qualities" class="d-flex gap-2"></div>
   <button id="favBtn" class="btn btn-sm btn-outline-warning">⭐ Favourite</button>
 </div>
 
-<!-- FILTERS -->
 <div class="container mt-3">
   <div class="row g-2">
     <div class="col-md-4">
@@ -85,144 +51,107 @@ video{width:100%;max-height:260px;background:#000}
   </div>
 </div>
 
-<!-- CHANNEL LIST -->
 <div class="container mt-3">
   <div class="row g-3" id="grid"></div>
 </div>
 
-<footer class="text-center text-muted py-4 small">
-  No streams are hosted • Source: iptv-org
-</footer>
-
 <script>
-const DATA_URL="data/channels.json";
-const PAGE_SIZE=60;
+const DATA="data/channels.min.json";
+const PAGE=60;
 const favKey="livetv_fav";
+let channels=[],view=[],page=0,current=[],name="",hls;
+const favs=new Set(JSON.parse(localStorage.getItem(favKey)||"[]"));
 
-let channels=[],view=[],page=0,currentGroup=[],currentName="";
-let hls;
-
-const grid=document.getElementById("grid");
 const video=document.getElementById("video");
+const grid=document.getElementById("grid");
 const qualities=document.getElementById("qualities");
 const favBtn=document.getElementById("favBtn");
 const search=document.getElementById("search");
 const country=document.getElementById("country");
 const category=document.getElementById("category");
 
-const favs=new Set(JSON.parse(localStorage.getItem(favKey)||"[]"));
+const qOf=n=>{const m=n.match(/(\\d{3,4})p/i);return m?m[1]+"p":"Auto"};
 
-const qualityOf=n=>{
-  const m=n.match(/(\\d{3,4})p/i);
-  return m?m[1]+"p":"Auto";
-};
-
-fetch(DATA_URL).then(r=>r.json()).then(d=>{
+fetch(DATA).then(r=>r.json()).then(d=>{
   channels=d;
   buildFilters();
-  detectCountry();
   apply();
 });
 
 function buildFilters(){
-  country.innerHTML='<option>All</option>' +
-    [...new Set(channels.map(c=>c.country||"International"))]
-    .map(c=>`<option>${c}</option>`).join("");
-
-  category.innerHTML='<option>All</option>' +
-    [...new Set(channels.flatMap(c=>(c.category||"").split(";")))]
-    .map(c=>`<option>${c}</option>`).join("");
-
+  country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.c))].sort().map(c=>`<option>${c}</option>`).join("");
+  category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
   category.value="Sports";
-}
-
-async function detectCountry(){
-  try{
-    const res=await fetch("https://ipapi.co/json/");
-    const data=await res.json();
-    const detected=data.country_name;
-    if([...country.options].some(o=>o.value===detected)){
-      country.value=detected;
-    }
-  }catch(e){}
 }
 
 function apply(){
   page=0;grid.innerHTML="";
   const q=search.value.toLowerCase();
   view=channels.filter(c=>{
-    if(q && !c.name.toLowerCase().includes(q))return false;
-    if(country.value!=="All" && c.country!==country.value)return false;
-    if(category.value!=="All" && !(c.category||"").includes(category.value))return false;
+    if(q && !c.n.toLowerCase().includes(q))return false;
+    if(country.value!="All" && c.c!=country.value)return false;
+    if(category.value!="All" && !(c.g||"").includes(category.value))return false;
     return true;
   });
   render();
 }
 
 function render(){
-  view.slice(page*PAGE_SIZE,(page+1)*PAGE_SIZE).forEach(c=>{
+  view.slice(page*PAGE,(page+1)*PAGE).forEach(c=>{
     const col=document.createElement("div");
     col.className="col-md-4 col-lg-3";
     col.innerHTML=`
-      <div class="channel-card d-flex gap-2">
-        <img class="channel-logo" src="${c.logo||''}">
+      <div class="card d-flex gap-2">
+        <img class="logo" src="${c.l||''}">
         <div>
-          <div class="fw-semibold small">${c.name}</div>
-          <div class="text-muted small">${c.country}</div>
+          <div class="fw-semibold small">${c.n}</div>
+          <div class="text-muted small">${c.c}</div>
           <div>
-            ${(c.category||"").split(";").map(x=>`<span class="badge badge-custom me-1">${x}</span>`).join("")}
-            <span class="badge badge-custom">${qualityOf(c.name)}</span>
+            ${(c.g||"").split(";").map(x=>`<span class="badge me-1">${x}</span>`).join("")}
+            <span class="badge">${qOf(c.n)}</span>
           </div>
         </div>
       </div>`;
-    col.onclick=()=>playGroup(c.name);
+    col.onclick=()=>play(c.n);
     grid.appendChild(col);
   });
   page++;
 }
 
-function playGroup(name){
-  currentName=name;
-  currentGroup=channels.filter(c=>c.name===name);
+function play(n){
+  name=n;
+  current=channels.filter(c=>c.n===n);
   qualities.innerHTML="";
-  currentGroup.forEach((c,i)=>{
+  current.forEach((c,i)=>{
     const b=document.createElement("button");
-    b.className="btn btn-sm btn-outline-light btn-quality"+(i===0?" active":"");
-    b.textContent=qualityOf(c.name);
-    b.onclick=()=>switchQ(c.url,b);
+    b.className="btn btn-sm btn-outline-light btn-q"+(i===0?" active":"");
+    b.textContent=qOf(c.n);
+    b.onclick=()=>switchQ(c.u,b);
     qualities.appendChild(b);
   });
-  switchQ(currentGroup[0].url,qualities.firstChild);
-  favBtn.classList.toggle("active",favs.has(name));
+  switchQ(current[0].u,qualities.firstChild);
+  favBtn.classList.toggle("active",favs.has(n));
 }
 
-function switchQ(url,btn){
-  document.querySelectorAll(".btn-quality").forEach(b=>b.classList.remove("active"));
-  btn.classList.add("active");
+function switchQ(u,b){
+  document.querySelectorAll(".btn-q").forEach(x=>x.classList.remove("active"));
+  b.classList.add("active");
   if(hls){hls.destroy();hls=null}
   if(Hls.isSupported()){
-    hls=new Hls();
-    hls.loadSource(url);
-    hls.attachMedia(video);
-  }else{
-    video.src=url;
-  }
+    hls=new Hls();hls.loadSource(u);hls.attachMedia(video)
+  }else video.src=u;
   video.play();
 }
 
 favBtn.onclick=()=>{
-  if(!currentName)return;
-  favs.has(currentName)?favs.delete(currentName):favs.add(currentName);
+  favs.has(name)?favs.delete(name):favs.add(name);
   localStorage.setItem(favKey,JSON.stringify([...favs]));
   favBtn.classList.toggle("active");
 };
 
 window.addEventListener("scroll",()=>{
-  if(window.innerHeight+window.scrollY>=document.body.offsetHeight-400){
-    if(page*PAGE_SIZE<view.length)render();
-  }
+  if(innerHeight+scrollY>=document.body.offsetHeight-400 && page*PAGE<view.length)render();
 });
-
 [search,country,category].forEach(e=>e.oninput=apply);
 </script>
 
