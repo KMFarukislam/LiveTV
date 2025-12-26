@@ -58,8 +58,6 @@ main{
   display:flex;
   flex-direction:column;
 }
-
-/* DESKTOP */
 @media(min-width:992px){
   main{
     display:grid;
@@ -186,7 +184,7 @@ tr{height:52px}
 tr:hover{background:#222735;cursor:pointer}
 tr.playing{background:#1f3b5c}
 
-/* CHANNEL CELLS */
+/* CELLS */
 .logo{
   width:36px;height:36px;
   object-fit:contain;
@@ -271,10 +269,13 @@ tr.playing{background:#1f3b5c}
 
 <script>
 const DATA="data/channels.min.json";
-const ROW=52,VISIBLE=15,MAX_RETRY=3;
+const ROW=52;
+const MAX_RETRY=3;
+
 let channels=[],view=[],start=0,current=null,currentUrl=null,hls;
 let retryCount=0,qualityList=[],qIndex=0;
 const favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]"));
+let favOnly=false;
 
 const video=document.getElementById("video");
 const grid=document.getElementById("grid");
@@ -289,8 +290,6 @@ const category=document.getElementById("category");
 const favBtn=document.getElementById("favBtn");
 const favOnlyBtn=document.getElementById("favOnlyBtn");
 const reloadBtn=document.getElementById("reloadBtn");
-
-let favOnly=false;
 
 /* NETWORK */
 const net=document.getElementById("netStatus");
@@ -311,6 +310,12 @@ netUpdate();
 /* HELPERS */
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,"");
 const qOf=n=>(n.match(/(\d{3,4})p/i)||[])[1]||"Auto";
+
+/* VIRTUAL LIST HELPERS */
+function getVisibleCount(){
+  const h = scrollBox.clientHeight || 300;
+  return Math.ceil(h / ROW) + 5;
+}
 
 /* LOAD DATA */
 fetch(DATA).then(r=>r.json()).then(d=>{
@@ -340,10 +345,13 @@ function apply(){
 
 /* RENDER */
 function render(){
-  const end=Math.min(start+VISIBLE,view.length);
+  const visible = getVisibleCount();
+  const end = Math.min(start + visible, view.length);
+
   grid.innerHTML="";
   grid.style.paddingTop=(start*ROW)+"px";
   grid.style.paddingBottom=((view.length-end)*ROW)+"px";
+
   view.slice(start,end).forEach(c=>{
     const tr=document.createElement("tr");
     if(c.n===current) tr.classList.add("playing");
@@ -357,12 +365,21 @@ function render(){
     grid.appendChild(tr);
   });
 }
-scrollBox.addEventListener("scroll",()=>{
-  const i=Math.floor(scrollBox.scrollTop/ROW);
-  if(i!==start){start=i;render();}
-});
 
-/* PLAY + RETRY */
+/* SCROLL */
+scrollBox.addEventListener("scroll",()=>{
+  const visible = getVisibleCount();
+  const maxStart = Math.max(0, view.length - visible);
+  let newStart = Math.floor(scrollBox.scrollTop / ROW);
+  newStart = Math.min(maxStart, Math.max(0, newStart));
+  if(newStart!==start){
+    start=newStart;
+    render();
+  }
+});
+window.addEventListener("resize",render);
+
+/* PLAY */
 function play(name){
   current=name;
   retryCount=0;
@@ -379,6 +396,7 @@ function play(name){
   switchQuality(qualityList[0].u,qualities.firstChild);
   render();
 }
+
 function switchQuality(url,btn){
   currentUrl=url;
   [...qualities.children].forEach(b=>b.classList.remove("active"));
