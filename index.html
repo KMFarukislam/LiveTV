@@ -2,67 +2,67 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>LiveTV – IPTV Channel Index</title>
-<meta name="description" content="LiveTV IPTV channel index. Search and filter live TV channels.">
+<title>LiveTV – IPTV</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 <style>
-/* ========== BASE ========== */
 *{box-sizing:border-box}
 body{
   margin:0;
   font-family:system-ui,Arial;
   background:#0f1115;
   color:#eaeaf0;
+  overflow:hidden;
 }
-a{text-decoration:none;color:inherit}
 
-/* ========== HEADER / FOOTER ========== */
-header,footer{
+/* HEADER */
+header{
+  position:fixed;
+  top:0;left:0;right:0;
+  height:50px;
   background:#141720;
-  padding:12px;
-  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
 }
-footer{font-size:13px;color:#9aa0aa}
 
-/* ========== MAIN LAYOUT ========== */
+/* MAIN */
 main{
-  padding:10px;
+  position:fixed;
+  top:50px;
+  bottom:40px;
+  left:0;
+  right:0;
   display:grid;
   grid-template-columns:1fr;
-  gap:12px;
 }
 
-/* Desktop layout */
+/* DESKTOP */
 @media(min-width:992px){
   main{
-    grid-template-columns:350px 1fr;
-    align-items:flex-start;
+    grid-template-columns:360px 1fr;
   }
 }
 
-/* ========== PLAYER BOX ========== */
+/* PLAYER */
 .player-box{
   background:#000;
-  border-radius:10px;
-  overflow:hidden;
 }
 video{
   width:100%;
-  max-height:260px;
+  height:220px;
   background:#000;
 }
 
-/* ========== TOOLBAR ========== */
+/* TOOLBAR */
 .toolbar{
+  background:#181b22;
   display:flex;
   gap:8px;
-  flex-wrap:wrap;
   padding:8px;
-  background:#181b22;
-  border-radius:10px;
 }
 .toolbar button{
   background:#222735;
@@ -77,72 +77,100 @@ video{
   color:#000;
 }
 
-/* ========== FILTERS ========== */
+/* FILTERS */
 .filters{
-  display:grid;
-  gap:8px;
   background:#181b22;
-  padding:10px;
-  border-radius:10px;
+  padding:8px;
+  display:grid;
+  gap:6px;
 }
 .filters input,
 .filters select{
-  width:100%;
   background:#0f1115;
   border:1px solid #252a34;
   color:#eaeaf0;
-  padding:8px;
-  border-radius:8px;
+  padding:6px;
+  border-radius:6px;
 }
 
-/* ========== CHANNEL INDEX ========== */
-.channel-box{
-  background:#181b22;
-  border-radius:10px;
-  padding:10px;
-  overflow:auto;
+/* TABLE */
+.table-wrap{
+  position:relative;
+  height:100%;
+  overflow:hidden;
 }
 table{
   width:100%;
   border-collapse:collapse;
-  font-size:14px;
+}
+thead{
+  position:sticky;
+  top:0;
+  background:#141720;
+  z-index:10;
 }
 th,td{
   padding:8px;
   border-bottom:1px solid #252a34;
+  font-size:14px;
 }
-th{text-align:left;color:#9aa0aa}
+tbody{
+  display:block;
+  overflow-y:auto;
+  height:100%;
+}
+thead,tr{
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
 tr:hover{background:#222735;cursor:pointer}
+tr.playing{background:#1f3b5c !important}
+
+/* LOGO & STATUS */
 .logo{
-  width:36px;
-  height:36px;
+  width:36px;height:36px;
   object-fit:contain;
   background:#000;
   border-radius:6px;
 }
 .status.active{color:#2ecc71}
-.status.dead{color:#e74c3c}
+
+/* FOOTER */
+footer{
+  position:fixed;
+  bottom:0;left:0;right:0;
+  height:40px;
+  background:#141720;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  color:#9aa0aa;
+}
 </style>
 </head>
 
 <body>
 
-<header>
-  <h2>📺 LiveTV</h2>
-</header>
+<header>📺 LiveTV</header>
 
 <main>
 
-  <!-- LEFT COLUMN -->
+  <!-- LEFT -->
   <section>
     <div class="player-box">
       <video id="video" controls></video>
     </div>
 
-    <div class="toolbar" id="qualities"></div>
+    <div class="toolbar">
+      <button id="favBtn">⭐ Favourite</button>
+      <button id="reloadBtn">🔄 Reload</button>
+      <div id="qualities" style="display:flex;gap:6px;"></div>
+    </div>
   </section>
 
-  <!-- RIGHT COLUMN -->
+  <!-- RIGHT -->
   <section>
     <div class="filters">
       <input id="search" placeholder="Search channel">
@@ -150,7 +178,7 @@ tr:hover{background:#222735;cursor:pointer}
       <select id="category"></select>
     </div>
 
-    <div class="channel-box">
+    <div class="table-wrap">
       <table>
         <thead>
           <tr>
@@ -167,21 +195,24 @@ tr:hover{background:#222735;cursor:pointer}
 
 </main>
 
-<footer>
-  No streams are hosted • Source: iptv-org
-</footer>
+<footer>No streams are hosted • iptv-org</footer>
 
 <script>
 const DATA="data/channels.min.json";
-const PAGE=80;
+const PAGE=100;
 let channels=[],view=[],page=0,hls;
+let currentChannel=null,currentUrl=null;
 
 const video=document.getElementById("video");
-const qualities=document.getElementById("qualities");
 const grid=document.getElementById("grid");
+const qualities=document.getElementById("qualities");
+const favBtn=document.getElementById("favBtn");
+const reloadBtn=document.getElementById("reloadBtn");
 const search=document.getElementById("search");
 const country=document.getElementById("country");
 const category=document.getElementById("category");
+
+const favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]"));
 
 const qOf=n=>{
   const m=n.match(/(\\d{3,4})p/i);
@@ -195,11 +226,8 @@ fetch(DATA).then(r=>r.json()).then(d=>{
 });
 
 function buildFilters(){
-  country.innerHTML='<option>All</option>'+
-    [...new Set(channels.map(c=>c.country))].sort().map(c=>`<option>${c}</option>`).join("");
-
-  category.innerHTML='<option>All</option>'+
-    [...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
+  country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.country))].sort().map(c=>`<option>${c}</option>`).join("");
+  category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
 }
 
 function apply(){
@@ -218,13 +246,12 @@ function apply(){
 function render(){
   view.slice(page*PAGE,(page+1)*PAGE).forEach(c=>{
     const tr=document.createElement("tr");
+    if(c.n===currentChannel) tr.classList.add("playing");
     tr.innerHTML=`
       <td><img class="logo" src="${c.l||''}"></td>
       <td>${(c.g||"").split(";")[0]||"-"}</td>
       <td>${c.n}</td>
-      <td class="status ${c.active?"active":"dead"}">
-        ● ${c.active?"Active":"Inactive"}
-      </td>`;
+      <td class="status active">● Active</td>`;
     tr.onclick=()=>play(c.n);
     grid.appendChild(tr);
   });
@@ -232,6 +259,7 @@ function render(){
 }
 
 function play(name){
+  currentChannel=name;
   const list=channels.filter(c=>c.n===name);
   qualities.innerHTML="";
   list.forEach((c,i)=>{
@@ -242,25 +270,43 @@ function play(name){
     qualities.appendChild(b);
   });
   switchQ(list[0].u,qualities.firstChild);
+  highlight();
 }
 
 function switchQ(url,btn){
+  currentUrl=url;
   [...qualities.children].forEach(b=>b.classList.remove("active"));
   btn.classList.add("active");
-
   if(hls){hls.destroy();hls=null}
   if(Hls.isSupported()){
-    hls=new Hls();
-    hls.loadSource(url);
-    hls.attachMedia(video);
-  }else{
-    video.src=url;
-  }
+    hls=new Hls();hls.loadSource(url);hls.attachMedia(video);
+  }else video.src=url;
   video.play();
 }
 
-window.addEventListener("scroll",()=>{
-  if(innerHeight+scrollY>=document.body.offsetHeight-300 && page*PAGE<view.length){
+reloadBtn.onclick=()=>{
+  if(currentUrl){
+    switchQ(currentUrl,qualities.querySelector(".active"));
+  }
+};
+
+favBtn.onclick=()=>{
+  if(!currentChannel) return;
+  favs.has(currentChannel)?favs.delete(currentChannel):favs.add(currentChannel);
+  localStorage.setItem("favs",JSON.stringify([...favs]));
+};
+
+function highlight(){
+  document.querySelectorAll("tr").forEach(r=>r.classList.remove("playing"));
+  [...grid.children].forEach(r=>{
+    if(r.children[2].textContent===currentChannel){
+      r.classList.add("playing");
+    }
+  });
+}
+
+grid.addEventListener("scroll",()=>{
+  if(grid.scrollTop+grid.clientHeight>=grid.scrollHeight-200 && page*PAGE<view.length){
     render();
   }
 });
