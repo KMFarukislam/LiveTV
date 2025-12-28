@@ -1,4328 +1,1660 @@
 [
   {
-    "name": "6 TV Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "8NTV.mx",
     "name": "8NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://60417ddeaf0d9.streamlock.net/ntv/videontv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "AamarBangla.in",
     "name": "Aamar Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://live-stream.utkalbongo.com/utkalbongo/stream10/hls/amarbangla.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "AFBTV Kupang",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Allegro WebTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Andina RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ANTv",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ANTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ANTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ANTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ANTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ANTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ArabTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Arlington Independent Media",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "ARTV.pt",
     "name": "ARTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "legislative",
+    "streams": [
+      "https://playout172.livextend.cloud/liveiframe/_definst_/liveartvabr/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "ARTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ARTV Kano",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Asianet News Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "ATN.ng",
     "name": "ATN",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://tv2.ifastekpanel.com:3013/live/atntvlive.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "ATN Aapka Colors",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Aastha TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN ABP Sanjha",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN ARY Digital",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN ARY Musik",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN ARY News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN ARY Zauq",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN B4U Movies",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN B4U Music",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN B4U Plus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Bangla UK",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Brit Asia TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Colors Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Colors Marathi",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Colors Rishtey",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Cricket Plus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN DD Bharati",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN DD India",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN DD News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN DD Sports",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN DD Urdu",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Food Food",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Gujarati",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN HD",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN IBC Tamil",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN International",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Islamic TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Jaya TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Life",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Max 2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Movies",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Music",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN National",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN News 18",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN PM One",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Punjabi",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Punjabi 5",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Punjabi News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Punjabi Plus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN SAB TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Set Max",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Sikh Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Sony",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Sony Aath",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Tamil Plus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "ATNTelevision.co",
     "name": "ATN Television",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://streaming5.globalhostla.com/rtplive/atntelevision/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "ATN Times Now",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Urdu",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN US",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ATN Zoom",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Bangla21 TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Bangla Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Bangla Talkies",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Bangla TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Bangla TV Europe",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Bangla Vision",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BiswaBangla 24",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "BRTV.id",
     "name": "BRTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "BRTV.tr",
     "name": "BRTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://live.artidijitalmedya.com/artidijital_brtv/brtv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "BRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BRTV Arts Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BRTV Film & Television Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BRTV Financial Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BRTV International Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "BRTVKakuChildrensChannel.cn",
     "name": "BRTV Kaku Childrens Channel",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "kids",
+    "streams": [
+      "http://49.113.179.174:4022/udp/238.125.2.216:5140",
+      "http://223.72.123.28:85/tsfile/live/1026_1.m3u8?authid=0&key=txiptv&playlive=1",
+      "http://223.111.191.105/downflv.brtvcloud.com/kkkkasd/winfr.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "BRTV Life Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BRTV News Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "BRTVScienceEducationChannel.cn",
     "name": "BRTV Science & Education Channel",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "science",
+    "streams": [
+      "http://49.113.179.174:4022/udp/238.125.3.121:5140"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "BRTV Winter Olympics Documentary Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BRTV Youth Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "bTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "BTV.hu",
     "name": "BTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://cloudfront44.lexanetwork.com:1344/freerelay/babolnatv.sdp/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "BTV.id",
     "name": "BTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "BTV.sk",
     "name": "BTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://fs3.kabelko.sk/9011/index.m3u8?token=btv"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "BTV.ug",
     "name": "BTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://streamfi-alphadgtl1.zettawiseroutes.com:8181/hls/stream.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "BTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV 1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV 2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "bTV Action",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV Business",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "BTVChattogram.bd",
     "name": "BTV Chattogram",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "BTV Chittagong",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "bTV Cinema",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "bTV Comedy",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV Karnten",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "bTV Lady",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "BTVNational.bd",
     "name": "BTV National",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/355ba051-9a60-48aa-adcf-5a6c64da8c5c/355ba051-9a60-48aa-adcf-5a6c64da8c5c_3_playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "BTVNews.kh",
     "name": "BTV News",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://live-evg2.tv360.metfone.com.kh/livetest/bayontest.stream/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Btv News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "BTV News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "BTVPanama.pa",
     "name": "BTV Panama",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://stream.oursnetworktv.com/latin/btvpanama/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "BTVWorld.bd",
     "name": "BTV World",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/d96eb7f4-83c2-4472-9597-3568390a8ebf/d96eb7f4-83c2-4472-9597-3568390a8ebf_3_playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "C9NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "Canal17RTVD.do",
     "name": "Canal 17 RTVD",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "culture",
+    "streams": [
+      "https://protvradiostream.com:1936/rtvd17/ngrp:rtvd17_all/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Canal 29 RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Canal 38 RBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Canal 50 RTVE",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "CanalMalagaRTV.es",
     "name": "Canal Malaga RTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Canal NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Canal SURTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CanBangla TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CANTV TV Satelital",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CBTV Internacional",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CGNTV America",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "CGNTVChinese.tw",
     "name": "CGNTV Chinese",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "CGNTV Indonesia",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "CGNTVJapan.jp",
     "name": "CGNTV Japan",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8",
+      "http://cgntv-glive.ofsdelivery.net/live/cgntv_jp/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "CGNTVSouthKorea.kr",
     "name": "CGNTV South Korea",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://du35ivadp6cxj.cloudfront.net/out/v1/81781d23cbbf490990b2aa9181d4ce19/CGNWebLiveKR.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "CGNTV Thai",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Channel I",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CHIC Magazine",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Cite de David RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "CiudadMagazine.ar",
     "name": "Ciudad Magazine",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://live-01-07-ciudad.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "CMNtv",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CNN Bangla TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CNTV Benin",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CNTV Infantil",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CobbTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "ColorsBangla.in",
     "name": "Colors Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "http://103.140.254.2:3500/live/756.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Colors Bangla Cinema",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CONtv",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CONtv Anime",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CONTV Guala",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "CorTV.mx",
     "name": "CorTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://s5.mexside.net:1936/cortv/cortv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "CRTV.cm",
     "name": "CRTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://69.64.57.208/crtv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "CRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CRTV News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CRTV Sports and Entertainment",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "CSRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Cultural RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "DDBangla.in",
     "name": "DD Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://d3eyhgoylams0m.cloudfront.net/v1/manifest/93ce20f0f52760bf38be911ff4c91ed02aa2fd92/ed7bd2c7-8d10-4051-b397-2f6b90f99acb/2e9e32a4-c4f7-49c3-96d6-c4e3660c7e3f/2.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "DeporTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "DNTV.ci",
     "name": "DNTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://tv.num221tech.com:5443/LiveApp/streams/dntv.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "DNTV Channel 22",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "DreamInTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "DRTV.dk",
     "name": "DRTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://drlivedrtvahls.akamaized.net/hls/live/2113613/drlivedrtva/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "DRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "DRTV International",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "DRTV Warri",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "EBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Ekattor TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "EmanTv.iq",
     "name": "EmanTv",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "family",
+    "streams": [
+      "https://avr.host247.net/live/emantv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "Enterr10Bangla.in",
     "name": "Enterr 10 Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://live-bangla.akamaized.net/liveabr/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "EntrepreneurTV.us",
     "name": "EntrepreneurTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "business",
+    "streams": [
+      "https://amg01201-amg01201c31-cineverse-us-2915.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-entrepreneurtv-cineverseus/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "ENTV Canal 13 Danli",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ENTV Viedma",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "ERTV.tr",
     "name": "ERTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://live.artidijitalmedya.com/artidijital_ertv_new/ertv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "ErTV Channel 180",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ETV Balya Bharat Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FairTV Education Channel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FairTV Government",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV Asia",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV Czech&Slovak",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "FashionTVEurope.fr",
     "name": "FashionTV Europe",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "lifestyle",
+    "streams": [
+      "https://68f1accef2154d2195cae87dec183843.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_FashionTV/playlist.m3u8",
+      "https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "FashionTV F-Men",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV Johannesburg",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV L'Original",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV Midnight Secrets",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV Mumbai",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV New York",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "FashionTVParis.fr",
     "name": "FashionTV Paris",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "lifestyle",
+    "streams": [
+      "https://fash1043.cloudycdn.services/slive/ftv_paris_adaptive.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "FashionTVParisLOriginal.fr",
     "name": "FashionTV Paris L'Original",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "lifestyle",
+    "streams": [
+      "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "FashionTV PG13",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "FashionTVPG16.fr",
     "name": "FashionTV PG16",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "lifestyle",
+    "streams": [
+      "https://fash1043.cloudycdn.services/slive/ftv_pg16_adaptive.smil/media.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "FashionTV Singapore",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV Tokyo",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "FashionTV UHD",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Gaan Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Gangan RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Gaziantep Olay TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Gazi TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "GenTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "GM RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "GNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "GNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "GNTV Junior",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "GO-RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "HBTV.us",
     "name": "HBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://reflect-huntingtonbeach.cablecast.tv/live-4/live/stream-1/live.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "HBTV.vn",
     "name": "HBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://hoabinhtvlive.746b3ddb.cdnviet.com/hoabinhtv/playlist.m3u8",
+      "https://hbtvlive.3ssoft.vn/hoabinhtv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "HBTV Channel 9",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "HiperTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "HNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "HNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Hope Channel Iceland",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "HopeChannelIndia.in",
     "name": "Hope Channel India",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "http://202.164.50.194:8000/play/a02o/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Hope Channel Indonesia",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "HopeChannelInterAmerica.us",
     "name": "Hope Channel Inter-America",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://jstre.am/live/jsl:EC0Mq0i6HJU.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "HopeChannelInterAmericaEnglish.us",
     "name": "Hope Channel Inter-America English",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://jstre.am/live/jsl:UP9KAdlVrm8.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "HopeChannelInternational.us",
     "name": "Hope Channel International",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://jstre.am/live/jsl:cZXINbwrFj6.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "HRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "IBTV USA",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Ici ARTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "IcrtvColima.mx",
     "name": "Icrtv Colima",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "legislative",
+    "streams": [
+      "https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Independent TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "India News Joy Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "INNTV Canal 3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "InterTV Alto Litoral",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "InterTV Cabugi",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "InterTV Costa Branca",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "InterTV Grande Minas",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "InterTV Serra+Mar",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "InterTV Vales de Minas Gerais",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "INTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "INTVAustralia.au",
     "name": "INTV Australia",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "music",
+    "streams": [
+      "http://tv1.intv.mk:1935/live/intv/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Iqra Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "JamunaTV.bd",
     "name": "Jamuna TV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "http://113.212.111.246:8080/hls/col12.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "JRTVJarviradio.fi",
     "name": "JRTV Jarviradio",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "music",
+    "streams": [
+      "https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "KATN-DT1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-CD2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-CD3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-CD4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-CD5",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-CD6",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-CD7",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-DT1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-DT2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-DT3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-DT4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KBTV-DT5",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KCNTV4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "KempenTV.nl",
     "name": "KempenTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://ms7.mx-cd.net/tv/Omroep_de_Kempen.smil/playlist.m3u8",
+      "https://ms2.mx-cd.net/tv/242-2079866/Omroep_de_Kempen.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "KhushbooBangla.in",
     "name": "Khushboo Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://cdn-4.pishow.tv/live/1473/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "KKRtv.dk",
     "name": "KKRtv",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "http://stream.kkr.dk/live/kkr/playlist.m3u8",
+      "http://stream.kkr.dk/live/ngrp:kkr_adaptive/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "KNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "KNTVDT1.us",
     "name": "KNTV-DT1",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://amg00884-nbcuniversal-nbcsf-pcr-xumo-xetsp.amagi.tv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "KNTV-DT2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KNTV-DT3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KNTV-DT4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KNTV-DT5",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KolorTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KRTV-DT1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "KRTV-DT2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "LBFDRTV.cd",
     "name": "LBFD RTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://tnt-television.com/LBFD_RTV/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "LBTV.us",
     "name": "LBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "legislative",
+    "streams": [
+      "https://edge-f.swagit.com/live/longbeachca/live-3-a/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "LenTV24.ru",
     "name": "LenTV24",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "LifevisionTV.us",
     "name": "LifevisionTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://tgn.bozztv.com/lifevision/lifevision/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "LNTV.lr",
     "name": "LNTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://stream.ecable.tv/lntv/tracks-v1a1/mono.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "LNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "LNTV 1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "LNTV 3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "LRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "LRTVS",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Maasranga TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "MadaniChannelBangla.bd",
     "name": "Madani Channel Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Magazin 7:40",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MagellanTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "MagellanTVNow.us",
     "name": "MagellanTV Now",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "documentary",
+    "streams": [
+      "https://amg00376-magellan-amg00376c5-samsung-au-1708.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungau/playlist.m3u8",
+      "https://amg00376-magellan-amg00376c5-samsung-nz-1714.playouts.now.amagi.tv/playlist/amg00376-magellantv-magellantvnowww-samsungnz/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "MbourTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "MBTV.us",
     "name": "MBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "legislative",
+    "streams": [
+      "https://edge-f.swagit.com/live/miamibeachfl/live-1-a/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "MiSURtv.mx",
     "name": "MiSURtv",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://stream8.mexiserver.com:1936/misurtv/misurtv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "MONTVBangla.in",
     "name": "MON TV Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://live-stream.utkalbongo.com/utkalbongo/stream7/hls/montvlivestream.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "MosObrTV.ru",
     "name": "MosObrTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "education",
+    "streams": [
+      "http://retc.educom.ru/mosobrtv/tv1/index.m3u8",
+      "http://retj.educom.ru/mosobrtv/tv1/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Movie Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "MRTV.mm",
     "name": "MRTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://asia.sipradius.net/cache/SEAGames4/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "MRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "MRTV4.mm",
     "name": "MRTV 4",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://pplive.comquas.com:5443/LiveApp/streams/w3g3EYjBtqgJ1677679288037.m3u8",
+      "https://cdn-live-pyone.secureswiftcontent.com/han/MRTV4/MRTV4/LiveOutput/manifest.m3u8",
+      "https://pplive.comquas.com:5443/LiveApp/streams/9AUG8Y4aKVmk1762750828463.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "MRTV Entertainment",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MRTV Farmer",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MRTV News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MRTV NRC",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MRTV Parliament",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MRTV Sports",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "MyArlingtonTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NBTV.us",
     "name": "NBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "legislative",
+    "streams": [
+      "https://cdn3.wowza.com/5/RXJNMFI3VlVkOEFP/newportbeach/G0064_003/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NBTV 1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NBTV 2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NBTV 3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NBTV 4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NBTV 5",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NBTV 6",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "News18Bangla.in",
     "name": "News18 Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "News 21 Bangla TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NewsTimeBangla.in",
     "name": "NewsTime Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://cdn-2.pishow.tv/live/1494/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NMBTV.us",
     "name": "NMBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "legislative",
+    "streams": [
+      "https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/citynmb/G2044_002/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NNTV2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NorSelva RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NORTV Antofagasta",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NorTV Canal",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Nortvision",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NRBTV.us",
     "name": "NRBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://uni6rtmp.tulix.tv/nrbnetwork/myStream.sdp/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NRTV.ch",
     "name": "NRTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://viamotionhsi.netplus.ch/live/eds/nrtv/browser-HLS8/nrtv.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTV.ci",
     "name": "NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://strhlslb01.streamakaci.tv/str_ntv_ntv/str_ntv_ntv_multi/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "ntv",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTV.cl",
     "name": "NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "culture",
+    "streams": [
+      "https://panel.miplay.cl:8082/ntv/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTV.kh",
     "name": "NTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8",
+      "https://live-evg10.tv360.metfone.com.kh/LiveApp/streams/ntvhd.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTV.mn",
     "name": "NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd",
+      "https://cdn4.skygo.mn/live/disk1/NTVHD/HLSv3-FTA/NTVHD.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTV.mv",
     "name": "NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://sstv.ssplay.mv/hls/local-channel/ntv-e3d4300b49c8c901e9339174215d7580/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTV.na",
     "name": "NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://s-pl-01.mediatool.tv/playout/ntv-abr/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTV.ru",
     "name": "NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://livetv.mylifeisgood.net.ru/channels/ntvhd.m3u8",
+      "https://cdn.ntv.ru/ntv0/playlist.m3u8",
+      "https://cdn.ntv.ru/ntv1/playlist.m3u8",
+      "https://cdn.ntv.ru/ntv2/playlist.m3u8",
+      "https://cdn.ntv.ru/ntv4/playlist.m3u8",
+      "https://cdn.ntv.ru/ntv7/playlist.m3u8",
+      "https://streaming.televizor-24-tochka.ru/live/7.m3u8",
+      "https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTV.tr",
     "name": "NTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://dogus-live.daioncdn.net/ntv/ntv.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTV7.my",
     "name": "NTV7",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV-America",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV-Belarus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV Europe",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTVHit.ru",
     "name": "NTV-Hit",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "series",
+    "streams": [
+      "https://cdn.ntv.ru/th_hit/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV IC",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTVICKakanj.ba",
     "name": "NTV IC Kakanj",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://lon.rtsp.me/dEqnY-myGj84bKrieCIPfA/1743271667/hls/3dH3YAD6.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV Itahari",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV Jata",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV Kenya",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV Kohalpur",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTVLaw.ru",
     "name": "NTV Law",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://cdn.ntv.ru/th_pravo/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTVMir.ru",
     "name": "NTV Mir",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "culture",
+    "streams": [
+      "https://streaming.thestream.cyou/live/213.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV Mir Baltic",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV News",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "NTV NEWS24",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTVPlus.ca",
     "name": "NTV+",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV Plus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTVSeries.ru",
     "name": "NTV Series",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "series",
+    "streams": [
+      "https://cdn.ntv.ru/th_serial/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV Spor",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NTVStyle.ru",
     "name": "NTV Style",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "lifestyle",
+    "streams": [
+      "https://cdn.ntv.ru/th_style/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "NTVTelugu.in",
     "name": "NTV Telugu",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/ntv_nim_https/110322/ntv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "NTV Uganda",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "NWMagazine.tg",
     "name": "NW Magazine",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://hls.newworldtv.com/nw-magazine/video/live.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Oasis RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "OBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "O'FallonTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ONNtv",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "ONTV.mn",
     "name": "ONTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://cdn4.skygo.mn/live/disk1/ONTV/HLSv3-FTA/ONTV.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "OnTV4U.us",
     "name": "OnTV4U",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "shop",
+    "streams": [
+      "https://stirr.b-cdn.net/stirr/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "ONTV Education Access",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ONTV Government Access",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ONTV Nigeria",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "ONTV Public Access",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "OrangeBanglaTV.in",
     "name": "Orange Bangla TV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "music",
+    "streams": [
+      "https://cdn-4.pishow.tv/live/1499/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "OURTV.us",
     "name": "OURTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "lifestyle",
+    "streams": [
+      "https://hls-cdn.tvstartup.net/barakyah-channel/play/mp4:ourtvedge/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Outdoor Channel International",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "PCNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "PeaceTVBangla.ae",
     "name": "Peace TV Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "PNG CMNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "PNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "PONTV.id",
     "name": "PONTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Pourim RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "PromarTV.ve",
     "name": "PromarTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://vcp1.myplaytv.com:1935/promar/promar/playlist.m3u8",
+      "https://vcp.myplaytv.com/promar/promar/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "PRTV Prime Media",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "PRTV Tacloban",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "QTV Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Ratnik",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RBTVJogja.id",
     "name": "RBTV Jogja",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://live.rbtvjogja.tv/481e185e-72e3-49f6-ad37-e495f911c9e4_output_0.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RepublicBangla.in",
     "name": "Republic Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTRTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTV.at",
     "name": "RTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "http://iptv.rtv-ooe.at/stream.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTV.ec",
     "name": "RTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://sv72.ecuaradiotv.net/rtvhd/live/manifest.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTV.hn",
     "name": "RTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://dvrfl03.bozztv.com/hondu/hondu-rtvtv/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTV.kr",
     "name": "RTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://rtv-stream2.a04f922e9e85c8d25ebfeae3dfd22a67.com/rtv/rtv.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTV1.nl",
     "name": "RTV 1",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://dy7fxpkq4ggk8.cloudfront.net/nlpo/clr-nlpo/rtv1/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTV1.rs",
     "name": "RTV 1",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "mmsh://212.200.255.151/rtv1",
+      "rtsp://212.200.255.151/rtv1"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV 12",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV 1Amstelveen",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTV2.rs",
     "name": "RTV 2",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "mmsh://212.200.255.151/rtv2",
+      "rtsp://212.200.255.151/rtv2"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTV21.xk",
     "name": "RTV21",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://gjirafa-video-live.gjirafa.net/gjvideo-live/2cz-npl-jfn-9he/tracks-v2a1/mono.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTV38.it",
     "name": "RTV38",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8",
+      "https://streamcdne1-845d8509d2cb4f249dd0b2ae5755b6c2.msvdn.net/rtv38/rtv38_live_main/mainabr/rtv38_live_main/main_576/chunks_dvr.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV 527",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV-7",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV 794",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV 7 Tuzla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTVA",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV AlbSe",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Alfa e Omega",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Amstelveen",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVArnhemTV.nl",
     "name": "RTV Arnhem TV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://ms2.mx-cd.net/tv/163-669433/RTV_Arnhem.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVBap.rs",
     "name": "RTV Bap",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://53be5ef2d13aa.streamlock.net/rtvbap/uzivo/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Besa",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Bosphorus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV BPK",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Branicevo",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Budva",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Bugojno",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVC.ci",
     "name": "RTVC",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTVC",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Cable",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVCanal57.sv",
     "name": "RTV Canal 57",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVCatolica.sv",
     "name": "RTV Catolica",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://stream.giostreaming.app/canal40/canal40.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Cazin",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV CBCO",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVCCardedeu.es",
     "name": "RTVC Cardedeu",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://liveingesta118.cdnmedia.tv/cardedeutvlive/smil:live.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVChirripo.cr",
     "name": "RTV Chirripo",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://lstv.duckdns.org:449/hls/rtchirripo.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Chota",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV City Ub",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTVC Koume",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Connect TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV del Sur",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Diamant",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Doboj",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Dordrecht",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVDrenthe.nl",
     "name": "RTV Drenthe",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://cdn.rtvdrenthe.nl/live/rtvdrenthe/tv/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Dukagjini",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTVECC",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV El Diario",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVElVendrell.es",
     "name": "RTV El Vendrell",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://liveingesta318.cdnmedia.tv/tvvendrelllive/smil:live.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Eume",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVFocusTV.nl",
     "name": "RTV Focus TV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://wowza3.videostreamingwowza.com/rtvfocuszwolle/rtvfocuszwolle/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Fontana",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Garuda",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV GEM",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVGlasDrine.ba",
     "name": "RTV Glas Drine",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://glasdrine.cutuk.net:8081/433ssdsw/GlasDrineSD/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVGO.nl",
     "name": "RTV GO!",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "http://59132e529e3d1.streamlock.net:1935/Groningen1/Groningen1/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTVH",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Hattem",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVHB.ba",
     "name": "RTV HB",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://prd-hometv-live-open.spectar.tv/ERO_1_083/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTVHF",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVHorizon.nl",
     "name": "RTV Horizon",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://tv.rtvhorizon.nl/hls/horizon/1_2/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTVi",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTVi Archive",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Iliria",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Ilirida",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Ilirida Music",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV IS",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVIslam.ch",
     "name": "RTV Islam",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://protokolldns.xyz/rtvislamweb554/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Izcanal",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Jablanica",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV-KD",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Kempen",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Krea",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV La Trinidad",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Lebda",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVLOVE.nl",
     "name": "RTV LOVE",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://d2o8iss0ldenh4.cloudfront.net/nlpo/clr-nlpo/rtvlove/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Lukavac",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVMaastricht.nl",
     "name": "RTV Maastricht",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "http://stream.rtvmaastricht.nl:8081/rtvm_live/tv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Maglaj",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVManilva.es",
     "name": "RTV Manilva",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Mech",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVMeppel.nl",
     "name": "RTV Meppel",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://d2eanln3bsfb0d.cloudfront.net/nlpo/clr-nlpo/rtvmeppel/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Mir",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTVMS",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Music",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Naranjal",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVNOFAchtkarspelenTytsjerksteradiel.nl",
     "name": "RTV NOF Achtkarspelen & Tytsjerksteradiel",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://5e6ab219de8f5.streamlock.net/rtvnof/rtvnof/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV NOF Noardeast Fryslan & Dantumadiel",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVNoord.nl",
     "name": "RTV Noord",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://media.rtvnoord.nl/live/rtvnoord/tv/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVNoordExtra.nl",
     "name": "RTV Noord Extra",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://media.rtvnoord.nl/live/rtvnoord/extra/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVNoordoostFriesland.nl",
     "name": "RTV Noordoost Friesland",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://593aed234297b.streamlock.net/rtvnof2/live/playlist.m3u8",
+      "https://5ebd833552d56.streamlock.net/rtvnof3/rtvnof3/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Norte",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVNoviPazar.rs",
     "name": "RTV Novi Pazar",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://hls.rtvnp.rs/tvlive/75e168bf8304fe9b1fac9a6c2f702d590e1cf986.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Nuble",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVNunspeet.nl",
     "name": "RTV Nunspeet",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://ms7.mx-cd.net/tv/262-2600774/RTV_Nunspeet.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVOost.nl",
     "name": "RTV Oost",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://d34cg2bnc08ruf.cloudfront.net/live/rtvoost/tv/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTVP",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVParkstad.nl",
     "name": "RTV Parkstad",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://live.streamteam.eu:8443/parkstad/parkstad/tv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVPendimi.ch",
     "name": "RTV Pendimi",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://www.rtvpendimi.com:19360/tvpendimi/tvpendimi.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Prievidza",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVPurmerend.nl",
     "name": "RTV Purmerend",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://ms2.mx-cd.net/dtv-10/268-2641474/RTV_Purmerend_TV.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVRijnmond.nl",
     "name": "RTV Rijnmond",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Rijnmond Extra",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVRijnstreekTV.nl",
     "name": "RTV Rijnstreek TV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://ms7.mx-cd.net/tv/290-3222276/RTV_Rijnstreek.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVS1.cd",
     "name": "RTVS1",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://51.254.199.122:8080/RTVS1/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Sana",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Scheldemond",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Seaport",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Slingeland",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVSLOS.nl",
     "name": "RTV SLOS",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://d3b6teev8t7bb2.cloudfront.net/nlpo/clr-nlpo/rtvslos/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV SOAFIA",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV SP",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Srece",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Sumadija",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Tarifa",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Television",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV TK",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Total Yurimaguas",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTVU",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Ulpiana",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV USK",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVUtrecht.nl",
     "name": "RTV Utrecht",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://d18rwjdhpr8dcw.cloudfront.net/live/rtvutrecht/rtvutrecht/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVVeluwezoomTV.nl",
     "name": "RTV Veluwezoom TV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://dt4pogjgi3q8s.cloudfront.net/nlpo/clr-nlpo/rtvveluwezoom/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "RTVVida.es",
     "name": "RTV Vida",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "music",
+    "streams": [
+      "https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Vikom",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Visoko",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Vizioni",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Vogosca",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVWesterwolde.nl",
     "name": "RTV Westerwolde",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://media.rtvwesterwolde.nl/hls/live/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Yahoshuah",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "RTV Zaanstreek",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVZenica.ba",
     "name": "RTV Zenica",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://stream.rtvze.ba/live/123/123.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "RTV Zivinice",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RTVZulthe.nl",
     "name": "RTV Zulthe",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "http://ms7.mx-cd.net/tv/212-1299944/RTV-Zulthe.smil/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Rupashi Bangla TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "RupasiBangla.in",
     "name": "Rupasi Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://cdn-4.pishow.tv/live/1039/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "SangeetBangla.in",
     "name": "Sangeet Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "music",
+    "streams": [
+      "https://cdn-4.pishow.tv/live/1143/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "SanMarinoRTV.sm",
     "name": "San Marino RTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "SanMarinoRTVSport.sm",
     "name": "San Marino RTV Sport",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "sports",
+    "streams": [
+      "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "SantvaniChannel.in",
     "name": "Santvani Channel",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://cdn-2.pishow.tv/live/475/master.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "SBTV.hr",
     "name": "SBTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://live.leveex.hr/hls/live.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "SelangorTV.my",
     "name": "SelangorTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://live.mana2.my/SelangorTv/index.m3u8?auth_key=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd&token=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "SerTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SerTV Deportes",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Shree Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SNTV 2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "SNTVDaljir.so",
     "name": "SNTV Daljir",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://ap02.iqplay.tv:8082/iqb8002/s2tve/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "SNTV HD",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Somoy News TV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SporTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SporTV 2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SporTV 2 Alternativo",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SporTV 3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SporTV Alternativo",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SporTVL",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SRTV PB",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "StarChannelInternational.gr",
     "name": "Star Channel International",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Star Sports 1 Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "SunBangla.in",
     "name": "Sun Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "entertainment",
+    "streams": [
+      "http://103.182.170.32:8888/play/a01v",
+      "https://smart.bengaldigital.live/sun-bangla-paid/index.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
+    "id": "SunRTV.tr",
     "name": "Sun RTV",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8",
+      "https://tr.socialsmart.tv/suntv/bant1/chunks.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "SURTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "SurTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "TaberTV.sv",
     "name": "TaberTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://5fc584f3f19c9.streamlock.net/tabertv/videotabertv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "Talentvision",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Tata Sky Bangla Cinema",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "TNTV.pf",
     "name": "TNTV",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "general",
+    "streams": [
+      "https://tntv-samsung-fr.amagi.tv/playlist.m3u8",
+      "https://bcovlive-a.akamaihd.net/34b9e8a6345d4ee8acb351730d1dbe89/us-west-2/5816339219001/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "TNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "TV9Bangla.in",
     "name": "TV9 Bangla",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "UBTV Brawijaya",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "UNBTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "UNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "UNTV News & Recue",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Vash Telemagazin",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Videoland ONTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "VinTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "VisionTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "VS RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Wangu RTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WATN-DT1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WATN-DT2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WATN-DT3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WATN-DT4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "WBTVDT1.us",
     "name": "WBTV-DT1",
-    "url": null,
     "logo": null,
     "category": "General",
+    "streams": [
+      "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00312-graytelevisioni-wbtvnews-vizious/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "WBTV-DT2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WBTV-DT3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WBTV-DT4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WebTV Universite de Bejaia",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WildBrainTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "WiseHumanTv.ir",
     "name": "WiseHumanTv",
-    "url": null,
     "logo": null,
-    "category": "General",
+    "category": "religious",
+    "streams": [
+      "https://avr.host247.net/live/WiseHumanTv/playlist.m3u8"
+    ],
     "source": "iptv-org"
   },
   {
-    "name": "WNTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WNTV-DT1",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WNTV-DT2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WNTV-DT3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "World Fashion Channel International",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WorTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WRTV8",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
+    "id": "WRTVDT1.us",
     "name": "WRTV-DT1",
-    "url": null,
     "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WRTV-DT2",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WRTV-DT3",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "WRTV-DT4",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "XperTV",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Belleville",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Brockville",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Burlington",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Chatham-Kent",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Cornwall",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Fergus",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Halton",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Hawkesbury",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Huntsville",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Kingston",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Milton",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Niagara Falls",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV North Bay",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Pembroke",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Peterborough",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Sarnia",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Smiths Falls",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "YourTV Windsor",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Zee Bangla",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Zee Bangla Cinema",
-    "url": null,
-    "logo": null,
-    "category": "General",
-    "source": "iptv-org"
-  },
-  {
-    "name": "Zee Bangla Sonar",
-    "url": null,
-    "logo": null,
-    "category": "General",
+    "category": "news",
+    "streams": [
+      "https://aegis-cloudfront-1.tubi.video/bc9ff1c7-4dc1-4e36-9ef0-25b28c595ada/playlist.m3u8"
+    ],
     "source": "iptv-org"
   }
 ]
