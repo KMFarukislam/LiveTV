@@ -18,7 +18,6 @@
   --accent:#4da3ff;
 }
 
-/* RESET */
 *{box-sizing:border-box}
 body{
   margin:0;
@@ -63,8 +62,6 @@ main{
   display:flex;
   flex-direction:column;
 }
-
-/* DESKTOP */
 @media(min-width:992px){
   main{
     display:grid;
@@ -153,7 +150,7 @@ video{
 .filters{
   background:var(--panel2);
   display:grid;
-  grid-template-columns:1fr .8fr .8fr;
+  grid-template-columns:1fr 1fr 1fr;
   gap:6px;
   padding:8px;
 }
@@ -165,7 +162,7 @@ video{
   border-radius:8px;
 }
 
-/* LIST */
+/* TABLE */
 .table-wrap{
   flex:1;
   overflow-y:auto;
@@ -228,7 +225,7 @@ tr.playing{background:#1f3b5c}
     <button id="favBtn">⭐ Favourite</button>
     <button id="reloadBtn">🔄 Reload</button>
     <button id="favOnlyBtn">⭐ Only</button>
-    <div id="qualities" style="display:flex;gap:6px"></div>
+    <div id="qualities"></div>
   </div>
 </section>
 
@@ -261,20 +258,24 @@ tr.playing{background:#1f3b5c}
 <footer>No streams are hosted • iptv-org</footer>
 
 <script>
-/* ===== CONFIG ===== */
+/* ================= CONFIG ================= */
 const DATA="data/channels.json";
 const PAGE_SIZE=30;
 const MAX_RETRY=3;
 
-/* ===== STATE ===== */
-let channels=[], filtered=[], page=1;
-let current=null,currentUrl=null,hls;
-let retryCount=0,qualityList=[],qIndex=0;
-let favOnly=false,isLoading=false;
+/* ================= STATE ================= */
+let channels=[];
+let filtered=[];
+let page=1;
+let current=null;
+let currentUrl=null;
+let hls=null;
+let favOnly=false;
+let isLoading=false;
 
 const favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]"));
 
-/* ===== ELEMENTS ===== */
+/* ================= ELEMENTS ================= */
 const video=document.getElementById("video");
 const grid=document.getElementById("grid");
 const scrollBox=document.getElementById("scrollBox");
@@ -289,7 +290,7 @@ const favBtn=document.getElementById("favBtn");
 const favOnlyBtn=document.getElementById("favOnlyBtn");
 const reloadBtn=document.getElementById("reloadBtn");
 
-/* ===== NETWORK ===== */
+/* ================= NETWORK ================= */
 const net=document.getElementById("netStatus");
 function netUpdate(){
   if(navigator.onLine){
@@ -305,27 +306,31 @@ window.addEventListener("online",netUpdate);
 window.addEventListener("offline",netUpdate);
 netUpdate();
 
-/* ===== HELPERS ===== */
-const qOf=n=>(n.match(/(\d{3,4})p/i)||[])[1]||"Auto";
+/* ================= LOAD DATA ================= */
+fetch(DATA)
+  .then(r=>r.json())
+  .then(d=>{
+    channels=d.map(c=>({
+      name:c.n || "Unknown",
+      url:c.u || "",
+      logo:c.l || "",
+      category:c.g || "Uncategorized",
+      country:c.c || "International",
+      active:!!c.u
+    }));
+    buildFilters();
+    applyFilters();
+  });
 
-/* ===== LOAD DATA ===== */
-fetch(DATA).then(r=>r.json()).then(d=>{
-  channels=d.map(c=>({
-    name:c.n||"",
-    url:c.u||"",
-    logo:c.l||"",
-    category:c.g||"",
-    country:c.c||"International",
-    active:!!c.u
-  }));
-  buildFilters();
-  applyFilters();
-});
-
-/* ===== FILTERS ===== */
+/* ================= FILTERS ================= */
 function buildFilters(){
-  country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.country))].sort().map(c=>`<option>${c}</option>`).join("");
-  category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>c.category.split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
+  country.innerHTML='<option>All</option>'+
+    [...new Set(channels.map(c=>c.country))].sort()
+      .map(c=>`<option>${c}</option>`).join("");
+
+  category.innerHTML='<option>All</option>'+
+    [...new Set(channels.flatMap(c=>c.category.split(";")))].sort()
+      .map(c=>`<option>${c}</option>`).join("");
 }
 
 function applyFilters(){
@@ -335,33 +340,32 @@ function applyFilters(){
     if(favOnly && !favs.has(c.name)) return false;
     if(search.value && !c.name.toLowerCase().includes(search.value.toLowerCase())) return false;
     if(country.value!=="All" && c.country!==country.value) return false;
-    if(category.value!=="All" && !c.category.includes(category.value)) return false;
+    if(category.value!=="All" && !c.category.split(";").includes(category.value)) return false;
     return true;
   });
   renderPage();
 }
 
-/* ===== RENDER ===== */
+/* ================= RENDER ================= */
 function renderPage(){
   if(isLoading) return;
   isLoading=true;
 
   const start=(page-1)*PAGE_SIZE;
   const end=start+PAGE_SIZE;
-
   const frag=document.createDocumentFragment();
 
   filtered.slice(start,end).forEach(c=>{
     const tr=document.createElement("tr");
     if(c.name===current) tr.classList.add("playing");
     tr.innerHTML=`
-      <td>${favs.has(c.name)?"<span class='star'>★</span>":""}</td>
+      <td>${favs.has(c.name)?"★":""}</td>
       <td><img class="logo" src="${c.logo}"></td>
-      <td>${c.category.split(";")[0]||"-"}</td>
+      <td>${c.category.split(";")[0]}</td>
       <td>${c.name}</td>
       <td><span class="dot ${c.active?'green':'red'}"></span></td>
     `;
-    tr.onclick=()=>play(c.name);
+    tr.onclick=()=>play(c);
     frag.appendChild(tr);
   });
 
@@ -369,70 +373,53 @@ function renderPage(){
   isLoading=false;
 }
 
-/* ===== SCROLL ===== */
+/* ================= SCROLL ================= */
 scrollBox.addEventListener("scroll",()=>{
-  const nearBottom=scrollBox.scrollTop+scrollBox.clientHeight>=scrollBox.scrollHeight-50;
-  if(nearBottom && page*PAGE_SIZE<filtered.length){
-    page++;
-    renderPage();
+  if(scrollBox.scrollTop+scrollBox.clientHeight>=scrollBox.scrollHeight-50){
+    if(page*PAGE_SIZE<filtered.length){
+      page++;
+      renderPage();
+    }
   }
 });
 
-/* ===== PLAYER ===== */
-function play(name){
-  current=name;
-  retryCount=0;
-  qualityList=channels.filter(c=>c.name===name && c.url);
-  qIndex=0;
-  qualities.innerHTML="";
-  qualityList.forEach((c,i)=>{
-    const b=document.createElement("button");
-    b.textContent=qOf(c.name);
-    if(i===0)b.classList.add("active");
-    b.onclick=()=>{qIndex=i;retryCount=0;switchQuality(c.url,b)};
-    qualities.appendChild(b);
-  });
-  switchQuality(qualityList[0].url,qualities.firstChild);
+/* ================= PLAYER ================= */
+function play(c){
+  current=c.name;
+  currentUrl=c.url;
+  if(!currentUrl) return;
+
+  if(hls){hls.destroy();hls=null}
+
+  if(Hls.isSupported()){
+    hls=new Hls();
+    hls.on(Hls.Events.ERROR,(_,d)=>{
+      if(!d.fatal) return;
+      overlay.style.display="flex";
+      retryText.textContent="Reconnecting…";
+      setTimeout(()=>play(c),2000);
+    });
+    hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play().catch(()=>{}));
+    hls.loadSource(currentUrl);
+    hls.attachMedia(video);
+  }else{
+    video.src=currentUrl;
+    video.play().catch(()=>{});
+  }
+  overlay.style.display="none";
   highlight();
 }
 
-function switchQuality(url,btn){
-  currentUrl=url;
-  [...qualities.children].forEach(b=>b.classList.remove("active"));
-  if(btn)btn.classList.add("active");
-  if(hls){hls.destroy();hls=null}
-  if(Hls.isSupported()){
-    hls=new Hls();
-    hls.on(Hls.Events.ERROR,(e,d)=>{
-      if(!d.fatal) return;
-      if(retryCount<MAX_RETRY){
-        retryCount++;
-        overlay.style.display="flex";
-        retryText.textContent=`Reconnecting… (${retryCount}/${MAX_RETRY})`;
-        setTimeout(()=>switchQuality(currentUrl,qualities.children[qIndex]),2000);
-        return;
-      }
-    });
-    hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play().catch(()=>{}));
-    hls.loadSource(url);
-    hls.attachMedia(video);
-  }else video.src=url;
-  video.play().catch(()=>{});
-}
-
-video.addEventListener("playing",()=>overlay.style.display="none");
-
-/* ===== UI ===== */
+/* ================= UI ================= */
 function highlight(){
-  [...grid.children].forEach(r=>r.classList.remove("playing"));
   [...grid.children].forEach(r=>{
-    if(r.children[3].textContent===current) r.classList.add("playing");
+    r.classList.toggle("playing",r.children[3].textContent===current);
   });
 }
 
-reloadBtn.onclick=()=>currentUrl&&switchQuality(currentUrl,qualities.children[qIndex]);
+reloadBtn.onclick=()=>currentUrl&&play(channels.find(c=>c.name===current));
 favBtn.onclick=()=>{
-  if(!current)return;
+  if(!current) return;
   favs.has(current)?favs.delete(current):favs.add(current);
   localStorage.setItem("favs",JSON.stringify([...favs]));
   applyFilters();
