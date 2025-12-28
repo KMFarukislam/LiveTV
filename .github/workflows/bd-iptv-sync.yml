@@ -12,29 +12,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download IPTV channels (official API)
+      - name: Download iptv-org data
         run: |
-          curl -L --fail \
-          https://iptv-org.github.io/api/channels.json \
-          -o channels.json
+          curl -L --fail https://iptv-org.github.io/api/channels.json -o channels.json
+          curl -L --fail https://iptv-org.github.io/api/streams.json -o streams.json
 
-      - name: Validate JSON
-        run: |
-          test -s channels.json || (echo "channels.json empty" && exit 1)
-          python3 - << 'EOF'
-          import json
-          with open("channels.json", encoding="utf-8") as f:
-              json.load(f)
-          print("JSON OK")
-          EOF
-
-      - name: Extract Bangladesh channels
+      - name: Build Bangladesh playable channels
         run: |
           python3 << 'EOF'
           import json, os
 
           with open("channels.json", encoding="utf-8") as f:
-              data = json.load(f)
+              channels = json.load(f)
+
+          with open("streams.json", encoding="utf-8") as f:
+              streams = json.load(f)
+
+          # index streams by channel id
+          stream_map = {}
+          for s in streams:
+              cid = s.get("channel")
+              url = s.get("url")
+              if cid and url:
+                  stream_map.setdefault(cid, []).append(url)
 
           bd_keywords = [
               "bangla","বাংলা","btv","channel i","atn",
@@ -42,25 +42,32 @@ jobs:
               "ekattor","rtv","maasranga","gazi"
           ]
 
-          bd = []
-          for c in data:
+          result = []
+
+          for c in channels:
+              cid = c.get("id")
               name = (c.get("name") or "").lower()
               country = c.get("country") or ""
 
               if country == "Bangladesh" or any(k in name for k in bd_keywords):
-                  bd.append({
+                  urls = stream_map.get(cid, [])
+                  if not urls:
+                      continue   # ❗ skip unplayable channels
+
+                  result.append({
+                      "id": cid,
                       "name": c.get("name"),
-                      "url": c.get("url"),
                       "logo": c.get("logo"),
-                      "category": c.get("category") or "General",
+                      "category": (c.get("categories") or ["General"])[0],
+                      "streams": urls,
                       "source": "iptv-org"
                   })
 
           os.makedirs("data", exist_ok=True)
-          with open("data/channels-bd.json", "w", encoding="utf-8") as out:
-              json.dump(bd, out, ensure_ascii=False, indent=2)
+          with open("data/channels-bd.json","w",encoding="utf-8") as out:
+              json.dump(result,out,ensure_ascii=False,indent=2)
 
-          print("Bangladesh channels:", len(bd))
+          print("Playable Bangladesh channels:", len(result))
           EOF
 
       - name: Commit update
@@ -68,5 +75,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data/channels-bd.json
-          git commit -m "Auto sync Bangladesh IPTV channels" || echo "No changes"
+          git commit -m "Sync playable Bangladesh IPTV channels" || echo "No changes"
           git push
