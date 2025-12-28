@@ -2,437 +2,201 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>LiveTV</title>
+<title>LiveTV Bangladesh</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 
 <style>
 :root{
-  --header-h:50px;
-  --footer-h:30px;
   --bg:#0f1115;
   --panel:#141720;
-  --panel2:#181b22;
-  --border:#252a34;
-  --accent:#4da3ff;
+  --panel2:#1a1d26;
+  --border:#2a2f3a;
+  --accent:#00c853;
 }
-
 *{box-sizing:border-box}
 body{
   margin:0;
   font-family:system-ui,Arial;
   background:var(--bg);
-  color:#eaeaf0;
-  height:100dvh;
+  color:#eee;
+  height:100vh;
   overflow:hidden;
 }
-
-/* HEADER */
 header{
-  height:var(--header-h);
+  height:50px;
   background:var(--panel);
   display:flex;
   align-items:center;
   justify-content:center;
-  position:relative;
+  font-weight:600;
 }
-#netStatus{
-  position:absolute;
-  right:10px;
-  font-size:12px;
-  color:#2ecc71;
-}
-#netStatus.offline{color:#e74c3c}
-
-/* FOOTER */
-footer{
-  height:var(--footer-h);
-  background:var(--panel);
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:12px;
-  color:#9aa0aa;
-}
-
-/* MAIN */
 main{
-  height:calc(100dvh - var(--header-h) - var(--footer-h));
+  height:calc(100vh - 50px);
   display:flex;
   flex-direction:column;
 }
 @media(min-width:992px){
-  main{
-    display:grid;
-    grid-template-columns:1.6fr 1fr;
-  }
+  main{display:grid;grid-template-columns:1.6fr 1fr}
 }
-
-/* LEFT */
-.left{
-  display:flex;
-  flex-direction:column;
-  height:100%;
-}
-
-/* PLAYER */
-.player-box{
+.player{
   background:#000;
-  position:relative;
-  width:100%;
   aspect-ratio:16/9;
 }
 @media(min-width:992px){
-  .player-box{
-    aspect-ratio:auto;
-    flex:1;
-  }
+  .player{aspect-ratio:auto;flex:1}
 }
-video{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  display:block;
-}
-
-/* OVERLAY */
-#playerOverlay{
-  position:absolute;
-  inset:0;
-  background:rgba(0,0,0,.35);
-  display:none;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;
-  pointer-events:none;
-}
-.spinner{
-  width:42px;height:42px;
-  border:4px solid rgba(255,255,255,.3);
-  border-top:4px solid var(--accent);
-  border-radius:50%;
-  animation:spin 1s linear infinite;
-}
-@keyframes spin{to{transform:rotate(360deg)}}
-#retryText{margin-top:8px;font-size:13px}
-
-/* TOOLBAR */
+video{width:100%;height:100%;object-fit:cover}
 .toolbar{
   background:var(--panel2);
-  display:flex;
-  gap:6px;
   padding:8px;
-  flex-wrap:wrap;
+  display:flex;
+  gap:8px;
 }
 .toolbar button{
-  background:#222735;
+  background:#222;
+  color:#fff;
   border:1px solid var(--border);
-  color:#eaeaf0;
   padding:6px 10px;
-  border-radius:8px;
+  border-radius:6px;
   cursor:pointer;
 }
-.toolbar button.active{
-  background:var(--accent);
-  color:#000;
-}
-
-/* RIGHT */
-.right{
-  display:flex;
-  flex-direction:column;
-  height:100%;
-  min-height:0;
-}
-
-/* FILTERS */
 .filters{
   background:var(--panel2);
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  gap:6px;
   padding:8px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px;
 }
 .filters input,.filters select{
-  background:var(--bg);
+  background:#111;
   border:1px solid var(--border);
-  color:#eaeaf0;
+  color:#fff;
   padding:6px 8px;
-  border-radius:8px;
+  border-radius:6px;
 }
-
-/* TABLE */
-.table-wrap{
+.list{
   flex:1;
   overflow-y:auto;
 }
-table{
-  width:100%;
-  border-collapse:collapse;
-}
-thead{
-  position:sticky;
-  top:0;
-  background:var(--panel);
-}
-th,td{
-  padding:8px;
-  border-bottom:1px solid var(--border);
-  font-size:14px;
-}
-tr{height:52px}
-tr:hover{background:#222735;cursor:pointer}
-tr.playing{background:#1f3b5c}
-
-/* CELLS */
-.logo{
-  width:36px;height:36px;
-  object-fit:contain;
-  background:#000;
-  border-radius:6px;
-}
-.star{color:#f1c40f}
-.dot{
-  width:10px;height:10px;
-  border-radius:50%;
-  display:inline-block;
-}
-.green{background:#2ecc71}
-.red{background:#e74c3c}
+table{width:100%;border-collapse:collapse}
+th,td{padding:8px;border-bottom:1px solid var(--border)}
+tr:hover{background:#222;cursor:pointer}
+.playing{background:#004d40}
+.logo{width:36px;height:36px;object-fit:contain}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.green{background:#00c853}
+.red{background:#d50000}
 </style>
 </head>
 
 <body>
 
-<header>
-  📺 LiveTV
-  <span id="netStatus">● Online</span>
-</header>
+<header>🇧🇩 LiveTV Bangladesh</header>
 
 <main>
 
-<section class="left">
-  <div class="player-box">
+<section>
+  <div class="player">
     <video id="video" controls playsinline></video>
-    <div id="playerOverlay">
-      <div class="spinner"></div>
-      <div id="retryText">Reconnecting…</div>
-    </div>
   </div>
-
   <div class="toolbar">
-    <button id="favBtn">⭐ Favourite</button>
-    <button id="reloadBtn">🔄 Reload</button>
-    <button id="favOnlyBtn">⭐ Only</button>
-    <div id="qualities"></div>
+    <button id="reload">🔄 Reload</button>
+    <button id="favOnly">⭐ Favourites</button>
   </div>
 </section>
 
-<section class="right">
-
+<section>
   <div class="filters">
-    <input id="search" placeholder="🔍 Search">
-    <select id="country"></select>
+    <input id="search" placeholder="Search channel">
     <select id="category"></select>
   </div>
-
-  <div class="table-wrap" id="scrollBox">
+  <div class="list" id="scrollBox">
     <table>
-      <thead>
-        <tr>
-          <th></th>
-          <th>Logo</th>
-          <th>Category</th>
-          <th>Channel</th>
-          <th>Status</th>
-        </tr>
-      </thead>
       <tbody id="grid"></tbody>
     </table>
   </div>
-
 </section>
+
 </main>
 
-<footer>No streams are hosted • iptv-org</footer>
-
 <script>
-/* ================= CONFIG ================= */
-const DATA="data/channels.json";
-const PAGE_SIZE=30;
-const MAX_RETRY=3;
-
-/* ================= STATE ================= */
-let channels=[];
-let filtered=[];
-let page=1;
-let current=null;
-let currentUrl=null;
-let hls=null;
-let favOnly=false;
-let isLoading=false;
-
+const DATA="data/channels-bd.json";
+const PAGE=30;
+let all=[],view=[],page=1,playing=null,favOnly=false;
 const favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]"));
-
-/* ================= ELEMENTS ================= */
 const video=document.getElementById("video");
 const grid=document.getElementById("grid");
 const scrollBox=document.getElementById("scrollBox");
-const qualities=document.getElementById("qualities");
-const overlay=document.getElementById("playerOverlay");
-const retryText=document.getElementById("retryText");
 
-const search=document.getElementById("search");
-const country=document.getElementById("country");
-const category=document.getElementById("category");
-const favBtn=document.getElementById("favBtn");
-const favOnlyBtn=document.getElementById("favOnlyBtn");
-const reloadBtn=document.getElementById("reloadBtn");
-
-/* ================= NETWORK ================= */
-const net=document.getElementById("netStatus");
-function netUpdate(){
-  if(navigator.onLine){
-    net.textContent="● Online";
-    net.classList.remove("offline");
-  }else{
-    net.textContent="● Offline";
-    net.classList.add("offline");
-    overlay.style.display="flex";
-  }
-}
-window.addEventListener("online",netUpdate);
-window.addEventListener("offline",netUpdate);
-netUpdate();
-
-/* ================= LOAD DATA ================= */
-fetch(DATA)
-  .then(r=>r.json())
-  .then(d=>{
-    channels=d.map(c=>({
-      name:c.n || "Unknown",
-      url:c.u || "",
-      logo:c.l || "",
-      category:c.g || "Uncategorized",
-      country:c.c || "International",
-      active:!!c.u
-    }));
-    buildFilters();
-    applyFilters();
-  });
-
-/* ================= FILTERS ================= */
-function buildFilters(){
-  country.innerHTML='<option>All</option>'+
-    [...new Set(channels.map(c=>c.country))].sort()
-      .map(c=>`<option>${c}</option>`).join("");
-
-  category.innerHTML='<option>All</option>'+
-    [...new Set(channels.flatMap(c=>c.category.split(";")))].sort()
-      .map(c=>`<option>${c}</option>`).join("");
-}
-
-function applyFilters(){
-  page=1;
-  grid.innerHTML="";
-  filtered=channels.filter(c=>{
-    if(favOnly && !favs.has(c.name)) return false;
-    if(search.value && !c.name.toLowerCase().includes(search.value.toLowerCase())) return false;
-    if(country.value!=="All" && c.country!==country.value) return false;
-    if(category.value!=="All" && !c.category.split(";").includes(category.value)) return false;
-    return true;
-  });
-  renderPage();
-}
-
-/* ================= RENDER ================= */
-function renderPage(){
-  if(isLoading) return;
-  isLoading=true;
-
-  const start=(page-1)*PAGE_SIZE;
-  const end=start+PAGE_SIZE;
-  const frag=document.createDocumentFragment();
-
-  filtered.slice(start,end).forEach(c=>{
-    const tr=document.createElement("tr");
-    if(c.name===current) tr.classList.add("playing");
-    tr.innerHTML=`
-      <td>${favs.has(c.name)?"★":""}</td>
-      <td><img class="logo" src="${c.logo}"></td>
-      <td>${c.category.split(";")[0]}</td>
-      <td>${c.name}</td>
-      <td><span class="dot ${c.active?'green':'red'}"></span></td>
-    `;
-    tr.onclick=()=>play(c);
-    frag.appendChild(tr);
-  });
-
-  grid.appendChild(frag);
-  isLoading=false;
-}
-
-/* ================= SCROLL ================= */
-scrollBox.addEventListener("scroll",()=>{
-  if(scrollBox.scrollTop+scrollBox.clientHeight>=scrollBox.scrollHeight-50){
-    if(page*PAGE_SIZE<filtered.length){
-      page++;
-      renderPage();
-    }
-  }
+fetch(DATA).then(r=>r.json()).then(d=>{
+  all=d;
+  buildCategory();
+  apply();
 });
 
-/* ================= PLAYER ================= */
-function play(c){
-  current=c.name;
-  currentUrl=c.url;
-  if(!currentUrl) return;
+function buildCategory(){
+  const c=document.getElementById("category");
+  c.innerHTML="<option>All</option>"+
+    [...new Set(all.map(x=>x.category))].map(x=>`<option>${x}</option>`).join("");
+}
 
-  if(hls){hls.destroy();hls=null}
+function apply(){
+  page=1;grid.innerHTML="";
+  const q=document.getElementById("search").value.toLowerCase();
+  const cat=document.getElementById("category").value;
+  view=all.filter(c=>{
+    if(favOnly && !favs.has(c.name)) return false;
+    if(q && !c.name.toLowerCase().includes(q)) return false;
+    if(cat!=="All" && c.category!==cat) return false;
+    return true;
+  });
+  render();
+}
 
-  if(Hls.isSupported()){
-    hls=new Hls();
-    hls.on(Hls.Events.ERROR,(_,d)=>{
-      if(!d.fatal) return;
-      overlay.style.display="flex";
-      retryText.textContent="Reconnecting…";
-      setTimeout(()=>play(c),2000);
-    });
-    hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play().catch(()=>{}));
-    hls.loadSource(currentUrl);
-    hls.attachMedia(video);
-  }else{
-    video.src=currentUrl;
-    video.play().catch(()=>{});
+function render(){
+  view.slice((page-1)*PAGE,page*PAGE).forEach(c=>{
+    const tr=document.createElement("tr");
+    tr.className=playing===c.name?"playing":"";
+    tr.innerHTML=`
+      <td><img class="logo" src="${c.logo||''}"></td>
+      <td>${c.name}</td>
+      <td><span class="dot ${c.url?'green':'red'}"></span></td>`;
+    tr.onclick=()=>play(c);
+    grid.appendChild(tr);
+  });
+}
+
+scrollBox.onscroll=()=>{
+  if(scrollBox.scrollTop+scrollBox.clientHeight>=scrollBox.scrollHeight-50){
+    if(page*PAGE<view.length){page++;render()}
   }
-  overlay.style.display="none";
+};
+
+function play(c){
+  playing=c.name;
+  if(Hls.isSupported() && c.url){
+    const hls=new Hls();
+    hls.loadSource(c.url);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play());
+  }else video.src=c.url;
   highlight();
 }
 
-/* ================= UI ================= */
 function highlight(){
   [...grid.children].forEach(r=>{
-    r.classList.toggle("playing",r.children[3].textContent===current);
+    r.classList.toggle("playing",r.children[1].textContent===playing);
   });
 }
 
-reloadBtn.onclick=()=>currentUrl&&play(channels.find(c=>c.name===current));
-favBtn.onclick=()=>{
-  if(!current) return;
-  favs.has(current)?favs.delete(current):favs.add(current);
-  localStorage.setItem("favs",JSON.stringify([...favs]));
-  applyFilters();
-};
-favOnlyBtn.onclick=()=>{
+document.getElementById("reload").onclick=()=>video.play();
+document.getElementById("favOnly").onclick=()=>{
   favOnly=!favOnly;
-  favOnlyBtn.classList.toggle("active");
-  applyFilters();
+  apply();
 };
-
-search.oninput=applyFilters;
-country.onchange=applyFilters;
-category.onchange=applyFilters;
+document.getElementById("search").oninput=apply;
+document.getElementById("category").onchange=apply;
 </script>
 
 </body>
