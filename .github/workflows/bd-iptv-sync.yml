@@ -12,23 +12,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download IPTV channels
+      - name: Download IPTV channels (official API)
         run: |
           curl -L --fail \
-          https://iptv-org.github.io/iptv/channels.json \
+          https://iptv-org.github.io/api/channels.json \
           -o channels.json
 
-      - name: Validate JSON file
+      - name: Validate JSON
         run: |
-          test -s channels.json || (echo "channels.json is empty" && exit 1)
+          test -s channels.json || (echo "channels.json empty" && exit 1)
           python3 - << 'EOF'
           import json
           with open("channels.json", encoding="utf-8") as f:
               json.load(f)
-          print("JSON is valid")
+          print("JSON OK")
           EOF
 
-      - name: Filter Bangladesh channels
+      - name: Extract Bangladesh channels
         run: |
           python3 << 'EOF'
           import json, os
@@ -53,14 +53,14 @@ jobs:
                       "url": c.get("url"),
                       "logo": c.get("logo"),
                       "category": c.get("category") or "General",
-                      "source": "iptv"
+                      "source": "iptv-org"
                   })
 
           os.makedirs("data", exist_ok=True)
-          with open("data/channels-bd.json","w",encoding="utf-8") as out:
-              json.dump(bd,out,ensure_ascii=False,indent=2)
+          with open("data/channels-bd.json", "w", encoding="utf-8") as out:
+              json.dump(bd, out, ensure_ascii=False, indent=2)
 
-          print("Bangladesh channels:",len(bd))
+          print("Bangladesh channels:", len(bd))
           EOF
 
       - name: Commit update
