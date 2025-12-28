@@ -2,7 +2,7 @@ name: Bangladesh IPTV Auto Sync
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # Daily
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,29 +13,42 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Download IPTV channels
-        run: curl -L https://iptv-org.github.io/iptv/channels.json -o channels.json
+        run: |
+          curl -L --fail \
+          https://iptv-org.github.io/iptv/channels.json \
+          -o channels.json
+
+      - name: Validate JSON file
+        run: |
+          test -s channels.json || (echo "channels.json is empty" && exit 1)
+          python3 - << 'EOF'
+          import json
+          with open("channels.json", encoding="utf-8") as f:
+              json.load(f)
+          print("JSON is valid")
+          EOF
 
       - name: Filter Bangladesh channels
         run: |
           python3 << 'EOF'
-          import json
+          import json, os
 
           with open("channels.json", encoding="utf-8") as f:
               data = json.load(f)
 
           bd_keywords = [
-              "bangla", "বাংলা", "btv", "channel i", "atn",
-              "ntv", "independent", "somoy", "jamuna",
-              "ekattor", "rtv", "maasranga", "gazi"
+              "bangla","বাংলা","btv","channel i","atn",
+              "ntv","independent","somoy","jamuna",
+              "ekattor","rtv","maasranga","gazi"
           ]
 
-          bd_channels = []
+          bd = []
           for c in data:
               name = (c.get("name") or "").lower()
               country = c.get("country") or ""
 
               if country == "Bangladesh" or any(k in name for k in bd_keywords):
-                  bd_channels.append({
+                  bd.append({
                       "name": c.get("name"),
                       "url": c.get("url"),
                       "logo": c.get("logo"),
@@ -43,10 +56,11 @@ jobs:
                       "source": "iptv"
                   })
 
-          with open("data/channels-bd.json", "w", encoding="utf-8") as out:
-              json.dump(bd_channels, out, ensure_ascii=False, indent=2)
+          os.makedirs("data", exist_ok=True)
+          with open("data/channels-bd.json","w",encoding="utf-8") as out:
+              json.dump(bd,out,ensure_ascii=False,indent=2)
 
-          print("Bangladesh channels:", len(bd_channels))
+          print("Bangladesh channels:",len(bd))
           EOF
 
       - name: Commit update
