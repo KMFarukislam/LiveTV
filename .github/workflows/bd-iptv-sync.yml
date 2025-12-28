@@ -1,0 +1,58 @@
+name: Bangladesh IPTV Auto Sync
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # Daily
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download IPTV channels
+        run: curl -L https://iptv-org.github.io/iptv/channels.json -o channels.json
+
+      - name: Filter Bangladesh channels
+        run: |
+          python3 << 'EOF'
+          import json
+
+          with open("channels.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          bd_keywords = [
+              "bangla", "বাংলা", "btv", "channel i", "atn",
+              "ntv", "independent", "somoy", "jamuna",
+              "ekattor", "rtv", "maasranga", "gazi"
+          ]
+
+          bd_channels = []
+          for c in data:
+              name = (c.get("name") or "").lower()
+              country = c.get("country") or ""
+
+              if country == "Bangladesh" or any(k in name for k in bd_keywords):
+                  bd_channels.append({
+                      "name": c.get("name"),
+                      "url": c.get("url"),
+                      "logo": c.get("logo"),
+                      "category": c.get("category") or "General",
+                      "source": "iptv"
+                  })
+
+          with open("data/channels-bd.json", "w", encoding="utf-8") as out:
+              json.dump(bd_channels, out, ensure_ascii=False, indent=2)
+
+          print("Bangladesh channels:", len(bd_channels))
+          EOF
+
+      - name: Commit update
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/channels-bd.json
+          git commit -m "Auto sync Bangladesh IPTV channels" || echo "No changes"
+          git push
