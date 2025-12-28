@@ -64,15 +64,15 @@ main{
   flex-direction:column;
 }
 
-/* DESKTOP GRID */
+/* DESKTOP */
 @media(min-width:992px){
   main{
     display:grid;
-    grid-template-columns: 1.6fr 1fr; /* PLAYER PRIORITY */
+    grid-template-columns:1.6fr 1fr;
   }
 }
 
-/* LEFT (PLAYER) */
+/* LEFT */
 .left{
   display:flex;
   flex-direction:column;
@@ -89,7 +89,7 @@ main{
 @media(min-width:992px){
   .player-box{
     aspect-ratio:auto;
-    flex:1; /* fill available height */
+    flex:1;
   }
 }
 video{
@@ -99,7 +99,7 @@ video{
   display:block;
 }
 
-/* PLAYER OVERLAY */
+/* OVERLAY */
 #playerOverlay{
   position:absolute;
   inset:0;
@@ -141,7 +141,7 @@ video{
   color:#000;
 }
 
-/* RIGHT (LIST) */
+/* RIGHT */
 .right{
   display:flex;
   flex-direction:column;
@@ -165,31 +165,10 @@ video{
   border-radius:8px;
 }
 
-/* CHIPS */
-.chips{
-  background:var(--panel2);
-  padding:6px 8px;
-  display:flex;
-  gap:6px;
-  flex-wrap:wrap;
-}
-.chips span{
-  padding:4px 10px;
-  border-radius:14px;
-  background:#222735;
-  font-size:12px;
-  cursor:pointer;
-}
-.chips span.active{
-  background:var(--accent);
-  color:#000;
-}
-
-/* TABLE */
+/* LIST */
 .table-wrap{
   flex:1;
   overflow-y:auto;
-  -webkit-overflow-scrolling:touch;
 }
 table{
   width:100%;
@@ -199,7 +178,6 @@ thead{
   position:sticky;
   top:0;
   background:var(--panel);
-  z-index:5;
 }
 th,td{
   padding:8px;
@@ -237,7 +215,6 @@ tr.playing{background:#1f3b5c}
 
 <main>
 
-<!-- LEFT -->
 <section class="left">
   <div class="player-box">
     <video id="video" controls playsinline></video>
@@ -255,22 +232,12 @@ tr.playing{background:#1f3b5c}
   </div>
 </section>
 
-<!-- RIGHT -->
 <section class="right">
 
   <div class="filters">
     <input id="search" placeholder="🔍 Search">
     <select id="country"></select>
     <select id="category"></select>
-  </div>
-
-  <div class="chips" id="chips">
-    <span data-cat="All" class="active">All</span>
-    <span data-cat="Sports">Sports</span>
-    <span data-cat="News">News</span>
-    <span data-cat="Movies">Movies</span>
-    <span data-cat="Kids">Kids</span>
-    <span data-cat="Music">Music</span>
   </div>
 
   <div class="table-wrap" id="scrollBox">
@@ -294,15 +261,16 @@ tr.playing{background:#1f3b5c}
 <footer>No streams are hosted • iptv-org</footer>
 
 <script>
-/* ===== CORE STATE ===== */
+/* ===== CONFIG ===== */
 const DATA="data/channels.json";
-const ROW=52;
+const PAGE_SIZE=30;
 const MAX_RETRY=3;
 
-let channels=[],view=[],start=0;
+/* ===== STATE ===== */
+let channels=[], filtered=[], page=1;
 let current=null,currentUrl=null,hls;
 let retryCount=0,qualityList=[],qIndex=0;
-let favOnly=false;
+let favOnly=false,isLoading=false;
 
 const favs=new Set(JSON.parse(localStorage.getItem("favs")||"[]"));
 
@@ -317,14 +285,9 @@ const retryText=document.getElementById("retryText");
 const search=document.getElementById("search");
 const country=document.getElementById("country");
 const category=document.getElementById("category");
-
 const favBtn=document.getElementById("favBtn");
 const favOnlyBtn=document.getElementById("favOnlyBtn");
 const reloadBtn=document.getElementById("reloadBtn");
-
-/* ===== HELPERS ===== */
-const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,"");
-const qOf=n=>(n.match(/(\d{3,4})p/i)||[])[1]||"Auto";
 
 /* ===== NETWORK ===== */
 const net=document.getElementById("netStatus");
@@ -342,98 +305,95 @@ window.addEventListener("online",netUpdate);
 window.addEventListener("offline",netUpdate);
 netUpdate();
 
-/* ===== VIRTUAL LIST ===== */
-function getVisibleCount(){
-  const h = scrollBox.clientHeight || 300;
-  return Math.ceil(h / ROW) + 5;
-}
+/* ===== HELPERS ===== */
+const qOf=n=>(n.match(/(\d{3,4})p/i)||[])[1]||"Auto";
 
 /* ===== LOAD DATA ===== */
 fetch(DATA).then(r=>r.json()).then(d=>{
   channels=d.map(c=>({
-    ...c,
-    active:!!c.u,
-    country:c.c||"International"
+    name:c.n||"",
+    url:c.u||"",
+    logo:c.l||"",
+    category:c.g||"",
+    country:c.c||"International",
+    active:!!c.u
   }));
   buildFilters();
-  apply();
+  applyFilters();
 });
 
 /* ===== FILTERS ===== */
 function buildFilters(){
-  country.innerHTML='<option>All</option>'+
-    [...new Set(channels.map(c=>c.country))].sort()
-    .map(c=>`<option>${c}</option>`).join("");
-
-  category.innerHTML='<option>All</option>'+
-    [...new Set(channels.flatMap(c=>(c.g||"").split(";")))].sort()
-    .map(c=>`<option>${c}</option>`).join("");
+  country.innerHTML='<option>All</option>'+[...new Set(channels.map(c=>c.country))].sort().map(c=>`<option>${c}</option>`).join("");
+  category.innerHTML='<option>All</option>'+[...new Set(channels.flatMap(c=>c.category.split(";")))].sort().map(c=>`<option>${c}</option>`).join("");
 }
 
-function apply(){
-  start=0;
-  const q=norm(search.value);
-  view=channels.filter(c=>{
-    if(!c.active) return false;
-    if(favOnly && !favs.has(c.n)) return false;
-    if(q && !norm(c.n).includes(q)) return false;
+function applyFilters(){
+  page=1;
+  grid.innerHTML="";
+  filtered=channels.filter(c=>{
+    if(favOnly && !favs.has(c.name)) return false;
+    if(search.value && !c.name.toLowerCase().includes(search.value.toLowerCase())) return false;
     if(country.value!=="All" && c.country!==country.value) return false;
-    if(category.value!=="All" && !(c.g||"").includes(category.value)) return false;
+    if(category.value!=="All" && !c.category.includes(category.value)) return false;
     return true;
   });
-  render();
+  renderPage();
 }
 
 /* ===== RENDER ===== */
-function render(){
-  const visible=getVisibleCount();
-  const end=Math.min(start+visible,view.length);
+function renderPage(){
+  if(isLoading) return;
+  isLoading=true;
 
-  grid.innerHTML="";
-  grid.style.paddingTop=(start*ROW)+"px";
-  grid.style.paddingBottom=((view.length-end)*ROW)+"px";
+  const start=(page-1)*PAGE_SIZE;
+  const end=start+PAGE_SIZE;
 
-  view.slice(start,end).forEach(c=>{
+  const frag=document.createDocumentFragment();
+
+  filtered.slice(start,end).forEach(c=>{
     const tr=document.createElement("tr");
-    if(c.n===current) tr.classList.add("playing");
+    if(c.name===current) tr.classList.add("playing");
     tr.innerHTML=`
-      <td>${favs.has(c.n)?"<span class='star'>★</span>":""}</td>
-      <td><img class="logo" src="${c.l||''}"></td>
-      <td>${(c.g||"").split(";")[0]||"-"}</td>
-      <td>${c.n}</td>
+      <td>${favs.has(c.name)?"<span class='star'>★</span>":""}</td>
+      <td><img class="logo" src="${c.logo}"></td>
+      <td>${c.category.split(";")[0]||"-"}</td>
+      <td>${c.name}</td>
       <td><span class="dot ${c.active?'green':'red'}"></span></td>
     `;
-    tr.onclick=()=>play(c.n);
-    grid.appendChild(tr);
+    tr.onclick=()=>play(c.name);
+    frag.appendChild(tr);
   });
+
+  grid.appendChild(frag);
+  isLoading=false;
 }
 
 /* ===== SCROLL ===== */
 scrollBox.addEventListener("scroll",()=>{
-  const visible=getVisibleCount();
-  const maxStart=Math.max(0,view.length-visible);
-  let ns=Math.floor(scrollBox.scrollTop/ROW);
-  ns=Math.min(maxStart,Math.max(0,ns));
-  if(ns!==start){start=ns;render();}
+  const nearBottom=scrollBox.scrollTop+scrollBox.clientHeight>=scrollBox.scrollHeight-50;
+  if(nearBottom && page*PAGE_SIZE<filtered.length){
+    page++;
+    renderPage();
+  }
 });
-window.addEventListener("resize",render);
 
 /* ===== PLAYER ===== */
 function play(name){
   current=name;
   retryCount=0;
-  qualityList=channels.filter(c=>c.n===name);
+  qualityList=channels.filter(c=>c.name===name && c.url);
   qIndex=0;
   qualities.innerHTML="";
   qualityList.forEach((c,i)=>{
     const b=document.createElement("button");
-    b.textContent=qOf(c.n);
+    b.textContent=qOf(c.name);
     if(i===0)b.classList.add("active");
-    b.onclick=()=>{qIndex=i;retryCount=0;switchQuality(c.u,b)};
+    b.onclick=()=>{qIndex=i;retryCount=0;switchQuality(c.url,b)};
     qualities.appendChild(b);
   });
-  switchQuality(qualityList[0].u,qualities.firstChild);
-  render();
+  switchQuality(qualityList[0].url,qualities.firstChild);
+  highlight();
 }
 
 function switchQuality(url,btn){
@@ -441,7 +401,6 @@ function switchQuality(url,btn){
   [...qualities.children].forEach(b=>b.classList.remove("active"));
   if(btn)btn.classList.add("active");
   if(hls){hls.destroy();hls=null}
-
   if(Hls.isSupported()){
     hls=new Hls();
     hls.on(Hls.Events.ERROR,(e,d)=>{
@@ -453,48 +412,40 @@ function switchQuality(url,btn){
         setTimeout(()=>switchQuality(currentUrl,qualities.children[qIndex]),2000);
         return;
       }
-      if(qIndex+1<qualityList.length){
-        qIndex++;retryCount=0;
-        switchQuality(qualityList[qIndex].u,qualities.children[qIndex]);
-      }
     });
     hls.on(Hls.Events.MANIFEST_PARSED,()=>video.play().catch(()=>{}));
     hls.loadSource(url);
     hls.attachMedia(video);
-  }else{
-    video.src=url;
-  }
+  }else video.src=url;
   video.play().catch(()=>{});
 }
 
 video.addEventListener("playing",()=>overlay.style.display="none");
 
-/* ===== BUTTONS ===== */
-reloadBtn.onclick=()=>currentUrl&&switchQuality(currentUrl,qualities.children[qIndex]);
+/* ===== UI ===== */
+function highlight(){
+  [...grid.children].forEach(r=>r.classList.remove("playing"));
+  [...grid.children].forEach(r=>{
+    if(r.children[3].textContent===current) r.classList.add("playing");
+  });
+}
 
+reloadBtn.onclick=()=>currentUrl&&switchQuality(currentUrl,qualities.children[qIndex]);
 favBtn.onclick=()=>{
   if(!current)return;
   favs.has(current)?favs.delete(current):favs.add(current);
   localStorage.setItem("favs",JSON.stringify([...favs]));
-  render();
+  applyFilters();
 };
-
 favOnlyBtn.onclick=()=>{
   favOnly=!favOnly;
   favOnlyBtn.classList.toggle("active");
-  apply();
+  applyFilters();
 };
 
-document.getElementById("chips").onclick=e=>{
-  if(e.target.dataset.cat){
-    document.querySelectorAll(".chips span").forEach(x=>x.classList.remove("active"));
-    e.target.classList.add("active");
-    category.value=e.target.dataset.cat==="All"?"All":e.target.dataset.cat;
-    apply();
-  }
-};
-
-[search,country,category].forEach(el=>el.oninput=apply);
+search.oninput=applyFilters;
+country.onchange=applyFilters;
+category.onchange=applyFilters;
 </script>
 
 </body>
