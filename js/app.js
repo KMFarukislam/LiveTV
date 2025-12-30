@@ -1,83 +1,68 @@
 const playlistUrl = "https://iptv-org.github.io/iptv/index.m3u";
+const logosUrl = "https://iptv-org.github.io/api/channels.json";
 
+const grid = document.getElementById("channelGrid");
 const video = document.getElementById("video");
-const channelList = document.getElementById("channelList");
-const search = document.getElementById("search");
-const countryFilter = document.getElementById("countryFilter");
-const categoryFilter = document.getElementById("categoryFilter");
 const nowPlaying = document.getElementById("nowPlaying");
+const search = document.getElementById("search");
 
 let channels = [];
+let logos = {};
 let hls;
 
-fetch(playlistUrl)
-  .then(res => res.text())
-  .then(parsePlaylist);
+Promise.all([
+  fetch(playlistUrl).then(r => r.text()),
+  fetch(logosUrl).then(r => r.json())
+]).then(([playlist, logoData]) => {
+  logoData.forEach(c => logos[c.name] = c.logo);
+  parsePlaylist(playlist);
+  render();
+});
 
-function parsePlaylist(data) {
+function parsePlaylist(data){
   const lines = data.split("\n");
-  let channel = {};
+  let ch = {};
 
-  lines.forEach(line => {
-    if (line.startsWith("#EXTINF")) {
-      channel = {};
-      channel.name = line.split(",")[1];
-      channel.country = (line.match(/country="([^"]+)"/) || [])[1] || "";
-      channel.category = (line.match(/group-title="([^"]+)"/) || [])[1] || "";
+  lines.forEach(l=>{
+    if(l.startsWith("#EXTINF")){
+      ch = {};
+      ch.name = l.split(",")[1];
     }
-    else if (line.startsWith("http")) {
-      channel.url = line.trim();
-      channels.push(channel);
+    else if(l.startsWith("http")){
+      ch.url = l.trim();
+      ch.logo = logos[ch.name] || "https://via.placeholder.com/80?text=TV";
+      channels.push(ch);
     }
-  });
-
-  populateFilters();
-  renderChannels();
-}
-
-function populateFilters() {
-  [...new Set(channels.map(c => c.country).filter(Boolean))].forEach(c => {
-    countryFilter.innerHTML += `<option value="${c}">${c}</option>`;
-  });
-
-  [...new Set(channels.map(c => c.category).filter(Boolean))].forEach(c => {
-    categoryFilter.innerHTML += `<option value="${c}">${c}</option>`;
   });
 }
 
-function renderChannels() {
-  channelList.innerHTML = "";
-
+function render(){
+  grid.innerHTML="";
   channels
-    .filter(c =>
-      (!search.value || c.name.toLowerCase().includes(search.value.toLowerCase())) &&
-      (!countryFilter.value || c.country === countryFilter.value) &&
-      (!categoryFilter.value || c.category === categoryFilter.value)
-    )
-    .forEach(c => {
-      const div = document.createElement("div");
-      div.className = "channel";
-      div.textContent = c.name;
-
-      div.onclick = () => playChannel(c);
-      channelList.appendChild(div);
+    .filter(c=>!search.value || c.name.toLowerCase().includes(search.value.toLowerCase()))
+    .forEach(c=>{
+      const card = document.createElement("div");
+      card.className="channel-card";
+      card.innerHTML=`
+        <img src="${c.logo}">
+        <div class="channel-name">${c.name}</div>
+      `;
+      card.onclick=()=>play(c);
+      grid.appendChild(card);
     });
 }
 
-function playChannel(c) {
-  nowPlaying.textContent = "Now Playing: " + c.name;
+function play(c){
+  nowPlaying.textContent="Now Playing: "+c.name;
+  if(hls) hls.destroy();
 
-  if (hls) hls.destroy();
-
-  if (Hls.isSupported()) {
-    hls = new Hls();
+  if(Hls.isSupported()){
+    hls=new Hls();
     hls.loadSource(c.url);
     hls.attachMedia(video);
   } else {
-    video.src = c.url;
+    video.src=c.url;
   }
 }
 
-search.oninput = renderChannels;
-countryFilter.onchange = renderChannels;
-categoryFilter.onchange = renderChannels;
+search.oninput=render;
