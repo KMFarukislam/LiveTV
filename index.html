@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>IPTV Stream</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Live TV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="css/style.css">
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 </head>
 
 <body>
 
 <header>
-  <h1>📺 IPTV Stream</h1>
+  <h1>📺 Live TV</h1>
+
+  <select id="countrySelect">
+    <option value="bd">🇧🇩 Bangladesh</option>
+    <option value="in">🇮🇳 India</option>
+    <option value="us">🇺🇸 USA</option>
+    <option value="uk">🇬🇧 United Kingdom</option>
+  </select>
+
   <input id="search" placeholder="Search channels...">
 </header>
 
@@ -31,6 +39,6 @@
   Powered by IPTV-org • Hosted on GitHub Pages
 </footer>
 
-<script src="js/app.js"></script>
+<script src="js/app.js?v=4"></script>
 </body>
 </html>
