@@ -1,0 +1,10 @@
+{
+  "name": "iptv-parser",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.0"
+  }
+}
