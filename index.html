@@ -8,26 +8,29 @@
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-<div class="layout">
+<div class="app">
+
+  <!-- PLAYER AREA -->
+  <main class="player-area">
+    <video id="video" controls autoplay></video>
+
+    <div class="player-bar">
+      <span id="nowPlaying">Select a channel</span>
+      <button id="toggleSidebar">☰</button>
+    </div>
+  </main>
 
   <!-- SIDEBAR -->
-  <aside class="sidebar">
-    <div class="logo">IPTV</div>
-
+  <aside class="sidebar" id="sidebar">
     <input type="text" id="search" placeholder="Search channels">
 
     <ul id="categories"></ul>
 
     <ul id="channelList" class="channels"></ul>
   </aside>
-
-  <!-- PLAYER -->
-  <main class="player">
-    <video id="video" controls autoplay></video>
-    <div id="nowPlaying">Select a channel</div>
-  </main>
 
 </div>
 
