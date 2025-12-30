@@ -13,7 +13,7 @@
 
 <header>
   <h1>📺 IPTV Stream</h1>
-  <input type="text" id="search" placeholder="Search channels...">
+  <input id="search" placeholder="Search channels...">
 </header>
 
 <main>
@@ -23,17 +23,7 @@
   </section>
 
   <section class="channels">
-    <div class="filters">
-      <select id="countryFilter">
-        <option value="">All Countries</option>
-      </select>
-
-      <select id="categoryFilter">
-        <option value="">All Categories</option>
-      </select>
-    </div>
-
-    <div id="channelList"></div>
+    <div id="channelGrid"></div>
   </section>
 </main>
 
