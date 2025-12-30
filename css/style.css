@@ -1,108 +1,98 @@
-* { box-sizing: border-box; margin:0; padding:0; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: Arial, sans-serif;
-  background:#0f172a;
-  color:#fff;
+  background: #0f172a;
+  color: #fff;
 }
 
 header {
-  display:flex;
-  gap:10px;
-  align-items:center;
-  padding:12px;
-  background:#020617;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 12px;
+  background: #020617;
 }
 
-header h1 { flex:1; font-size:18px; }
+header h1 {
+  flex: 1;
+  font-size: 18px;
+}
 
+header select,
 header input {
-  padding:8px;
-  border-radius:6px;
-  border:none;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
 }
 
 main {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .player {
-  flex:2;
-  padding:10px;
+  flex: 2;
+  padding: 10px;
 }
 
 video {
-  width:100%;
-  border-radius:10px;
-  background:#000;
+  width: 100%;
+  background: #000;
+  border-radius: 10px;
 }
 
 #nowPlaying {
-  margin-top:6px;
-  opacity:.8;
-  font-size:14px;
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.8;
 }
 
 .channels {
-  flex:1;
-  padding:10px;
-  background:#020617;
-  overflow-y:auto;
-  max-height:calc(100vh - 120px);
+  flex: 1;
+  background: #020617;
+  padding: 10px;
+  max-height: calc(100vh - 120px);
+  overflow-y: auto;
 }
 
 #channelGrid {
-  display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(120px,1fr));
-  gap:10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
 }
 
 .channel-card {
-  background:#1e293b;
-  border-radius:10px;
-  padding:10px;
-  cursor:pointer;
-  text-align:center;
-  transition:.2s;
+  background: #1e293b;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
 }
 
 .channel-card:hover {
-  background:#334155;
-  transform:scale(1.05);
+  background: #334155;
+  transform: scale(1.05);
 }
 
 .channel-card img {
-  width:60px;
-  height:60px;
-  object-fit:contain;
-  margin-bottom:6px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 6px;
 }
 
 .channel-name {
-  font-size:12px;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-}
-
-.badge {
-  font-size:10px;
-  opacity:.7;
-}
-
-footer {
-  padding:8px;
-  text-align:center;
-  font-size:12px;
-  background:#020617;
-}
-
-@media(max-width:768px){
-  main { flex-direction:column; }
-}
-.channel-card {
-  position: relative;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .star {
@@ -117,4 +107,17 @@ footer {
 
 .star.active {
   color: gold;
+}
+
+footer {
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+  background: #020617;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
 }
