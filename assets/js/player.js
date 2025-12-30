@@ -1,168 +1,109 @@
 const video = document.getElementById("video");
-const channelList = document.getElementById("channelList");
-const categoriesEl = document.getElementById("categories");
-const searchInput = document.getElementById("search");
-const nowPlaying = document.getElementById("nowPlaying");
+const list = document.getElementById("channelList");
+const catsEl = document.getElementById("categories");
+const search = document.getElementById("search");
+const now = document.getElementById("nowPlaying");
 
 let hls;
 let channels = [];
-let currentCategory = "All";
+let currentCat = localStorage.getItem("lastCat") || "All";
+let lastUrl = localStorage.getItem("lastChannel");
 
-const CACHE_KEY = "iptv_channels_v1";
-const CACHE_TIME = 6 * 60 * 60 * 1000; // 6 hours
+const CACHE_KEY = "iptv_channels";
+const CACHE_TTL = 6 * 60 * 60 * 1000;
 
-/* =========================
-   FAST CHANNEL LOADING
-========================= */
-
+/* LOAD CHANNELS FAST */
 async function loadChannels() {
-  const cached = localStorage.getItem(CACHE_KEY);
-
-  if (cached) {
-    const { time, data } = JSON.parse(cached);
-    if (Date.now() - time < CACHE_TIME) {
-      channels = data;
-      initUI();
-      refreshChannelsInBackground();
+  const cache = localStorage.getItem(CACHE_KEY);
+  if (cache) {
+    const { t, d } = JSON.parse(cache);
+    if (Date.now() - t < CACHE_TTL) {
+      channels = d;
+      init();
+      refreshBG();
       return;
     }
   }
-
-  await fetchChannels();
+  await fetchFresh();
 }
 
-async function fetchChannels() {
-  const res = await fetch("data/channels.json", { cache: "no-store" });
-  const data = await res.json();
-  channels = data.filter(c => c.url);
-
-  localStorage.setItem(
-    CACHE_KEY,
-    JSON.stringify({ time: Date.now(), data: channels })
-  );
-
-  initUI();
+async function fetchFresh() {
+  const r = await fetch("data/channels.json", { cache:"no-store" });
+  channels = (await r.json()).filter(c => c.url);
+  localStorage.setItem(CACHE_KEY, JSON.stringify({ t:Date.now(), d:channels }));
+  init();
 }
 
-// Background refresh (no UI block)
-function refreshChannelsInBackground() {
+function refreshBG() {
   fetch("data/channels.json")
-    .then(r => r.json())
-    .then(data => {
-      localStorage.setItem(
-        CACHE_KEY,
-        JSON.stringify({ time: Date.now(), data })
-      );
+    .then(r=>r.json())
+    .then(d=>localStorage.setItem(CACHE_KEY, JSON.stringify({ t:Date.now(), d })));
+}
+
+/* UI */
+function init() {
+  buildCats();
+  filter();
+  if (lastUrl) {
+    const ch = channels.find(c=>c.url===lastUrl);
+    if (ch) play(ch);
+  }
+}
+
+function buildCats() {
+  catsEl.innerHTML="";
+  ["All", ...new Set(channels.map(c=>c.category).filter(Boolean))]
+    .forEach(c=>{
+      const li=document.createElement("li");
+      li.textContent=c;
+      if(c===currentCat) li.classList.add("active");
+      li.onclick=()=>{ currentCat=c; localStorage.setItem("lastCat",c); filter(); };
+      catsEl.appendChild(li);
     });
 }
 
-/* =========================
-   UI
-========================= */
-
-function initUI() {
-  buildCategories();
-  renderChannels(channels);
-}
-
-function buildCategories() {
-  categoriesEl.innerHTML = "";
-
-  const cats = ["All", ...new Set(channels.map(c => c.category).filter(Boolean))];
-
-  cats.forEach(cat => {
-    const li = document.createElement("li");
-    li.textContent = cat;
-    if (cat === "All") li.classList.add("active");
-
-    li.onclick = () => {
-      document.querySelectorAll("#categories li").forEach(x => x.classList.remove("active"));
-      li.classList.add("active");
-      currentCategory = cat;
-      filterChannels();
-    };
-
-    categoriesEl.appendChild(li);
+function render(arr) {
+  list.innerHTML="";
+  arr.forEach(c=>{
+    const li=document.createElement("li");
+    li.innerHTML=`<img loading="lazy" src="${c.logo||""}" onerror="this.style.display='none'"><span>${c.name}</span>`;
+    li.onclick=()=>play(c,li);
+    list.appendChild(li);
   });
 }
 
-function renderChannels(list) {
-  channelList.innerHTML = "";
+/* PLAY */
+function play(c, el) {
+  document.querySelectorAll("#channelList li").forEach(x=>x.classList.remove("active"));
+  if(el) el.classList.add("active");
 
-  list.forEach(ch => {
-    const li = document.createElement("li");
+  now.textContent="Now Playing: "+c.name;
+  localStorage.setItem("lastChannel", c.url);
 
-    li.innerHTML = `
-      <img src="${ch.logo || ''}" loading="lazy"
-           onerror="this.style.display='none'">
-      <span>${ch.name}</span>
-    `;
+  if(hls) hls.destroy();
 
-    li.onclick = () => playChannel(ch, li);
-    channelList.appendChild(li);
-  });
-}
-
-/* =========================
-   FAST PLAYBACK (HLS)
-========================= */
-
-function playChannel(channel, el) {
-  document.querySelectorAll("#channelList li").forEach(li => li.classList.remove("active"));
-  if (el) el.classList.add("active");
-
-  nowPlaying.textContent = "Now Playing: " + channel.name;
-
-  if (hls) {
-    hls.destroy();
-    hls = null;
+  if(video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src=c.url;
+  } else {
+    hls=new Hls({
+      lowLatencyMode:true,
+      maxBufferLength:10,
+      backBufferLength:30
+    });
+    hls.loadSource(c.url);
+    hls.attachMedia(video);
   }
-
-  // Native HLS (Safari / iOS)
-  if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    video.src = channel.url;
-    video.play();
-    return;
-  }
-
-  // Tuned HLS.js
-  hls = new Hls({
-    lowLatencyMode: true,
-    backBufferLength: 30,
-    maxBufferLength: 10,
-    maxMaxBufferLength: 30,
-    liveSyncDuration: 2,
-    liveMaxLatencyDuration: 6,
-    enableWorker: true,
-    startLevel: -1
-  });
-
-  hls.loadSource(channel.url);
-  hls.attachMedia(video);
-
-  hls.on(Hls.Events.MANIFEST_PARSED, () => {
-    video.play();
-  });
+  video.play();
 }
 
-/* =========================
-   FILTER
-========================= */
-
-function filterChannels() {
-  let list = channels;
-
-  if (currentCategory !== "All") {
-    list = list.filter(c => c.category === currentCategory);
-  }
-
-  const q = searchInput.value.toLowerCase();
-  if (q) list = list.filter(c => c.name.toLowerCase().includes(q));
-
-  renderChannels(list);
+/* FILTER */
+function filter() {
+  let arr = channels;
+  if(currentCat!=="All") arr=arr.filter(c=>c.category===currentCat);
+  const q=search.value.toLowerCase();
+  if(q) arr=arr.filter(c=>c.name.toLowerCase().includes(q));
+  render(arr);
 }
 
-searchInput.addEventListener("input", filterChannels);
-
-/* INIT */
+search.addEventListener("input", filter);
 loadChannels();
