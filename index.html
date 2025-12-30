@@ -5,45 +5,45 @@
 <title>IPTV Player</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-  <!-- Network warm-up -->
 <link rel="preconnect" href="https://iptv-org.github.io">
 <link rel="dns-prefetch" href="https://iptv-org.github.io">
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-<!-- HEADER + SEARCH -->
 <header class="header">
   <div class="logo">IPTV</div>
   <input type="text" id="search" placeholder="Search channels">
 </header>
 
-<!-- PLAYER -->
-<section class="player-section">
-  <video id="video" controls autoplay></video>
-</section>
+<main class="main">
 
-<!-- CATEGORIES -->
-<section class="categories-section">
-  <ul id="categories"></ul>
-</section>
+  <section class="player">
+    <video id="video" controls autoplay playsinline></video>
+  </section>
 
-<!-- NOW PLAYING -->
-<section class="now-playing" id="nowPlaying">
-  Select a channel
-</section>
+  <section class="categories">
+    <ul id="categories"></ul>
+  </section>
 
-<!-- CHANNEL LIST -->
-<section class="channels-section">
-  <ul id="channelList"></ul>
-</section>
-<script>
-  if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("sw.js");
-  }
-</script>
+  <section class="now-playing" id="nowPlaying">
+    Select a channel
+  </section>
+
+  <section class="channels">
+    <ul id="channelList"></ul>
+  </section>
+
+</main>
+
 <script src="assets/js/player.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
 </body>
 </html>
