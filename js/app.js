@@ -1,28 +1,28 @@
-const playlistUrl = "https://iptv-org.github.io/iptv/index.m3u";
 const logosUrl = "https://iptv-org.github.io/api/channels.json";
 
 const grid = document.getElementById("channelGrid");
 const video = document.getElementById("video");
 const nowPlaying = document.getElementById("nowPlaying");
 const search = document.getElementById("search");
+const countrySelect = document.getElementById("countrySelect");
 
 let channels = [];
 let logos = {};
 let hls;
 
-/* =========================
-   LOCAL STORAGE KEYS
-========================= */
+/* ========= LOCAL STORAGE ========= */
 const FAVORITES_KEY = "iptv_favorites";
 const RECENT_KEY = "iptv_recent";
 const LAST_KEY = "iptv_last";
+const COUNTRY_KEY = "iptv_country";
 
 let favorites = JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
 let recent = JSON.parse(localStorage.getItem(RECENT_KEY)) || [];
+let selectedCountry = localStorage.getItem(COUNTRY_KEY) || "bd";
 
-/* =========================
-   HELPERS
-========================= */
+countrySelect.value = selectedCountry;
+
+/* ========= HELPERS ========= */
 function cleanName(name) {
   return name
     .replace(/\(.*?\)/g, "")
@@ -38,19 +38,15 @@ function isFavorite(channel) {
 function toggleFavorite(channel) {
   const key = cleanName(channel.name);
 
-  if (favorites.includes(key)) {
-    favorites = favorites.filter(f => f !== key);
-  } else {
-    favorites.unshift(key);
-  }
+  favorites = favorites.includes(key)
+    ? favorites.filter(f => f !== key)
+    : [key, ...favorites];
 
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
   render();
 }
 
-/* =========================
-   LOAD LOGOS (NON-BLOCKING)
-========================= */
+/* ========= LOAD LOGOS ========= */
 fetch(logosUrl)
   .then(r => r.json())
   .then(data => {
@@ -59,25 +55,28 @@ fetch(logosUrl)
         logos[cleanName(c.name)] = c.logo;
       }
     });
-    render();
-  })
-  .catch(() => console.warn("Logo API skipped"));
-
-/* =========================
-   LOAD PLAYLIST
-========================= */
-fetch(playlistUrl)
-  .then(r => r.text())
-  .then(parsePlaylist)
-  .catch(err => {
-    console.error(err);
-    grid.innerHTML = "Failed to load playlist";
+    loadPlaylist(selectedCountry);
   });
+
+/* ========= LOAD PLAYLIST ========= */
+function loadPlaylist(country) {
+  channels = [];
+  grid.innerHTML = "Loading channels...";
+
+  const playlistUrl =
+    `https://iptv-org.github.io/iptv/countries/${country}.m3u`;
+
+  fetch(playlistUrl)
+    .then(r => r.text())
+    .then(parsePlaylist)
+    .catch(() => {
+      grid.innerHTML = "Failed to load channels";
+    });
+}
 
 function parsePlaylist(data) {
   const lines = data.split("\n");
   let ch = {};
-  let count = 0;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -100,20 +99,14 @@ function parsePlaylist(data) {
     if (line.startsWith("http")) {
       ch.url = line.trim();
       channels.push(ch);
-
-      count++;
-      if (count >= 300) break; // performance limit
     }
   }
 
   render();
 }
 
-/* =========================
-   RENDER CHANNELS
-========================= */
+/* ========= RENDER ========= */
 function render() {
-  if (!grid) return;
   grid.innerHTML = "";
 
   channels
@@ -141,9 +134,7 @@ function render() {
     });
 }
 
-/* =========================
-   PLAY CHANNEL
-========================= */
+/* ========= PLAY ========= */
 function play(c) {
   nowPlaying.textContent = "Now Playing: " + c.name;
 
@@ -165,12 +156,15 @@ function play(c) {
   }
 }
 
-/* =========================
-   AUTO RESUME LAST CHANNEL
-========================= */
-const last = JSON.parse(localStorage.getItem(LAST_KEY));
-if (last) {
-  play(last);
-}
-
+/* ========= EVENTS ========= */
 search.oninput = render;
+
+countrySelect.onchange = () => {
+  selectedCountry = countrySelect.value;
+  localStorage.setItem(COUNTRY_KEY, selectedCountry);
+  loadPlaylist(selectedCountry);
+};
+
+/* ========= AUTO RESUME ========= */
+const last = JSON.parse(localStorage.getItem(LAST_KEY));
+if (last) play(last);
