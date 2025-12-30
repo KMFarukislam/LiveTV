@@ -5,15 +5,13 @@
 <title>IPTV Player</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="preconnect" href="https://iptv-org.github.io">
-<link rel="dns-prefetch" href="https://iptv-org.github.io">
-
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
+<!-- FIXED HEADER -->
 <header class="header">
   <div class="logo">IPTV</div>
   <input type="text" id="search" placeholder="Search channels">
@@ -21,18 +19,24 @@
 
 <main class="main">
 
-  <section class="player">
-    <video id="video" controls autoplay playsinline></video>
+  <!-- STICKY PLAYER WRAPPER -->
+  <section class="player-wrapper">
+    <section class="player">
+      <video id="video" controls autoplay playsinline></video>
+    </section>
   </section>
 
+  <!-- CATEGORIES -->
   <section class="categories">
     <ul id="categories"></ul>
   </section>
 
+  <!-- NOW PLAYING -->
   <section class="now-playing" id="nowPlaying">
     Select a channel
   </section>
 
+  <!-- CHANNEL LIST -->
   <section class="channels">
     <ul id="channelList"></ul>
   </section>
@@ -40,10 +44,5 @@
 </main>
 
 <script src="assets/js/player.js"></script>
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("sw.js");
-}
-</script>
 </body>
 </html>
