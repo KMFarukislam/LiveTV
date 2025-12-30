@@ -1,40 +1,25 @@
 const video = document.getElementById("video");
 const channelList = document.getElementById("channelList");
 const categoriesEl = document.getElementById("categories");
-const search = document.getElementById("search");
+const searchInput = document.getElementById("search");
 const nowPlaying = document.getElementById("nowPlaying");
-const sidebar = document.getElementById("sidebar");
-const toggleBtn = document.getElementById("toggleSidebar");
 
 let hls;
 let channels = [];
 let currentCategory = "All";
-let lastChannelUrl = localStorage.getItem("lastChannel");
-
-// Toggle sidebar
-toggleBtn.onclick = () => {
-  sidebar.classList.toggle("open");
-  sidebar.classList.toggle("collapsed");
-};
 
 // Load channels
 fetch("data/channels.json")
-  .then(r => r.json())
+  .then(res => res.json())
   .then(data => {
     channels = data.filter(c => c.url);
     buildCategories();
     renderChannels(channels);
-
-    if (lastChannelUrl) {
-      const ch = channels.find(c => c.url === lastChannelUrl);
-      if (ch) playChannel(ch);
-    }
   });
 
-// Categories
+// Build categories
 function buildCategories() {
   const cats = ["All", ...new Set(channels.map(c => c.category).filter(Boolean))];
-  categoriesEl.innerHTML = "";
 
   cats.forEach(cat => {
     const li = document.createElement("li");
@@ -52,13 +37,12 @@ function buildCategories() {
   });
 }
 
-// Render
+// Render channels
 function renderChannels(list) {
   channelList.innerHTML = "";
 
   list.forEach(ch => {
     const li = document.createElement("li");
-    li.tabIndex = 0;
 
     li.innerHTML = `
       <img src="${ch.logo || ''}" onerror="this.style.display='none'">
@@ -66,19 +50,16 @@ function renderChannels(list) {
     `;
 
     li.onclick = () => playChannel(ch, li);
-    li.onkeydown = e => e.key === "Enter" && playChannel(ch, li);
-
     channelList.appendChild(li);
   });
 }
 
-// Play
+// Play channel
 function playChannel(channel, el) {
-  document.querySelectorAll(".channels li").forEach(li => li.classList.remove("active"));
-  if (el) el.classList.add("active");
+  document.querySelectorAll("#channelList li").forEach(li => li.classList.remove("active"));
+  el.classList.add("active");
 
   nowPlaying.textContent = "Now Playing: " + channel.name;
-  localStorage.setItem("lastChannel", channel.url);
 
   if (hls) hls.destroy();
 
@@ -91,7 +72,6 @@ function playChannel(channel, el) {
   }
 
   video.play();
-  sidebar.classList.remove("open");
 }
 
 // Filter
@@ -102,10 +82,10 @@ function filterChannels() {
     list = list.filter(c => c.category === currentCategory);
   }
 
-  const q = search.value.toLowerCase();
+  const q = searchInput.value.toLowerCase();
   if (q) list = list.filter(c => c.name.toLowerCase().includes(q));
 
   renderChannels(list);
 }
 
-search.addEventListener("input", filterChannels);
+searchInput.addEventListener("input", filterChannels);
