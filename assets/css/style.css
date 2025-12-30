@@ -1,115 +1,127 @@
 :root {
-  --bg:#0e1117;
-  --panel:#161b22;
-  --hover:#21262d;
-  --active:#2f81f7;
-  --text:#e6edf3;
-  --muted:#8b949e;
+  --bg: #0e1117;
+  --panel: #161b22;
+  --hover: #21262d;
+  --active: #2f81f7;
+  --text: #e6edf3;
+  --muted: #8b949e;
 }
 
-* { box-sizing:border-box; font-family:system-ui; }
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
 
 body {
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
 }
 
-/* HEADER */
+/* =====================
+   FIXED HEADER
+===================== */
 .header {
-  position:fixed;
-  top:0; left:0; right:0;
-  height:56px;
-  background:var(--panel);
-  display:flex;
-  gap:10px;
-  align-items:center;
-  padding:0 12px;
-  z-index:10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  background: var(--panel);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  z-index: 100;
 }
 
-.logo { font-weight:700; color:var(--active); }
+.logo {
+  font-weight: 700;
+  color: var(--active);
+}
 
 #search {
-  flex:1;
-  padding:8px 12px;
-  border-radius:8px;
-  border:none;
-  background:#0d1117;
-  color:var(--text);
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #0d1117;
+  color: var(--text);
 }
 
-/* MAIN */
+/* =====================
+   MAIN CONTENT OFFSET
+===================== */
 .main {
-  padding-top:56px;
-  display:flex;
-  flex-direction:column;
+  padding-top: 56px; /* header height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* =====================
+   STICKY PLAYER
+===================== */
+.player-wrapper {
+  position: sticky;
+  top: 56px; /* same as header height */
+  z-index: 50;
+  background: black;
 }
 
 /* PLAYER */
 .player video {
-  width:100%;
-  aspect-ratio:16/9;
-  background:black;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: black;
 }
 
-/* CATEGORIES */
+/* =====================
+   CATEGORIES
+===================== */
 .categories {
-  background:var(--panel);
-  padding:8px;
-  overflow-x:auto;
+  background: var(--panel);
+  padding: 8px;
+  overflow-x: auto;
 }
 
 #categories {
-  display:flex;
-  gap:8px;
-  list-style:none;
-  padding:0; margin:0;
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #categories li {
-  padding:6px 14px;
-  border-radius:16px;
-  background:#0d1117;
-  color:var(--muted);
-  white-space:nowrap;
+  padding: 6px 14px;
+  border-radius: 16px;
+  background: #0d1117;
+  color: var(--muted);
+  white-space: nowrap;
 }
 
 #categories li.active {
-  background:var(--active);
-  color:#fff;
+  background: var(--active);
+  color: #fff;
 }
 
-/* NOW PLAYING */
+/* =====================
+   NOW PLAYING
+===================== */
 .now-playing {
-  padding:8px 12px;
-  font-size:13px;
-  background:#000;
-  color:var(--muted);
+  background: #000;
+  color: var(--muted);
+  padding: 8px 12px;
+  font-size: 13px;
 }
 
-/* CHANNELS */
-.channels { flex:1; overflow-y:auto; }
-
-#channelList { list-style:none; padding:0; margin:0; }
-
-#channelList li {
-  display:flex;
-  gap:12px;
-  align-items:center;
-  padding:12px;
-  border-bottom:1px solid #1f242d;
+/* =====================
+   CHANNEL LIST
+===================== */
+.channels {
+  flex: 1;
+  overflow-y: auto;
 }
-
-#channelList li.active { background:var(--hover); }
-
-#channelList img {
-  width:42px;
-  height:42px;
-  background:black;
-  object-fit:contain;
-  border-radius:6px;
-}}
 
 #channelList {
   list-style: none;
@@ -121,8 +133,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 14px;
-  cursor: pointer;
+  padding: 12px;
   border-bottom: 1px solid #1f242d;
 }
 
@@ -131,30 +142,9 @@ body {
 }
 
 #channelList img {
-  width: 44px;
-  height: 44px;
+  width: 42px;
+  height: 42px;
   object-fit: contain;
   background: black;
   border-radius: 6px;
-}
-
-/* TABLET / DESKTOP ENHANCEMENT */
-@media (min-width: 1024px) {
-  body {
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: auto 1fr;
-  }
-
-  .header {
-    grid-column: span 2;
-  }
-
-  .player-section {
-    grid-row: span 3;
-  }
-
-  .channels-section {
-    max-height: calc(100vh - 120px);
-  }
 }
