@@ -6,6 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <!-- Network warm-up -->
+<link rel="preconnect" href="https://iptv-org.github.io">
+<link rel="dns-prefetch" href="https://iptv-org.github.io">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -36,7 +39,11 @@
 <section class="channels-section">
   <ul id="channelList"></ul>
 </section>
-
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js");
+  }
+</script>
 <script src="assets/js/player.js"></script>
 </body>
 </html>
