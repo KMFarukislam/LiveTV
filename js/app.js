@@ -1,3 +1,4 @@
+
 const PLAYLIST_URL = "https://iptv-org.github.io/iptv/streams.m3u";
 const LOGOS_URL = "https://iptv-org.github.io/api/channels.json";
 
@@ -14,6 +15,7 @@ let hls;
 const FAVORITES_KEY = "iptv_favorites";
 let favorites = JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
 
+/* ===== HELPERS ===== */
 function cleanName(name) {
   return name.replace(/\(.*?\)|\[.*?\]/g, "").trim().toLowerCase();
 }
@@ -23,10 +25,10 @@ function isFavorite(c) {
 }
 
 function toggleFavorite(c) {
-  const k = cleanName(c.name);
-  favorites = favorites.includes(k)
-    ? favorites.filter(f => f !== k)
-    : [k, ...favorites];
+  const key = cleanName(c.name);
+  favorites = favorites.includes(key)
+    ? favorites.filter(f => f !== key)
+    : [key, ...favorites];
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
   render();
 }
@@ -36,12 +38,14 @@ fetch(LOGOS_URL)
   .then(r => r.json())
   .then(data => {
     data.forEach(c => {
-      if (c.name && c.logo) logos[cleanName(c.name)] = c.logo;
+      if (c.name && c.logo) {
+        logos[cleanName(c.name)] = c.logo;
+      }
     });
     loadPlaylist();
   });
 
-/* ===== LOAD PLAYLIST (HLS ONLY) ===== */
+/* ===== LOAD PLAYLIST ===== */
 function loadPlaylist() {
   fetch(PLAYLIST_URL)
     .then(r => r.text())
@@ -51,25 +55,38 @@ function loadPlaylist() {
     });
 }
 
+/* ===== FIXED PARSER FOR streams.m3u ===== */
 function parsePlaylist(data) {
   const lines = data.split("\n");
-  let ch = {};
+  channels = [];
+  let current = null;
 
   for (let i = 0; i < lines.length; i++) {
-    if (lines[i].startsWith("#EXTINF")) {
-      const raw = lines[i].split(",").pop().trim();
-      const key = cleanName(raw);
-      ch = {
-        name: raw,
+    const line = lines[i].trim();
+
+    if (line.startsWith("#EXTINF")) {
+      const rawName = line.split(",").pop().trim();
+      const key = cleanName(rawName);
+
+      current = {
+        name: rawName,
         logo:
           logos[key] ||
-          `https://ui-avatars.com/api/?name=${encodeURIComponent(raw)}&background=1e293b&color=fff`
+          `https://ui-avatars.com/api/?name=${encodeURIComponent(
+            rawName
+          )}&background=1e293b&color=fff`
       };
+      continue;
     }
 
-    if (lines[i].startsWith("http") && lines[i].includes(".m3u8")) {
-      ch.url = lines[i].trim();
-      channels.push(ch);
+    // skip metadata lines
+    if (line.startsWith("#")) continue;
+
+    // real stream URL
+    if (current && line.startsWith("http") && line.includes(".m3u8")) {
+      current.url = line;
+      channels.push(current);
+      current = null;
     }
   }
 
@@ -105,7 +122,7 @@ function render() {
     });
 }
 
-/* ===== PLAY (STABLE) ===== */
+/* ===== PLAY (BROWSER SAFE) ===== */
 function play(c) {
   nowPlaying.textContent = "Now Playing: " + c.name;
 
@@ -124,10 +141,10 @@ function play(c) {
     hls.on(Hls.Events.ERROR, (_, data) => {
       if (data.fatal) {
         hls.destroy();
-        alert("Stream unavailable");
+        alert("This stream is unavailable");
       }
     });
-  } else {
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = c.url;
   }
 }
