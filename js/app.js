@@ -1,25 +1,19 @@
-const logosUrl = "https://iptv-org.github.io/api/channels.json";
+const PLAYLIST_URL = "https://iptv-org.github.io/iptv/streams.m3u";
+const LOGOS_URL = "https://iptv-org.github.io/api/channels.json";
 
 const grid = document.getElementById("channelGrid");
 const video = document.getElementById("video");
 const nowPlaying = document.getElementById("nowPlaying");
 const search = document.getElementById("search");
-const countrySelect = document.getElementById("countrySelect");
 
 let channels = [];
 let logos = {};
 let hls;
 
-/* ===== LOCAL STORAGE ===== */
+/* ===== FAVORITES ===== */
 const FAVORITES_KEY = "iptv_favorites";
-const LAST_KEY = "iptv_last";
-const COUNTRY_KEY = "iptv_country";
-
 let favorites = JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
-let selectedCountry = localStorage.getItem(COUNTRY_KEY) || "bd";
-countrySelect.value = selectedCountry;
 
-/* ===== HELPERS ===== */
 function cleanName(name) {
   return name.replace(/\(.*?\)|\[.*?\]/g, "").trim().toLowerCase();
 }
@@ -38,24 +32,23 @@ function toggleFavorite(c) {
 }
 
 /* ===== LOAD LOGOS ===== */
-fetch(logosUrl)
+fetch(LOGOS_URL)
   .then(r => r.json())
   .then(data => {
     data.forEach(c => {
       if (c.name && c.logo) logos[cleanName(c.name)] = c.logo;
     });
-    loadPlaylist(selectedCountry);
+    loadPlaylist();
   });
 
-/* ===== LOAD PLAYLIST ===== */
-function loadPlaylist(country) {
-  channels = [];
-  grid.innerHTML = "Loading channels...";
-
-  fetch(`https://iptv-org.github.io/iptv/countries/${country}.m3u`)
+/* ===== LOAD PLAYLIST (HLS ONLY) ===== */
+function loadPlaylist() {
+  fetch(PLAYLIST_URL)
     .then(r => r.text())
     .then(parsePlaylist)
-    .catch(() => grid.innerHTML = "Failed to load playlist");
+    .catch(() => {
+      grid.innerHTML = "Failed to load channels";
+    });
 }
 
 function parsePlaylist(data) {
@@ -74,7 +67,7 @@ function parsePlaylist(data) {
       };
     }
 
-    if (lines[i].startsWith("http")) {
+    if (lines[i].startsWith("http") && lines[i].includes(".m3u8")) {
       ch.url = lines[i].trim();
       channels.push(ch);
     }
@@ -89,7 +82,8 @@ function render() {
 
   channels
     .filter(c =>
-      !search.value || c.name.toLowerCase().includes(search.value.toLowerCase())
+      !search.value ||
+      c.name.toLowerCase().includes(search.value.toLowerCase())
     )
     .sort((a, b) => isFavorite(b) - isFavorite(a))
     .forEach(c => {
@@ -111,15 +105,9 @@ function render() {
     });
 }
 
-/* ===== PLAY (BUFFER FIXED) ===== */
+/* ===== PLAY (STABLE) ===== */
 function play(c) {
-  if (!c.url.includes(".m3u8")) {
-    alert("This channel is not browser supported");
-    return;
-  }
-
   nowPlaying.textContent = "Now Playing: " + c.name;
-  localStorage.setItem(LAST_KEY, JSON.stringify(c));
 
   if (hls) hls.destroy();
 
@@ -127,42 +115,22 @@ function play(c) {
     hls = new Hls({
       enableWorker: true,
       maxBufferLength: 30,
-      maxMaxBufferLength: 60,
-      liveSyncDurationCount: 3,
-      liveMaxLatencyDurationCount: 5
+      liveSyncDurationCount: 3
     });
 
     hls.loadSource(c.url);
     hls.attachMedia(video);
 
-    hls.on(Hls.Events.ERROR, function (_, data) {
+    hls.on(Hls.Events.ERROR, (_, data) => {
       if (data.fatal) {
-        switch (data.type) {
-          case Hls.ErrorTypes.NETWORK_ERROR:
-            hls.startLoad();
-            break;
-          case Hls.ErrorTypes.MEDIA_ERROR:
-            hls.recoverMediaError();
-            break;
-          default:
-            hls.destroy();
-            alert("Channel unavailable");
-        }
+        hls.destroy();
+        alert("Stream unavailable");
       }
     });
-  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+  } else {
     video.src = c.url;
   }
 }
 
-/* ===== EVENTS ===== */
+/* ===== SEARCH ===== */
 search.oninput = render;
-
-countrySelect.onchange = () => {
-  localStorage.setItem(COUNTRY_KEY, countrySelect.value);
-  loadPlaylist(countrySelect.value);
-};
-
-/* ===== AUTO RESUME ===== */
-const last = JSON.parse(localStorage.getItem(LAST_KEY));
-if (last) play(last);
