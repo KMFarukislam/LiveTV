@@ -33,7 +33,7 @@ function parsePlaylist(data) {
       }
 
       // LIMIT (this is IMPORTANT)
-      if (channels.length >= 300) break;
+      if (channels.length >= 3000) break;
     }
   }
 
