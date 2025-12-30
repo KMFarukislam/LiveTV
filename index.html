@@ -2,36 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>IPTV Stream</title>
+  <title>IPTV Web Player</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/style.css">
+  <!-- HLS.js -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-</head>
 
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 <body>
 
-<header>
-  <h1>📺 IPTV Stream</h1>
-  <input id="search" placeholder="Search channels...">
-</header>
+<div class="app">
 
-<main>
-  <section class="player">
-    <video id="video" controls autoplay playsinline></video>
+  <!-- Player -->
+  <div class="player-container">
+    <video id="video" controls autoplay></video>
     <div id="nowPlaying">Select a channel</div>
-  </section>
+  </div>
 
-  <section class="channels">
-    <div id="channelGrid"></div>
-  </section>
-</main>
+  <!-- Channel list -->
+  <div class="channels">
+    <input type="text" id="search" placeholder="Search channel...">
+    <ul id="channelList"></ul>
+  </div>
 
-<footer>
-  Powered by IPTV-org • GitHub Pages
-</footer>
+</div>
 
-<!-- IMPORTANT: cache bust -->
-<script src="js/app.js?v=RESTORE1"></script>
+<script src="assets/js/player.js"></script>
 </body>
 </html>
