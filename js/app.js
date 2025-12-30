@@ -10,68 +10,52 @@ let channels = [];
 let logos = {};
 let hls;
 
-/* ========= LOCAL STORAGE ========= */
+/* ===== LOCAL STORAGE ===== */
 const FAVORITES_KEY = "iptv_favorites";
-const RECENT_KEY = "iptv_recent";
 const LAST_KEY = "iptv_last";
 const COUNTRY_KEY = "iptv_country";
 
 let favorites = JSON.parse(localStorage.getItem(FAVORITES_KEY)) || [];
-let recent = JSON.parse(localStorage.getItem(RECENT_KEY)) || [];
 let selectedCountry = localStorage.getItem(COUNTRY_KEY) || "bd";
-
 countrySelect.value = selectedCountry;
 
-/* ========= HELPERS ========= */
+/* ===== HELPERS ===== */
 function cleanName(name) {
-  return name
-    .replace(/\(.*?\)/g, "")
-    .replace(/\[.*?\]/g, "")
-    .trim()
-    .toLowerCase();
+  return name.replace(/\(.*?\)|\[.*?\]/g, "").trim().toLowerCase();
 }
 
-function isFavorite(channel) {
-  return favorites.includes(cleanName(channel.name));
+function isFavorite(c) {
+  return favorites.includes(cleanName(c.name));
 }
 
-function toggleFavorite(channel) {
-  const key = cleanName(channel.name);
-
-  favorites = favorites.includes(key)
-    ? favorites.filter(f => f !== key)
-    : [key, ...favorites];
-
+function toggleFavorite(c) {
+  const k = cleanName(c.name);
+  favorites = favorites.includes(k)
+    ? favorites.filter(f => f !== k)
+    : [k, ...favorites];
   localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
   render();
 }
 
-/* ========= LOAD LOGOS ========= */
+/* ===== LOAD LOGOS ===== */
 fetch(logosUrl)
   .then(r => r.json())
   .then(data => {
     data.forEach(c => {
-      if (c.name && c.logo) {
-        logos[cleanName(c.name)] = c.logo;
-      }
+      if (c.name && c.logo) logos[cleanName(c.name)] = c.logo;
     });
     loadPlaylist(selectedCountry);
   });
 
-/* ========= LOAD PLAYLIST ========= */
+/* ===== LOAD PLAYLIST ===== */
 function loadPlaylist(country) {
   channels = [];
   grid.innerHTML = "Loading channels...";
 
-  const playlistUrl =
-    `https://iptv-org.github.io/iptv/countries/${country}.m3u`;
-
-  fetch(playlistUrl)
+  fetch(`https://iptv-org.github.io/iptv/countries/${country}.m3u`)
     .then(r => r.text())
     .then(parsePlaylist)
-    .catch(() => {
-      grid.innerHTML = "Failed to load channels";
-    });
+    .catch(() => grid.innerHTML = "Failed to load playlist");
 }
 
 function parsePlaylist(data) {
@@ -79,25 +63,19 @@ function parsePlaylist(data) {
   let ch = {};
 
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-
-    if (line.startsWith("#EXTINF")) {
-      const rawName = line.split(",").pop().trim();
-      const key = cleanName(rawName);
-
+    if (lines[i].startsWith("#EXTINF")) {
+      const raw = lines[i].split(",").pop().trim();
+      const key = cleanName(raw);
       ch = {
-        name: rawName,
-        key,
+        name: raw,
         logo:
           logos[key] ||
-          `https://ui-avatars.com/api/?name=${encodeURIComponent(
-            rawName
-          )}&background=1e293b&color=fff&size=80`
+          `https://ui-avatars.com/api/?name=${encodeURIComponent(raw)}&background=1e293b&color=fff`
       };
     }
 
-    if (line.startsWith("http")) {
-      ch.url = line.trim();
+    if (lines[i].startsWith("http")) {
+      ch.url = lines[i].trim();
       channels.push(ch);
     }
   }
@@ -105,14 +83,13 @@ function parsePlaylist(data) {
   render();
 }
 
-/* ========= RENDER ========= */
+/* ===== RENDER ===== */
 function render() {
   grid.innerHTML = "";
 
   channels
     .filter(c =>
-      !search.value ||
-      c.name.toLowerCase().includes(search.value.toLowerCase())
+      !search.value || c.name.toLowerCase().includes(search.value.toLowerCase())
     )
     .sort((a, b) => isFavorite(b) - isFavorite(a))
     .forEach(c => {
@@ -134,37 +111,58 @@ function render() {
     });
 }
 
-/* ========= PLAY ========= */
+/* ===== PLAY (BUFFER FIXED) ===== */
 function play(c) {
+  if (!c.url.includes(".m3u8")) {
+    alert("This channel is not browser supported");
+    return;
+  }
+
   nowPlaying.textContent = "Now Playing: " + c.name;
-
   localStorage.setItem(LAST_KEY, JSON.stringify(c));
-
-  recent = recent.filter(r => r !== c.name);
-  recent.unshift(c.name);
-  recent = recent.slice(0, 5);
-  localStorage.setItem(RECENT_KEY, JSON.stringify(recent));
 
   if (hls) hls.destroy();
 
   if (Hls.isSupported()) {
-    hls = new Hls();
+    hls = new Hls({
+      enableWorker: true,
+      maxBufferLength: 30,
+      maxMaxBufferLength: 60,
+      liveSyncDurationCount: 3,
+      liveMaxLatencyDurationCount: 5
+    });
+
     hls.loadSource(c.url);
     hls.attachMedia(video);
-  } else {
+
+    hls.on(Hls.Events.ERROR, function (_, data) {
+      if (data.fatal) {
+        switch (data.type) {
+          case Hls.ErrorTypes.NETWORK_ERROR:
+            hls.startLoad();
+            break;
+          case Hls.ErrorTypes.MEDIA_ERROR:
+            hls.recoverMediaError();
+            break;
+          default:
+            hls.destroy();
+            alert("Channel unavailable");
+        }
+      }
+    });
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
     video.src = c.url;
   }
 }
 
-/* ========= EVENTS ========= */
+/* ===== EVENTS ===== */
 search.oninput = render;
 
 countrySelect.onchange = () => {
-  selectedCountry = countrySelect.value;
-  localStorage.setItem(COUNTRY_KEY, selectedCountry);
-  loadPlaylist(selectedCountry);
+  localStorage.setItem(COUNTRY_KEY, countrySelect.value);
+  loadPlaylist(countrySelect.value);
 };
 
-/* ========= AUTO RESUME ========= */
+/* ===== AUTO RESUME ===== */
 const last = JSON.parse(localStorage.getItem(LAST_KEY));
 if (last) play(last);
