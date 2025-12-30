@@ -1,20 +1,34 @@
 const video = document.getElementById("video");
 const channelList = document.getElementById("channelList");
-const search = document.getElementById("search");
 const categoriesEl = document.getElementById("categories");
+const search = document.getElementById("search");
 const nowPlaying = document.getElementById("nowPlaying");
+const sidebar = document.getElementById("sidebar");
+const toggleBtn = document.getElementById("toggleSidebar");
 
 let hls;
 let channels = [];
 let currentCategory = "All";
+let lastChannelUrl = localStorage.getItem("lastChannel");
+
+// Toggle sidebar
+toggleBtn.onclick = () => {
+  sidebar.classList.toggle("open");
+  sidebar.classList.toggle("collapsed");
+};
 
 // Load channels
 fetch("data/channels.json")
-  .then(res => res.json())
+  .then(r => r.json())
   .then(data => {
     channels = data.filter(c => c.url);
     buildCategories();
     renderChannels(channels);
+
+    if (lastChannelUrl) {
+      const ch = channels.find(c => c.url === lastChannelUrl);
+      if (ch) playChannel(ch);
+    }
   });
 
 // Categories
@@ -38,12 +52,13 @@ function buildCategories() {
   });
 }
 
-// Render channels
+// Render
 function renderChannels(list) {
   channelList.innerHTML = "";
 
   list.forEach(ch => {
     const li = document.createElement("li");
+    li.tabIndex = 0;
 
     li.innerHTML = `
       <img src="${ch.logo || ''}" onerror="this.style.display='none'">
@@ -51,6 +66,8 @@ function renderChannels(list) {
     `;
 
     li.onclick = () => playChannel(ch, li);
+    li.onkeydown = e => e.key === "Enter" && playChannel(ch, li);
+
     channelList.appendChild(li);
   });
 }
@@ -58,9 +75,10 @@ function renderChannels(list) {
 // Play
 function playChannel(channel, el) {
   document.querySelectorAll(".channels li").forEach(li => li.classList.remove("active"));
-  el.classList.add("active");
+  if (el) el.classList.add("active");
 
-  nowPlaying.textContent = `Now Playing: ${channel.name}`;
+  nowPlaying.textContent = "Now Playing: " + channel.name;
+  localStorage.setItem("lastChannel", channel.url);
 
   if (hls) hls.destroy();
 
@@ -73,6 +91,7 @@ function playChannel(channel, el) {
   }
 
   video.play();
+  sidebar.classList.remove("open");
 }
 
 // Filter
@@ -84,9 +103,7 @@ function filterChannels() {
   }
 
   const q = search.value.toLowerCase();
-  if (q) {
-    list = list.filter(c => c.name.toLowerCase().includes(q));
-  }
+  if (q) list = list.filter(c => c.name.toLowerCase().includes(q));
 
   renderChannels(list);
 }
