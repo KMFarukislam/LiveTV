@@ -8,17 +8,66 @@ let hls;
 let channels = [];
 let currentCategory = "All";
 
-// Load channels
-fetch("data/channels.json")
-  .then(res => res.json())
-  .then(data => {
-    channels = data.filter(c => c.url);
-    buildCategories();
-    renderChannels(channels);
-  });
+const CACHE_KEY = "iptv_channels_v1";
+const CACHE_TIME = 6 * 60 * 60 * 1000; // 6 hours
 
-// Build categories
+/* =========================
+   FAST CHANNEL LOADING
+========================= */
+
+async function loadChannels() {
+  const cached = localStorage.getItem(CACHE_KEY);
+
+  if (cached) {
+    const { time, data } = JSON.parse(cached);
+    if (Date.now() - time < CACHE_TIME) {
+      channels = data;
+      initUI();
+      refreshChannelsInBackground();
+      return;
+    }
+  }
+
+  await fetchChannels();
+}
+
+async function fetchChannels() {
+  const res = await fetch("data/channels.json", { cache: "no-store" });
+  const data = await res.json();
+  channels = data.filter(c => c.url);
+
+  localStorage.setItem(
+    CACHE_KEY,
+    JSON.stringify({ time: Date.now(), data: channels })
+  );
+
+  initUI();
+}
+
+// Background refresh (no UI block)
+function refreshChannelsInBackground() {
+  fetch("data/channels.json")
+    .then(r => r.json())
+    .then(data => {
+      localStorage.setItem(
+        CACHE_KEY,
+        JSON.stringify({ time: Date.now(), data })
+      );
+    });
+}
+
+/* =========================
+   UI
+========================= */
+
+function initUI() {
+  buildCategories();
+  renderChannels(channels);
+}
+
 function buildCategories() {
+  categoriesEl.innerHTML = "";
+
   const cats = ["All", ...new Set(channels.map(c => c.category).filter(Boolean))];
 
   cats.forEach(cat => {
@@ -37,7 +86,6 @@ function buildCategories() {
   });
 }
 
-// Render channels
 function renderChannels(list) {
   channelList.innerHTML = "";
 
@@ -45,7 +93,8 @@ function renderChannels(list) {
     const li = document.createElement("li");
 
     li.innerHTML = `
-      <img src="${ch.logo || ''}" onerror="this.style.display='none'">
+      <img src="${ch.logo || ''}" loading="lazy"
+           onerror="this.style.display='none'">
       <span>${ch.name}</span>
     `;
 
@@ -54,27 +103,52 @@ function renderChannels(list) {
   });
 }
 
-// Play channel
+/* =========================
+   FAST PLAYBACK (HLS)
+========================= */
+
 function playChannel(channel, el) {
   document.querySelectorAll("#channelList li").forEach(li => li.classList.remove("active"));
-  el.classList.add("active");
+  if (el) el.classList.add("active");
 
   nowPlaying.textContent = "Now Playing: " + channel.name;
 
-  if (hls) hls.destroy();
-
-  if (video.canPlayType("application/vnd.apple.mpegurl")) {
-    video.src = channel.url;
-  } else {
-    hls = new Hls();
-    hls.loadSource(channel.url);
-    hls.attachMedia(video);
+  if (hls) {
+    hls.destroy();
+    hls = null;
   }
 
-  video.play();
+  // Native HLS (Safari / iOS)
+  if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.src = channel.url;
+    video.play();
+    return;
+  }
+
+  // Tuned HLS.js
+  hls = new Hls({
+    lowLatencyMode: true,
+    backBufferLength: 30,
+    maxBufferLength: 10,
+    maxMaxBufferLength: 30,
+    liveSyncDuration: 2,
+    liveMaxLatencyDuration: 6,
+    enableWorker: true,
+    startLevel: -1
+  });
+
+  hls.loadSource(channel.url);
+  hls.attachMedia(video);
+
+  hls.on(Hls.Events.MANIFEST_PARSED, () => {
+    video.play();
+  });
 }
 
-// Filter
+/* =========================
+   FILTER
+========================= */
+
 function filterChannels() {
   let list = channels;
 
@@ -89,3 +163,6 @@ function filterChannels() {
 }
 
 searchInput.addEventListener("input", filterChannels);
+
+/* INIT */
+loadChannels();
