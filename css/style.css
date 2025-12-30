@@ -101,3 +101,20 @@ footer {
 @media(max-width:768px){
   main { flex-direction:column; }
 }
+.channel-card {
+  position: relative;
+}
+
+.star {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 18px;
+  color: #64748b;
+  cursor: pointer;
+  user-select: none;
+}
+
+.star.active {
+  color: gold;
+}
