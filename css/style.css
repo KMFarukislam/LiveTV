@@ -1,101 +1,103 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; margin:0; padding:0; }
 
 body {
   font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #fff;
+  background:#0f172a;
+  color:#fff;
 }
 
 header {
-  padding: 15px;
-  background: #020617;
-  display: flex;
-  gap: 10px;
-  align-items: center;
+  display:flex;
+  gap:10px;
+  align-items:center;
+  padding:12px;
+  background:#020617;
 }
 
-header h1 {
-  flex: 1;
-  font-size: 20px;
-}
+header h1 { flex:1; font-size:18px; }
 
 header input {
-  padding: 8px;
-  width: 200px;
-  border-radius: 5px;
-  border: none;
+  padding:8px;
+  border-radius:6px;
+  border:none;
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  display:flex;
+  flex-wrap:wrap;
 }
 
 .player {
-  flex: 2;
-  padding: 10px;
+  flex:2;
+  padding:10px;
 }
 
 video {
-  width: 100%;
-  background: #000;
-  border-radius: 8px;
+  width:100%;
+  border-radius:10px;
+  background:#000;
 }
 
 #nowPlaying {
-  margin-top: 8px;
-  font-size: 14px;
-  opacity: 0.8;
+  margin-top:6px;
+  opacity:.8;
+  font-size:14px;
 }
 
 .channels {
-  flex: 1;
-  background: #020617;
-  padding: 10px;
-  max-height: calc(100vh - 120px);
-  overflow-y: auto;
+  flex:1;
+  padding:10px;
+  background:#020617;
+  overflow-y:auto;
+  max-height:calc(100vh - 120px);
 }
 
-.filters {
-  display: flex;
-  gap: 5px;
-  margin-bottom: 10px;
+#channelGrid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(120px,1fr));
+  gap:10px;
 }
 
-select {
-  flex: 1;
-  padding: 6px;
-  border-radius: 5px;
-  border: none;
+.channel-card {
+  background:#1e293b;
+  border-radius:10px;
+  padding:10px;
+  cursor:pointer;
+  text-align:center;
+  transition:.2s;
 }
 
-.channel {
-  padding: 8px;
-  background: #1e293b;
-  margin-bottom: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
+.channel-card:hover {
+  background:#334155;
+  transform:scale(1.05);
 }
 
-.channel:hover {
-  background: #334155;
+.channel-card img {
+  width:60px;
+  height:60px;
+  object-fit:contain;
+  margin-bottom:6px;
+}
+
+.channel-name {
+  font-size:12px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.badge {
+  font-size:10px;
+  opacity:.7;
 }
 
 footer {
-  text-align: center;
-  padding: 10px;
-  font-size: 12px;
-  background: #020617;
+  padding:8px;
+  text-align:center;
+  font-size:12px;
+  background:#020617;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  main {
-    flex-direction: column;
-  }
+@media(max-width:768px){
+  main { flex-direction:column; }
 }
