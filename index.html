@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>IPTV Web Player</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>IPTV Player</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- HLS.js -->
-  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-
-  <link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<div class="app">
+<div class="layout">
 
-  <!-- Player -->
-  <div class="player-container">
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">IPTV</div>
+
+    <input type="text" id="search" placeholder="Search channels">
+
+    <ul id="categories"></ul>
+
+    <ul id="channelList" class="channels"></ul>
+  </aside>
+
+  <!-- PLAYER -->
+  <main class="player">
     <video id="video" controls autoplay></video>
     <div id="nowPlaying">Select a channel</div>
-  </div>
-
-  <!-- Channel list -->
-  <div class="channels">
-    <input type="text" id="search" placeholder="Search channel...">
-    <ul id="channelList"></ul>
-  </div>
+  </main>
 
 </div>
 
