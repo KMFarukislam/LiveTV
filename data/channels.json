@@ -1120,25 +1120,11 @@
     "url": "https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/index.m3u8"
   },
   {
-    "name": "&flix HD (1080p)",
-    "tvg_id": "Andflix.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDFLIX/images/LOGO_HD/LOGO_HD_image.png",
-    "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a022/index.m3u8"
-  },
-  {
-    "name": "&pictures (1080p)",
-    "tvg_id": "Andpictures.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDPICTURES/images/LOGO_HD/LOGO_HD_image.png",
-    "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a01t/index.m3u8"
-  },
-  {
     "name": "&prive HD (1080p)",
     "tvg_id": "AndpriveHD.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDPRIVE_HD/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Movies",
-    "url": "http://163.61.227.29:8000/play/a01h/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0m4/index.m3u8"
   },
   {
     "name": "&TV (576p)",
@@ -1146,6 +1132,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Movies",
     "url": "http://103.182.170.32:8888/play/a03v"
+  },
+  {
+    "name": "&TV HD (1080p)",
+    "tvg_id": "AndTV.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Movies",
+    "url": "http://103.167.255.18:8085/play/a0mc/index.m3u8"
   },
   {
     "name": "&TV International (1080p)",
@@ -4494,13 +4487,6 @@
     "url": "https://cdn-1.pishow.tv/live/993/master.m3u8"
   },
   {
-    "name": "Anmol Cinema (576p)",
-    "tvg_id": "AnmolCinema.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA/images/LOGO_HD/LOGO_HD_image.png",
-    "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a01v/index.m3u8"
-  },
-  {
     "name": "Anmol Cinema 2 (576p)",
     "tvg_id": "AnmolCinema2.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA_2/images/LOGO_HD/LOGO_HD_image.png",
@@ -6221,6 +6207,13 @@
     "logo": "https://i.imgur.com/NwOQUDp.png",
     "category": "Movies",
     "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8"
+  },
+  {
+    "name": "B4U Hitz (576p)",
+    "tvg_id": "B4UHitz.in@SD",
+    "logo": "",
+    "category": "Music",
+    "url": "http://103.167.255.18:8085/play/a0he/index.m3u8"
   },
   {
     "name": "B4U Kadak (1080p) [Not 24/7]",
@@ -11522,6 +11515,13 @@
     "url": "http://118.107.85.4:1935/live/smil:CRTV.smil/playlist.m3u8"
   },
   {
+    "name": "Caoba TV Radio (720p) [Not 24/7]",
+    "tvg_id": "CaobaTVRadio.do@HD",
+    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3906-294x165-FFFFFF.jpg",
+    "category": "General",
+    "url": "https://host.streamingnation.live:3940/live/caobatvlive.m3u8"
+  },
+  {
     "name": "Cape Town TV (576p)",
     "tvg_id": "CapeTownTV.za@SD",
     "logo": "https://i.imgur.com/Y8FK1Kk.png",
@@ -14301,13 +14301,6 @@
     "url": "http://177.234.247.66:9975/ColoradosTV/index.m3u8"
   },
   {
-    "name": "Colors (1080p)",
-    "tvg_id": "Colors.in@HD",
-    "logo": "https://i.imgur.com/M8uCJ0D.png",
-    "category": "Entertainment",
-    "url": "http://66.102.120.18:8000/play/a00a/index.m3u8"
-  },
-  {
     "name": "Colors Bangla (1080p)",
     "tvg_id": "ColorsBangla.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png",
@@ -14315,11 +14308,11 @@
     "url": "http://103.140.254.2:3500/live/756.m3u8"
   },
   {
-    "name": "Colors Cineplex (1080p)",
-    "tvg_id": "ColorsCineplex.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png",
+    "name": "Colors Cineplex (576p)",
+    "tvg_id": "ColorsCineplex.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a06z/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0km/index.m3u8"
   },
   {
     "name": "Colors Cineplex Bollywood (576p)",
@@ -16961,6 +16954,13 @@
     "url": "https://viamotionhsi.netplus.ch/live/eds/disneychannelde/browser-HLS8/disneychannelde.m3u8"
   },
   {
+    "name": "Disney Channel (576p)",
+    "tvg_id": "DisneyChannel.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png",
+    "category": "Kids",
+    "url": "http://103.167.255.18:8085/play/a0kq/index.m3u8"
+  },
+  {
     "name": "Disney Channel (720p)",
     "tvg_id": "DisneyChannel.us@East",
     "logo": "https://i.postimg.cc/854KwmH1/disneychannel.png",
@@ -16982,11 +16982,11 @@
     "url": "http://201.217.246.177:8000/play/a02r/index.m3u8"
   },
   {
-    "name": "Disney International HD",
+    "name": "Disney International HD (1080p)",
     "tvg_id": "DisneyInternationalHD.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png",
     "category": "Kids",
-    "url": "http://66.102.120.18:8000/play/a078/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0ld/index.m3u8"
   },
   {
     "name": "Disney Jr. (1080p) [Geo-blocked]",
@@ -17000,7 +17000,7 @@
     "tvg_id": "DisneyJunior.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png",
     "category": "Kids",
-    "url": "http://66.102.120.18:8000/play/a004/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0k7/index.m3u8"
   },
   {
     "name": "Disney Junior East",
@@ -22244,6 +22244,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_LIFE/images/LOGO_HD/image.png",
     "category": "Lifestyle",
     "url": "http://103.140.254.2:3500/live/684.m3u8"
+  },
+  {
+    "name": "Gemini Movies (1080p)",
+    "tvg_id": "GeminiMovies.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_MOVIES/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.167.255.18:8085/play/a0n5/index.m3u8"
   },
   {
     "name": "Gemini TV (1080p)",
@@ -34909,11 +34916,11 @@
     "url": "https://mntv.livebox.co.in/musichls/live.m3u8"
   },
   {
-    "name": "MNX SD (576p)",
+    "name": "MNX (576p)",
     "tvg_id": "MNX.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MNX/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://163.61.227.29:8000/play/a01x/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0oj/index.m3u8"
   },
   {
     "name": "MO Channel",
@@ -35427,11 +35434,11 @@
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6008ddf24ef92b00079d61cf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e3-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=2f37e9d8-bdac-4d46-949d-ccfbf76dd6e0"
   },
   {
-    "name": "Movies Now (1080p)",
+    "name": "Movies Now HD (1080p)",
     "tvg_id": "MoviesNow.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MOVIES_NOW/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://163.61.227.29:8000/play/a01y/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0lr/index.m3u8"
   },
   {
     "name": "Movies Thriller (1080p)",
@@ -36890,13 +36897,6 @@
     "url": "https://fl1.moveonjoy.com/National_Geographic/index.m3u8"
   },
   {
-    "name": "National Geographic HD (1080p)",
-    "tvg_id": "NationalGeographic.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NATIONAL_GEOGRAPHIC_CHANNEL/images/LOGO_HD/image.png",
-    "category": "Documentary",
-    "url": "http://66.102.120.18:8000/play/a01f/index.m3u8"
-  },
-  {
     "name": "National Geographic HD East (720p) [Not 24/7]",
     "tvg_id": "NationalGeographic.us@HDEast",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png",
@@ -36943,7 +36943,7 @@
     "tvg_id": "NationalGeographicWild.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NAT_GEO_WILD/images/LOGO_HD/image.png",
     "category": "Documentary",
-    "url": "http://66.102.120.18:8000/play/a01d/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0lt/index.m3u8"
   },
   {
     "name": "National Geographic Wild HD East (720p) [Not 24/7]",
@@ -38420,7 +38420,7 @@
     "tvg_id": "NickJr.in@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png",
     "category": "Kids",
-    "url": "http://66.102.120.18:8000/play/a00m/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0kx/index.m3u8"
   },
   {
     "name": "Nick Jr. East (720p)",
@@ -53246,7 +53246,7 @@
     "tvg_id": "Sonic.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png",
     "category": "Kids",
-    "url": "http://66.102.120.18:8000/play/a00p/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0nf/index.m3u8"
   },
   {
     "name": "Sonnenklar TV (1080p)",
@@ -53268,13 +53268,6 @@
     "logo": "https://i.imgur.com/h29rUcG.png",
     "category": "Undefined",
     "url": "http://www.sonus.fm:1935/public/stream_source/playlist.m3u8"
-  },
-  {
-    "name": "Sony BBC Earth (1080p)",
-    "tvg_id": "SonyBBCEarth.in@SD",
-    "logo": "https://i.imgur.com/XVUGLxa.png",
-    "category": "Documentary",
-    "url": "http://66.102.120.18:8000/play/a01r/index.m3u8"
   },
   {
     "name": "Sony Canal Competencias (1080p)",
@@ -53317,6 +53310,13 @@
     "logo": "https://i.imgur.com/9Qq8DKh.png",
     "category": "Undefined",
     "url": "https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8"
+  },
+  {
+    "name": "Sony Max (1080p)",
+    "tvg_id": "SonyMax.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MAX/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.167.255.18:8085/play/a0kp/index.m3u8"
   },
   {
     "name": "Sony Max 2 (576p)",
@@ -53380,6 +53380,13 @@
     "logo": "https://i.postimg.cc/Z5G8j67L/PIX-HD-WHITE.png",
     "category": "Movies",
     "url": "http://66.102.120.18:8000/play/a01z/index.m3u8"
+  },
+  {
+    "name": "Sony SAB (576p)",
+    "tvg_id": "SonySAB.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.167.255.18:8085/play/a0k8/index.m3u8"
   },
   {
     "name": "Sony Sports Ten 2 (1080p)",
@@ -54103,32 +54110,25 @@
     "url": "https://live.muzickatv.mk/live/StarMusic.m3u8"
   },
   {
-    "name": "Star Gold 2 HD (1080p)",
-    "tvg_id": "StarGold2.in@HD",
-    "logo": "https://i.imgur.com/G0ZfzZr.png",
-    "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a077/index.m3u8"
-  },
-  {
     "name": "Star Gold HD (1080p)",
     "tvg_id": "StarGold.in@HD",
     "logo": "https://i.imgur.com/xC460sj.png",
     "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a00f/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0kv/index.m3u8"
   },
   {
     "name": "Star Gold Romance (576p)",
     "tvg_id": "StarGoldRomance.in@SD",
     "logo": "https://i.imgur.com/gSWv9U3.png",
     "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a00r/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0nm/index.m3u8"
   },
   {
     "name": "Star Gold Thrills (576p)",
     "tvg_id": "StarGoldThrills.in@SD",
     "logo": "https://i.imgur.com/azqtpYh.png",
     "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a00c/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0nd/index.m3u8"
   },
   {
     "name": "STAR HD [Non geo blocked]",
@@ -54152,6 +54152,13 @@
     "url": "https://stream.castr.com/651d8d36a57bf232bc830464/live_01fd9e80636111eebd0da35d4eac7f71/index.m3u8"
   },
   {
+    "name": "Star Maa HD (1080p)",
+    "tvg_id": "StarMaa.in@HD",
+    "logo": "https://i.imgur.com/5c9PVS0.png",
+    "category": "Entertainment",
+    "url": "http://103.167.255.18:8085/play/a0nj/index.m3u8"
+  },
+  {
     "name": "Star Movies HD (1080p)",
     "tvg_id": "StarMovies.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png",
@@ -54173,46 +54180,32 @@
     "url": "https://live.muzickatv.mk/live/StarMusic2.m3u8"
   },
   {
-    "name": "Star Sports 1 HD (1080p)",
-    "tvg_id": "StarSports1.in@HD",
+    "name": "Star Sports 1 (576p)",
+    "tvg_id": "StarSports1.in@SD",
     "logo": "https://i.imgur.com/E5jjKHI.png",
     "category": "Sports",
-    "url": "http://66.102.120.18:8000/play/a009/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0ki/index.m3u8"
   },
   {
-    "name": "Star Sports 1 Hindi HD (1080p)",
-    "tvg_id": "StarSports1Hindi.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HD_HINDI/images/LOGO_HD/image.png",
-    "category": "Sports",
-    "url": "http://66.102.120.18:8000/play/a072/index.m3u8"
-  },
-  {
-    "name": "Star Sports 2 HD (1080p)",
-    "tvg_id": "StarSports2.in@HD",
+    "name": "Star Sports 2 (576p)",
+    "tvg_id": "StarSports2.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png",
     "category": "Sports",
-    "url": "http://163.61.227.29:8000/play/a069/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0jt/index.m3u8"
   },
   {
-    "name": "Star Sports 2 Hindi (1080p)",
+    "name": "Star Sports 2 Hindi (576p)",
     "tvg_id": "StarSports2Hindi.in@SD",
     "logo": "https://i.imgur.com/kHerF19.png",
     "category": "Sports",
-    "url": "http://66.102.120.18:8000/play/a00v/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0kl/index.m3u8"
   },
   {
-    "name": "Star Sports Select 1 HD (1080p)",
-    "tvg_id": "StarSportsSelect1.in@HD",
-    "logo": "https://i.imgur.com/Mh9tKPx.png",
+    "name": "Star Sports 3 (576p)",
+    "tvg_id": "StarSports3.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_3/images/LOGO_HD/image.png",
     "category": "Sports",
-    "url": "http://66.102.120.18:8000/play/a06x/index.m3u8"
-  },
-  {
-    "name": "Star Sports Select 2 HD (1080p)",
-    "tvg_id": "StarSportsSelect2.in@HD",
-    "logo": "https://i.imgur.com/FtRT73R.png",
-    "category": "Sports",
-    "url": "http://66.102.120.18:8000/play/a06y/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0jm/index.m3u8"
   },
   {
     "name": "Star Tamil Television (360p)",
@@ -54348,11 +54341,11 @@
     "url": "https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8"
   },
   {
-    "name": "StarPlus HD (1080p)",
-    "tvg_id": "StarPlus.in@HD",
+    "name": "StarPlus (576p)",
+    "tvg_id": "StarPlus.in@SD",
     "logo": "https://i.imgur.com/xWxNy3L.png",
     "category": "Entertainment",
-    "url": "http://66.102.120.18:8000/play/a008/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0k5/index.m3u8"
   },
   {
     "name": "Stars in Gefahr (1080p)",
@@ -55123,6 +55116,13 @@
     "logo": "https://i.imgur.com/HuIsALV.png",
     "category": "News",
     "url": "https://s-pl-01.mediatool.tv/playout/sepl-abr/index.m3u8"
+  },
+  {
+    "name": "Super Hungama (576p)",
+    "tvg_id": "SuperHungama.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUPER_HUNGAMA/images/LOGO_HD/image.png",
+    "category": "Animation;Kids",
+    "url": "http://103.167.255.18:8085/play/a0lk/index.m3u8"
   },
   {
     "name": "Super J TV (720p)",
@@ -56579,6 +56579,13 @@
     "logo": "https://i.postimg.cc/pVKcBKdg/telem1.png",
     "category": "Undefined",
     "url": "https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_ljzy3evp/format/applehttp/protocol/https/a.m3u8"
+  },
+  {
+    "name": "Tele Maroc (1080p)",
+    "tvg_id": "TeleMaroc.ma@SD",
+    "logo": "https://freebox.cdn.scw.iliad.fr/medium_Tele_Maroc_900x800_ffdee4d2e4.png",
+    "category": "Culture;Entertainment;News",
+    "url": "https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8"
   },
   {
     "name": "Tele Messina (1080p)",
@@ -59764,6 +59771,13 @@
     "logo": "https://i.imgur.com/0Dh1FJZ.png",
     "category": "Music",
     "url": "http://live.topestrada.com/live/topestrada/playlist.m3u8"
+  },
+  {
+    "name": "Topical Moon RD (720p) [Not 24/7]",
+    "tvg_id": "TopicalMoonRD.do@HD",
+    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3900-294x165-FFFFFF.jpg",
+    "category": "Music",
+    "url": "https://sistemastr.tropicalmoonmedia.com/live/56BE17DB16EB76C9F2DDB8346F4DFA4E/30.m3u8"
   },
   {
     "name": "Toprak TV (720p) [Not 24/7]",
@@ -70137,7 +70151,7 @@
     "tvg_id": "ZeeBollywood.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BOLLYWOOD/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a00n/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0ne/index.m3u8"
   },
   {
     "name": "Zee Business (720p)",
@@ -70145,13 +70159,6 @@
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Business.png",
     "category": "Business",
     "url": "https://dwby15d04agvq.cloudfront.net/index_1.m3u8"
-  },
-  {
-    "name": "Zee Cafe (1080p)",
-    "tvg_id": "ZeeCafe.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CAFE_HD/images/LOGO_HD/LOGO_HD_image.png",
-    "category": "Series",
-    "url": "http://66.102.120.18:8000/play/a076/index.m3u8"
   },
   {
     "name": "Zee Chitramandir (576p)",
@@ -70166,13 +70173,6 @@
     "logo": "https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zcinecla.png",
     "category": "Classic",
     "url": "https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8"
-  },
-  {
-    "name": "Zee Cinema (1080p)",
-    "tvg_id": "ZeeCinema.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_CINEMA/images/LOGO_HD/LOGO_HD_image.png",
-    "category": "Movies",
-    "url": "http://66.102.120.18:8000/play/a06w/index.m3u8"
   },
   {
     "name": "Zee Cinema APAC (1080p) [Geo-blocked]",
@@ -70280,6 +70280,13 @@
     "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8"
   },
   {
+    "name": "Zee Punjabi (576p)",
+    "tvg_id": "ZeePunjabi.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_PUNJABI/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Entertainment",
+    "url": "http://103.167.255.18:8085/play/a0ms/index.m3u8"
+  },
+  {
     "name": "Zee Rajasthan (720p)",
     "tvg_id": "ZeeRajasthan.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_RAJASTHAN_NEWS/images/LOGO_HD/LOGO_HD_image.png",
@@ -70308,11 +70315,11 @@
     "url": "https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8"
   },
   {
-    "name": "Zee TV (1080p)",
-    "tvg_id": "ZeeTV.in@HD",
+    "name": "Zee TV (576p)",
+    "tvg_id": "ZeeTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Entertainment",
-    "url": "http://66.102.120.18:8000/play/a00y/index.m3u8"
+    "url": "http://103.167.255.18:8085/play/a0k9/index.m3u8"
   },
   {
     "name": "Zee TV Canada (480p)",
@@ -70383,6 +70390,13 @@
     "logo": "https://i.imgur.com/XBHvR5J.png",
     "category": "Undefined",
     "url": "https://5ad386ff92705.streamlock.net/live_transcoder/ngrp:zindagitv.stream_all/chunklist.m3u8"
+  },
+  {
+    "name": "Zing! (576p)",
+    "tvg_id": "Zing.in@SD",
+    "logo": "https://i.postimg.cc/RVdBXkF5/zing.png",
+    "category": "Music",
+    "url": "http://103.167.255.18:8085/play/a0mx/index.m3u8"
   },
   {
     "name": "ZIZ TV (720p)",
