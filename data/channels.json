@@ -6181,13 +6181,6 @@
     "url": "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8"
   },
   {
-    "name": "Az TV (1080p)",
-    "tvg_id": "AzTV.az@SD",
-    "logo": "https://i.postimg.cc/Vkbmrxkj/aztv.png",
-    "category": "General",
-    "url": "https://str.yodacdn.net/aztv/index.m3u8"
-  },
-  {
     "name": "AZA TV HD (720p)",
     "tvg_id": "AZATVHD.hn@SD",
     "logo": "https://i.imgur.com/Jytpy32.png",
@@ -10077,7 +10070,7 @@
     "tvg_id": "Canal5.mx@SD",
     "logo": "https://i.imgur.com/uZdVSoW.png",
     "category": "General",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/a3df683f-7ba6-4012-8c2c-3cfd188c8c0c/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/f6b10fd2-1c75-472b-8ad7-f51d0076b04d/manifest.m3u8"
   },
   {
     "name": "Canal 5 Del Pueblo [Not 24/7]",
@@ -12539,7 +12532,7 @@
   {
     "name": "CDNN 23 (1080p) [Not 24/7]",
     "tvg_id": "CDNN23.ni@SD",
-    "logo": "https://i.ibb.co/6PW0s75/Cdnn23.png",
+    "logo": "https://i.imgur.com/7CNzlB6.png",
     "category": "News",
     "url": "https://cootv.cootel.com.ni:8095/Canal23_CooTel/playlist.m3u8"
   },
@@ -20510,6 +20503,13 @@
     "url": "https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8"
   },
   {
+    "name": "FashionTV Secrets (1080p)",
+    "tvg_id": "FashionTVSecrets.fr@HD",
+    "logo": "https://i.ibb.co/fVGJyCC8/w512.png",
+    "category": "Lifestyle",
+    "url": "https://ssai.aniview.com/api/v1/hls/stream.m3u8?cb=%5BCACHEBUSTER%5D&AV_WIDTH=%5BADS.W%5D&AV_HEIGHT=%5BADS.H%5D&AV_APPNAME=%5BADS.APP_NAME%5D&AV_APPSTOREURL=%5BADS.APP_STORE_URL%5D&AV_APPPKGNAME=%5BADS.APP_BUNDLE%5D&AV_IDFA=%5BADS.IFA%5D&AV_IFA_TYPE=%5BADS.IFA_TYPE%5D&AV_CCPA=%5BADS.US_PRIVACY%5D&AV_GDPR=%5BADS.GDPR%5D&AV_CONSENT=%5BADS.GDPR_CONSENT%5D&AV_CONTENT_URL=&AV_CONTENT_TITLE=&AV_CONTENT_EPISODE=&AV_CONTENT_SERIES=&AV_CONTENT_SEASON=&AV_CONTENT_KEYWORDS=&AV_CONTENT_NETWORK=&AV_CONTENT_ID=%5BADS.VIDAA_ADS_CONTENTID%5D&AV_CONTENT_CHANNEL=&AV_CONTENT_CONTEXT=&AV_CONTENT_LENGTH=&AV_VAUTH=%5BADS.VAUTH%5D&AV_DNT=%5BADS.DNT%5D&Content_Id=%5BADS.ADS_CONTENTID%5D&AV_LANGUAGE=%5BADS.DEVICE_LANGUAGE%5D&AV_RTB_DEVICE_TYPE=%5BADS.DEVICE_TYPE%5D&AV_OSVERS=%5BADS.DEVICE_OSV%5D&AVS_SSAIID=67c0c39764ad6f7dab07aa0b&AV_CONTENT_LANGUAGE=en&AV_CONTENT_GENRE=fashion%20and%20lifestyle&AV_CONTENT_CAT=IAB7&AV_CONTENT_RATING=R&AV_CLIENT_SECTION=ftv_secrets&content_channel_name=ftv%20-fashiontv%20Secrets&content_livestream=1&AV_CONTENT_PROVIDER=FTV&ads.vidaa_ads_param=1191723366"
+  },
+  {
     "name": "Fasso TV Kankan",
     "tvg_id": "FassoTVKankan.gn@SD",
     "logo": "https://i.imgur.com/xrV3Qrr.png",
@@ -21984,14 +21984,14 @@
     "tvg_id": "Galavision.us@East",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Galavision_Logo_2013.svg/512px-Galavision_Logo_2013.svg.png",
     "category": "General",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/8964b6d7-b638-454e-9959-b5fe98c53cc6/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/eb4ef379-0625-4af4-8ba7-406180cefbaa/manifest.m3u8"
   },
   {
     "name": "Galavision West (1080p)",
     "tvg_id": "Galavision.us@West",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Galavision_Logo_2013.svg/512px-Galavision_Logo_2013.svg.png",
     "category": "General",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/be5f4ade-b334-449f-8d31-1df202cdaa4d/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/9d60e35b-4ed3-4382-9f83-d84b84ff6eb6/manifest.m3u8"
   },
   {
     "name": "Galaxia TV (360p)",
@@ -27587,13 +27587,6 @@
     "url": "https://stream.kaztrk.kz/regional/taraztv/index.m3u8"
   },
   {
-    "name": "Jamuna TV (720p) [Geo-blocked]",
-    "tvg_id": "JamunaTV.bd@SD",
-    "logo": "https://www.jamuna.tv/wp-content/themes/jtv-news/img/logo.png",
-    "category": "News",
-    "url": "http://113.212.111.246:8080/hls/col12.m3u8"
-  },
-  {
     "name": "Jan TV (576p)",
     "tvg_id": "JanTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAN_TV/images/LOGO_HD/image.png",
@@ -28481,6 +28474,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KALINGA_TV/images/LOGO_HD/image.png",
     "category": "News",
     "url": "https://server.thelegitpro.in/kalingatv/kalingatv/index.fmp4.m3u8"
+  },
+  {
+    "name": "Kaloopy TV (720p)",
+    "tvg_id": "KaloopyTV.us@SD",
+    "logo": "https://i.ibb.co/Kcg56MFt/long-logo-kaloopy.jpg",
+    "category": "Lifestyle",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8"
   },
   {
     "name": "Kalsan TV (576p)",
@@ -35949,6 +35949,13 @@
     "tvg_id": "MTV.lb@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Murr_tv.png",
     "category": "General",
+    "url": "https://shls-live-enc.edgenextcdn.net/out/v1/45ad6fbe1f7149ad9f05f8aefc38f6c0/index.m3u8"
+  },
+  {
+    "name": "MTV (1080p)",
+    "tvg_id": "MTVLebanon.lb@SD",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8"
   },
   {
@@ -56056,6 +56063,13 @@
     "url": "http://iptv.eurocable.co.hu/EC-SZECSENYTVHD/index.m3u8"
   },
   {
+    "name": "Szlagier TV",
+    "tvg_id": "SzlagierTV.pl@SD",
+    "logo": "https://i.imgur.com/VQk19Ng.png",
+    "category": "General",
+    "url": "http://80.53.89.117:29980/SzlagierTV/index.m3u8"
+  },
+  {
     "name": "Szolnok TV (1080p)",
     "tvg_id": "SzolnokTV.hu@SD",
     "logo": "https://i.imgur.com/Eiab9MP.png",
@@ -61173,6 +61187,13 @@
     "url": "https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8"
   },
   {
+    "name": "TUDN (1080p)",
+    "tvg_id": "TUDN.mx@SD",
+    "logo": "https://i.imgur.com/oT5CAvd.png",
+    "category": "Undefined",
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/c84794a7-80f2-4598-a92d-f8641cc684f4/manifest.m3u8"
+  },
+  {
     "name": "TUDN (1080p) [Geo-blocked]",
     "tvg_id": "TUDN.us",
     "logo": "https://i.imgur.com/oT5CAvd.png",
@@ -62011,13 +62032,6 @@
     "logo": "https://i.postimg.cc/44KQ54H9/tvasta.png",
     "category": "General",
     "url": "https://5cce8c6f0e84c.streamlock.net/LiveCast/smil:PlayStream9.smil/playlist.m3u8"
-  },
-  {
-    "name": "TV Azteca Noreste (Info7 Monterrey) (720p)",
-    "tvg_id": "XHFNTDT1.mx@SD",
-    "logo": "https://i.imgur.com/aGup2ag.png",
-    "category": "General",
-    "url": "https://view.dacast.com/d7f35e29-5939-66ac-a823-7a68cf79aa75-live-4fc786b7-431e-b879-d9cb-9bca44d62156/adaptive.m3u8"
   },
   {
     "name": " like Gecko) Chrome/129.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV Bahia (1080i)",
@@ -64708,11 +64722,11 @@
     "url": "https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8"
   },
   {
-    "name": "TVP Info (1080p)",
+    "name": "TVP Info",
     "tvg_id": "TVPInfo.pl@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/512px-TVP_Info_logo.svg.png",
     "category": "Undefined",
-    "url": "https://turbotv.tv/play/link/8e4dcd78-bdc3-4d41-b361-13c8e8ae0efc/eyJpdiI6IlJmaEs3c2orL2JvblhSeU9oNTh6QlE9PSIsInZhbHVlIjoiMm5JOWNzYll1MXc3Mk1PNnFsTk5MR3VrRUlPQXZNWDJaT3BKcTY3UThkVWZTQjdBZm03NklVVjhpS1lLN3E2VjBoT25MYzhPL09kdnRJUGRNR3EzWVpubHlDNXNGOWh2Mlk3Rzd2TGhLbVE9IiwibWFjIjoiZmY1MTNiYzc1MDkxOWIwYWM4NWU4Y2U4YTFiZmM1MzMwMDhhMDcwYmRhMWEwYWIwNDM5YjEwNGQ3ZmE1YTgyYyIsInRhZyI6IiJ9.m3u8"
+    "url": "https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8"
   },
   {
     "name": "TVP Los Mochis (720p) [Not 24/7]",
@@ -64741,27 +64755,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png",
     "category": "Undefined",
     "url": "https://dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8"
-  },
-  {
-    "name": "TVP Rozrywka (1080p)",
-    "tvg_id": "TVPRozrywka.pl@SD",
-    "logo": "https://i.imgur.com/05Vx5px.png",
-    "category": "Undefined",
-    "url": "https://turbotv.tv/play/link/9fa40d4c-2056-435b-9cfd-a3f8a6557776/eyJpdiI6Imx3cWVqNjcvMlR6aWs0WEdLeGROc1E9PSIsInZhbHVlIjoiei8zcm12aW45YUpwWGx3Q21aZHRKYkN4RzZRenFHT000YmRMOXZyK0V6NVp0M2s1ajdNZ0lpc3hWSmlGUi80TlJLYml5Y3g1ekk1RnJDakVVOFNoL3k5TXdFcTA5dHQxbzVHQTdWSnFsZ2M9IiwibWFjIjoiYzFjMTNkYzA2NTQ4ZjhkNzZjNTQyMzVmN2E4YzkzMmI3YzM4YTQ0ZWFiMjg1ZWIxY2U0NzFiMzI2YTE2NzZmZSIsInRhZyI6IiJ9.m3u8"
-  },
-  {
-    "name": "TVP Seriale (1080p)",
-    "tvg_id": "TVPSeriale.pl@SD",
-    "logo": "https://i.imgur.com/MuRtvXk.png",
-    "category": "Series",
-    "url": "https://turbotv.tv/play/link/f1314272-bb13-4b53-bdee-d265a3627a8e/eyJpdiI6InZNakpxclQyeXNIaG9XWmg2b3RjZlE9PSIsInZhbHVlIjoiNmUvMitoYlYydm40VVNCaS82Mmlub08zazQ0d3FXakE0aWp6YWdXTHpIaDFGZEQycW45RkJKR2pXeHVkZEJYUXgyWkM3em5wTUJLaHU3QTJTMUNIWlR3blFaUm1VNm5WaENzNnN4WTZGOUE9IiwibWFjIjoiNTM2ZTdiZWE4MDcwNjhkNWM0NWExZmI3NWZiMjBhYzIxOTY5NGVjYjI5OGU1OGQwZDMzMDk2OGU1NmMyOGEyMiIsInRhZyI6IiJ9.m3u8"
-  },
-  {
-    "name": "TVP Sport (1080p)",
-    "tvg_id": "TVPSport.pl@SD",
-    "logo": "https://i.imgur.com/JUZDOCO.png",
-    "category": "Sports",
-    "url": "https://turbotv.tv/play/link/c28f5f5d-8830-4768-9452-733a1d80646f/eyJpdiI6Ik02dExRMUpoVThnUUFDYXZnSm5QbXc9PSIsInZhbHVlIjoiR2E3cysyRTJnQXVUanhsR3hxdXdHUGlkSzZsZFJiSkZ5b00xdjVTckIwTDV5cW53OE03WW9tRmg2RGxDZWZtTm9BSXZsVnVwSHpRK0Y1UnlnK3hOZGUxSVN6azlBNzI2N2FvdHBUQnlXUFk9IiwibWFjIjoiYzRhOTZhY2Y1ZjBmMzFkMWQzODJlNGY0ZjIzYWFmMjVlNDBmNjhjYmM1YzJhODQxNGY4ZjNmZTJmOTFhZTU1MiIsInRhZyI6IiJ9.m3u8"
   },
   {
     "name": "TVP World (1080p) [Geo-blocked]",
@@ -66000,7 +65993,7 @@
     "tvg_id": "UniMas.us@West",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/512px-Logo_UniM%C3%A1s_2021.svg.png",
     "category": "Undefined",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/9958ba17-71e7-4677-aa44-48d468c73d47/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/088dcd2e-054c-4503-bf84-d17aff236da5/manifest.m3u8"
   },
   {
     "name": "UniNettuno University TV (720p)",
@@ -66189,14 +66182,14 @@
     "tvg_id": "Univision.us@East",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png",
     "category": "Undefined",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/26f19622-d240-4b2a-935a-658ac9cb071b/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/cdd9a846-099d-4cec-88f1-ca083668759e/manifest.m3u8"
   },
   {
     "name": "Univision West (1080p)",
     "tvg_id": "Univision.us@West",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png",
     "category": "Undefined",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/332f0863-839a-4ecb-a160-c941de700aa4/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/49d039ca-8cc0-45a5-99b8-06910f4008d8/manifest.m3u8"
   },
   {
     "name": "Unserding (720p) [Geo-blocked]",
@@ -69921,6 +69914,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/en/9/97/X%C9%99z%C9%99r_TV_Logo.png",
     "category": "General",
     "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/xezer-tv.m3u8"
+  },
+  {
+    "name": "XHFN-TDT1 (1080p)",
+    "tvg_id": "XHFNTDT1.mx@SD",
+    "logo": "https://i.imgur.com/aGup2ag.png",
+    "category": "General",
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/9dd2f454-148b-43f2-8ad4-17f74d749895/manifest.m3u8"
   },
   {
     "name": "XilamTV (1080p)",
