@@ -9291,8 +9291,8 @@
   {
     "name": "BTB HD (1080p)",
     "tvg_id": "BTBHD.pl@SD",
-    "logo": "https://i.imgur.com/U8mcRal.png",
-    "category": "General",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.tm5ELzwtPY6t.m3u8"
   },
   {
@@ -19133,7 +19133,7 @@
   {
     "name": "Entertainment Tonight (720p)",
     "tvg_id": "EntertainmentTonight.us@SD",
-    "logo": "",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/2048px-Entertainment_Tonight_2021.svg.png",
     "category": "Entertainment;News",
     "url": "https://cbsta49f-cbsta49f-ms.global.ssl.fastly.net/amagi7b98-AmagiMixible/master/amagi7b98-AmagiMixible.m3u8"
   },
@@ -19626,13 +19626,6 @@
     "logo": "https://i.imgur.com/pFNCRnf.png",
     "category": "News",
     "url": "https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8"
-  },
-  {
-    "name": "ETV Bal Bharat (576p)",
-    "tvg_id": "ETVBalBharat.in@SD",
-    "logo": "https://i.imgur.com/zsTxPV9.png",
-    "category": "Kids",
-    "url": "https://dhoomtv.xyz/live/P4B9TB9xR8/humongous2tonight/355286.ts"
   },
   {
     "name": "ETV Cinema HD (1080p)",
@@ -30473,7 +30466,7 @@
   {
     "name": "La 2 Catalunya (720p)",
     "tvg_id": "La2Catalunya.es@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/TVE2_logo.png/330px-TVE2_logo.png",
+    "logo": "https://i.ibb.co/Lztt9rgr/La-2-Catalunya.png",
     "category": "General;Public",
     "url": "https://ztnr.rtve.es/ztnr/3987218.m3u8"
   },
@@ -35947,15 +35940,15 @@
   {
     "name": "MTV (1080p)",
     "tvg_id": "MTV.lb@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Murr_tv.png",
-    "category": "General",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://shls-live-enc.edgenextcdn.net/out/v1/45ad6fbe1f7149ad9f05f8aefc38f6c0/index.m3u8"
   },
   {
     "name": "MTV (1080p)",
     "tvg_id": "MTVLebanon.lb@SD",
-    "logo": "",
-    "category": "Undefined",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/75/Murr_tv.png",
+    "category": "General",
     "url": "https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8"
   },
   {
@@ -40833,7 +40826,7 @@
   {
     "name": "OneFM (720p) [Not 24/7]",
     "tvg_id": "OneFM.lb@SD",
-    "logo": "https://imgur.com/O4DuR9G",
+    "logo": "https://i.ibb.co/Vp2G9wTz/onefmlb.png",
     "category": "Music",
     "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8"
   },
@@ -52005,7 +51998,7 @@
   {
     "name": "SelangorTV (1080p)",
     "tvg_id": "SelangorTV.my@SD",
-    "logo": "",
+    "logo": "https://www.selangor.gov.my/selangor/resources/Image/LOGO/SelangorTV.png",
     "category": "General",
     "url": "https://live.mana2.my/SelangorTv/index.m3u8?auth_key=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd&token=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd"
   },
@@ -57486,7 +57479,7 @@
   {
     "name": "Teledeporte (1080p)",
     "tvg_id": "Teledeporte.es@SD",
-    "logo": "https://i.imgur.com/b0H5f62.png",
+    "logo": "https://i.ibb.co/0jxLdjnY/TDP.png",
     "category": "Sports",
     "url": "https://d1cctoeg0n48w5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-mnixw9wn5ugmv/TeledeporteES.m3u8"
   },
@@ -61287,7 +61280,7 @@
   {
     "name": "Tuya La Janda Television (720p)",
     "tvg_id": "TuyaLaJandaTelevision.es@SD",
-    "logo": "https://i.imgur.com/KjWuini.png",
+    "logo": "https://tuyatv.com/wp-content/uploads/2023/11/Tuya-TV-La-Janda-en-directo-Online-1-400x225.png",
     "category": "Undefined",
     "url": "https://play.agenciastreaming.com:8081/tuyaespana/tracks-v1a1/mono.m3u8"
   },
@@ -64185,14 +64178,14 @@
   {
     "name": "TVE Internacional America (1080p) [Geo-blocked]",
     "tvg_id": "TVEInternacionalAmerica.es@SD",
-    "logo": "https://i.imgur.com/iODADvi.png",
+    "logo": "https://i.ibb.co/RpKLCMvp/tve.png",
     "category": "Undefined",
     "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_1080.m3u8"
   },
   {
     "name": "TVE Internacional Asia-Oceania (1080p) [Geo-blocked]",
     "tvg_id": "TVEInternacionalAsiaOceania.es@SD",
-    "logo": "https://i.imgur.com/dwzOBZ1.png",
+    "logo": "https://i.ibb.co/RpKLCMvp/tve.png",
     "category": "Undefined",
     "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_asia_main_1080.m3u8"
   },
@@ -64220,7 +64213,7 @@
   {
     "name": "TVE Star HD",
     "tvg_id": "TVEStarHD.es@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Star-TVE-logo.png",
+    "logo": "https://i.ibb.co/j98NY8Mr/starcolor.png",
     "category": "Series",
     "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8"
   },
