@@ -6181,6 +6181,13 @@
     "url": "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8"
   },
   {
+    "name": " like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"General\",Az TV",
+    "tvg_id": "AzTV.az@SD",
+    "logo": "https://i.postimg.cc/Vkbmrxkj/aztv.png",
+    "category": "General",
+    "url": "http://109.205.166.68/server124/aztv/index3.m3u8?st=AzGSZjk1DpXY1SLc1m4OvA&e=1676581573"
+  },
+  {
     "name": "AZA TV HD (720p)",
     "tvg_id": "AZATVHD.hn@SD",
     "logo": "https://i.imgur.com/Jytpy32.png",
@@ -9296,6 +9303,13 @@
     "url": "https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.tm5ELzwtPY6t.m3u8"
   },
   {
+    "name": "BTB Music (1080p)",
+    "tvg_id": "BTBMusic.pl@HD",
+    "logo": "https://btb.j00r.us/images/logo_BTBMusic.webp",
+    "category": "Music",
+    "url": "https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8"
+  },
+  {
     "name": "BTL TV (720p) [Not 24/7]",
     "tvg_id": "BTLTV.ke@SD",
     "logo": "https://i.imgur.com/4r09woD.jpg",
@@ -10070,7 +10084,7 @@
     "tvg_id": "Canal5.mx@SD",
     "logo": "https://i.imgur.com/uZdVSoW.png",
     "category": "General",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/f6b10fd2-1c75-472b-8ad7-f51d0076b04d/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/c219e4b7-9521-4cbc-b94e-7e002ec43462/manifest.m3u8"
   },
   {
     "name": "Canal 5 Del Pueblo [Not 24/7]",
@@ -14427,6 +14441,20 @@
     "url": "http://163.61.227.29:8000/play/a04c/index.m3u8"
   },
   {
+    "name": "Colors Gujarati (1080p)",
+    "tvg_id": "ColorsGujarati.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_GUJARATI/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.140.254.2:3500/live/196.m3u8"
+  },
+  {
+    "name": "Colors Gujarati Cinema (576p)",
+    "tvg_id": "ColorsGujaratiCinema.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_GUJARATI_CINEMA/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.140.254.2:3500/live/1324.m3u8"
+  },
+  {
     "name": "Colors HD (1080p)",
     "tvg_id": "Colors.in@HD",
     "logo": "https://i.imgur.com/M8uCJ0D.png",
@@ -17073,6 +17101,13 @@
     "url": "http://103.167.255.18:8085/play/a0kq/index.m3u8"
   },
   {
+    "name": "Disney Channel (1080p)",
+    "tvg_id": "DisneyChannel.pl@SD",
+    "logo": "https://i.postimg.cc/854KwmH1/disneychannel.png",
+    "category": "Kids",
+    "url": "https://liveovh011.cda.pl/enc103/disneychannelhdraw/disneychannelhdraw.m3u8"
+  },
+  {
     "name": "Disney Channel (576p)",
     "tvg_id": "DisneyChannel.pt@SD",
     "logo": "https://i.postimg.cc/854KwmH1/disneychannel.png",
@@ -19087,6 +19122,20 @@
     "logo": "",
     "category": "Undefined",
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63921a1bf76e7d0007c998a6/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=8e06d816-1f2c-11ef-86d8-5d587df108c6&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=7931c2bb-1392-4543-8cc4-684661cfd449"
+  },
+  {
+    "name": "ENT Channel (720p)",
+    "tvg_id": "ENTChannel.uk@HD",
+    "logo": "https://static.elektamedia.com/ch/entch.png",
+    "category": "Entertainment",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8"
+  },
+  {
+    "name": "ENT Family (720p)",
+    "tvg_id": "ENTFamily.uk@HD",
+    "logo": "https://static.elektamedia.com/ch/entf.png",
+    "category": "Entertainment",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8"
   },
   {
     "name": "Entelevisión (720p)",
@@ -44548,6 +44597,13 @@
     "url": "https://rrr.sz.xlcdn.com/?account=ndc_mediagroep&file=NDC3&output=playlist.m3u8&service=wowza&type=live"
   },
   {
+    "name": "Pogoda24 TV (1080p)",
+    "tvg_id": "Pogoda24TV.pl@SD",
+    "logo": "https://i.ibb.co/d0GfMcSs/114731.jpg",
+    "category": "Undefined",
+    "url": "http://80.53.89.117:29980/Pogoda24/index.m3u8"
+  },
+  {
     "name": "Pointless (1080p)",
     "tvg_id": "",
     "logo": "",
@@ -51884,6 +51940,13 @@
     "url": "https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/609404b0a8ec810007d8de9d/master.m3u8?advertisingId={PSID}&appVersion=unknown&deviceDNT={TARGETOPT}&deviceId={PSID}&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain={APP_DOMAIN}&samsung_app_name={APP_NAME}&us_privacy=1YNY"
   },
   {
+    "name": "Schie TV (576i)",
+    "tvg_id": "SchieTV.nl@SD",
+    "logo": "https://i.postimg.cc/TYNdJKCv/schietv.png",
+    "category": "Undefined",
+    "url": "https://d2n2i1jp4j20kw.cloudfront.net/nlpo/clr-nlpo/schietv/index.m3u8"
+  },
+  {
     "name": "Schladming-Dachstein TV (720p)",
     "tvg_id": "SchladmingDachsteinTV.at@SD",
     "logo": "https://i.ibb.co/VjnzhMM/Logo-Schl-Dachstein-TV-HP-JPG.jpg",
@@ -52367,7 +52430,7 @@
     "url": "https://broadcaster-1.cclouds.in/srt-2/channel2_abr/playlist.m3u8"
   },
   {
-    "name": "Shalom World Australia (1080p)",
+    "name": "Shalom World Australia (1080p) [Geo-blocked]",
     "tvg_id": "ShalomWorld.us@Australia",
     "logo": "https://i.imgur.com/wnNd3b8.png",
     "category": "Religious",
@@ -53590,6 +53653,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_MAX/images/LOGO_HD/image.png",
     "category": "Movies",
     "url": "http://103.178.78.151:7505/play/a1vx/index.m3u8"
+  },
+  {
+    "name": "Sony Max (576p)",
+    "tvg_id": "SonyMax.uk@SD",
+    "logo": "https://i.imgur.com/LBICKI5.png",
+    "category": "Undefined",
+    "url": "http://cors.tundracast.com:2000/https://streamer2.nexgen.bz/SONYMAX/index.m3u8"
   },
   {
     "name": "Sony Max 2 (576p)",
@@ -57575,6 +57645,13 @@
     "url": "http://live.sloode.com:1935/telegranda_live/C2AD-0664-DC75-4744/playlist.m3u8"
   },
   {
+    "name": "Telehit Musica",
+    "tvg_id": "TelehitMusica.mx@SD",
+    "logo": "https://i.imgur.com/CofYjWh.png",
+    "category": "Music",
+    "url": "http://190.61.55.34:2401/play/a06t/index.m3u8"
+  },
+  {
     "name": "Teleimpacto (720p) [Not 24/7]",
     "tvg_id": "Teleimpacto.do@SD",
     "logo": "https://i.imgur.com/dBEysOV.png",
@@ -60359,6 +60436,41 @@
     "logo": "https://i.imgur.com/1gIpagY.png",
     "category": "Kids",
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d0c16d686454ead733d08f8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2c73e9-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3441abd1-12dc-4351-b79d-3b4eb58dc339"
+  },
+  {
+    "name": "Totalmusic (720p)",
+    "tvg_id": "Totalmusic.uk@HD",
+    "logo": "https://static.elektamedia.com/ch/tmc_main.png",
+    "category": "Music",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8"
+  },
+  {
+    "name": "Totalmusic 80s (720p)",
+    "tvg_id": "Totalmusic80s.uk@HD",
+    "logo": "https://static.elektamedia.com/ch/tmc_80s.png",
+    "category": "Music",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8"
+  },
+  {
+    "name": "Totalmusic 2000s (720p)",
+    "tvg_id": "Totalmusic2000s.uk@HD",
+    "logo": "https://static.elektamedia.com/ch/tmc_00s.png",
+    "category": "Music",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8"
+  },
+  {
+    "name": "Totalmusic Concerts (720p)",
+    "tvg_id": "TotalmusicConcerts.uk@HD",
+    "logo": "https://static.elektamedia.com/ch/tmc_concerts.png",
+    "category": "Music",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8"
+  },
+  {
+    "name": "Totalmusic Dance (720p)",
+    "tvg_id": "TotalmusicDance.uk@HD",
+    "logo": "https://static.elektamedia.com/ch/tmc_dance.png",
+    "category": "Music",
+    "url": "https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8"
   },
   {
     "name": "Totovisión (720p)",
@@ -64043,6 +64155,13 @@
     "url": "https://tvce.gridpapaservers.com/TVCSEPT/ngrp:myStream_all/playlist.m3u8"
   },
   {
+    "name": "TVC (1080p)",
+    "tvg_id": "TVC.pl@SD",
+    "logo": "https://i.imgur.com/1Wmib2f.png",
+    "category": "Undefined",
+    "url": "http://80.53.89.117:29980/TVC/index.m3u8"
+  },
+  {
     "name": "TVC Bénin (720p)",
     "tvg_id": "TVCBenin.bj@SD",
     "logo": "https://i.imgur.com/oUnEYl5.png",
@@ -64062,6 +64181,13 @@
     "logo": "https://i.imgur.com/jaSq18B.png",
     "category": "News",
     "url": "https://viamotionhsi.netplus.ch/live/eds/tvcnews/browser-HLS8/tvcnews.m3u8"
+  },
+  {
+    "name": "TVC Super (1080p)",
+    "tvg_id": "TVCSuper.pl@SD",
+    "logo": "https://i.postimg.cc/6pRQ69fs/tvcsuper.png",
+    "category": "Undefined",
+    "url": "http://80.53.89.117:29980/TVCSuper/index.m3u8"
   },
   {
     "name": "TVC-Rio",
@@ -64552,6 +64678,13 @@
     "logo": "https://i.imgur.com/i57Vst6.png",
     "category": "Undefined",
     "url": "https://cdnapisec.kaltura.com/p/1719221/sp/171922100/playManifest/entryId/1_t5h46v64/format/applehttp/protocol/https/a.m3u8"
+  },
+  {
+    "name": "TVO Jesus (720p)",
+    "tvg_id": "TVOJesus.es@SD",
+    "logo": "https://tvomix.com/Logos/Tvojesus.png",
+    "category": "Undefined",
+    "url": "https://cloud.tvomix.com/TVOJESUS/index.m3u8"
   },
   {
     "name": "TVO San Vicente (720p)",
@@ -65986,7 +66119,7 @@
     "tvg_id": "UniMas.us@West",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/512px-Logo_UniM%C3%A1s_2021.svg.png",
     "category": "Undefined",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/088dcd2e-054c-4503-bf84-d17aff236da5/manifest.m3u8"
+    "url": "https://d162h6qqsk8wvl.cloudfront.net/bc36a614-a1b9-4b3b-9ba1-60f084f5ba5d/manifest.m3u8"
   },
   {
     "name": "UniNettuno University TV (720p)",
@@ -69655,6 +69788,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
     "category": "Undefined",
     "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8"
+  },
+  {
+    "name": "WTK (1080p)",
+    "tvg_id": "WTK.pl@SD",
+    "logo": "https://i.imgur.com/RG8X3to.png",
+    "category": "General",
+    "url": "http://80.53.89.117:29980/WTK/index.m3u8"
   },
   {
     "name": "WTMO-CD1",
