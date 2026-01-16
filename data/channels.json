@@ -14336,6 +14336,13 @@
     "url": "http://103.140.254.2:3500/live/756.m3u8"
   },
   {
+    "name": "Colors Bangla Cinema (576p)",
+    "tvg_id": "ColorsBanglaCinema.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA_CINEMA/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.140.254.2:3500/live/1657.m3u8"
+  },
+  {
     "name": "Colors Cineplex (576p)",
     "tvg_id": "ColorsCineplex.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png",
@@ -14392,6 +14399,13 @@
     "url": "http://66.102.120.18:8000/play/a014/index.m3u8"
   },
   {
+    "name": "Colors Infinity (576p)",
+    "tvg_id": "ColorsInfinity.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.140.254.2:3500/live/1325.m3u8"
+  },
+  {
     "name": "Colors Kannada (1080p)",
     "tvg_id": "ColorsKannada.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_HD/images/LOGO_HD/image.png",
@@ -14399,11 +14413,32 @@
     "url": "http://103.140.254.2:3500/live/757.m3u8"
   },
   {
+    "name": "Colors Kannada (576p)",
+    "tvg_id": "ColorsKannada.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.140.254.2:3500/live/1370.m3u8"
+  },
+  {
+    "name": "Colors Kannada Cinema (576p)",
+    "tvg_id": "ColorsKannadaCinema.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_CINEMA/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.140.254.2:3500/live/1632.m3u8"
+  },
+  {
     "name": "Colors Marathi (1080p)",
     "tvg_id": "ColorsMarathi.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "http://103.140.254.2:3500/live/755.m3u8"
+  },
+  {
+    "name": "Colors Marathi (576p)",
+    "tvg_id": "ColorsMarathi.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.140.254.2:3500/live/1326.m3u8"
   },
   {
     "name": "Colors Rishtey Asia (1080p) [Not 24/7]",
@@ -14418,6 +14453,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_SUPER/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "http://103.140.254.2:3500/live/785.m3u8"
+  },
+  {
+    "name": "Colors Tamil (576p)",
+    "tvg_id": "ColorsTamil.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.140.254.2:3500/live/1371.m3u8"
   },
   {
     "name": "Colors Tamil HD (1080p)",
@@ -18547,7 +18589,7 @@
     "tvg_id": "EfarinaTV.id@SD",
     "logo": "https://i.imgur.com/iYTimXh.png",
     "category": "General",
-    "url": "https://live.efarinatv.net/hls/stream123/index.m3u8"
+    "url": "https://live.efarinatv.com/hls/bgtaufikganteng.m3u8"
   },
   {
     "name": "Egg Network (720p)",
@@ -30375,14 +30417,14 @@
   {
     "name": "La 1 Canarias (720p)",
     "tvg_id": "La1Canarias.es@SD",
-    "logo": "https://i.imgur.com/RqUJ4oj.png",
+    "logo": "https://i.ibb.co/MxJNPHsn/La-1.png",
     "category": "General;Public",
     "url": "https://ztnr.rtve.es/ztnr/5190066.m3u8"
   },
   {
     "name": "La 1 Catalunya (720p)",
     "tvg_id": "La1Catalunya.es@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_La_1.svg/330px-Logo_La_1.svg.png",
+    "logo": "https://i.ibb.co/MxJNPHsn/La-1.png",
     "category": "General;Public",
     "url": "https://ztnr.rtve.es/ztnr/3293681.m3u8"
   },
@@ -30410,7 +30452,7 @@
   {
     "name": "La 2 Canarias (720p)",
     "tvg_id": "La2Canarias.es@SD",
-    "logo": "https://i.imgur.com/iwDi3ND.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Logo_La_2_Canarias.png/512px-Logo_La_2_Canarias.png",
     "category": "General;Public",
     "url": "https://ztnr.rtve.es/ztnr/5468585.m3u8"
   },
@@ -37268,6 +37310,13 @@
     "url": "https://amg00884-nbcuniversal-wanews-xumo-oamde.amagi.tv/playlist.m3u8"
   },
   {
+    "name": "NBC 5 Chicago Live News (1080p)",
+    "tvg_id": "WMAQDT1.us",
+    "logo": "https://i.imgur.com/wblxisu.png",
+    "category": "Undefined",
+    "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI"
+  },
+  {
     "name": "NBC 5 Dallas-Fort Worth TX (KXAS) [Geo-blocked]",
     "tvg_id": "KXASDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
@@ -37357,13 +37406,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://nbcu-nbcchicagonews-firetv.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "NBC Chicago WMAQ-DT1",
-    "tvg_id": "WMAQDT1.us@SD",
-    "logo": "https://i.imgur.com/wblxisu.png",
-    "category": "Undefined",
-    "url": "https://fl1.moveonjoy.com/IL_Chicago_NBC/index.m3u8"
   },
   {
     "name": "NBC Comedy Vault",
@@ -40548,7 +40590,7 @@
     "tvg_id": "OmropFryslan.nl@SD",
     "logo": "https://i.imgur.com/khacDTU.png",
     "category": "General",
-    "url": "https://d3pvma9xb2775h.cloudfront.net/live/omropfryslan/stream04/index.m3u8"
+    "url": "https://s-d15f8b0b.b.cdn.bluebillywig.com/live/omropfryslan/f8f68bd5/index.m3u8"
   },
   {
     "name": "Omstars (1080p)",
@@ -44595,6 +44637,20 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png",
     "category": "News",
     "url": "https://lb2-e3-20.pluscdn.pl/lv/1511888/322/dash/52a9b70b/live.mpd"
+  },
+  {
+    "name": "Polsat Viasat Explore (1080p)",
+    "tvg_id": "PolsatViasatExplore.pl@SD",
+    "logo": "https://i.imgur.com/gDlqO9h.png",
+    "category": "Documentary",
+    "url": "https://liveovh010.cda.pl/enc107/polsatviasatexplorehdraw/polsatviasatexplorehdraw.mpd"
+  },
+  {
+    "name": "Polsat Viasat History (1080p)",
+    "tvg_id": "PolsatViasatHistory.pl@SD",
+    "logo": "https://i.imgur.com/X16UGUf.png",
+    "category": "Documentary",
+    "url": "https://liveovh010.cda.pl/enc105/polsatviasathistoryhdraw/polsatviasathistoryhdraw.mpd"
   },
   {
     "name": "Polsat Viasat Nature (1080p)",
@@ -52587,7 +52643,7 @@
     "name": "Shubhsandesh TV (720p) [Not 24/7]",
     "tvg_id": "ShubhsandeshTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHUBHSANDESH_TV/images/LOGO_HD/image.png",
-    "category": "Undefined",
+    "category": "Religious",
     "url": "https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8"
   },
   {
@@ -55219,7 +55275,7 @@
     "name": "Subhavaartha TV (720p)",
     "tvg_id": "SubhavaarthaTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUBHAVAARTHA/images/LOGO_HD/image.png",
-    "category": "News",
+    "category": "Religious",
     "url": "https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8"
   },
   {
@@ -70628,6 +70684,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://tgn.bozztv.com/gin-dvrfl05/ga-zeealwan/index.m3u8"
+  },
+  {
+    "name": "Zee Bangla (360p)",
+    "tvg_id": "ZeeBangla.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_HD/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Entertainment",
+    "url": "http://103.140.254.2:3500/live/625.m3u8"
   },
   {
     "name": "Zee Bharat (720p)",
