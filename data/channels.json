@@ -2296,13 +2296,6 @@
     "url": "https://live20.bozztv.com/giatv/giatv-adoram/adoram/chunks.m3u8"
   },
   {
-    "name": "Adventure Earth (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8"
-  },
-  {
     "name": "Adventure Earth (1080p)",
     "tvg_id": "AdventureEarth.de@SD",
     "logo": "https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/adventureearth_white.png",
@@ -6587,13 +6580,6 @@
     "url": "https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8"
   },
   {
-    "name": "Banijay Mr Bean Classic",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8"
-  },
-  {
     "name": "Banjar TV (720p) [Not 24/7]",
     "tvg_id": "BanjarTV.id@SD",
     "logo": "https://i.imgur.com/TA76a10.png",
@@ -7604,7 +7590,7 @@
   {
     "name": "beIN Sports USA",
     "tvg_id": "beINSportsUSA.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bein_Sports_Logo.svg/512px-Bein_Sports_Logo.svg.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png",
     "category": "Sports",
     "url": "http://fl1.moveonjoy.com/BEIN_SPORTS/index.m3u8"
   },
@@ -7698,6 +7684,13 @@
     "logo": "https://i.imgur.com/ifGQGJx.png",
     "category": "General",
     "url": "http://wz4.dnip.com.br/bemtv/bemtv.sdp/playlist.m3u8"
+  },
+  {
+    "name": "Bendicion Channel (720p)",
+    "tvg_id": "BendicionChannel.co@HD",
+    "logo": "https://i.imgur.com/yKzV7m7.png",
+    "category": "Religious",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/bendiciontv7/playlist.m3u8"
   },
   {
     "name": "Benguturk TV (1080p)",
@@ -18123,6 +18116,13 @@
     "url": "http://cdn12.henico.net:8080/live/dncal/index.m3u8"
   },
   {
+    "name": "Duma TV",
+    "tvg_id": "DumaTV.ru@SD",
+    "logo": "https://i.imgur.com/JvlO3PU.png",
+    "category": "Legislative",
+    "url": "https://dumatv.iptv2022.com/tracks-v2a1/mono.m3u8"
+  },
+  {
     "name": "Duna (720p)",
     "tvg_id": "Duna.hu@SD",
     "logo": "https://i.imgur.com/oPbsSlp.png",
@@ -20123,13 +20123,6 @@
     "logo": "https://i.imgur.com/xw1IWoO.png",
     "category": "Music",
     "url": "https://ythls.armelin.one/channel/UCXxTnMoETkhNTmsqZc0JMhQ.m3u8"
-  },
-  {
-    "name": "Exitosa (720p)",
-    "tvg_id": "ExitosaTV.pe@SD",
-    "logo": "https://i.imgur.com/pu0BSB7.png",
-    "category": "News",
-    "url": "https://luna-1-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a3cb0e3243c/video.m3u8"
   },
   {
     "name": "Exodus TV (720p)",
@@ -26681,14 +26674,7 @@
     "tvg_id": "IndonesianaTV.id@SD",
     "logo": "https://i.imgur.com/192wiS1.png",
     "category": "Entertainment",
-    "url": "https://kbtv.akamaized.net/hls/live/2031188/kanalbuya/playlist.m3u8"
-  },
-  {
-    "name": "Indosiar (1080p)",
-    "tvg_id": "Indosiar.id@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Indosiar_2015.svg/512px-Indosiar_2015.svg.png",
-    "category": "General",
-    "url": "http://203.77.246.58:4500/udp/239.1.1.110:5000"
+    "url": "https://tvstreamcast.com/indonesiana.m3u8"
   },
   {
     "name": "Indywood TV (720p)",
@@ -34132,13 +34118,6 @@
     "url": "http://54.36.110.140/live3/live3.m3u8"
   },
   {
-    "name": "Medeniyyet TV (406p)",
-    "tvg_id": "MedeniyyetTV.az@SD",
-    "logo": "https://i.imgur.com/PlvaDIa.png",
-    "category": "Culture",
-    "url": "https://str.yodacdn.net/medeniyyet/index.m3u8"
-  },
-  {
     "name": "Medi1TV Afrique (1080p)",
     "tvg_id": "Medi1TVAfrique.ma@SD",
     "logo": "https://i.imgur.com/a20DHnj.png",
@@ -35824,6 +35803,13 @@
     "logo": "https://i.imgur.com/d8dQo6E.png",
     "category": "Religious",
     "url": "https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8"
+  },
+  {
+    "name": "Mr Bean Live Action (1080p)",
+    "tvg_id": "MrBeanLiveAction.uk@SD",
+    "logo": "https://d2yv6y0n3qsl5c.cloudfront.net/MBEANP/MrBeanLiveAction-LG_LOGO_800x200.png",
+    "category": "Comedy;Kids",
+    "url": "https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8"
   },
   {
     "name": "Mr. Bean Animated (1080p)",
@@ -60172,6 +60158,13 @@
     "url": "https://restreamer1.tnt.ba/hls/tntkids.m3u8"
   },
   {
+    "name": "TNT Music",
+    "tvg_id": "TNTMusic.ru@SD",
+    "logo": "https://i.imgur.com/RenuH4S.png",
+    "category": "Music",
+    "url": "https://tntm.mediacdn.ru/cdn/tntmusic/tracks-v2a1/mono.ts.m3u8?filter.tracks=v1v2v3v4v5a1"
+  },
+  {
     "name": "TNTV (1080p)",
     "tvg_id": "TNTV.pf@SD",
     "logo": "https://i.imgur.com/e5eVHam.png",
@@ -65065,13 +65058,6 @@
     "url": "http://85.186.22.140/testing/pl5/playlist/ram/playlist.m3u8"
   },
   {
-    "name": "TVPM (1080p)",
-    "tvg_id": "TVPM.pl@SD",
-    "logo": "https://i.imgur.com/qnGfxCp.png",
-    "category": "Religious",
-    "url": "https://s68.ipcamlive.com/streams/44s3oc0kjuyiwgxrk/stream.m3u8"
-  },
-  {
     "name": "TVR (1080p) [Not 24/7]",
     "tvg_id": "TVR.cl@SD",
     "logo": "https://i.postimg.cc/prDRDZw3/TVR-Logo.png",
@@ -67142,13 +67128,6 @@
     "logo": "https://i.imgur.com/D7SwmuB.png",
     "category": "Music",
     "url": "https://amg00056-amg00056c13-rakuten-es-3246.playouts.now.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "Vevo Pop (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
     "name": "Vevo Pop (1080p)",
@@ -69294,9 +69273,9 @@
   },
   {
     "name": "Willow Sports (1080p) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "WillowSports.us@SD",
+    "logo": "https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png",
+    "category": "Sports",
     "url": "https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
@@ -69601,11 +69580,11 @@
     "url": "https://e5.thetvapp.to/hls/WNET/index.m3u8"
   },
   {
-    "name": "WNJU-DT1",
+    "name": "WNJU-DT1 (1080p) [Not 24/7]",
     "tvg_id": "WNJUDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png",
     "category": "Undefined",
-    "url": "http://d029dcec.kazmazpaz.ru/iptv/T6XNCP6L7LLKPD/1080/index.m3u8"
+    "url": "https://tvpass.org/live/TelemundoEast/hd"
   },
   {
     "name": "WNYW-DT1 (1080p)",
@@ -69895,6 +69874,13 @@
     "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wpxibreaking-ono/playlist.m3u8"
   },
   {
+    "name": "WPXN-DT1",
+    "tvg_id": "WPXNDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/512px-Ion_logo.svg.png",
+    "category": "Undefined",
+    "url": "http://143.244.60.30/ION_TV/index.m3u8"
+  },
+  {
     "name": "WPXN-DT7",
     "tvg_id": "WPXNDT7.us@SD",
     "logo": "https://i.imgur.com/UfN6aAi.png",
@@ -70110,6 +70096,13 @@
     "logo": "https://i.imgur.com/l4qHAq6.png",
     "category": "Entertainment",
     "url": "https://tv2.fastcast4u.com:3943/stream/play.m3u8"
+  },
+  {
+    "name": "WWOR-DT1",
+    "tvg_id": "WWORDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/MyNetworkTV_2D_Logo.svg/512px-MyNetworkTV_2D_Logo.svg.png",
+    "category": "Undefined",
+    "url": "http://37c18028.akadatel.com/iptv/T6XNCP6L7LLKPD/1088/mpegts"
   },
   {
     "name": "WWXY-DT1 (Boricua TV) (1080p)",
@@ -70679,13 +70672,6 @@
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/642d4493aa2d690008f0a03f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc86d9b6-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=cb788c52-b6d0-48f4-99a5-61f412d9e79b"
   },
   {
-    "name": "Yu-Gi-Oh! (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8"
-  },
-  {
     "name": "Yu-Gi-Oh!",
     "tvg_id": "YuGiOh.us@SD",
     "logo": "https://i.imgur.com/Tl6aW2u.png",
@@ -70980,7 +70966,7 @@
     "url": "http://103.167.255.18:8085/play/a0ne/index.m3u8"
   },
   {
-    "name": "Zee Business (720p)",
+    "name": "Zee Business (576p)",
     "tvg_id": "ZeeBusiness.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Business.png",
     "category": "Business",
@@ -71811,13 +71797,6 @@
     "logo": "https://i.imgur.com/8h3kOI1.png",
     "category": "News",
     "url": "http://176.110.1.30:1935/live/donbasonline/playlist.m3u8"
-  },
-  {
-    "name": "Дума ТВ",
-    "tvg_id": "DumaTV.ru@SD",
-    "logo": "https://i.imgur.com/JvlO3PU.png",
-    "category": "Legislative",
-    "url": "https://dumatv.iptv2022.com/index.m3u8"
   },
   {
     "name": "Евразия (Орск) (720p)",
@@ -73330,13 +73309,6 @@
     "logo": "https://i.imgur.com/l0RGbRI.png",
     "category": "Entertainment",
     "url": "https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8"
-  },
-  {
-    "name": "ТНТ MUSIC",
-    "tvg_id": "TNTMusic.ru@SD",
-    "logo": "https://i.imgur.com/RenuH4S.png",
-    "category": "Music",
-    "url": "https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8"
   },
   {
     "name": "Толк HD",
