@@ -273,6 +273,13 @@
     "url": "http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8"
   },
   {
+    "name": "4 Fun Dance (576i)",
+    "tvg_id": "4FunDance.pl@SD",
+    "logo": "https://i.imgur.com/ZEWHe1B.png",
+    "category": "Music",
+    "url": "https://turbotv.io/play/link/df87adf6-2f94-4826-9a14-5f228536a969/eyJpdiI6IjkrTk0vMFlmNlhXNjFmRWY5MnRaYkE9PSIsInZhbHVlIjoiWW40T2tNZkhXWmhrU09COGx5S0dCQUVrSnZDQStLOVF5Mk4vNldXd0RwUjVOdnM3aWt3S3RnNUdCK0djRE1Xa0ZobnF0TmZMRGF5MllLbXZtRE9HMktSanpDalREQVdNaUJLQWdHazNOeVU9IiwibWFjIjoiMjBhZTU5OTk2MTcyYTFiZDYyODA5ZjNkY2Q2ODVlOTE1Yzg1MGE1N2NhYmQ4OGM3MDQxZWFlZTcxNmUzNjg1YSIsInRhZyI6IiJ9.m3u8"
+  },
+  {
     "name": "4 Fun Kids (576i) [[Not 24/7]]",
     "tvg_id": "4FunKids.pl@SD",
     "logo": "https://i.imgur.com/2JO5Y8c.png",
@@ -1111,13 +1118,6 @@
     "logo": "https://i.imgur.com/300c1ZH.png",
     "category": "Entertainment",
     "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8"
-  },
-  {
-    "name": "&flix (480p)",
-    "tvg_id": "Andflix.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDFLIX/images/LOGO_HD/LOGO_HD_image.png",
-    "category": "Movies",
-    "url": "https://edge3-moblive.yuppcdn.net/drm/smil:nflixdrm.smil/index.m3u8"
   },
   {
     "name": "&prive HD (1080p)",
@@ -4487,6 +4487,13 @@
     "url": "https://cdn-1.pishow.tv/live/993/master.m3u8"
   },
   {
+    "name": "Anmol Cinema (576p)",
+    "tvg_id": "AnmolCinema.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Movies",
+    "url": "http://116.90.120.152:8000/play/a0j6/index.m3u8"
+  },
+  {
     "name": "Anmol Cinema 2 (576p)",
     "tvg_id": "AnmolCinema2.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_ANMOL_CINEMA_2/images/LOGO_HD/LOGO_HD_image.png",
@@ -7597,7 +7604,7 @@
   {
     "name": "BeIN SPORTS XTRA (1080p) [Geo-blocked]",
     "tvg_id": "beINSPORTSXTRA.us@SD",
-    "logo": "https://i.imgur.com/uJosqHh.png",
+    "logo": "https://i.ibb.co/HT49GPmB/XTRA-2.png",
     "category": "Sports",
     "url": "https://amg01334-beinsportsllc-beinxtra-samsungau-eiyvc.amagi.tv/playlist/amg01334-beinsportsllc-beinxtra-samsungau/playlist.m3u8"
   },
@@ -9714,6 +9721,13 @@
     "logo": "https://i.imgur.com/SRFzjja.png",
     "category": "Undefined",
     "url": "https://srvx1.selftv.video/cafe/live/playlist.m3u8"
+  },
+  {
+    "name": "Cahaya TV Banten",
+    "tvg_id": "CahayaTVBanten.id@SD",
+    "logo": "https://i.imgur.com/Ph9yYpb.png",
+    "category": "Undefined",
+    "url": "http://175.158.57.130:8888/stream/channelid/1716535390"
   },
   {
     "name": "Caillou",
@@ -14385,13 +14399,6 @@
     "url": "http://177.234.247.66:9975/ColoradosTV/index.m3u8"
   },
   {
-    "name": "Colors (576p)",
-    "tvg_id": "Colors.in@SD",
-    "logo": "https://i.imgur.com/M8uCJ0D.png",
-    "category": "Entertainment",
-    "url": "http://103.178.78.151:7505/play/a1sd/index.m3u8"
-  },
-  {
     "name": "Colors Bangla (1080p)",
     "tvg_id": "ColorsBangla.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png",
@@ -14406,13 +14413,6 @@
     "url": "http://103.140.254.2:3500/live/1657.m3u8"
   },
   {
-    "name": "Colors Cineplex (576p)",
-    "tvg_id": "ColorsCineplex.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png",
-    "category": "Movies",
-    "url": "http://103.167.255.18:8085/play/a0km/index.m3u8"
-  },
-  {
     "name": "Colors Cineplex Bollywood (576p)",
     "tvg_id": "ColorsCineplexBollywood.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_BOLLYWOOD/images/LOGO_HD/image.png",
@@ -14424,7 +14424,7 @@
     "tvg_id": "ColorsCineplex.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://103.167.255.18:8085/play/a0kr/index.m3u8"
+    "url": "http://116.90.120.152:8000/play/a0ji/index.m3u8"
   },
   {
     "name": "Colors Cineplex Superhits (576p)",
@@ -14452,14 +14452,7 @@
     "tvg_id": "Colors.in@HD",
     "logo": "https://i.imgur.com/M8uCJ0D.png",
     "category": "Entertainment",
-    "url": "http://103.167.255.18:8085/play/a0kf/index.m3u8"
-  },
-  {
-    "name": "Colors Infinity (1080p)",
-    "tvg_id": "ColorsInfinity.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png",
-    "category": "Entertainment",
-    "url": "http://66.102.120.18:8000/play/a014/index.m3u8"
+    "url": "http://116.90.120.152:8000/play/a0gt/index.m3u8"
   },
   {
     "name": "Colors Infinity (576p)",
@@ -14467,6 +14460,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "http://103.140.254.2:3500/live/1325.m3u8"
+  },
+  {
+    "name": "Colors Infinity HD (1080p)",
+    "tvg_id": "ColorsInfinity.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.140.254.2:3500/live/1158.m3u8"
   },
   {
     "name": "Colors Kannada (1080p)",
@@ -17154,7 +17154,7 @@
     "tvg_id": "DisneyChannel.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png",
     "category": "Kids",
-    "url": "http://103.167.255.18:8085/play/a0kq/index.m3u8"
+    "url": "http://116.90.120.152:8000/play/a0jg/index.m3u8"
   },
   {
     "name": "Disney Channel (1080p)",
@@ -17196,7 +17196,7 @@
     "tvg_id": "DisneyInternationalHD.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_INTERNATIONAL_HD/images/LOGO_HD/image.png",
     "category": "Kids",
-    "url": "http://103.167.255.18:8085/play/a0ld/index.m3u8"
+    "url": "http://116.90.120.152:8000/play/a0hp/index.m3u8"
   },
   {
     "name": "Disney Jr.",
@@ -17217,7 +17217,7 @@
     "tvg_id": "DisneyJunior.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_JUNIOR/images/LOGO_HD/image.png",
     "category": "Kids",
-    "url": "http://103.167.255.18:8085/play/a0k7/index.m3u8"
+    "url": "http://116.90.120.152:8000/play/a0gu/index.m3u8"
   },
   {
     "name": "Disney Junior East",
@@ -18002,62 +18002,6 @@
     "logo": "https://www.dmi.gov.ae/content/dam/corporate/dev/2023/elogos-ar/dubaione-logo.png",
     "category": "General",
     "url": "https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai Racing (1080p)",
-    "tvg_id": "DubaiRacing.ae@SD",
-    "logo": "https://i.imgur.com/CJ1dagP.png",
-    "category": "Sports",
-    "url": "https://dmisdracta.cdn.mgmlcdn.com/events/smil:events.stream.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai Racing 2 (1080p)",
-    "tvg_id": "DubaiRacing2.ae@SD",
-    "logo": "https://i.imgur.com/H2TTn7t.png",
-    "category": "Sports",
-    "url": "https://dmithrvllta.cdn.mgmlcdn.com/dubairacing/smil:dubairacing.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai Racing 3 (1080p)",
-    "tvg_id": "DubaiRacing3.ae@SD",
-    "logo": "https://i.imgur.com/Vg4fxmc.png",
-    "category": "Sports",
-    "url": "https://dmithrvllta.cdn.mgmlcdn.com/dubaimubasher/smil:dubaimubasher.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai Sports 1 (1080p)",
-    "tvg_id": "DubaiSports1.ae@SD",
-    "logo": "https://i.imgur.com/Poxw8lG.png",
-    "category": "Sports",
-    "url": "https://dmidspta.cdn.mgmlcdn.com/dubaisports/smil:dubaisports.stream.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai Sports 2 (720p)",
-    "tvg_id": "DubaiSports2.ae@SD",
-    "logo": "https://i.postimg.cc/qRHqQ87Z/dubaisports2.png",
-    "category": "Sports",
-    "url": "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai Sports 3 (1080p) [Not 24/7]",
-    "tvg_id": "DubaiSports3.ae@SD",
-    "logo": "https://i.postimg.cc/hj8jYfz4/dubaisports3.png",
-    "category": "Sports",
-    "url": "https://dmitwlvvll.cdn.mgmlcdn.com/dubaisportshd5/smil:dubaisportshd5.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai TV (1080p)",
-    "tvg_id": "DubaiTV.ae@SD",
-    "logo": "https://i.imgur.com/UMmbyHv.png",
-    "category": "General",
-    "url": "https://dmieigthvllta.cdn.mgmlcdn.com/dubaitvht/smil:dubaitv.stream.smil/chunklist.m3u8"
-  },
-  {
-    "name": "Dubai Zaman (1080p) [Not 24/7]",
-    "tvg_id": "DubaiZaman.ae@SD",
-    "logo": "https://www.dmi.gov.ae/content/dam/corporate/dev/2023/elogos-ar/dubaizaman.png",
-    "category": "Classic",
-    "url": "https://dmiffthftl.cdn.mangomolo.com/dubaizaman/smil:dubaizaman.stream.smil/chunklist.m3u8"
   },
   {
     "name": "Duck Dynasty",
@@ -20123,6 +20067,13 @@
     "logo": "https://i.imgur.com/xw1IWoO.png",
     "category": "Music",
     "url": "https://ythls.armelin.one/channel/UCXxTnMoETkhNTmsqZc0JMhQ.m3u8"
+  },
+  {
+    "name": "Exitosa TV [Not 24/7]",
+    "tvg_id": "ExitosaTV.pe@SD",
+    "logo": "https://i.imgur.com/pu0BSB7.png",
+    "category": "News",
+    "url": "https://luna-3-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8"
   },
   {
     "name": "Exodus TV (720p)",
@@ -22771,11 +22722,11 @@
     "url": "https://media2021.rtvweb.com/giovannipaolotv/web/playlist.m3u8"
   },
   {
-    "name": "Girasol TV (720p)",
+    "name": "Girasol TV (1080p)",
     "tvg_id": "GirasolTV.hn@SD",
     "logo": "https://i.imgur.com/2t7A2yg.png",
     "category": "Entertainment",
-    "url": "https://video.misistemareseller.com/Girasoltv/Girasoltv/playlist.m3u8"
+    "url": "https://59d39900ebfb8.streamlock.net:443/girasoltv/girasoltv/playlist.m3u8"
   },
   {
     "name": "Girovisual (720p)",
@@ -29428,6 +29379,13 @@
     "url": "http://83.167.253.107/hdmi1_ext"
   },
   {
+    "name": "Kino Polska (1080p)",
+    "tvg_id": "KinoPolska.pl@SD",
+    "logo": "https://i.postimg.cc/qMf5xw2d/kinopolska.png",
+    "category": "Movies",
+    "url": "https://liveovh010.cda.pl/enc005/kinopolskahdraw/kinopolskahdraw.mpd"
+  },
+  {
     "name": "Kinoteatr (1080p)",
     "tvg_id": "Kinoteatr.uz@SD",
     "logo": "https://i.postimg.cc/QdhYRM64/kinoteatr.png",
@@ -30371,6 +30329,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KUSHI_TV/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Kids",
     "url": "http://103.140.254.2:3500/live/558.m3u8"
+  },
+  {
+    "name": "KVEA-DT1",
+    "tvg_id": "KVEADT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png",
+    "category": "General",
+    "url": "http://104.238.205.28:9090/278661_.m3u8"
   },
   {
     "name": "KVF (720p) [Not 24/7]",
@@ -37149,6 +37114,13 @@
     "url": "https://live.nasul.tv/live/stream.m3u8"
   },
   {
+    "name": "Nat Geo People (1080p)",
+    "tvg_id": "NatGeoPeople.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/512px-New_NatGeo_People_logo.svg.png",
+    "category": "Culture",
+    "url": "https://liveovh010.cda.pl/enc024/natgeopeoplehdraw/natgeopeoplehdraw.mpd"
+  },
+  {
     "name": "NAT TV (1080p)",
     "tvg_id": "",
     "logo": "",
@@ -38792,6 +38764,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png",
     "category": "Kids",
     "url": "http://103.167.255.18:8085/play/a0kx/index.m3u8"
+  },
+  {
+    "name": "Nick Jr. (1080p)",
+    "tvg_id": "NickJr.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/512px-Nick_Jr._logo_2023_(outline).svg.png",
+    "category": "Kids",
+    "url": "https://liveovh010.cda.pl/enc010/nickjrraw/nickjrraw.mpd"
   },
   {
     "name": "Nick Jr. East (720p)",
@@ -41725,6 +41704,13 @@
     "logo": "https://i.imgur.com/sj5h9bl.png",
     "category": "Movies",
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a7819-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a4a0712-cb24-4d05-b429-1b98c1f73f74"
+  },
+  {
+    "name": "Paramount Network (1080p)",
+    "tvg_id": "ParamountNetwork.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png",
+    "category": "Movies;Series",
+    "url": "https://liveovh010.cda.pl/enc028/paramountnetworkhdraw/paramountnetworkhdraw.mpd"
   },
   {
     "name": "Paramount Network East",
@@ -44800,11 +44786,25 @@
     "url": "http://cdn-s-lb2.pluscdn.pl/lv/1517830/349/dash/81ec4c32/live.mpd"
   },
   {
+    "name": "Polsat News 2 (1080p)",
+    "tvg_id": "PolsatNews2.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Polsat_News_2_2021_gradient.svg/512px-Polsat_News_2_2021_gradient.svg.png",
+    "category": "News",
+    "url": "https://turbotv.io/play/link/75409b46-e472-4a51-9077-abd80596670f/eyJpdiI6Ik9uRkVaekdYWDUxSU9GbTF2Mm9YR2c9PSIsInZhbHVlIjoiNy9Gc3NQWXNPSFZFeFcybVBOcWYyM1JyUDRIUVFCemhOeFVLUmJjQys0VWR6VFhnMHh0L3ZmQ1VIOCsrQUN4Y2tVdldRQ3RHV2NqL3psQmtPNlJtS0dqY1ZvV3hqNVp5WllvWFZ0U0dJdVE9IiwibWFjIjoiN2EwZTJhNDhiNTBlZjAwMDlhYzczYzE2NGNlODQ1YWQ0OWNmYWMwYjk0ZTUyN2E4ODE1OTg4MzYwNzA1ZDFhMCIsInRhZyI6IiJ9.m3u8"
+  },
+  {
     "name": "Polsat News Polityka (1080p) [Geo-blocked]",
     "tvg_id": "PolsatNewsPolityka.pl@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png",
     "category": "News",
     "url": "https://lb2-e3-20.pluscdn.pl/lv/1511888/322/dash/52a9b70b/live.mpd"
+  },
+  {
+    "name": "Polsat Rodzina (1080p)",
+    "tvg_id": "PolsatRodzina.pl@SD",
+    "logo": "https://i.imgur.com/IS0AW48.png",
+    "category": "Undefined",
+    "url": "https://turbotv.io/play/link/97155b27-7b0c-4af7-9b67-a9ae172d89bf/eyJpdiI6IkdDTWN5bG8zTlpiSTFPdDhXbERSRUE9PSIsInZhbHVlIjoiRHJqdWhFRWdnN2p0ZjRHOEloWjcwNUVldmw4b2l0VjJ0Z2g1ZXFueWtQMU9ldzN2aFVwL1laeVVGNDFaVW1lUGhoQ2praGNsWVdCb212NUd1Y1N6VXBLSzF6bDd5TDZ3WjRQL0MxSlBRcUE9IiwibWFjIjoiNmQwNTc3N2UwNWUzZjQzOGJjMmE0MmM0YjYxMWQ4ZWZiZDg3ODQzNjIyOTY1ZTI2Y2FkMzQwMWVkN2FlYTY1MSIsInRhZyI6IiJ9.m3u8"
   },
   {
     "name": "Polsat Viasat Explore (1080p)",
@@ -51478,13 +51478,6 @@
     "url": "https://58de7a369a9c4.streamlock.net/salvetv/ngrp:stream_720p_web/playlist.m3u8"
   },
   {
-    "name": "Sama Dubai (1080p)",
-    "tvg_id": "SamaDubai.ae@SD",
-    "logo": "https://i.imgur.com/F5g3ymW.png",
-    "category": "General",
-    "url": "https://dmieigthvllta.cdn.mgmlcdn.com/samadubaiht/smil:samadubai.stream.smil/chunklist.m3u8"
-  },
-  {
     "name": "Samaa TV (576p)",
     "tvg_id": "SamaaTV.pk@SD",
     "logo": "https://i.imgur.com/r3U4A1P.png",
@@ -53858,13 +53851,6 @@
     "url": "http://103.178.78.151:7505/play/a1qd/index.m3u8"
   },
   {
-    "name": "Sony Sports Ten 2 (1080p)",
-    "tvg_id": "SonySportsTen2.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png",
-    "category": "Sports",
-    "url": "http://66.102.120.18:8000/play/a01y/index.m3u8"
-  },
-  {
     "name": "Sony Sports Ten 3 (576p)",
     "tvg_id": "SonySportsTen3.in@SD",
     "logo": "",
@@ -56084,13 +56070,6 @@
     "url": "https://svt-live-channel.akamaized.net/l6/se/svt2/master-fmp4.m3u8?defaultSubLang=1&format=hls"
   },
   {
-    "name": "SVT24 (1080p) [Geo-blocked]",
-    "tvg_id": "SVT24.se@HD",
-    "logo": "https://i.imgur.com/Ms6qYIV.png",
-    "category": "Undefined",
-    "url": "https://svt-live-channel.akamaized.net/l6/se/svtb/master-fmp4.m3u8?defaultSubLang=1&format=hls"
-  },
-  {
     "name": "SVT Barn/SVT24 (1080p) [Geo-blocked]",
     "tvg_id": "SVTBarnSVT24.se@HD",
     "logo": "https://i.imgur.com/uMEwuTH.png",
@@ -57979,6 +57958,13 @@
     "logo": "https://i.imgur.com/4nspLHb.png",
     "category": "Undefined",
     "url": "https://5940924978228.streamlock.net/8431/8431/playlist.m3u8"
+  },
+  {
+    "name": "Telemundo",
+    "tvg_id": "Telemundo.us@East",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png",
+    "category": "General",
+    "url": "http://cors.tundracast.com:2000/https://streamer2.nexgen.bz/77-TELEMUNDO/index.m3u8"
   },
   {
     "name": "Telemundo Accion",
@@ -67312,6 +67298,13 @@
     "url": "http://89.254.128.5:22280/viasat_kino_action/index.m3u8"
   },
   {
+    "name": "Viasat True Crime",
+    "tvg_id": "ViasatTrueCrime.pl@HD",
+    "logo": "https://i.postimg.cc/1zN8bGfQ/viasattruecrime.png",
+    "category": "Undefined",
+    "url": "https://liveovh010.cda.pl/enc006/viasattruecrimeraw/viasattruecrimeraw.mpd"
+  },
+  {
     "name": "viàTéléPaese (720p)",
     "tvg_id": "viaTelePaese.fr@SD",
     "logo": "https://i.imgur.com/TLZsAKK.png",
@@ -69489,6 +69482,13 @@
     "url": "https://fl1.moveonjoy.com/TN_NASHVILLE_ABC/index.m3u8"
   },
   {
+    "name": "WKTB-CD2",
+    "tvg_id": "WKTBCD2.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png",
+    "category": "Undefined",
+    "url": "http://104.238.205.28:9090/278659_.m3u8"
+  },
+  {
     "name": "WLMB",
     "tvg_id": "WLMB.us@SD",
     "logo": "https://i.imgur.com/KeELZ1Y.png",
@@ -69580,11 +69580,11 @@
     "url": "https://e5.thetvapp.to/hls/WNET/index.m3u8"
   },
   {
-    "name": "WNJU-DT1 (1080p) [Not 24/7]",
+    "name": "WNJU-DT1",
     "tvg_id": "WNJUDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png",
     "category": "Undefined",
-    "url": "https://tvpass.org/live/TelemundoEast/hd"
+    "url": "http://cors.tundracast.com:2000/https://streamer2.nexgen.bz/77-TELEMUNDO/mpegts"
   },
   {
     "name": "WNYW-DT1 (1080p)",
@@ -71139,6 +71139,13 @@
     "logo": "https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png",
     "category": "Movies",
     "url": "https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8"
+  },
+  {
+    "name": "Zee Talkies HD (1080p)",
+    "tvg_id": "ZeeTalkies.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Movies",
+    "url": "http://103.52.34.182:8001/play/a04r/index.m3u8"
   },
   {
     "name": "Zee Telugu News (720p)",
