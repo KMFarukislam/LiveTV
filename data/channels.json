@@ -32508,10 +32508,10 @@
     "url": "https://streamer2.nexgen.bz/01-LOVE/index.m3u8"
   },
   {
-    "name": "Love The Planet [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "name": "Love The Planet (1080p) [Geo-blocked]",
+    "tvg_id": "LoveThePlanet.es@SD",
+    "logo": "https://i.imgur.com/RBcD49X.png",
+    "category": "Documentary",
     "url": "https://amg01821-lovetv-amg01821c8-xumo-us-3443.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
@@ -47642,13 +47642,6 @@
     "url": "https://cdn-1.pishow.tv/live/1213/master.m3u8"
   },
   {
-    "name": "Raj News (576p)",
-    "tvg_id": "RajNews.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_NEWS_TAMIL/images/LOGO_HD/image.png",
-    "category": "News",
-    "url": "http://103.140.254.2:3500/live/767.m3u8"
-  },
-  {
     "name": "Raj News Kannada (576p) [Not 24/7]",
     "tvg_id": "RajNewsKannada.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_NEWS_KANNADA/images/LOGO_HD/image.png",
@@ -52878,10 +52871,10 @@
     "url": "https://59nyqa5elwap-hls-live.5centscdn.com/Sharq/eec89088ee408b80387155272b113256.sdp/playlist.m3u8"
   },
   {
-    "name": "Shaun the Sheep & Friends",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "name": "Shaun the Sheep & Friends (1080p)",
+    "tvg_id": "ShauntheSheepFriends.uk@US",
+    "logo": "https://provider-static.plex.tv/epg/cms/production/b1e2118d-e2f3-4cfe-a227-2b0c7ab664e5/Shaunthesheepandfriends_a_476x476_-_cleo_Parfitt-StarRDXr.png",
+    "category": "Animation;Kids",
     "url": "https://aar-shaun-xumo.otteravision.com/aar/shaun/shaun.m3u8"
   },
   {
@@ -53718,10 +53711,10 @@
     "url": "http://122.248.43.242:1935/SMTV/_definst_/myStream/playlist.m3u8"
   },
   {
-    "name": "SNL Vault",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "name": "SNL Vault (1080p)",
+    "tvg_id": "SNLVault.us@SD",
+    "logo": "https://provider-static.plex.tv/epg/cms/production/712dae9e-9111-4bbc-8ea4-242e891ab5b3/snl-vault-fclogo-72-dpi-1500-x-1000-3-2-channel-logo-dark-plex-1.png",
+    "category": "Comedy",
     "url": "https://xumo-xumoent-vc-103-d3uqt.fast.nbcuni.com/live/master.m3u8"
   },
   {
@@ -55809,13 +55802,6 @@
     "logo": "https://i.postimg.cc/2yqxg2Km/sunrtv.png",
     "category": "Undefined",
     "url": "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8"
-  },
-  {
-    "name": "Sun TV (1080p)",
-    "tvg_id": "SunTV.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_TV/images/LOGO_HD/image.png",
-    "category": "Entertainment",
-    "url": "https://livestream10.sunnxt.com/DolbyVision/SunTV_HDR/SunTV_HDR_Endpoints/SunTV-HDR10-IN-index.m3u8"
   },
   {
     "name": "Sundance TV East",
