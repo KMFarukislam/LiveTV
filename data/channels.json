@@ -441,6 +441,13 @@
     "url": "http://cdn6.163189.xyz/163189/8tv"
   },
   {
+    "name": "8XM (576p)",
+    "tvg_id": "8XM.pk@SD",
+    "logo": "https://i.imgur.com/KLrfKRn.png",
+    "category": "Music",
+    "url": "https://ml-pull-dvc-myco.io:2096/8XM_MUSIC/index.m3u8"
+  },
+  {
     "name": "9Gem (720p) [Geo-blocked]",
     "tvg_id": "9Gem.au@Sydney",
     "logo": "https://i.imgur.com/cwLzqaw.png",
@@ -3059,13 +3066,6 @@
     "url": "https://streaming.najah.edu:8443/hls/AlNajah.m3u8"
   },
   {
-    "name": "Al Nujaba",
-    "tvg_id": "AlNujabaTV.iq@SD",
-    "logo": "https://i.postimg.cc/g0Ncyv3p/alnujabatv.png",
-    "category": "News",
-    "url": "http://63b03f7689049.streamlock.net:1935/live/3/playlist.m3u8"
-  },
-  {
     "name": "Al Qamar TV (1080p)",
     "tvg_id": "AlQamarTV.ae@SD",
     "logo": "https://i.imgur.com/zkBT0C8.png",
@@ -3337,13 +3337,6 @@
     "logo": "https://i.imgur.com/5nYjRlb.png",
     "category": "Religious",
     "url": "https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8"
-  },
-  {
-    "name": "Alcance TV",
-    "tvg_id": "AlcanceTV.ve@SD",
-    "logo": "https://i.imgur.com/veeuqS1.png",
-    "category": "Religious",
-    "url": "https://videolatam.com:3516/live/tjjqdqurlive.m3u8"
   },
   {
     "name": "Alcarria TV (576p) [Not 24/7]",
@@ -5303,14 +5296,7 @@
     "tvg_id": "AsharqNews.sa@SD",
     "logo": "https://i.imgur.com/bqRC3sl.png",
     "category": "Business;News",
-    "url": "https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8"
-  },
-  {
-    "name": "Asharq News Portrait (1280p)",
-    "tvg_id": "AsharqNewsPortrait.sa@SD",
-    "logo": "https://i.imgur.com/bqRC3sl.png",
-    "category": "Business;News",
-    "url": "https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/6203311941001/playlist.m3u8"
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-asharq/10ae30c64e21402c8116a7fb1e5aa789/index.m3u8"
   },
   {
     "name": "Asharq Radio (1080p)",
@@ -9174,7 +9160,7 @@
     "tvg_id": "BrioTV.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Brio_TV.png",
     "category": "Entertainment",
-    "url": "http://103.140.254.2:3500/live/3381.m3u8"
+    "url": "https://mumt02.tangotv.in/BRIOTV/index.m3u8"
   },
   {
     "name": "Brionnais TV (720p)",
@@ -11645,7 +11631,7 @@
     "tvg_id": "Captain.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Captain.png",
     "category": "Entertainment",
-    "url": "http://103.140.254.2:3500/live/3069.m3u8"
+    "url": "https://mumt01.tangotv.in/CAPTAIN/index.m3u8"
   },
   {
     "name": "Car Chase",
@@ -19537,6 +19523,13 @@
     "url": "https://ncdn.telewebion.com/eshragh/live/playlist.m3u8"
   },
   {
+    "name": "Eska TV (1080p)",
+    "tvg_id": "EskaTV.pl@SD",
+    "logo": "https://i.imgur.com/N0eH0Cg.png",
+    "category": "Music",
+    "url": "https://cdn.kinoteka.cc/weebtv/gen.m3u8.php?id=eska__tvmusic"
+  },
+  {
     "name": "Eslah TV (720p)",
     "tvg_id": "EslahTV.af@SD",
     "logo": "https://i.imgur.com/To7VnsA.png",
@@ -20160,11 +20153,11 @@
     "url": "https://ythls.armelin.one/channel/UCXxTnMoETkhNTmsqZc0JMhQ.m3u8"
   },
   {
-    "name": "Exitosa TV [Not 24/7]",
+    "name": "Exitosa TV (720p) [Not 24/7]",
     "tvg_id": "ExitosaTV.pe@SD",
     "logo": "https://i.imgur.com/pu0BSB7.png",
     "category": "News",
-    "url": "https://luna-3-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8"
+    "url": "https://luna-4-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8"
   },
   {
     "name": "Exodus TV (720p)",
@@ -21315,6 +21308,13 @@
     "url": "https://cdne.folxplay.tv/folx-trz/streams/ch-5/master.m3u8"
   },
   {
+    "name": "FomixTV (1080p)",
+    "tvg_id": "FomixTV.nl@HD",
+    "logo": "https://i.imgur.com/7SLYEMG.png",
+    "category": "General;Music;Public",
+    "url": "https://stream.fomixmedia.nl/FomixTV/video.m3u8"
+  },
+  {
     "name": "Főnix TV (576p)",
     "tvg_id": "FonixTV.hu@SD",
     "logo": "https://i.ibb.co/ZMRpGqY/6171.png",
@@ -21397,13 +21397,6 @@
     "logo": "https://i.postimg.cc/bwb9v94m/formula.png",
     "category": "News",
     "url": "https://c4635.cdn.xsg.ge/c4635/TVFormula/index.m3u8"
-  },
-  {
-    "name": "Formula 1 Channel",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65c69ee3d77d450008c80438/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f172-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=922e06a8-1ba6-4236-9931-06d471735996"
   },
   {
     "name": "Foro TV (1080p)",
@@ -25205,6 +25198,13 @@
     "logo": "https://www.lyngsat.com/logo/tv/hh/homeplus.png",
     "category": "Movies",
     "url": "https://homeplushls.wns.live/hls/stream.m3u8"
+  },
+  {
+    "name": "Home TV (1080p)",
+    "tvg_id": "HomeTV.pl@SD",
+    "logo": "https://i.imgur.com/qAFR1Cr.png",
+    "category": "Undefined",
+    "url": "https://liveovh011.cda.pl/enc124/hometvhdraw/hometvhdraw.m3u8"
   },
   {
     "name": "Home.Made.Nation",
@@ -32830,6 +32830,13 @@
     "url": "https://limited2.todostreaming.es/live/m95-livestream.m3u8"
   },
   {
+    "name": "M Nadu TV (576p)",
+    "tvg_id": "MNaduTV.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/M_Nadu.png",
+    "category": "News",
+    "url": "https://mumt01.tangotv.in/MNADU/index.m3u8"
+  },
+  {
     "name": "M Sign Media (720p) [Not 24/7]",
     "tvg_id": "MSignMedia.in@SD",
     "logo": "https://i.imgur.com/8fdUkOl.png",
@@ -34734,18 +34741,18 @@
     "url": "https://cdn.gunadarma.ac.id/streams/mgstv/ingestmgstv.m3u8"
   },
   {
-    "name": "Mh 1 Music (576p) [Not 24/7]",
+    "name": "Mh 1 Music (576p)",
     "tvg_id": "Mh1Music.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MH1/images/LOGO_HD/image.png",
     "category": "Music",
-    "url": "http://103.140.254.2:3500/live/742.m3u8"
+    "url": "https://mumt04.tangotv.in/MHONE/index.m3u8"
   },
   {
-    "name": "Mh 1 News (576p) [Not 24/7]",
+    "name": "Mh 1 News (360p)",
     "tvg_id": "Mh1News.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Mh_One_News.png",
     "category": "News",
-    "url": "http://103.140.254.2:3500/live/511.m3u8"
+    "url": "https://livestream.jswk.online/mhonenews/live/index.m3u8"
   },
   {
     "name": "MH One Dil Se (576p)",
@@ -37870,13 +37877,6 @@
     "url": "https://nbcu-telemundowest-firetv.amagi.tv/playlist.m3u8"
   },
   {
-    "name": "NBN (1080p)",
-    "tvg_id": "NBN.lb@SD",
-    "logo": "https://i.imgur.com/EefFcIk.png",
-    "category": "Undefined",
-    "url": "http://5.9.119.146:8883/nbn/index.m3u8"
-  },
-  {
     "name": "NBS Korea Agricultural Broadcasting (720p)",
     "tvg_id": "NBS.kr@SD",
     "logo": "https://i.imgur.com/pOSroOE.png",
@@ -39345,13 +39345,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/c/ce/Qum_Noor_TV.svg/288px-Qum_Noor_TV.svg.png",
     "category": "Undefined",
     "url": "https://ncdn.telewebion.com/noor/live/playlist.m3u8"
-  },
-  {
-    "name": "Noor Dubai (1080p)",
-    "tvg_id": "NoorDubai.ae@SD",
-    "logo": "https://i.imgur.com/Nwl8Y7K.png",
-    "category": "Religious",
-    "url": "https://dmiffthftl.cdn.mangomolo.com/noordubaitv/smil:noordubaitv.smil/chunklist.m3u8"
   },
   {
     "name": "Noor TV (720p)",
@@ -52665,7 +52658,7 @@
     "tvg_id": "SferaTV.pl@SD",
     "logo": "https://i.imgur.com/aK7xfKi.png",
     "category": "Undefined",
-    "url": "http://stream.sferatv.pl:1935/sferalive/smil:sferalive.smil/playlist.m3u8"
+    "url": "https://stream.sferatv.pl/sferatvlive/live.m3u8"
   },
   {
     "name": "SFGovTV2 San Francisco The City Channel (720p)",
@@ -53240,6 +53233,13 @@
     "logo": "https://i.imgur.com/Ap9K1lj.png",
     "category": "News",
     "url": "http://66.102.120.18:8000/play/a03z/index.m3u8"
+  },
+  {
+    "name": "Sindo News TV",
+    "tvg_id": "SindoNewsTV.id@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/SindoNewsTV_2023.png/375px-SindoNewsTV_2023.png",
+    "category": "News",
+    "url": "http://202.80.222.20/cdn/iptv/Tvod/001/channel2000115/1024.m3u8"
   },
   {
     "name": "Sinop Yildiz TV (360p)",
@@ -56165,7 +56165,7 @@
     "tvg_id": "SuriyaTV.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/suryatvtamil.png",
     "category": "Entertainment",
-    "url": "http://103.140.254.2:3500/live/3394.m3u8"
+    "url": "https://galaxyott.live/hls/suryatv.m3u8"
   },
   {
     "name": "Suriyan TV (1080p)",
@@ -60555,6 +60555,13 @@
     "logo": "https://i.imgur.com/S6Su6QH.png",
     "category": "Auto;Entertainment",
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64c109735dc1660008a4a2dc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b215b51-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=55fb26fd-5dba-40cd-a0b1-8de7d0f78acb"
+  },
+  {
+    "name": "Top Kids HD (1080p)",
+    "tvg_id": "TopKids.pl@HD",
+    "logo": "https://i.imgur.com/8Clhlrp.png",
+    "category": "Kids",
+    "url": "https://liveovh010.cda.pl/enc116/topkidshdraw/topkidshdraw.m3u8"
   },
   {
     "name": "Top Million Dollar Agent",
@@ -66500,13 +66507,6 @@
     "url": "https://live.enhdtv.com:8081/8192/index.m3u8"
   },
   {
-    "name": "UniMas West (1080p)",
-    "tvg_id": "UniMas.us@West",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Logo_UniM%C3%A1s_2021.svg/512px-Logo_UniM%C3%A1s_2021.svg.png",
-    "category": "Undefined",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/bc36a614-a1b9-4b3b-9ba1-60f084f5ba5d/manifest.m3u8"
-  },
-  {
     "name": "UniNettuno University TV (720p)",
     "tvg_id": "UniNettunoUniversityTV.it@SD",
     "logo": "https://i.imgur.com/c9So8nf.png",
@@ -66687,20 +66687,6 @@
     "logo": "https://i.imgur.com/KeauaSh.png",
     "category": "Undefined",
     "url": "https://vdo.digitalbox.xyz:3986/live/unitvlive.m3u8"
-  },
-  {
-    "name": "Univision (1080p)",
-    "tvg_id": "Univision.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png",
-    "category": "Undefined",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/cdd9a846-099d-4cec-88f1-ca083668759e/manifest.m3u8"
-  },
-  {
-    "name": "Univision West (1080p)",
-    "tvg_id": "Univision.us@West",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Logo_Univision_2019.svg/512px-Logo_Univision_2019.svg.png",
-    "category": "Undefined",
-    "url": "https://d162h6qqsk8wvl.cloudfront.net/49d039ca-8cc0-45a5-99b8-06910f4008d8/manifest.m3u8"
   },
   {
     "name": "Unserding (720p) [Geo-blocked]",
@@ -71417,7 +71403,7 @@
     "name": "Zee TV UK HD (720p)",
     "tvg_id": "ZeeTVUK.uk@HD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Zee_TV_Logo_2025.svg/512px-Zee_TV_Logo_2025.svg.png",
-    "category": "Undefined",
+    "category": "Entertainment",
     "url": "http://cors.tundracast.com:2000/https://streamer2.nexgen.bz/ZEE/index.m3u8"
   },
   {
