@@ -3339,6 +3339,13 @@
     "url": "https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8"
   },
   {
+    "name": "Alcance TV (720p)",
+    "tvg_id": "AlcanceTV.ve@SD",
+    "logo": "https://i.imgur.com/veeuqS1.png",
+    "category": "Religious",
+    "url": "https://rv100.globalhost1.com:3516/live/tjjqdqurlive.m3u8"
+  },
+  {
     "name": "Alcarria TV (576p) [Not 24/7]",
     "tvg_id": "AlcarriaTV.es@SD",
     "logo": "https://i.imgur.com/pzJAYan.png",
@@ -4751,6 +4758,13 @@
     "logo": "https://static.wikia.nocookie.net/logos/images/1/1a/ANTV_2023.png/revision/latest/scale-to-width-down/512?path-prefix=vi",
     "category": "Undefined",
     "url": "https://ott1.nethubtv.vn/live/antv/playlist.m3u8"
+  },
+  {
+    "name": "ANTV (576i)",
+    "tvg_id": "ANTV.id@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Antv_logo.svg/512px-Antv_logo.svg.png",
+    "category": "General",
+    "url": "http://202.80.222.20/cdn/iptv/Tvod/001/channel2000022/1024.m3u8"
   },
   {
     "name": "ANTV HD (1080p)",
@@ -10017,13 +10031,6 @@
     "url": "http://138.117.4.70:8075/Canal04_CooTelmnbv/playlist.m3u8"
   },
   {
-    "name": "Canal 4 (1080p) [Not 24/7]",
-    "tvg_id": "Canal4.sv@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/512px-Canal_4_TCS.png",
-    "category": "General",
-    "url": "http://tmp-sv3.teleon.live:8080/play/a011/index.m3u8"
-  },
-  {
     "name": "Canal 4 Catalunya (1080p)",
     "tvg_id": "Canal4Catalunya.es@SD",
     "logo": "https://i.imgur.com/tQh8C3s.png",
@@ -12453,11 +12460,11 @@
     "url": "http://123.175.209.52:9003/hls/13/index.m3u8"
   },
   {
-    "name": "CCTV-13新闻 (2160p)",
+    "name": "CCTV-13 (1080p)",
     "tvg_id": "CCTV13.cn@SD",
     "logo": "https://i.imgur.com/6MTar6J.png",
     "category": "News",
-    "url": "http://123.175.209.52:9003/hls/14/index.m3u8"
+    "url": "https://cdn3.163189.xyz/163189/cctv13"
   },
   {
     "name": "CCTV-14 (2160p)",
@@ -14532,18 +14539,11 @@
     "url": "http://103.140.254.2:3500/live/785.m3u8"
   },
   {
-    "name": "Colors Tamil (576p)",
+    "name": "Colors Tamil (720p)",
     "tvg_id": "ColorsTamil.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png",
     "category": "Entertainment",
-    "url": "http://103.140.254.2:3500/live/1371.m3u8"
-  },
-  {
-    "name": "Colors Tamil HD (1080p)",
-    "tvg_id": "ColorsTamil.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png",
-    "category": "Entertainment",
-    "url": "http://103.140.254.2:3500/live/429.m3u8"
+    "url": "http://15.235.144.106:14052/"
   },
   {
     "name": "Colosal TV (720p) [Not 24/7]",
@@ -21334,13 +21334,6 @@
     "logo": "https://i.imgur.com/7q2BmNc.png",
     "category": "Religious",
     "url": "http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8"
-  },
-  {
-    "name": "Food Food (576p)",
-    "tvg_id": "FoodFood.in@SD",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Food_Food.png",
-    "category": "Cooking;Lifestyle",
-    "url": "http://103.140.254.2:3500/live/561.m3u8"
   },
   {
     "name": "FoodTime",
@@ -34503,6 +34496,13 @@
     "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mensuptv.m3u8"
   },
   {
+    "name": "Mentari TV (576i)",
+    "tvg_id": "MentariTV.id@SD",
+    "logo": "https://i.imgur.com/QkTgy1M.png",
+    "category": "Family",
+    "url": "http://175.158.57.130:8888/stream/channelid/641828885"
+  },
+  {
     "name": "Mercan TV (576p) [Not 24/7]",
     "tvg_id": "MercanTV.tr@SD",
     "logo": "https://i.imgur.com/3CWV8bS.png",
@@ -36043,6 +36043,13 @@
     "url": "https://pplive.comquas.com:5443/LiveApp/streams/w3g3EYjBtqgJ1677679288037.m3u8"
   },
   {
+    "name": "MRTV NRC",
+    "tvg_id": "MRTVNRC.mm@SD",
+    "logo": "https://i.imgur.com/5aLFslk.jpg",
+    "category": "Culture",
+    "url": "https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8"
+  },
+  {
     "name": "MSG (720p)",
     "tvg_id": "MSG.us@SD",
     "logo": "https://i.imgur.com/SEQFh0P.png",
@@ -36799,11 +36806,11 @@
     "url": "https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8"
   },
   {
-    "name": "MV Lao TV [Geo-blocked]",
+    "name": "MV Lao TV",
     "tvg_id": "MVLaoTV.la@SD",
     "logo": "https://i.imgur.com/oVlQUKM.png",
     "category": "Entertainment",
-    "url": "https://n-edge-1-th.v2h-cdn.com/mvlao/mvlao/playlist.m3u8"
+    "url": "https://edge2a.v2h-cdn.com/mvlao/mvlao.stream/playlist.m3u8"
   },
   {
     "name": "MV Mall DD (1080p)",
@@ -45493,6 +45500,13 @@
     "url": "https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH"
   },
   {
+    "name": "Prima (1080p)",
+    "tvg_id": "Prima.cz@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Prima_2013.png/512px-Prima_2013.png",
+    "category": "Undefined",
+    "url": "http://88.212.15.19/live/prima_avc_25p/playlist.m3u8"
+  },
+  {
     "name": "Prima TV Napoli (720p)",
     "tvg_id": "PrimaTVNapoli.it@SD",
     "logo": "https://i.imgur.com/48BCOUZ.png",
@@ -53004,13 +53018,6 @@
     "url": "https://raw.githubusercontent.com/UzunMuhalefet/yayinlar/main/streams/best/showmax.m3u8"
   },
   {
-    "name": "Show TV (1080p)",
-    "tvg_id": "ShowTV.tr@SD",
-    "logo": "https://i.imgur.com/1l7SCCu.png",
-    "category": "Undefined",
-    "url": "https://ciner-live.daioncdn.net/showtv/showtv.m3u8"
-  },
-  {
     "name": "ShowBox",
     "tvg_id": "ShowBox.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SHOWBOX/images/LOGO_HD/image.png",
@@ -55034,13 +55041,6 @@
     "url": "https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd"
   },
   {
-    "name": "Star TV (720p) [Not 24/7]",
-    "tvg_id": "StarTV.tr@SD",
-    "logo": "https://i.imgur.com/9O3DHRB.png",
-    "category": "Undefined",
-    "url": "https://dogus-live.daioncdn.net/startv/startv.m3u8"
-  },
-  {
     "name": "Star Utsav Movies (576p)",
     "tvg_id": "StarUtsavMovies.in@SD",
     "logo": "https://i.imgur.com/k5QHfH2.png",
@@ -55230,11 +55230,11 @@
     "url": "https://stream1.aswifi.it/stereo5/live/index.m3u8"
   },
   {
-    "name": "Sterk TV",
+    "name": "Stêrk TV (1080p)",
     "tvg_id": "SterkTV.be@SD",
     "logo": "https://i.imgur.com/bIheNAI.png",
     "category": "News",
-    "url": "https://trn09.bozztv.com/gin-sterk/index.m3u8"
+    "url": "https://muzkurd.com/sterktv/sterk/playlist.m3u8"
   },
   {
     "name": "Stgo.TV",
@@ -55802,6 +55802,13 @@
     "logo": "https://i.postimg.cc/2yqxg2Km/sunrtv.png",
     "category": "Undefined",
     "url": "https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8"
+  },
+  {
+    "name": "Sun TV HD (720p)",
+    "tvg_id": "SunTV.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_TV/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://15.235.144.106:14054/"
   },
   {
     "name": "Sundance TV East",
@@ -65086,6 +65093,13 @@
     "url": "https://cloud.tvomix.com/TVOMIX/index.m3u8"
   },
   {
+    "name": "tvOne (576i)",
+    "tvg_id": "tvOne.id@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/TvOne_2023.svg/2560px-TvOne_2023.svg.png",
+    "category": "Undefined",
+    "url": "http://202.80.222.20/cdn/iptv/Tvod/001/channel2000018/1024.m3u8"
+  },
+  {
     "name": "TVONE Nicaragua (720p) [Not 24/7]",
     "tvg_id": "TVONENicaragua.ni@SD",
     "logo": "https://i.imgur.com/FNk6rdz.png",
@@ -65415,6 +65429,13 @@
     "url": "https://eu1.servers10.com:8081/8166/index.m3u8"
   },
   {
+    "name": "TVRI (1080i)",
+    "tvg_id": "TVRI.id@HD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+    "category": "General",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8"
+  },
+  {
     "name": "TVRI Aceh (720p)",
     "tvg_id": "TVRI.id@Aceh",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
@@ -65443,18 +65464,18 @@
     "url": "https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8"
   },
   {
-    "name": "TVRI DKI Jakarta (720p) [Not 24/7]",
-    "tvg_id": "TVRI.id@DKIJakarta",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-    "category": "General",
-    "url": "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8"
-  },
-  {
     "name": "TVRI Gorontalo (480p)",
     "tvg_id": "TVRI.id@Gorontalo",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
     "category": "General",
     "url": "https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8"
+  },
+  {
+    "name": "TVRI Jakarta (576i) [Not 24/7]",
+    "tvg_id": "TVRI.id@Jakarta",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
+    "category": "General",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8"
   },
   {
     "name": "TVRI Jambi (720p) [Not 24/7]",
@@ -65525,13 +65546,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
     "category": "General",
     "url": "https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8"
-  },
-  {
-    "name": "TVRI Nasional (720p)",
-    "tvg_id": "TVRI.id@Nasional",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/512px-TVRILogo2019.svg.png",
-    "category": "General",
-    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8"
   },
   {
     "name": "TVRI North Sulawesi (1080p)",
@@ -67023,6 +67037,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VANITHA/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "https://cdn-1.pishow.tv/live/393/master.m3u8"
+  },
+  {
+    "name": "Vantage Music (720p) [Geo-blocked]",
+    "tvg_id": "VantageMusic.ee@HD",
+    "logo": "https://vantagetv.ee/vantage_music.png",
+    "category": "Music",
+    "url": "https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8"
   },
   {
     "name": "Varzesh TV",
