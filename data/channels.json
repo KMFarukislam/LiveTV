@@ -25755,7 +25755,7 @@
   {
     "name": "HTV Key (720p)",
     "tvg_id": "HTVKey.vn",
-    "logo": "https://i.postimg.cc/CK2RwXX2/HTV-Key-logo-10-08-2018.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png",
     "category": "Education",
     "url": "https://liveh12.vtvprime.vn/hls/HTVKey/index.m3u8"
   },
@@ -25797,7 +25797,7 @@
   {
     "name": "Huế TV (720p) [Geo-blocked]",
     "tvg_id": "ThuaThienHueTV.vn",
-    "logo": "https://i.imgur.com/lWQCrY9.png",
+    "logo": "https://www.lyngsat.com/logo/tv/hh/hue-tv-vn.png",
     "category": "Undefined",
     "url": "https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8"
   },
@@ -54698,6 +54698,13 @@
     "url": "https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8"
   },
   {
+    "name": "Space Live powered by sen (1080p)",
+    "tvg_id": "SpaceLivepoweredbysen.uk@SD",
+    "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB3800007C5_20251209T004625SQUARE.png",
+    "category": "Relax;Travel",
+    "url": "https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8"
+  },
+  {
     "name": "Space Series",
     "tvg_id": "",
     "logo": "",
@@ -62450,7 +62457,7 @@
     "name": "TV21 [Geo-blocked]",
     "tvg_id": "TV21.mk@SD",
     "logo": "https://i.imgur.com/IC1f4h3.png",
-    "category": "Undefined",
+    "category": "General",
     "url": "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV21)/index.m3u8"
   },
   {
@@ -73901,7 +73908,7 @@
   {
     "name": "Симферополь 24",
     "tvg_id": "Simferopol24.ru@SD",
-    "logo": "",
+    "logo": "https://i.imgur.com/S2QJ3bc.png",
     "category": "General",
     "url": "https://simf.1tvcrimea.ru/simferopol24.m3u8"
   },
@@ -74062,42 +74069,42 @@
   {
     "name": "Смотрим 100% Детское",
     "tvg_id": "Smotrim100Detskoe.ru",
-    "logo": "",
+    "logo": "https://i.imgur.com/1hsNeTa.png",
     "category": "Kids",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/29d87e02-f367-48b1-b63e-6ce7923ab089"
   },
   {
     "name": "Смотрим 100% Классика",
     "tvg_id": "Smotrim100Klassika.ru",
-    "logo": "",
+    "logo": "https://i.imgur.com/aASNpKq.png",
     "category": "Classic;Movies",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/78a66c7c-df38-4091-b2e1-9eeeb4c96338"
   },
   {
     "name": "Смотрим 100% Любовь",
     "tvg_id": "Smotrim100Lyubov.ru",
-    "logo": "",
+    "logo": "https://i.imgur.com/4EFh0nu.png",
     "category": "Series",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/0d85159d-e782-4260-ac99-ac8c55df4248"
   },
   {
     "name": "Смотрим 100% Мужское",
     "tvg_id": "Smotrim100Muzhskoe.ru",
-    "logo": "",
+    "logo": "https://i.imgur.com/UY3fjYU.png",
     "category": "Series",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619226d"
   },
   {
     "name": "Смотрим 100% Праздник",
     "tvg_id": "Smotrim100Prazdnik.ru",
-    "logo": "",
+    "logo": "https://i.imgur.com/NEcqFse.png",
     "category": "Entertainment",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/0cff8c9f-76c8-4b4a-9f23-90aa5a542564"
   },
   {
     "name": "Смотрим 100% Факты",
     "tvg_id": "Smotrim100Fakty.ru",
-    "logo": "",
+    "logo": "https://i.imgur.com/dB3cJzO.png",
     "category": "Documentary",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/02cbebc5-c55d-4a02-9370-7330c9e5d34f"
   },
@@ -74384,8 +74391,8 @@
   {
     "name": "ТНТ MUSIC",
     "tvg_id": "TNTMusic.ru@SD",
-    "logo": "https://i.imgur.com/RenuH4S.png",
-    "category": "Music",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8"
   },
   {
