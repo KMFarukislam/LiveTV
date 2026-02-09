@@ -1120,20 +1120,6 @@
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67dd13af63d0008257f17/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c5240-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e62cae5-9404-4e52-8b20-c5fc2b453e9d"
   },
   {
-    "name": ":Šport (1080p)",
-    "tvg_id": "Sport.sk@SD",
-    "logo": "https://i.imgur.com/oAtcxNZ.png",
-    "category": "Sports",
-    "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8"
-  },
-  {
-    "name": "¡OPA! (1080i) [Geo-blocked]",
-    "tvg_id": "OPA.cr@SD",
-    "logo": "https://i.imgur.com/300c1ZH.png",
-    "category": "Entertainment",
-    "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8"
-  },
-  {
     "name": "&TV International (1080p)",
     "tvg_id": "AndTV.in@International",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
@@ -1146,6 +1132,20 @@
     "logo": "https://i.imgur.com/tTCuczU.png",
     "category": "News",
     "url": "http://88.212.15.27/live/test_trojka_25p/playlist.m3u8"
+  },
+  {
+    "name": ":Šport (1080p)",
+    "tvg_id": "Sport.sk@SD",
+    "logo": "https://i.imgur.com/oAtcxNZ.png",
+    "category": "Sports",
+    "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8"
+  },
+  {
+    "name": "¡OPA! (1080i) [Geo-blocked]",
+    "tvg_id": "OPA.cr@SD",
+    "logo": "https://i.imgur.com/300c1ZH.png",
+    "category": "Entertainment",
+    "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8"
   },
   {
     "name": "@TV (720p)",
@@ -1323,8 +1323,15 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/aaj-ki-khabar/index.m3u8?ads.vf=1lMbqABqc6G"
   },
   {
-    "name": "Aaj Tak (1080p)",
+    "name": "Aaj Tak (404p)",
     "tvg_id": "AajTak.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",
+    "category": "News",
+    "url": "https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_404p/chunks.m3u8"
+  },
+  {
+    "name": "Aaj Tak HD (1080p)",
+    "tvg_id": "AajTak.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_AAJ_TAK/images/LOGO_HD/image.png",
     "category": "News",
     "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/in/AAJTAK_REDIS.m3u8"
@@ -14994,69 +15001,6 @@
     "url": "https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8"
   },
   {
-    "name": "Cosmote Sport 1",
-    "tvg_id": "CosmoteSport1.gr@HD",
-    "logo": "https://i.imgur.com/fn0TM6V.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT1"
-  },
-  {
-    "name": "Cosmote Sport 2",
-    "tvg_id": "CosmoteSport2.gr@HD",
-    "logo": "https://i.imgur.com/1RSyE5N.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT2"
-  },
-  {
-    "name": "Cosmote Sport 3",
-    "tvg_id": "CosmoteSport3.gr@HD",
-    "logo": "https://i.imgur.com/V5qKXx9.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT3"
-  },
-  {
-    "name": "Cosmote Sport 4",
-    "tvg_id": "CosmoteSport4.gr@HD",
-    "logo": "https://i.imgur.com/zEdJUZU.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT4"
-  },
-  {
-    "name": "Cosmote Sport 5",
-    "tvg_id": "CosmoteSport5.gr@HD",
-    "logo": "https://i.imgur.com/0GKXahH.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT5"
-  },
-  {
-    "name": "Cosmote Sport 6",
-    "tvg_id": "CosmoteSport6.gr@HD",
-    "logo": "https://i.imgur.com/KG6VWN1.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT6"
-  },
-  {
-    "name": "Cosmote Sport 7",
-    "tvg_id": "CosmoteSport7.gr@HD",
-    "logo": "https://i.imgur.com/p0DKcn2.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT7"
-  },
-  {
-    "name": "Cosmote Sport 8",
-    "tvg_id": "CosmoteSport8.gr@HD",
-    "logo": "https://i.imgur.com/DKlW5ka.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT8"
-  },
-  {
-    "name": "Cosmote Sport 9",
-    "tvg_id": "CosmoteSport9.gr@HD",
-    "logo": "https://i.imgur.com/3YwAXcH.png",
-    "category": "Sports",
-    "url": "http://138.2.160.168:8080/fetch?COSMOTESPORT9"
-  },
-  {
     "name": "Cosmovision (720p) [Geo-blocked]",
     "tvg_id": "Cosmovision.co@SD",
     "logo": "https://i.imgur.com/QlvYfEJ.png",
@@ -15412,13 +15356,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://aegis-cloudfront-1.tubi.video/031498eb-5826-4ed2-9795-05723c10fbe0/playlist.m3u8"
-  },
-  {
-    "name": "Crimea 24 (576i)",
-    "tvg_id": "Crimea24.ru@SD",
-    "logo": "https://i.imgur.com/k4C0uvp.png",
-    "category": "News",
-    "url": "https://cdn.1tvcrimea.ru/24tvcrimea.m3u8"
   },
   {
     "name": "CrimeFlix (1080p)",
@@ -16497,6 +16434,13 @@
     "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png",
     "category": "News",
     "url": "http://103.78.149.54:8000/play/a002/index.m3u8"
+  },
+  {
+    "name": "DD News HD (1080p)",
+    "tvg_id": "DDNews.in@HD",
+    "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD%20News%20HD.png",
+    "category": "News",
+    "url": "http://103.78.149.54:8000/play/a02f/index.m3u8"
   },
   {
     "name": "DD Oriya (576p)",
@@ -21313,6 +21257,13 @@
     "logo": "https://i.imgur.com/7SLYEMG.png",
     "category": "General;Music;Public",
     "url": "https://stream.fomixmedia.nl/FomixTV/video.m3u8"
+  },
+  {
+    "name": "FON Music",
+    "tvg_id": "FonMusic.ru@SD",
+    "logo": "https://i.imgur.com/tXABQDE.png",
+    "category": "Music",
+    "url": "https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8"
   },
   {
     "name": "Főnix TV (576p)",
@@ -33132,17 +33083,10 @@
   },
   {
     "name": "M+",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8?ads.vf=6otIjpqWKPe"
-  },
-  {
-    "name": "M+ (1080p)",
     "tvg_id": "MPlus.sa@SD",
     "logo": "https://i.imgur.com/Ho8N310.png",
     "category": "Music",
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8"
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8?ads.vf=6otIjpqWKPe"
   },
   {
     "name": "M-1 (480p)",
@@ -34573,25 +34517,18 @@
     "url": "http://54.36.110.140/live3/live3.m3u8"
   },
   {
-    "name": "Medi1TV Afrique (1080p)",
-    "tvg_id": "Medi1TVAfrique.ma@SD",
-    "logo": "https://i.imgur.com/a20DHnj.png",
-    "category": "News",
-    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8"
-  },
-  {
-    "name": "Medi 1 TV Arabic (1080p)",
+    "name": "Medi 1 TV Arabic (720p)",
     "tvg_id": "Medi1TVArabic.ma@SD",
     "logo": "https://i.imgur.com/3YsZPY6.jpeg",
     "category": "News",
-    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8"
+    "url": "https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8"
   },
   {
-    "name": "Medi 1 TV Maghreb (1080p)",
+    "name": "Medi 1 TV Maghreb (720p)",
     "tvg_id": "Medi1TVMaghreb.ma@SD",
     "logo": "https://i.imgur.com/F5OFQsp.jpeg",
     "category": "News",
-    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8"
+    "url": "https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8"
   },
   {
     "name": "Media One (720p)",
@@ -35334,6 +35271,13 @@
     "logo": "https://i.imgur.com/VXbHin6.png",
     "category": "General",
     "url": "https://685c08ed6d81a.streamlock.net/live/mp4:MCTV_aac/playlist.m3u8"
+  },
+  {
+    "name": "Millet (720p)",
+    "tvg_id": "Millet.ru@SD",
+    "logo": "https://i.imgur.com/hUjLRLy.png",
+    "category": "News",
+    "url": "https://live1.1tvcrimea.ru/milletlive.m3u8"
   },
   {
     "name": "Million Dollar Listing Vault",
@@ -39729,7 +39673,7 @@
     "tvg_id": "Noticias16.do@SD",
     "logo": "https://www.lyngsat.com/logo/tv/nn/noticias-16-do.png",
     "category": "News",
-    "url": "https://mlb.essastream.com:8081/noticiasn16/playlist.m3u8"
+    "url": "https://mlb.essastream.com:8081/noticias16/playlist.m3u8"
   },
   {
     "name": "Noticiero 90 Minutos (720p) [Not 24/7]",
@@ -43146,6 +43090,20 @@
     "logo": "https://i.imgur.com/mL3lLAF.png",
     "category": "Undefined",
     "url": "https://live.obslivestream.com/planetatv/index.m3u8"
+  },
+  {
+    "name": "Planeta-RTR",
+    "tvg_id": "RTRPlaneta.ru@Europe",
+    "logo": "https://i.imgur.com/0YEahxs.png",
+    "category": "General",
+    "url": "https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603"
+  },
+  {
+    "name": "Planeta-RTR",
+    "tvg_id": "RTRPlaneta.ru@USA",
+    "logo": "https://i.postimg.cc/TwvcDdyM/rtrplaneta.png",
+    "category": "General",
+    "url": "https://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a"
   },
   {
     "name": "Planete+ (1080p)",
@@ -50114,17 +50072,10 @@
   },
   {
     "name": "Rotana Aflam+",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8?ads.vf=0PRJnP3xh_q"
-  },
-  {
-    "name": "Rotana Aflam+ (1080p)",
     "tvg_id": "RotanaAflamPlus.sa@SD",
     "logo": "https://i.imgur.com/DLDfFpu.png",
     "category": "Undefined",
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8"
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8?ads.vf=0PRJnP3xh_q"
   },
   {
     "name": "Rotana Cinema Egypt (1080p) [Geo-blocked]",
@@ -65191,125 +65142,6 @@
     "url": "https://ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8"
   },
   {
-    "name": "TVP2 (1080i) [Geo-blocked]",
-    "tvg_id": "TVP2.pl@SD",
-    "logo": "https://i.imgur.com/XxCc32B.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp2hd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Białystok (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Bialystok.pl@SD",
-    "logo": "https://i.postimg.cc/KjNHDgbX/tvp3bialystok.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3bialystoksd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Bydgoszcz (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Bydgoszcz.pl@SD",
-    "logo": "https://i.postimg.cc/MK9LcRtV/tvp3bydgoszcz.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3bydgoszczsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Gdańsk (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Gdansk.pl@SD",
-    "logo": "https://i.postimg.cc/HkjhbxPK/tvp3gdansk.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3gdansksd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Gorzów Wielkopolski (576p) [Geo-blocked]",
-    "tvg_id": "TVP3GorzowWielkopolski.pl@SD",
-    "logo": "https://i.postimg.cc/Mp4r5SCG/tvp3gorzowwielkopolski.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3gorzowsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Katowice (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Katowice.pl@SD",
-    "logo": "https://i.postimg.cc/4392F0GQ/tvp3katowice.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3katowicesd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Kielce (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Kielce.pl@SD",
-    "logo": "https://i.postimg.cc/zBY2mkXZ/tvp3kielce.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3kielcesd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Kraków (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Krakow.pl@SD",
-    "logo": "https://i.postimg.cc/Wz29zbk5/tvp3krakow.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3krakowsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Łódź (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Lodz.pl@SD",
-    "logo": "https://i.postimg.cc/rmGnqtKd/tvp3lodz.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3lodzsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Lublin (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Lublin.pl@SD",
-    "logo": "https://i.postimg.cc/L5Nx1Kk2/tvp3lublin.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3lublinsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Olsztyn (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Olsztyn.pl@SD",
-    "logo": "https://i.postimg.cc/1RHCT6k2/tvp3olsztyn.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3olsztynsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Opole (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Opole.pl@SD",
-    "logo": "https://i.postimg.cc/zXGt1v5B/tvp3opole.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3opolesd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Poznań (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Poznan.pl@SD",
-    "logo": "https://i.postimg.cc/TYNk2xYc/tvp3poznan.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3poznansd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Rzeszów (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Rzeszow.pl@SD",
-    "logo": "https://i.postimg.cc/qvt1zFNH/tvp3rzeszow.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3rzeszowsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Szczecin (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Szczecin.pl@SD",
-    "logo": "https://i.postimg.cc/g2fNRKhX/tvp3szczecin.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3szczecinsd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Warszawa (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Warszawa.pl@SD",
-    "logo": "https://i.postimg.cc/hGTM078C/tvp3warszawa.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3warszawasd/index.m3u8"
-  },
-  {
-    "name": "TVP 3 Wrocław (576p) [Geo-blocked]",
-    "tvg_id": "TVP3Wroclaw.pl@SD",
-    "logo": "https://i.postimg.cc/ydKjpYv7/tvp3wroclaw.png",
-    "category": "Undefined",
-    "url": "https://cdndai.pl/tvp3wroclawsd/index.m3u8"
-  },
-  {
     "name": "TVP ABC (576p)",
     "tvg_id": "TVPABC.pl@SD",
     "logo": "https://i.imgur.com/wP2mpfM.png",
@@ -67163,6 +66995,13 @@
     "logo": "https://vantagetv.ee/vantage_music.png",
     "category": "Music",
     "url": "https://hls.vantagetv.ee/vmusic_stream/main_stream.m3u8"
+  },
+  {
+    "name": "Vantage Rock (720p) [Geo-blocked]",
+    "tvg_id": "VantageRock.ee@HD",
+    "logo": "https://vantagetv.ee/vantage_dance.png",
+    "category": "Music",
+    "url": "https://hls.vantagetv.ee/vrock_stream/index.m3u8"
   },
   {
     "name": "Varzesh TV",
@@ -72667,7 +72506,7 @@
     "url": "http://176.110.1.30:1935/live/donbasonline/playlist.m3u8"
   },
   {
-    "name": "Дума ТВ",
+    "name": "Дума ТВ [Not 24/7]",
     "tvg_id": "DumaTV.ru@SD",
     "logo": "https://i.imgur.com/JvlO3PU.png",
     "category": "Legislative",
@@ -72898,6 +72737,13 @@
     "url": "http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8"
   },
   {
+    "name": "Крым 24",
+    "tvg_id": "Crimea24.ru@SD",
+    "logo": "https://i.imgur.com/k4C0uvp.png",
+    "category": "News",
+    "url": "https://cdn.1tvcrimea.ru/24tvcrimea.m3u8"
+  },
+  {
     "name": "КТК (1080p) [Not 24/7]",
     "tvg_id": "KTK.kz@SD",
     "logo": "https://i.imgur.com/BurrNTo.png",
@@ -73015,13 +72861,6 @@
     "logo": "https://i.imgur.com/X02s2UE.png",
     "category": "Sports",
     "url": "http://31.148.48.15/Match_Strana/index.m3u8"
-  },
-  {
-    "name": "Миллет (540p) [Not 24/7]",
-    "tvg_id": "Millet.ru@SD",
-    "logo": "https://i.imgur.com/hUjLRLy.png",
-    "category": "News",
-    "url": "https://live.trkmillet.ru/millet/index.m3u8"
   },
   {
     "name": "Мир (1080p) [Not 24/7]",
@@ -73654,32 +73493,18 @@
     "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8"
   },
   {
-    "name": "РТР Планета Азия",
-    "tvg_id": "RTRPlanetaAsia.ru@SD",
-    "logo": "https://i.imgur.com/DTtK0z7.png",
+    "name": "Россия-РТР",
+    "tvg_id": "RTRPlaneta.ru@Asia",
+    "logo": "https://i.imgur.com/T42cuYx.png",
     "category": "General",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363"
   },
   {
-    "name": "РТР Планета Евро",
-    "tvg_id": "RTRPlanetaEurope.ru@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png",
-    "category": "General",
-    "url": "https://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603"
-  },
-  {
-    "name": "РТР Планета СНГ",
-    "tvg_id": "RTRPlanetaCIS.ru@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png",
+    "name": "Россия-РТР",
+    "tvg_id": "RTRPlaneta.ru@CIS",
+    "logo": "https://i.imgur.com/T42cuYx.png",
     "category": "General",
     "url": "https://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f"
-  },
-  {
-    "name": "РТР Планета США",
-    "tvg_id": "RTRPlanetaUSA.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RTR-Planeta_Logo.svg/512px-RTR-Planeta_Logo.svg.png",
-    "category": "General",
-    "url": "https://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a"
   },
   {
     "name": "Русский Бестселлер",
@@ -74261,13 +74086,6 @@
     "logo": "https://i.imgur.com/l0RGbRI.png",
     "category": "Entertainment",
     "url": "https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8"
-  },
-  {
-    "name": "ТНТ MUSIC",
-    "tvg_id": "TNTMusic.ru@SD",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8"
   },
   {
     "name": "Толк HD",
