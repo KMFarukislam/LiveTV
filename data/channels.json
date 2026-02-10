@@ -16289,11 +16289,11 @@
     "url": "http://103.78.149.54:8000/play/a035/index.m3u8"
   },
   {
-    "name": "DD BHARATI (576p)",
+    "name": "DD Bharati (576p)",
     "tvg_id": "DDBharati.in@SD",
     "logo": "https://i.imgur.com/4tfUIEo.png",
     "category": "Culture",
-    "url": "http://103.78.149.54:8000/play/a024/index.m3u8"
+    "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/67cec794d8b14f9ba21f73924ac65797/index.m3u8"
   },
   {
     "name": "DD BIHAR (576p)",
@@ -16366,11 +16366,11 @@
     "url": "http://103.78.149.54:8000/play/a02x/index.m3u8"
   },
   {
-    "name": "DD KISAN (576p)",
+    "name": "DD Kisan (576p)",
     "tvg_id": "DDKisan.in@SD",
     "logo": "https://i.imgur.com/x56WJEa.png",
     "category": "Education;Outdoor",
-    "url": "http://103.78.149.54:8000/play/a004/index.m3u8"
+    "url": "https://d2lk5u59tns74c.cloudfront.net/out/v1/4f053f2c12a24641bf701fb7f2376750/index.m3u8"
   },
   {
     "name": "DD Madhya Pradesh (576p)",
@@ -16478,18 +16478,18 @@
     "url": "http://103.78.149.54:8000/play/a030/index.m3u8"
   },
   {
-    "name": "DD SPORTS (576p)",
-    "tvg_id": "DDSports.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS/images/LOGO_HD/image.png",
-    "category": "Sports",
-    "url": "http://103.78.149.54:8000/play/a02r/index.m3u8"
-  },
-  {
     "name": "DD SPORTS HD (1080p)",
     "tvg_id": "DDSports.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS/images/LOGO_HD/image.png",
     "category": "Sports",
     "url": "http://103.78.149.54:8000/play/a02i/index.m3u8"
+  },
+  {
+    "name": "DD Sports SD (1080p)",
+    "tvg_id": "DDSports.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_SPORTS/images/LOGO_HD/image.png",
+    "category": "Sports",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8"
   },
   {
     "name": "DD Tamil (576p)",
@@ -16506,11 +16506,11 @@
     "url": "http://103.78.149.54:8000/play/a02v/index.m3u8"
   },
   {
-    "name": "DD URDU (576p)",
+    "name": "DD Urdu (576p)",
     "tvg_id": "DDUrdu.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DD_URDU/images/LOGO_HD/image.png",
     "category": "General",
-    "url": "http://103.78.149.54:8000/play/a02c/index.m3u8"
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/9b91e9007e754db39a8b32c6bfc5b24a/index.m3u8"
   },
   {
     "name": "DD Uttar Pradesh (576p)",
@@ -34181,18 +34181,18 @@
     "url": "https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8"
   },
   {
+    "name": "MBC Drama (1080p)",
+    "tvg_id": "MBCDrama.ae@SD",
+    "logo": "https://i.imgur.com/g5PWnqp.png",
+    "category": "Entertainment",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8"
+  },
+  {
     "name": "MBC Drama (480p) [Geo-blocked]",
     "tvg_id": "MBCDrama.kr@SD",
     "logo": "https://i.imgur.com/Q20rqnX.png",
     "category": "Entertainment",
     "url": "http://mytv.dothome.co.kr/ch/catv/26.php"
-  },
-  {
-    "name": "MBC Drama KSA (1080p)",
-    "tvg_id": "MBCDrama.ae@SD",
-    "logo": "https://i.imgur.com/g5PWnqp.png",
-    "category": "Entertainment",
-    "url": "https://mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m3u8"
   },
   {
     "name": "MBC Drama USA (1080p)",
@@ -54201,6 +54201,13 @@
     "url": "https://fl1.moveonjoy.com/Sony_Movie_Channel/index.m3u8"
   },
   {
+    "name": "Sony Entertainment Television HD (720p)",
+    "tvg_id": "SonyEntertainmentTelevision.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SET_HD/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://217.20.112.199/sethd/index.m3u8"
+  },
+  {
     "name": "Sony KAL Hindi (1080p)",
     "tvg_id": "SonyKALHindi.us@SD",
     "logo": "https://i.imgur.com/9Qq8DKh.png",
@@ -65142,6 +65149,13 @@
     "url": "https://ec06-krk3.cache.orange.pl/dai4/org1/vb/104/tvp1hd/index.m3u8"
   },
   {
+    "name": "TVP2 (1080p)",
+    "tvg_id": "TVP2.pl@SD",
+    "logo": "https://i.imgur.com/XxCc32B.png",
+    "category": "Undefined",
+    "url": "https://lowa8026-cmyk.github.io/tvpvod/399698.m3u8"
+  },
+  {
     "name": "TVP ABC (576p)",
     "tvg_id": "TVPABC.pl@SD",
     "logo": "https://i.imgur.com/wP2mpfM.png",
@@ -65154,6 +65168,13 @@
     "logo": "https://i.imgur.com/uX1S3kt.png",
     "category": "General",
     "url": "https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8"
+  },
+  {
+    "name": "TVP Historia (720p)",
+    "tvg_id": "TVPHistoria.pl@SD",
+    "logo": "https://i.imgur.com/Bc4QZiy.png",
+    "category": "Undefined",
+    "url": "https://lowa8026-cmyk.github.io/tvpvod/399702.m3u8"
   },
   {
     "name": "TVP Info",
@@ -68373,7 +68394,7 @@
     "tvg_id": "Wanasah.ae@SD",
     "logo": "https://i.imgur.com/nLtiXNf.png",
     "category": "Music",
-    "url": "https://wanasah-prod-dub-enc.edgenextcdn.net/out/v1/c84ef3128e564b74a6a796e8b6287de6/index.m3u8"
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8"
   },
   {
     "name": "Wanted: Dead or Alive (720p)",
