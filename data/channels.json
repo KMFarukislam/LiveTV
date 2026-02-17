@@ -1211,6 +1211,20 @@
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a67dd13af63d0008257f17/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b1c5240-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e62cae5-9404-4e52-8b20-c5fc2b453e9d"
   },
   {
+    "name": ":Šport (1080p)",
+    "tvg_id": "Sport.sk@SD",
+    "logo": "https://i.imgur.com/oAtcxNZ.png",
+    "category": "Sports",
+    "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8"
+  },
+  {
+    "name": "¡OPA! (1080i) [Geo-blocked]",
+    "tvg_id": "OPA.cr@SD",
+    "logo": "https://i.imgur.com/300c1ZH.png",
+    "category": "Entertainment",
+    "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8"
+  },
+  {
     "name": "&pictures HD (1080p)",
     "tvg_id": "Andpictures.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDPICTURES/images/LOGO_HD/LOGO_HD_image.png",
@@ -1251,20 +1265,6 @@
     "logo": "https://i.imgur.com/tTCuczU.png",
     "category": "News",
     "url": "http://88.212.15.27/live/test_trojka_25p/playlist.m3u8"
-  },
-  {
-    "name": ":Šport (1080p)",
-    "tvg_id": "Sport.sk@SD",
-    "logo": "https://i.imgur.com/oAtcxNZ.png",
-    "category": "Sports",
-    "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8"
-  },
-  {
-    "name": "¡OPA! (1080i) [Geo-blocked]",
-    "tvg_id": "OPA.cr@SD",
-    "logo": "https://i.imgur.com/300c1ZH.png",
-    "category": "Entertainment",
-    "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8"
   },
   {
     "name": "@TV (720p)",
@@ -1596,6 +1596,13 @@
     "url": "https://d3svnrf3rmq619.cloudfront.net/krgv-live/smil:krgv-live.smil/playlist.m3u8"
   },
   {
+    "name": "ABC 5 Boston MA (WCVB) (720p)",
+    "tvg_id": "WCVBDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/WCVB-TV_%282021%29.svg/512px-WCVB-TV_%282021%29.svg.png",
+    "category": "General",
+    "url": "https://aegis-cloudfront-1.tubi.video/c2e3094d-ad56-4c5f-9655-cd80df71fbab/playlist.m3u8"
+  },
+  {
     "name": "ABC 6 Indianapolis IN (WRTV) (720p)",
     "tvg_id": "WRTVDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
@@ -1650,6 +1657,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
     "category": "General",
     "url": "https://aegis-cloudfront-1.tubi.video/a53514a7-f2aa-4d34-802e-c2b5594fc0d7/playlist.m3u8"
+  },
+  {
+    "name": "ABC 10 San Diego CA (KGTV) (720p)",
+    "tvg_id": "KGTVDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
+    "category": "General",
+    "url": "https://aegis-cloudfront-1.tubi.video/1a352414-3a30-4f42-b14b-c091d02a5e45/playlist.m3u8"
   },
   {
     "name": "ABC 12 Milwaukee WI (WISN) (720p)",
@@ -2168,13 +2182,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=1153"
-  },
-  {
-    "name": "ACCN (720p)",
-    "tvg_id": "ACCNetwork.us@SD",
-    "logo": "https://i.imgur.com/TpCkbkT.png",
-    "category": "Sports",
-    "url": "https://fl31.moveonjoy.com/ACC_NETWORK/index.m3u8"
   },
   {
     "name": "AccuWeather Now (1080p)",
@@ -4088,13 +4095,6 @@
     "url": "https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8"
   },
   {
-    "name": "AMC East (1080p)",
-    "tvg_id": "AMC.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/512px-AMC_logo_2019.svg.png",
-    "category": "Movies",
-    "url": "https://fl2.moveonjoy.com/AMC_NETWORK/index.m3u8"
-  },
-  {
     "name": "Ame 47 (576p)",
     "tvg_id": "Ame47.do@SD",
     "logo": "https://i.imgur.com/MUEbjeP.png",
@@ -4998,13 +4998,6 @@
     "url": "https://59d8c0cee6f3d.streamlock.net/antennatreveneto/antennatreveneto.stream/playlist.m3u8"
   },
   {
-    "name": "Antenna TV",
-    "tvg_id": "AntennaTV.us@SD",
-    "logo": "https://i.imgur.com/ocs2DeU.png",
-    "category": "Entertainment",
-    "url": "http://fl41.moveonjoy.com/Antenna_TV/index.m3u8"
-  },
-  {
     "name": "Antenne A",
     "tvg_id": "AntenneA.cd@SD",
     "logo": "https://i.imgur.com/tgxrcv7.png",
@@ -5717,13 +5710,6 @@
     "logo": "https://i.imgur.com/a5avk5R.png",
     "category": "Undefined",
     "url": "https://asomatv.cloud-ip.cc/livestream/stream.m3u8"
-  },
-  {
-    "name": "Aspire",
-    "tvg_id": "Aspire.us@SD",
-    "logo": "https://i.imgur.com/TOM5qO6.png",
-    "category": "Entertainment",
-    "url": "http://fl41.moveonjoy.com/Aspire/index.m3u8"
   },
   {
     "name": "Aspire TV Life (720p)",
@@ -6608,13 +6594,6 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/667d63d236a2f90008f72269/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=4e6ec7f7-c314-4e84-a8a7-2b7def858bd5"
   },
   {
-    "name": "AXS TV",
-    "tvg_id": "AXSTV.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AXS_TV_logo.svg/512px-AXS_TV_logo.svg.png",
-    "category": "Music",
-    "url": "http://fl41.moveonjoy.com/Axs_TV/index.m3u8"
-  },
-  {
     "name": "Ayeneh TV",
     "tvg_id": "AyenehTV.us@SD",
     "logo": "https://i.imgur.com/F0AevIQ.png",
@@ -7425,13 +7404,6 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
     "category": "News",
     "url": "https://dash2.antik.sk/live/test_bbc_world/playlist.m3u8"
-  },
-  {
-    "name": "BBC News North America",
-    "tvg_id": "BBCNews.uk@NorthAmerica",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BBC_NEWS/images/LOGO_HD/image.png",
-    "category": "News",
-    "url": "https://fl2.moveonjoy.com/BBC_WORLD_NEWS/index.m3u8"
   },
   {
     "name": "BBC News Pashto (720p)",
@@ -8575,20 +8547,6 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/68c32d88f56983aba40052bd/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=2bffe857-3f86-4e5a-a289-e3db664e921a"
   },
   {
-    "name": "BET Her East",
-    "tvg_id": "BETHer.us@East",
-    "logo": "https://i.imgur.com/oafsrlo.png",
-    "category": "Entertainment",
-    "url": "http://fl12.moveonjoy.com/BET_HER/index.m3u8"
-  },
-  {
-    "name": "BET Jams",
-    "tvg_id": "BETJams.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/BET_Jams_2021.png/512px-BET_Jams_2021.png",
-    "category": "Undefined",
-    "url": "https://fl7.moveonjoy.com/BET_Jams/mpegts"
-  },
-  {
     "name": "BET Pluto TV",
     "tvg_id": "BETPlutoTV.us@Brazil",
     "logo": "https://i.imgur.com/Kq9WKZg.png",
@@ -8608,13 +8566,6 @@
     "logo": "https://i.imgur.com/Kq9WKZg.png",
     "category": "Entertainment",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca670f6593a5d78f0e85aed/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=d1e7ed6c-ccdf-4736-a3e3-6995cf46b655"
-  },
-  {
-    "name": "BET Soul",
-    "tvg_id": "BETSoul.us@SD",
-    "logo": "https://i.imgur.com/VeuTWUb.png",
-    "category": "Undefined",
-    "url": "https://fl7.moveonjoy.com/BET_SOUL/mpegts"
   },
   {
     "name": "BET Throwbacks",
@@ -9035,13 +8986,6 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BIG_MAGIC/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Entertainment",
     "url": "http://103.78.149.54:8000/play/a018/index.m3u8"
-  },
-  {
-    "name": "Big Ten Network",
-    "tvg_id": "BigTenNetwork.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Big_Ten_Network_Logo.svg/512px-Big_Ten_Network_Logo.svg.png",
-    "category": "Undefined",
-    "url": "https://fl7.moveonjoy.com/BIG_TEN_NETWORK/index.m3u8"
   },
   {
     "name": "Big Time Plus (1080p)",
@@ -9821,13 +9765,6 @@
     "url": "https://tvlocales-live.freecaster.com/live/95d2f70d-9229-478b-9aed-bc4fa220316d/95d2f70d-9229-478b-9aed-bc4fa220316d.isml/master.m3u8"
   },
   {
-    "name": "Bounce",
-    "tvg_id": "Bounce.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Bounce_TV_logo.svg/512px-Bounce_TV_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://212.102.60.231/BOUNCE_TV/index.m3u8"
-  },
-  {
     "name": "Bounce XL (1080p)",
     "tvg_id": "BounceXL.us@SD",
     "logo": "https://i.imgur.com/GzxgSkc.png",
@@ -9903,13 +9840,6 @@
     "logo": "https://i.imgur.com/hphQ2kw.png",
     "category": "Undefined",
     "url": "https://i.mjh.nz/.r/bravo-plus1.m3u8"
-  },
-  {
-    "name": "Bravo East",
-    "tvg_id": "Bravo.us@East",
-    "logo": "https://i.imgur.com/JmTIRLF.png",
-    "category": "Undefined",
-    "url": "http://fl12.moveonjoy.com/BRAVO/mpegts"
   },
   {
     "name": "Bravo Farsi TV (360p)",
@@ -10493,11 +10423,11 @@
     "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883099"
   },
   {
-    "name": "Buzzr",
+    "name": "BUZZR",
     "tvg_id": "Buzzr.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/512px-Buzzr_logo.svg.png",
     "category": "Entertainment",
-    "url": "http://fl41.moveonjoy.com/Buzzr/mpegts"
+    "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812bfbe4ced4f7b601b12e6/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=2bd20c8f-f2fe-479e-8727-ec73c94f0ca7"
   },
   {
     "name": "BVB-Frauen",
@@ -10617,13 +10547,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63b579961bdba100071214cb/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=af957bbe-0438-4805-a305-7c8656f00195&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=cf1c8466-a420-41b4-a344-9eb19393164b"
-  },
-  {
-    "name": "C-SPAN",
-    "tvg_id": "CSPAN.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C-SPAN_Logo_%282019%29.svg/512px-C-SPAN_Logo_%282019%29.svg.png",
-    "category": "Legislative",
-    "url": "https://fl7.moveonjoy.com/C-SPAN/index.m3u8"
   },
   {
     "name": "C-SPAN 2 (720p) [Not 24/7]",
@@ -13174,13 +13097,6 @@
     "url": "https://fuel-streaming-prod01.fuelmedia.io/v1/sem/e48409e7-672d-42f2-b5e0-ebb6744b0425.m3u8"
   },
   {
-    "name": "CBS Chicago WBBM-DT1",
-    "tvg_id": "WBBMDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/IL_Chicago_CBS/index.m3u8"
-  },
-  {
     "name": "CBS en español",
     "tvg_id": "",
     "logo": "",
@@ -13403,13 +13319,6 @@
     "logo": "https://i.imgur.com/q8BENJg.png",
     "category": "Sports",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9f2c05172a0f0007db4786/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=890f9786-922b-4308-bef7-b8a6a62f256b"
-  },
-  {
-    "name": "CBS Sports Network USA",
-    "tvg_id": "CBSSportsNetworkUSA.us@SD",
-    "logo": "https://i.imgur.com/A8CnA8g.png",
-    "category": "Sports",
-    "url": "https://fl31.moveonjoy.com/CBS_SPORTS_NETWORK/index.m3u8"
   },
   {
     "name": "CC Pluto TV",
@@ -15337,13 +15246,6 @@
     "url": "https://stmv1.srvif.com/classique/classique/playlist.m3u8"
   },
   {
-    "name": "Cleo TV (720p)",
-    "tvg_id": "CleoTV.us@SD",
-    "logo": "https://i.imgur.com/US0T6DC.png",
-    "category": "Lifestyle",
-    "url": "http://fl41.moveonjoy.com/Cleo_TV/index.m3u8"
-  },
-  {
     "name": "Clergy TV (720p) [Not 24/7]",
     "tvg_id": "ClergyTV.ke@SD",
     "logo": "https://i.imgur.com/RcxBEUo.jpg",
@@ -15419,13 +15321,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/CMMedia.svg/276px-CMMedia.svg.png",
     "category": "General;Public",
     "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/flavorIds/1_a9gxgxzy,1_v71ryg4b,1_vbfvtjw6,1_obo1bqsx,1_3shk3s5d/a.m3u8"
-  },
-  {
-    "name": "CMT East",
-    "tvg_id": "CMT.us@East",
-    "logo": "https://i.imgur.com/S7DOpdY.png",
-    "category": "Music",
-    "url": "https://fl2.moveonjoy.com/CMT/index.m3u8"
   },
   {
     "name": "CMT Equal Play",
@@ -15559,13 +15454,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/512px-CNBC_2025.svg.png",
     "category": "Business;News",
     "url": "https://amg01079-nbcuuk-amg01079c2-lg-gb-2030.playouts.now.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "CNBC World",
-    "tvg_id": "CNBCWorld.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CNBC_World_2025.svg/512px-CNBC_World_2025.svg.png",
-    "category": "Business",
-    "url": "https://fl2.moveonjoy.com/CNBC_World/index.m3u8"
   },
   {
     "name": "CNBC-e",
@@ -16063,13 +15951,6 @@
     "logo": "https://i.imgur.com/i1TANKv.png",
     "category": "Comedy",
     "url": "http://31.146.5.178:8087/play/a00b/index.m3u8"
-  },
-  {
-    "name": "Comedy TV",
-    "tvg_id": "ComedyTV.us@SD",
-    "logo": "https://i.imgur.com/KLfXnba.png",
-    "category": "Comedy",
-    "url": "http://fl41.moveonjoy.com/Comedy_TV/index.m3u8"
   },
   {
     "name": "Comercio TV",
@@ -16590,20 +16471,6 @@
     "url": "https://linear-492.frequency.stream/dist/xumo/492/hls/master/playlist.m3u8"
   },
   {
-    "name": "Crave 1",
-    "tvg_id": "Crave1.ca@SD",
-    "logo": "https://i.imgur.com/ZkRQ0r1.png",
-    "category": "Movies",
-    "url": "https://fl7.moveonjoy.com/CRAVE_1/index.m3u8"
-  },
-  {
-    "name": "Crave 3",
-    "tvg_id": "Crave3.ca@SD",
-    "logo": "https://i.imgur.com/kOi0Adn.png",
-    "category": "Movies",
-    "url": "https://fl7.moveonjoy.com/CRAVE_3/index.m3u8"
-  },
-  {
     "name": "CreaLaTV (1080p)",
     "tvg_id": "CreaLaTV.mx@SD",
     "logo": "https://i.imgur.com/Bnjj29f.png",
@@ -16723,11 +16590,11 @@
     "url": "https://linear-474.frequency.stream/dist/glewedtv/474/hls/master/playlist.m3u8"
   },
   {
-    "name": "Crime + Investigation",
+    "name": "Crime + Investigation (720p) [Not 24/7]",
     "tvg_id": "CrimePlusInvestigation.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Crime_%2B_Investigation_Logo_10.2019.svg",
     "category": "Entertainment",
-    "url": "http://fl41.moveonjoy.com/Crime_and_Investigation_Network/index.m3u8"
+    "url": "https://tvpass.org/live/CrimePlusInvestigation/hd"
   },
   {
     "name": "Crime + Investigation Asia HD (720p) [Geo-blocked]",
@@ -19005,18 +18872,18 @@
     "url": "http://161.248.38.40:8000/play/a068/index.m3u8"
   },
   {
-    "name": "Disney Junior East",
+    "name": "Disney Junior East (720p) [Not 24/7]",
     "tvg_id": "DisneyJunior.us@East",
     "logo": "https://i.postimg.cc/KvRqrLg2/disneyjunior.png",
     "category": "Kids",
-    "url": "https://fl2.moveonjoy.com/DISNEY_JR/index.m3u8"
+    "url": "https://tvpass.org/live/DisneyJuniorEast/hd"
   },
   {
-    "name": "Disney XD (720p)",
+    "name": "Disney XD East (720p) [Not 24/7]",
     "tvg_id": "DisneyXD.us@East",
     "logo": "https://i.postimg.cc/MKNssTyj/disneyxd.png",
     "category": "Kids",
-    "url": "https://fl7.moveonjoy.com/DISNEY_XD/index.m3u8"
+    "url": "https://tvpass.org/live/DisneyXDEast/hd"
   },
   {
     "name": "District of Columbia Network (DCN) (1080p)",
@@ -20230,11 +20097,11 @@
     "url": "https://mumt04.tangotv.in/E24/index.m3u8"
   },
   {
-    "name": "E! East",
+    "name": "E! East (1080p) [Not 24/7]",
     "tvg_id": "E.us@East",
     "logo": "https://i.imgur.com/TWFDkap.png",
     "category": "Entertainment",
-    "url": "https://fl2.moveonjoy.com/E_ENTERTAINMENT_TELEVISION/index.m3u8"
+    "url": "https://tvpass.org/live/EEast/hd"
   },
   {
     "name": "E! Keeping Up",
@@ -20463,7 +20330,7 @@
   {
     "name": "Ecovisión (720p)",
     "tvg_id": "Ecovision.do@SD",
-    "logo": "https://imgur.com/a/pUlIJZX.png",
+    "logo": "https://imgur.com/Y4ahiYu.png",
     "category": "Documentary",
     "url": "https://streaming.grupomediosdelnorte.com:19360/ecovision/ecovision.m3u8"
   },
@@ -20534,7 +20401,7 @@
     "name": "EDU TV (576p) [Not 24/7]",
     "tvg_id": "EDUTV.rs@SD",
     "logo": "https://i.postimg.cc/XJ2MXbtc/edutv.png",
-    "category": "Undefined",
+    "category": "Education",
     "url": "https://5aa64ca8b95b8.streamlock.net:4443/edutv/edutelevizija/playlist.m3u8"
   },
   {
@@ -21544,20 +21411,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/ESPN_Deportes.svg/512px-ESPN_Deportes.svg.png",
     "category": "Sports",
     "url": "https://e3.thetvapp.to/hls/espn-deportes/index.m3u8"
-  },
-  {
-    "name": "ESPN U (720p)",
-    "tvg_id": "ESPNU.us@SD",
-    "logo": "https://i.imgur.com/HiBrysh.png",
-    "category": "Sports",
-    "url": "http://fl41.moveonjoy.com/ESPN_U/index.m3u8"
-  },
-  {
-    "name": "ESPNews (720p)",
-    "tvg_id": "ESPNews.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/512px-ESPNews.svg.png",
-    "category": "News;Sports",
-    "url": "https://fl31.moveonjoy.com/ESPN_NEWS/index.m3u8"
   },
   {
     "name": "Esport3 (1080p) [Not 24/7]",
@@ -22678,13 +22531,6 @@
     "logo": "",
     "category": "Sports",
     "url": "https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8"
-  },
-  {
-    "name": "FanDuel Sports Network",
-    "tvg_id": "FanDuelSportsNetwork.us@HD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/FanDuel_Sports_Network_logo.svg/330px-FanDuel_Sports_Network_logo.svg.png",
-    "category": "Sports",
-    "url": "http://fl41.moveonjoy.com/PAC_12/mpegts"
   },
   {
     "name": "FanDuel TV (720p)",
@@ -23842,6 +23688,13 @@
     "url": "https://aegis-cloudfront-1.tubi.video/8d9284ec-c451-4e51-a1d4-d16e5c8972af/index.m3u8"
   },
   {
+    "name": "FOX 13 Seattle WA (KCPQ) (720p)",
+    "tvg_id": "KCPQDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/512px-FOX_wordmark-red.svg.png",
+    "category": "General",
+    "url": "https://aegis-cloudfront-1.tubi.video/cc394198-7bde-43e8-b186-875bc0eb3037/index.m3u8"
+  },
+  {
     "name": "FOX 23 Cape Girardeau MO (KBSI-DT1) (720p) [Not 24/7]",
     "tvg_id": "KBSIDT1.us@SD",
     "logo": "https://static.wikia.nocookie.net/tvstations/images/8/8e/KBSIO6.png",
@@ -23856,11 +23709,11 @@
     "url": "https://pubads.g.doubleclick.net/ssai/event/1kItNgwtQUe54NjjBiiTGg/master.m3u8"
   },
   {
-    "name": "Fox Business Network (720p)",
+    "name": "Fox Business Network (720p) [Not 24/7]",
     "tvg_id": "FoxBusinessNetwork.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/512px-Fox_Business.svg.png",
     "category": "Business",
-    "url": "https://fl31.moveonjoy.com/FOX_Business_Network/index.m3u8"
+    "url": "https://tvpass.org/live/FoxBusiness/hd"
   },
   {
     "name": "FOX Deportes",
@@ -23891,11 +23744,11 @@
     "url": "https://radiovid.foxnews.com/hls/live/661547/RADIOVID/index.m3u8"
   },
   {
-    "name": "Fox Soul",
+    "name": "Fox Soul (1080p)",
     "tvg_id": "FoxSoul.us@SD",
     "logo": "https://i.imgur.com/YIamDGn.png",
     "category": "Culture",
-    "url": "https://fl7.moveonjoy.com/FOX_SOUL/index.m3u8"
+    "url": "https://fox-foxsoul-samsungus.amagi.tv/playlist.m3u8"
   },
   {
     "name": "FOX Sports",
@@ -23917,13 +23770,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://live-manifest.production-public.tubi.io/live/6035c7fd-efff-4ec7-93dc-aa0c7a58ba47/playlist.m3u8"
-  },
-  {
-    "name": "Fox Sports 1",
-    "tvg_id": "FoxSports1.us@HD",
-    "logo": "https://i.imgur.com/O9BapV9.png",
-    "category": "Sports",
-    "url": "https://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8"
   },
   {
     "name": "Fox Sports 2 (360p) [Not 24/7]",
@@ -24388,11 +24234,11 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65a6a5e90c7ff50008cb9815/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=86219e93-f0ee-429a-907f-576027a10edd"
   },
   {
-    "name": "Fuse East (720p)",
+    "name": "Fuse East (1080p) [Not 24/7]",
     "tvg_id": "Fuse.us@East",
     "logo": "https://i.postimg.cc/gkhMThGb/fuse.png",
     "category": "Entertainment",
-    "url": "https://fl7.moveonjoy.com/FUSE/index.m3u8"
+    "url": "https://tvpass.org/live/FuseEast/hd"
   },
   {
     "name": "FUSION TV (1080p)",
@@ -24430,11 +24276,11 @@
     "url": "https://saran-live.ercdn.net/fx/index.m3u8"
   },
   {
-    "name": "FX East",
+    "name": "FX East (720p) [Not 24/7]",
     "tvg_id": "FX.us@East",
     "logo": "https://i.postimg.cc/263GFb0J/fx.png",
     "category": "Entertainment",
-    "url": "http://fl12.moveonjoy.com/FX/index.m3u8"
+    "url": "https://tvpass.org/live/FXEast/hd"
   },
   {
     "name": "FX Latin America (1080p)",
@@ -24465,13 +24311,6 @@
     "url": "https://toonixhls.wns.live/hls/stream.m3u8"
   },
   {
-    "name": "FXM East",
-    "tvg_id": "FXM.us@East",
-    "logo": "https://i.postimg.cc/j27hBV04/fxm.png",
-    "category": "Movies",
-    "url": "https://fl2.moveonjoy.com/FX_MOVIE/index.m3u8"
-  },
-  {
     "name": "FXX East (720p) [Not 24/7]",
     "tvg_id": "FXX.us@East",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/512px-FXX_Logo.svg.png",
@@ -24479,11 +24318,11 @@
     "url": "https://tvpass.org/live/FXXEast/hd"
   },
   {
-    "name": "FYI East",
+    "name": "FYI East (720p) [Not 24/7]",
     "tvg_id": "FYI.us@East",
     "logo": "https://i.imgur.com/PggQk7F.png",
     "category": "Lifestyle",
-    "url": "https://fl31.moveonjoy.com/FYI/index.m3u8"
+    "url": "https://tvpass.org/live/FYIEast/hd"
   },
   {
     "name": "G-eye TV",
@@ -25023,13 +24862,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6447dea7e94c380008dba94c/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=822c3dac-13c8-4829-849e-37406de6e2b5"
-  },
-  {
-    "name": "GetTV (480p)",
-    "tvg_id": "GetTV.us@SD",
-    "logo": "https://i.imgur.com/evOWORd.png",
-    "category": "Entertainment",
-    "url": "https://fl31.moveonjoy.com/GET_TV/index.m3u8"
   },
   {
     "name": "Gex TV (1080p)",
@@ -25648,11 +25480,11 @@
     "url": "http://103.78.149.54:8000/play/a01i/index.m3u8"
   },
   {
-    "name": "Golf Channel",
+    "name": "Golf Channel (1080p) [Not 24/7]",
     "tvg_id": "GolfChannel.us@SD",
     "logo": "https://i.imgur.com/Lgux6Ik.png",
     "category": "Sports",
-    "url": "https://fl31.moveonjoy.com/GOLF/index.m3u8"
+    "url": "https://tvpass.org/live/GolfChannel/hd"
   },
   {
     "name": "Golf Network (540p)",
@@ -26523,18 +26355,11 @@
     "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8"
   },
   {
-    "name": "Hallmark Channel East (720p)",
-    "tvg_id": "HallmarkChannel.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/512px-Hallmark_Channel.svg.png",
-    "category": "Family",
-    "url": "https://fl2.moveonjoy.com/HALLMARK_CHANNEL/index.m3u8"
-  },
-  {
-    "name": "Hallmark Drama (720p)",
+    "name": "Hallmark Drama (720p) [Not 24/7]",
     "tvg_id": "HallmarkDrama.us@SD",
     "logo": "",
     "category": "Series",
-    "url": "https://fl2.moveonjoy.com/HALLMARK_DRAMA/index.m3u8"
+    "url": "https://tvpass.org/live/HallmarkDrama/hd"
   },
   {
     "name": "Hallmark en Espanol [Geo-blocked]",
@@ -26551,11 +26376,11 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/628e685ba3811100070551a8/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=fc1da926-1c2b-44de-a80b-57f4b8693e04"
   },
   {
-    "name": "Hallmark Movies Mysteries East",
+    "name": "Hallmark Movies & Mysteries East (1080p) [Not 24/7]",
     "tvg_id": "HallmarkMoviesMysteries.us@East",
     "logo": "https://i.imgur.com/GPRGA9C.png",
     "category": "Movies",
-    "url": "https://fl2.moveonjoy.com/HALLMARK_MOVIES_MYSTERIES/index.m3u8"
+    "url": "https://tvpass.org/live/HallmarkMoviesMysteriesEast/hd"
   },
   {
     "name": "Hamaika Telebista (1080p)",
@@ -27340,13 +27165,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f4d3696d938c900072679fd/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=610c8f98-68e8-48e7-9cc5-5dd3fefdcab5&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=0ce29781-646f-405a-a8d6-90eb615c7b5c"
-  },
-  {
-    "name": "History",
-    "tvg_id": "History.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/512px-History_%282021%29.svg.png",
-    "category": "Documentary",
-    "url": "https://fl7.moveonjoy.com/history_channel/index.m3u8"
   },
   {
     "name": "History and Warfare Now (1080p)",
@@ -29582,13 +29400,6 @@
     "url": "https://all3media-international-insideoutside-1-nz.samsung.wurl.tv/playlist.m3u8"
   },
   {
-    "name": "INSP",
-    "tvg_id": "INSP.us@SD",
-    "logo": "https://i.imgur.com/YgOC51j.png",
-    "category": "Entertainment",
-    "url": "http://fl12.moveonjoy.com/INSP/index.m3u8"
-  },
-  {
     "name": "Inspector Gadget",
     "tvg_id": "InspectorGadget.us@UK",
     "logo": "https://i.imgur.com/hguRs7X.png",
@@ -29783,13 +29594,6 @@
     "logo": "https://i.postimg.cc/Jnn8NxVL/iontv.png",
     "category": "General",
     "url": "https://ap02.iqplay.tv:8082/iqb8002/i09/playlist.m3u8"
-  },
-  {
-    "name": "ION TV East",
-    "tvg_id": "IONTV.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/512px-Ion_logo.svg.png",
-    "category": "Entertainment",
-    "url": "http://fl12.moveonjoy.com/ION_TV/index.m3u8"
   },
   {
     "name": "Ionian Channel (1080p) [Not 24/7]",
@@ -31437,13 +31241,6 @@
     "url": "https://guineetvdirect.online:3842/live/kabacktvlive.m3u8"
   },
   {
-    "name": "KABB FOX (San Antonio TX)",
-    "tvg_id": "KABBDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/TX_San_Antonio_FOX/index.m3u8"
-  },
-  {
     "name": "Kabbalah for the People (Israel) (504p) [Not 24/7]",
     "tvg_id": "KabbalahforthePeopleIsrael.il@SD",
     "logo": "https://i.imgur.com/VxAHOgr.png",
@@ -31451,11 +31248,11 @@
     "url": "https://edge3.uk.kab.tv/live/tv66-heb-high/playlist.m3u8"
   },
   {
-    "name": "KABC ABC (Los Angeles CA)",
-    "tvg_id": "KABCDT1.us",
+    "name": "KABC-DT1 (360p) [Not 24/7]",
+    "tvg_id": "KABCDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/KABC-TV-Logo-2021.png/512px-KABC-TV-Logo-2021.png",
     "category": "General",
-    "url": "https://fl2.moveonjoy.com/CA_LOS_ANGELES_ABC/index.m3u8"
+    "url": "https://tvpass.org/live/abc-kabc-los-angeles-ca/sd"
   },
   {
     "name": "kabel eins",
@@ -32046,11 +31843,11 @@
     "url": "https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8"
   },
   {
-    "name": "KCBS CBS (Los Angeles CA)",
-    "tvg_id": "KCBSDT1.us",
+    "name": "KCBS-DT1 (1080p) [Not 24/7]",
+    "tvg_id": "KCBSDT1.us@SD",
     "logo": "https://i.imgur.com/RIFC1Y6.jpg",
     "category": "General",
-    "url": "https://fl2.moveonjoy.com/CA_Los_Angeles_CBS/index.m3u8"
+    "url": "https://tvpass.org/live/cbs-kcbs-los-angeles-ca/hd"
   },
   {
     "name": "KCL TV (720p)",
@@ -32072,20 +31869,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/512px-QVC_logo_2019.svg.png",
     "category": "Sports",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8"
-  },
-  {
-    "name": "KCNC CBS (Denver CO)",
-    "tvg_id": "KCNCDT1.us",
-    "logo": "https://i.imgur.com/Y8xBN2g.jpg",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/CO_DENVER_CBS/index.m3u8"
-  },
-  {
-    "name": "KCPQ FOX (Seattle WA)",
-    "tvg_id": "KCPQDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/512px-FOX_wordmark-red.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/WA_SEATTLE_FOX/index.m3u8"
   },
   {
     "name": "KCPT-DT1 (720p)",
@@ -32121,13 +31904,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
     "category": "General",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox4dallaskdfw-vizious/playlist.m3u8"
-  },
-  {
-    "name": "KDVR FOX (Denver CO)",
-    "tvg_id": "KDVRDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/CO_Denver_FOX/index.m3u8"
   },
   {
     "name": "Kecskemeti TV (416p) [Not 24/7]",
@@ -32270,13 +32046,6 @@
     "url": "https://streaming-live-fcdn.api.prd.univisionnow.com/kftr/kftr.isml/hls/kftr.m3u8"
   },
   {
-    "name": "KGTV ABC (San Diego CA)",
-    "tvg_id": "KGTVDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/CA_SAN_DIEGO_ABC/mpegts"
-  },
-  {
     "name": "Khabar Fast (576p)",
     "tvg_id": "KhabarFast.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KHABAR_FAST/images/LOGO_HD/image.png",
@@ -32324,13 +32093,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/fa/8/86/KHAVARAN_tv.png",
     "category": "General",
     "url": "https://ncdn.telewebion.com/khavaran/live/playlist.m3u8"
-  },
-  {
-    "name": "KHON FOX (Honolulu HI)",
-    "tvg_id": "KHONDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/2/23/KHON_logo_2020.png",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/HI_HONOLULU_FOX/mpegts"
   },
   {
     "name": "Khorasan Razavi",
@@ -32809,13 +32571,6 @@
     "url": "https://stream.streaming4u.hu/KomlosTV/tracks-v1a1/mono.m3u8"
   },
   {
-    "name": "KOMO ABC (Seattle WA)",
-    "tvg_id": "KOMODT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/KOMO-TV_(2021).svg/512px-KOMO-TV_(2021).svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/WA_SEATTLE_ABC/index.m3u8"
-  },
-  {
     "name": "Komsan TV [Not 24/7]",
     "tvg_id": "KomsanTV.kh@SD",
     "logo": "https://i.imgur.com/SNTf2r3.png",
@@ -32907,13 +32662,6 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8?ads.vf=gPEEXzG-WvO"
   },
   {
-    "name": "KPIX CBS (San Francisco CA)",
-    "tvg_id": "KPIXDT1.us@SD",
-    "logo": "https://i.imgur.com/v1ojdQb.jpg",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/CA_SAN_FRANCISCO_CBS/index.m3u8"
-  },
-  {
     "name": "Kpop Mix (720p)",
     "tvg_id": "KpopMix.ar@SD",
     "logo": "https://tvomix.com/Logos/Kpopmix.png",
@@ -32926,13 +32674,6 @@
     "logo": "https://i.imgur.com/Tf0vweF.png",
     "category": "Music",
     "url": "https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8"
-  },
-  {
-    "name": "KPRC NBC (Houston TX)",
-    "tvg_id": "KPRCDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/TX_Houston_NBC/index.m3u8"
   },
   {
     "name": "KPXE-DT1 (720p)",
@@ -33033,39 +32774,11 @@
     "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8"
   },
   {
-    "name": "KRQE CBS (Albuquerque NM)",
-    "tvg_id": "KRQEDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/NM_Albuquerque_CBS/index.m3u8"
-  },
-  {
-    "name": "KRQE FOX (Albuquerque NM)",
-    "tvg_id": "KBIMDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/NM_Albuquerque_FOX/index.m3u8"
-  },
-  {
-    "name": "KSAT ABC (San Antonio TX)",
-    "tvg_id": "KSATDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/KSAT_with_2021_ABC_Logo.svg/512px-KSAT_with_2021_ABC_Logo.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/TX_SAN_ANTONIO_ABC/index.m3u8"
-  },
-  {
     "name": "KSAZ-DT1 (1080p)",
     "tvg_id": "KSAZDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fts-phoenix-a.svg/512px-Fts-phoenix-a.svg.png",
     "category": "General",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-ksaz-lgus/playlist.m3u8"
-  },
-  {
-    "name": "KSBW NBC (Monterey CA)",
-    "tvg_id": "KSBWDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/CA_MONTEREY_CBS/index.m3u8"
   },
   {
     "name": "KSBY News San Louis Obispo CA (720p)",
@@ -33087,13 +32800,6 @@
     "logo": "https://i.imgur.com/HFmkjiR.png",
     "category": "Undefined",
     "url": "https://stream-losangeles.scientology.org/master.m3u8"
-  },
-  {
-    "name": "KSEE NBC (Fresno CA)",
-    "tvg_id": "KSEEDT1.us",
-    "logo": "https://i.imgur.com/Ct2Mgp3.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/CA_FRESNO_NBC/index.m3u8"
   },
   {
     "name": "KSHB 41 (Kansas City MO) (720p)",
@@ -33131,13 +32837,6 @@
     "url": "https://cvtv.cvalley.net/hls/KSMOIND/KSMOIND.m3u8"
   },
   {
-    "name": "KSNV NBC (Las Vegas NV)",
-    "tvg_id": "KSNVDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/KSNV_logo.svg/512px-KSNV_logo.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/NV_LAS_VEGAS_NBC/index.m3u8"
-  },
-  {
     "name": "KTBC-DT1 (1080p)",
     "tvg_id": "KTBCDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Fts-austin-a.svg/512px-Fts-austin-a.svg.png",
@@ -33171,13 +32870,6 @@
     "logo": "https://i.imgur.com/ppn5oJy.png",
     "category": "Documentary",
     "url": "https://api.v3.invintus.com/StreamURI/persis/2147483647/KTOO360TV.stream/media.m3u8"
-  },
-  {
-    "name": "KTRK ABC (Houston TX)",
-    "tvg_id": "KTRKDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/TX_HOUSTON_ABC/index.m3u8"
   },
   {
     "name": "KTRK TV ABC 13 News (720p)",
@@ -33271,13 +32963,6 @@
     "url": "https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8"
   },
   {
-    "name": "KTVI FOX (St. Louis MO)",
-    "tvg_id": "KTVIDT1.us",
-    "logo": "",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/MO_ST_LOUIS_FOX/index.m3u8"
-  },
-  {
     "name": "KTVK-DT1 (720p)",
     "tvg_id": "KTVKDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/KTVK_logo.svg/512px-KTVK_logo.svg.png",
@@ -33304,13 +32989,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Comet_logo.svg/512px-Comet_logo.svg.png",
     "category": "Entertainment",
     "url": "https://cvtv.cvalley.net/hls/KTVOComet/KTVOComet.m3u8"
-  },
-  {
-    "name": "KTVT CBS (Dallas TX)",
-    "tvg_id": "KTVTDT1.us",
-    "logo": "https://i.imgur.com/NYT4B5l.png",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/TX_Dallas_CBS/index.m3u8"
   },
   {
     "name": "Kudüs TV (480p) [Geo-blocked]",
@@ -33607,20 +33285,6 @@
     "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1309230/playlist.m3u8"
   },
   {
-    "name": "KVVU FOX (Las Vegas NV)",
-    "tvg_id": "KVVUDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/KVVU-TV_Fox_5_Henderson_-_Las_Vegas.svg/512px-KVVU-TV_Fox_5_Henderson_-_Las_Vegas.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/NV_LAS_VEGAS_FOX/mpegts"
-  },
-  {
-    "name": "KXAS NBC (Dallas TX)",
-    "tvg_id": "KXASDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KXAS_2023.svg/512px-KXAS_2023.svg.png",
-    "category": "General",
-    "url": "https://fl2.moveonjoy.com/TX_Dallas_NBC/index.m3u8"
-  },
-  {
     "name": "KYOU-DT2 (720p)",
     "tvg_id": "KYOUDT2.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
@@ -33640,13 +33304,6 @@
     "logo": "https://i.imgur.com/6w1Wj3j.png",
     "category": "Entertainment",
     "url": "https://cvtv.cvalley.net/hls/KYOUGrit/KYOUGrit.m3u8"
-  },
-  {
-    "name": "KYW CBS (Philadelphia PA)",
-    "tvg_id": "KYWDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/KYW-TV_CBS_2013_logo.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/PA_PHILADELPHIA_CBS/index.m3u8"
   },
   {
     "name": "KZTV-DT1 (720p)",
@@ -34937,13 +34594,6 @@
     "url": "https://app.viloud.tv/hls/channel/711fd3f3a4728449889ee22ba72958ff.m3u8"
   },
   {
-    "name": "Lifetime East",
-    "tvg_id": "Lifetime.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/512px-Logo_Lifetime_2020.svg.png",
-    "category": "Entertainment",
-    "url": "http://fl41.moveonjoy.com/LIFETIME/index.m3u8"
-  },
-  {
     "name": "Lifetime Holiday Favourites (1080p)",
     "tvg_id": "",
     "logo": "",
@@ -34958,11 +34608,11 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63335b193583440007c859fb/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=fb7f5dc2-9da3-4070-8ee0-07a887fc6382"
   },
   {
-    "name": "Lifetime Movies East",
+    "name": "Lifetime Movies East (720p) [Not 24/7]",
     "tvg_id": "LifetimeMovies.us@East",
     "logo": "https://i.postimg.cc/RZGmYyTt/lifetimemovies.png",
     "category": "Movies",
-    "url": "https://fl2.moveonjoy.com/LIFETIME_MOVIE_NETWORK/index.m3u8"
+    "url": "https://tvpass.org/live/LifetimeMoviesEast/hd"
   },
   {
     "name": "LifeTv (1080p)",
@@ -37774,7 +37424,7 @@
   {
     "name": "Mega Cine TV (720p) [Not 24/7]",
     "tvg_id": "MegaCineTV.do@HD",
-    "logo": "https://canalesdominicanos.live/template/images/radios/small/mega-cine-tv.png",
+    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/2893-294x165-FFFFFF.jpg",
     "category": "Movies",
     "url": "https://mlb.essastream.com:8081/megacinetv/tracks-v1a1/mono.m3u8"
   },
@@ -38199,13 +37849,6 @@
     "url": "https://eu1.servers10.com:8081/8214/index.m3u8"
   },
   {
-    "name": "MeTV",
-    "tvg_id": "MeTV.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/MeTV_Logo.svg/512px-MeTV_Logo.svg.png",
-    "category": "Entertainment",
-    "url": "https://84.17.40.25/ME_TV/index.m3u8"
-  },
-  {
     "name": "meWATCH LIVE 1 (1080p)",
     "tvg_id": "meWATCHLIVE1.sg@SD",
     "logo": "https://i.imgur.com/ppxUDxB.png",
@@ -38239,20 +37882,6 @@
     "logo": "https://i.imgur.com/xrNtabe.png",
     "category": "Religious",
     "url": "https://tv.rodja.live/tasik/ngrp:mgitv_all/playlist.m3u8"
-  },
-  {
-    "name": "MGM HD [Not 24/7]",
-    "tvg_id": "MGMHD.us@CatcastRU",
-    "logo": "https://i.imgur.com/FRbtrxo.png",
-    "category": "Movies",
-    "url": "https://v2.catcast.tv/content/44051/index.m3u8"
-  },
-  {
-    "name": "MGM+ East",
-    "tvg_id": "MGMPlus.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/MGM%2B_logo.svg/512px-MGM%2B_logo.svg.png",
-    "category": "Movies",
-    "url": "https://fl31.moveonjoy.com/EPIX/index.m3u8"
   },
   {
     "name": "MGR TV (1080p) [Not 24/7]",
@@ -38512,13 +38141,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://videostream.shockmedia.com.ar:19360/milenniotv/milenniotv.m3u8"
-  },
-  {
-    "name": "Military History",
-    "tvg_id": "MilitaryHistory.us@SD",
-    "logo": "https://i.imgur.com/S1SnpoA.png",
-    "category": "Documentary",
-    "url": "https://fl31.moveonjoy.com/Military_History/index.m3u8"
   },
   {
     "name": "MilitaryTimes (720p) [Geo-blocked]",
@@ -38876,13 +38498,6 @@
     "logo": "https://i.imgur.com/ym3su2J.png",
     "category": "Sports",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e66968a70f34c0007d050be/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=b24a9dca-0f04-498b-a54e-e848441bd909"
-  },
-  {
-    "name": "MLB Network",
-    "tvg_id": "MLBNetwork.us@SD",
-    "logo": "https://i.imgur.com/sA5V39D.png",
-    "category": "Sports",
-    "url": "https://fl31.moveonjoy.com/MLB_NETWORK/index.m3u8"
   },
   {
     "name": "MMA Junkie",
@@ -39517,7 +39132,7 @@
   {
     "name": "MorroTV (720p) [Not 24/7]",
     "tvg_id": "MorroTV.do@SD",
-    "logo": "",
+    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3759-294x165-FFFFFF.jpg",
     "category": "General",
     "url": "https://fox.hostlagarto.com:8081/morrotv/playlist.m3u8"
   },
@@ -39900,11 +39515,11 @@
     "url": "https://livestream.telvue.com/madrivervalleytv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
   },
   {
-    "name": "MSG",
+    "name": "MSG (1080p) [Not 24/7]",
     "tvg_id": "MSG.us@SD",
     "logo": "https://i.imgur.com/SEQFh0P.png",
     "category": "Sports",
-    "url": "https://fl2.moveonjoy.com/MSG/index.m3u8"
+    "url": "https://tvpass.org/live/msg-madison-square-gardens/hd"
   },
   {
     "name": "MSG Plus (720p) [Not 24/7]",
@@ -40103,13 +39718,6 @@
     "url": "https://hms.pfs.gdn/v1/broadcast/mtv/playlist.m3u8"
   },
   {
-    "name": "MTV2 (720p)",
-    "tvg_id": "MTV2.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/512px-MTV2_logo_2013.svg.png",
-    "category": "Entertainment",
-    "url": "https://fl2.moveonjoy.com/MTV_2/index.m3u8"
-  },
-  {
     "name": "MTV3 (720p)",
     "tvg_id": "MTV3.fi@SD",
     "logo": "https://i.imgur.com/C5rQbBM.png",
@@ -40271,13 +39879,6 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66a11a21a79dea0008aa90ca/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=610c8f98-68e8-48e7-9cc5-5dd3fefdcab5&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=d7456032-9949-445a-abbf-10342c2c9611"
   },
   {
-    "name": "MTV Classic (360p)",
-    "tvg_id": "MTVClassic.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/MTV_Classic_US.svg/512px-MTV_Classic_US.svg.png",
-    "category": "Music",
-    "url": "https://fl2.moveonjoy.com/MTV_CLASSIC/index.m3u8"
-  },
-  {
     "name": "MTV CLASSICS",
     "tvg_id": "",
     "logo": "",
@@ -40390,13 +39991,6 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64510d3ad3fdde00080951f2/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=610c8f98-68e8-48e7-9cc5-5dd3fefdcab5&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=411dda1a-a41f-49b6-8d52-a93d8bd15075"
   },
   {
-    "name": "MTV East",
-    "tvg_id": "MTV.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png",
-    "category": "Entertainment",
-    "url": "http://fl12.moveonjoy.com/MTV/index.m3u8"
-  },
-  {
     "name": "MTV Embarazada a los 16",
     "tvg_id": "",
     "logo": "",
@@ -40500,13 +40094,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63988b61c8d285000798a22a/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=8ee99fa9-8924-42ef-bf8b-617216b5b280&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=43ed4c28-698e-4366-a174-8bd07cd97e6b"
-  },
-  {
-    "name": "MTV Live (720p)",
-    "tvg_id": "MTVLive.us@SD",
-    "logo": "https://i.imgur.com/3UByLqb.png",
-    "category": "Music",
-    "url": "https://fl2.moveonjoy.com/MTV_LIVE/index.m3u8"
   },
   {
     "name": "MTV Originals",
@@ -40885,13 +40472,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/63eb9495a8b227000841bf64/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=13a07cf5-9cd9-48a5-8101-764fc4a1e908&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=eb485a3d-cdf7-4008-a002-c0bf57b8542b"
-  },
-  {
-    "name": "Much (720p)",
-    "tvg_id": "Much.ca@SD",
-    "logo": "https://i.imgur.com/JjYki5V.png",
-    "category": "Music",
-    "url": "https://fl7.moveonjoy.com/MUCH/index.m3u8"
   },
   {
     "name": "Multicanal Catamayo (720p) [Not 24/7]",
@@ -41727,13 +41307,6 @@
     "url": "https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_hls_nd/index.m3u8"
   },
   {
-    "name": "National Geographic East",
-    "tvg_id": "NationalGeographic.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png",
-    "category": "Documentary",
-    "url": "https://fl31.moveonjoy.com/National_Geographic/index.m3u8"
-  },
-  {
     "name": "National Geographic HD East (720p) [Not 24/7]",
     "tvg_id": "NationalGeographic.us@HDEast",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png",
@@ -41760,13 +41333,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png",
     "category": "Documentary",
     "url": "https://saran-live.ercdn.net/natgeowild/index.m3u8"
-  },
-  {
-    "name": "National Geographic Wild East",
-    "tvg_id": "NationalGeographicWild.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png",
-    "category": "Documentary",
-    "url": "https://fl31.moveonjoy.com/Nat_Geo_Wild/index.m3u8"
   },
   {
     "name": "National Geographic Wild HD East (720p) [Not 24/7]",
@@ -41986,11 +41552,32 @@
     "url": "https://aegis-cloudfront-1.tubi.video/d4d923f2-17de-4371-b86d-43490499bcdb/playlist.m3u8"
   },
   {
+    "name": "NBC 4 Washington DC (WRC) [Geo-blocked]",
+    "tvg_id": "WRCDT1.us@SD",
+    "logo": "https://i.imgur.com/7JpMArM.png",
+    "category": "Undefined",
+    "url": "https://amg00884-nbcuniversal-wanews-xumo-oamde.amagi.tv/playlist.m3u8"
+  },
+  {
     "name": "NBC 5 Chicago Live News (1080p)",
     "tvg_id": "WMAQDT1.us@SD",
     "logo": "https://i.imgur.com/wblxisu.png",
     "category": "Undefined",
     "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI"
+  },
+  {
+    "name": "NBC 5 Dallas-Fort Worth TX (KXAS) [Geo-blocked]",
+    "tvg_id": "KXASDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KXAS_2023.svg/512px-KXAS_2023.svg.png",
+    "category": "General",
+    "url": "https://amg00884-nbcuniversal-dfwnews-xumo-r5in7.amagi.tv/playlist.m3u8"
+  },
+  {
+    "name": "NBC 6 Miami FL (WTVJ) [Geo-blocked]",
+    "tvg_id": "WTVJDT1.us@SD",
+    "logo": "https://i.imgur.com/p3HXpSv.png",
+    "category": "Undefined",
+    "url": "https://amg00884-nbcuniversal-nbcnsf-pcr-xumo-78jf2.amagi.tv/playlist.m3u8"
   },
   {
     "name": "NBC 8 Lancaster PA (WGAL) (720p)",
@@ -42007,11 +41594,25 @@
     "url": "https://live.field59.com/wlio/wlio1/playlist.m3u8"
   },
   {
+    "name": "NBC 8 Salinas CA (KSBW) (720p)",
+    "tvg_id": "KSBWDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
+    "category": "General",
+    "url": "https://aegis-cloudfront-1.tubi.video/8e6af50d-76df-4208-ab8d-3ff8f512cd38/playlist.m3u8"
+  },
+  {
     "name": "NBC 10 Boston NH (WBTS) [Geo-blocked]",
     "tvg_id": "WBTSCD1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/WBTS-LD_NBC_10_Boston_logo.png/512px-WBTS-LD_NBC_10_Boston_logo.png",
     "category": "Undefined",
     "url": "https://amg00884-nbcuniversal-nbcbos-pcr-xumo-9xxph.amagi.tv/playlist.m3u8"
+  },
+  {
+    "name": "NBC 10 Philadelphia PA (WCAU) [Geo-blocked]",
+    "tvg_id": "WCAUDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WCAUlogo2.svg/512px-WCAUlogo2.svg.png",
+    "category": "Undefined",
+    "url": "https://amg00884-nbcuniversal-nbcpa-pcr-xumo-q61uw.amagi.tv/playlist.m3u8"
   },
   {
     "name": "NBC 10 Providence MA (1080p)",
@@ -42840,13 +42441,6 @@
     "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8"
   },
   {
-    "name": "News Nation (720p)",
-    "tvg_id": "NewsNation.us@East",
-    "logo": "https://zap2it.tmsimg.com/h3/NowShowing/91097/s91097_ll_h15_ae.png?w=512",
-    "category": "News",
-    "url": "http://fl41.moveonjoy.com/NEWS_NATION/index.m3u8"
-  },
-  {
     "name": "News Tamil 24x7 (1080p)",
     "tvg_id": "NewsTamil24x7.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS_TAMIL_24X7/images/LOGO_HD/image.png",
@@ -43099,13 +42693,6 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ddd7cb2cbb9010009b4fe32/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=610c8f98-68e8-48e7-9cc5-5dd3fefdcab5&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=e57522ab-5aad-4f37-8f14-0eb934c62987"
   },
   {
-    "name": "Nick Jr. East (720p)",
-    "tvg_id": "NickJr.us@East",
-    "logo": "https://i.imgur.com/KT4tdQs.png",
-    "category": "Kids",
-    "url": "http://fl41.moveonjoy.com/NICK_JR/index.m3u8"
-  },
-  {
     "name": "Nick Jr. Latin America (480p)",
     "tvg_id": "NickJrLatinAmerica.us@Panregional",
     "logo": "https://i.imgur.com/KT4tdQs.png",
@@ -43328,13 +42915,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64805525536e0c0008a19ca8/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=c01994e4-e1a1-4951-a355-2a30aa511907&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=cdba3fd9-45ce-40ce-a5c6-4c0ec7351f58"
-  },
-  {
-    "name": "Nicktoons East",
-    "tvg_id": "Nicktoons.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nicktoons_Network_logo_2009.svg/512px-Nicktoons_Network_logo_2009.svg.png",
-    "category": "Kids",
-    "url": "http://212.102.60.231/NICKTOONS/index.m3u8"
   },
   {
     "name": "Nicoya TV (720p) [Not 24/7]",
@@ -45899,13 +45479,6 @@
     "url": "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8"
   },
   {
-    "name": "Ovation (1080p)",
-    "tvg_id": "Ovation.us@SD",
-    "logo": "https://i.imgur.com/A3o9gvc.png",
-    "category": "Culture",
-    "url": "http://fl41.moveonjoy.com/Ovation/index.m3u8"
-  },
-  {
     "name": "Oxigeno TV (360p) [Not 24/7]",
     "tvg_id": "OxigenoTV.ve@SD",
     "logo": "https://i.imgur.com/n3PweBQ.png",
@@ -45925,13 +45498,6 @@
     "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3801-294x165-FFFFFF.jpg",
     "category": "General",
     "url": "https://streamunoapp.com:3520/live/oxitvcanal36live.m3u8"
-  },
-  {
-    "name": "Oxygen East",
-    "tvg_id": "Oxygen.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Oxygen_TV_%282017_Logo%29.svg/512px-Oxygen_TV_%282017_Logo%29.svg.png",
-    "category": "Entertainment",
-    "url": "https://fl2.moveonjoy.com/OXYGEN/index.m3u8"
   },
   {
     "name": "Oxygen Music (1080p)",
@@ -46296,13 +45862,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/68d566603d3a9580eb461251/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=13a07cf5-9cd9-48a5-8101-764fc4a1e908&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=d5f5fa76-ac03-479a-8afd-4defd49a5b4d"
-  },
-  {
-    "name": "Paramount Network East",
-    "tvg_id": "ParamountNetwork.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/512px-Paramount_Network.svg.png",
-    "category": "Movies;Series",
-    "url": "https://fl31.moveonjoy.com/PARAMOUNT_NETWORK/index.m3u8"
   },
   {
     "name": "Paramount+ Picks",
@@ -51359,6 +50918,13 @@
     "url": "https://lb2-e3-20.pluscdn.pl/lv/1511888/322/dash/52a9b70b/live.mpd"
   },
   {
+    "name": "Polsat Viasat Nature (1080p)",
+    "tvg_id": "PolsatViasatNature.pl@SD",
+    "logo": "https://i.imgur.com/TUcM0oS.png",
+    "category": "Documentary",
+    "url": "https://liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc104/polsatviasatnaturehdraw/polsatviasatnaturehdraw.m3u8"
+  },
+  {
     "name": "Pomona Internet Streaming Channel (Pomona CA) (720p)",
     "tvg_id": "PomonaInternetStreamingChannel.us@SD",
     "logo": "https://i.imgur.com/80gaUbq.png",
@@ -51406,13 +50972,6 @@
     "logo": "https://i.imgur.com/fGUlCY3.png",
     "category": "Undefined",
     "url": "https://amg01753-amg01753c6-samsung-au-6678.playouts.now.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "Pop TV",
-    "tvg_id": "PopTV.us@SD",
-    "logo": "https://i.imgur.com/XySNnh0.png",
-    "category": "Entertainment",
-    "url": "http://fl41.moveonjoy.com/Pop_TV/mpegts"
   },
   {
     "name": "POP World TV (720p)",
@@ -52255,11 +51814,11 @@
     "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/publicsenat.m3u8"
   },
   {
-    "name": "Public TV (720p)",
+    "name": "Public TV (576p) [Geo-blocked]",
     "tvg_id": "PublicTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUBLIC_TV/images/LOGO_HD/image.png",
     "category": "News",
-    "url": "https://cdn-3.pishow.tv/live/439/master.m3u8"
+    "url": "https://livestreampublictv.sunnxt.com/publictv/index.m3u8"
   },
   {
     "name": "Publika TV (720p)",
@@ -55125,13 +54684,6 @@
     "url": "https://a-cdn.klowdtv.com/live2/thefirst_720p/playlist.m3u8"
   },
   {
-    "name": "Reelz (720p)",
-    "tvg_id": "Reelz.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Reelz.svg/512px-Reelz.svg.png",
-    "category": "Documentary",
-    "url": "http://212.102.60.231/REELZ/index.m3u8"
-  },
-  {
     "name": "Reelz Famous & Infamous",
     "tvg_id": "",
     "logo": "",
@@ -55531,11 +55083,11 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6320ddef274b1b0007b2ee88/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=610c8f98-68e8-48e7-9cc5-5dd3fefdcab5&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=82ba4270-0851-4f57-9ab5-12d0ab018c4a"
   },
   {
-    "name": "Revolt",
+    "name": "Revolt (1080p)",
     "tvg_id": "Revolt.us@SD",
     "logo": "https://i.postimg.cc/4xnH4Dx6/revolt.png",
     "category": "Undefined",
-    "url": "https://fl7.moveonjoy.com/REVOLT/index.m3u8"
+    "url": "https://aegis-cloudfront-1.tubi.video/77b454c9-7bf0-404d-9d26-77cc9d4936ea/playlist.m3u8"
   },
   {
     "name": "Revry",
@@ -59416,34 +58968,6 @@
     "url": "https://epiconvh.akamaized.net/live/showbox/master.m3u8"
   },
   {
-    "name": "Showtime 2 East",
-    "tvg_id": "Showtime2.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/512px-Showtime.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/SHOWTIME_2/index.m3u8"
-  },
-  {
-    "name": "Showtime East",
-    "tvg_id": "Showtime.us@East",
-    "logo": "https://i.postimg.cc/4NFMSszc/showtime.png",
-    "category": "Undefined",
-    "url": "https://fl31.moveonjoy.com/SHOWTIME/index.m3u8"
-  },
-  {
-    "name": "Showtime Next East",
-    "tvg_id": "ShowtimeNext.us@East",
-    "logo": "https://i.imgur.com/1Ak2MX2.png",
-    "category": "Undefined",
-    "url": "https://fl7.moveonjoy.com/SHOWTIME_NEXT/index.m3u8"
-  },
-  {
-    "name": "Showtime West (1080p)",
-    "tvg_id": "Showtime.us@West",
-    "logo": "https://i.postimg.cc/4NFMSszc/showtime.png",
-    "category": "Undefined",
-    "url": "https://fl31.moveonjoy.com/SHOWTIME_WEST/index.m3u8"
-  },
-  {
     "name": "Shraddha TV (480p)",
     "tvg_id": "ShraddhaTV.lk@SD",
     "logo": "https://i.imgur.com/sZ3fEMi.png",
@@ -60109,13 +59633,6 @@
     "url": "https://s1.cystream.net/live/smile/playlist.m3u8"
   },
   {
-    "name": "Smithsonian Channel East",
-    "tvg_id": "SmithsonianChannel.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/SmithsonianChannellogo.png/512px-SmithsonianChannellogo.png",
-    "category": "Science",
-    "url": "https://fl31.moveonjoy.com/SMITHSONIAN_CHANNEL/index.m3u8"
-  },
-  {
     "name": "Smithsonian Channel Pluto TV",
     "tvg_id": "",
     "logo": "",
@@ -60408,13 +59925,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png",
     "category": "Undefined",
     "url": "http://38.183.182.166:8000/play/a0vg/index.m3u8"
-  },
-  {
-    "name": "Sony Channel",
-    "tvg_id": "SonyChannel.mx@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/Sony_Movie_Channel/index.m3u8"
   },
   {
     "name": "Sony Entertainment Television HD (720p)",
@@ -61446,20 +60956,6 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sportskool-tv/master.m3u8?ads.vf=0vV6h8I3vC8"
   },
   {
-    "name": "Sportsman Channel",
-    "tvg_id": "SportsmanChannel.us@SD",
-    "logo": "https://i.imgur.com/CXauv8M.png",
-    "category": "Sports",
-    "url": "http://212.102.60.231/SPORTSMAN_CHANNEL/index.m3u8"
-  },
-  {
-    "name": "SportsNet New York (540p)",
-    "tvg_id": "SportsNetNewYork.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/SNY_logo.svg/512px-SNY_logo.svg.png",
-    "category": "Sports",
-    "url": "http://212.102.60.231/SNY/index.m3u8"
-  },
-  {
     "name": "SportsTVPlus",
     "tvg_id": "SportsTVPlus.us@SD",
     "logo": "https://i.imgur.com/EyCDhgN.png",
@@ -62027,25 +61523,11 @@
     "url": "https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8"
   },
   {
-    "name": "Starz East",
+    "name": "Starz East (1080p) [Not 24/7]",
     "tvg_id": "Starz.us@East",
     "logo": "https://i.imgur.com/N7oSm4d.png",
     "category": "Undefined",
-    "url": "http://212.102.60.231/STARZ/index.m3u8"
-  },
-  {
-    "name": "Starz Encore Classic East",
-    "tvg_id": "StarzEncoreClassic.us@East",
-    "logo": "https://i.imgur.com/L6GjoS4.png",
-    "category": "Classic",
-    "url": "http://212.102.60.231/STARZ_ENCORE_CLASSIC/index.m3u8"
-  },
-  {
-    "name": "Starz West",
-    "tvg_id": "Starz.us@West",
-    "logo": "https://i.imgur.com/N7oSm4d.png",
-    "category": "Undefined",
-    "url": "http://212.102.60.231/STARZ_WEST/index.m3u8"
+    "url": "https://tvpass.org/live/StarzEast/hd"
   },
   {
     "name": "StashTV Black Stories (720p) [Geo-blocked]",
@@ -62706,13 +62188,6 @@
     "url": "http://15.235.144.106:14054"
   },
   {
-    "name": "Sundance TV East",
-    "tvg_id": "SundanceTV.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SundanceTV_2014.svg/512px-SundanceTV_2014.svg.png",
-    "category": "Movies",
-    "url": "https://fl2.moveonjoy.com/SUNDANCE/index.m3u8"
-  },
-  {
     "name": "Sundrani Tv",
     "tvg_id": "",
     "logo": "",
@@ -63341,13 +62816,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SX3_logo.svg/512px-SX3_logo.svg.png",
     "category": "Animation;Kids;Public",
     "url": "https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8"
-  },
-  {
-    "name": "Syfy East",
-    "tvg_id": "SYFY.us@East",
-    "logo": "https://i.imgur.com/4fMWhUE.png",
-    "category": "Movies;Series",
-    "url": "https://fl31.moveonjoy.com/SYFY/index.m3u8"
   },
   {
     "name": "Syke",
@@ -68565,6 +68033,13 @@
     "url": "https://travelxp-travelxp-1-au.samsung.wurl.tv/playlist.m3u8"
   },
   {
+    "name": "Travelxp 4K HDR (2160p) [Geo-blocked]",
+    "tvg_id": "Travelxp.in@4KHDR",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TRAVELXP/images/LOGO_HD/image.png",
+    "category": "Travel",
+    "url": "https://deltatesttatasky.akamaized.net/out/i/968284.m3u8"
+  },
+  {
     "name": "Travelxp France (720p)",
     "tvg_id": "",
     "logo": "",
@@ -70609,13 +70084,6 @@
     "url": "https://stream.berosat.live:19360/tv-capitale-tream/tv-capitale-tream.m3u8"
   },
   {
-    "name": "TV Land",
-    "tvg_id": "TVLand.us@East",
-    "logo": "https://i.imgur.com/VNNS4mF.png",
-    "category": "Classic",
-    "url": "http://fl12.moveonjoy.com/TV_LAND/index.m3u8"
-  },
-  {
     "name": "TV Land Drama",
     "tvg_id": "TVLandDrama.us@SD",
     "logo": "https://i.imgur.com/y1rXIAS.png",
@@ -70985,13 +70453,6 @@
     "logo": "https://i.imgur.com/qkbRslf.png",
     "category": "Undefined",
     "url": "http://92.114.85.72:8000/play/a070"
-  },
-  {
-    "name": "TV One",
-    "tvg_id": "TVOne.us@SD",
-    "logo": "https://i.imgur.com/tthm8Q5.png",
-    "category": "Undefined",
-    "url": "https://fl7.moveonjoy.com/TV_ONE/index.m3u8"
   },
   {
     "name": "TV One Crime & Justice",
@@ -74641,13 +74102,6 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/66abefe5d2d50d00082c7d12/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=e198c76f-2257-4a62-8489-9fa15305e1a9"
   },
   {
-    "name": "VHS TV [Not 24/7]",
-    "tvg_id": "VHSTV.ru@SD",
-    "logo": "https://i.imgur.com/BHCwWBf.png",
-    "category": "Movies",
-    "url": "https://v2.catcast.tv/content/47609/index.m3u8"
-  },
-  {
     "name": "Vía Altomayo (720p) [Not 24/7]",
     "tvg_id": "ViaAltomayo.pe@SD",
     "logo": "https://i.imgur.com/aJ4XExn.png",
@@ -74998,7 +74452,7 @@
     "url": "http://wms.shared.streamshow.it:1935/visualradio/visualradio/live.m3u8"
   },
   {
-    "name": "VITAL Drive [Not 24/7]",
+    "name": "VITAL Drive",
     "tvg_id": "VitalDrive.ru@HD",
     "logo": "https://i.imgur.com/XoR9zLh.png",
     "category": "Sports",
@@ -75161,7 +74615,7 @@
   {
     "name": "Vos TV (720p) [Not 24/7]",
     "tvg_id": "VosTV.ni@SD",
-    "logo": "https://i.imgur.com/rJ3xUec.png",
+    "logo": "https://i.imgur.com/Lbi87xv.png",
     "category": "General",
     "url": "http://ott.streann.com:8080/loadbalancer/services/public/channels/59e60c4997381ef50d15c041/playlist.m3u8"
   },
@@ -75481,13 +74935,6 @@
     "url": "https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8"
   },
   {
-    "name": "W Network (720p)",
-    "tvg_id": "WNetwork.ca@East",
-    "logo": "https://i.imgur.com/t7XdBh8.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/W_NETWORK/index.m3u8"
-  },
-  {
     "name": "W Polsce PL (720p)",
     "tvg_id": "WPolscePL.pl@SD",
     "logo": "https://i.imgur.com/HQ8UyhL.png",
@@ -75509,18 +74956,11 @@
     "url": "https://live.kwikmotion.com/waarmedialive/waarmedia.smil/waarmediapublish/waarmedia_source/chunks.m3u8"
   },
   {
-    "name": "WABC ABC (New York NY)",
+    "name": "WABC-DT1 (720p) [Not 24/7]",
     "tvg_id": "WABCDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/WABC_TV_New_2021.svg/512px-WABC_TV_New_2021.svg.png",
     "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/NY_NEW_YORK_ABC/index.m3u8"
-  },
-  {
-    "name": "WAFB CBS (Baton Rouge LA)",
-    "tvg_id": "WAFBDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/WAFB_2024_Logo.svg/512px-WAFB_2024_Logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/LA_BATON_ROUGE_CBS/index.m3u8"
+    "url": "https://tvpass.org/live/WABCDT1/hd"
   },
   {
     "name": "Waffi TV (240p)",
@@ -75542,13 +74982,6 @@
     "logo": "https://i.imgur.com/xm4KBwE.png",
     "category": "Undefined",
     "url": "https://stream1.np.co.nz/WAITVABR/WAITVABR/playlist.m3u8"
-  },
-  {
-    "name": "WALA FOX (Mobile AL)",
-    "tvg_id": "WALADT1.us@SD",
-    "logo": "https://i.ibb.co/xtfQ8tG5/fox10news.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/AL_MOBILE_FOX/index.m3u8"
   },
   {
     "name": "Walf TV (360p)",
@@ -75633,13 +75066,6 @@
     "logo": "https://i.imgur.com/Bv1yJ1d.png",
     "category": "Lifestyle",
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/wapptv/master.m3u8?ads.vf=sP7W-jxtEdq"
-  },
-  {
-    "name": "WAPT ABC (Jackson MS)",
-    "tvg_id": "WAPTDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/WAPT2022logo.png",
-    "category": "News",
-    "url": "http://fl41.moveonjoy.com/MS_JACKSON_ABC/index.m3u8"
   },
   {
     "name": "Warner Bros. TV Say Yes to the Dress",
@@ -75740,13 +75166,6 @@
     "url": "https://waterbear-waterbear-rakuten.amagi.tv/playlist.m3u8"
   },
   {
-    "name": "WAVE NBC (Louisville KY)",
-    "tvg_id": "WAVEDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/KY_Louisville_NBC/index.m3u8"
-  },
-  {
     "name": "WAVE TV (480p)",
     "tvg_id": "WAVETV.bz@SD",
     "logo": "https://i.imgur.com/V8Hfgis.jpg",
@@ -75796,13 +75215,6 @@
     "url": "https://wazobia.live:8333/channel/wmaxph.m3u8"
   },
   {
-    "name": "WBBH NBC (Fort Myers FL)",
-    "tvg_id": "WBBHDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/FL_FORT_MYERS_NBC/index.m3u8"
-  },
-  {
     "name": "WBBJ (Jackson TN) (432p)",
     "tvg_id": "WBBJDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
@@ -75810,25 +75222,11 @@
     "url": "https://dai.google.com/linear/hls/event/HZ3JdLVcQ463l3b1BLXmmQ/master.m3u8"
   },
   {
-    "name": "WBMA-LD ABC (Birmingham AL)",
-    "tvg_id": "WBMALD1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/AL_BIRMINGHAM_ABC/index.m3u8"
-  },
-  {
     "name": "WBRA PBS Kids (1080p)",
     "tvg_id": "WBRADT3.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg",
     "category": "Undefined",
     "url": "https://livestream.pbskids.org/out/v1/1e3d77b418ad4a819b3f4c80ac0373b5/est_124.m3u8"
-  },
-  {
-    "name": "WBRC FOX (Birmingham AL)",
-    "tvg_id": "WBRCDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/AL_BIRMINGHAM_FOX/index.m3u8"
   },
   {
     "name": "WBRZ Weather Channel Baton Rouge LA (480p)",
@@ -76013,20 +75411,6 @@
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00312-graytelevisioni-wbtvnews-vizious/playlist.m3u8"
   },
   {
-    "name": "WBZ CBS (Boston MA)",
-    "tvg_id": "WBZDT1.us",
-    "logo": "https://i.imgur.com/NC5qL8u.png",
-    "category": "News",
-    "url": "http://fl41.moveonjoy.com/MA_BOSTON_CBS/mpegts"
-  },
-  {
-    "name": "WCAU NBC (Philadelphia PA)",
-    "tvg_id": "WCAUDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WCAUlogo2.svg/512px-WCAUlogo2.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/PA_PHILADELPHIA_NBC/index.m3u8"
-  },
-  {
     "name": "WCBI (Columbus MI) (720p)",
     "tvg_id": "WCBIDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
@@ -76048,13 +75432,6 @@
     "url": "https://worcester.vod.castus.tv/live/ch1.m3u8"
   },
   {
-    "name": "WCCO CBS (Minneapolis MN)",
-    "tvg_id": "WCCODT1.us",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/MN_MINNEAPOLIS_CBS/mpegts"
-  },
-  {
     "name": "WCGtv Public (720p)",
     "tvg_id": "WCGtv.ca@SD",
     "logo": "https://i.imgur.com/q7UPbEG.png",
@@ -76062,25 +75439,11 @@
     "url": "https://wowzastream.westmancom.com/wcgtvlive/wcgtvPSA.stream/master.m3u8"
   },
   {
-    "name": "WCJB ABC (Gainesville FL)",
-    "tvg_id": "WCJBDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_GAINESVILLE_ABC/index.m3u8"
-  },
-  {
     "name": "WCOT 13 (Tallahassee FL) (720p)",
     "tvg_id": "WCOT.us@SD",
     "logo": "https://i.imgur.com/WMUBDzY.jpg",
     "category": "General",
     "url": "https://stream.talgov.net/WCOT/smil:WCOT.smil/playlist.m3u8"
-  },
-  {
-    "name": "WCVB ABC (Boston MA)",
-    "tvg_id": "WCVBDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/WCVB-TV_%282021%29.svg/512px-WCVB-TV_%282021%29.svg.png",
-    "category": "General",
-    "url": "http://fl41.moveonjoy.com/MA_BOSTON_ABC/index.m3u8"
   },
   {
     "name": "WDAF-DT1 (720p)",
@@ -76097,32 +75460,11 @@
     "url": "https://cvtv.cvalley.net/hls/WDAFAntenna/WDAFAntenna.m3u8"
   },
   {
-    "name": "WDBD FOX (Jackson MS)",
-    "tvg_id": "WDBDDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/MS_JACKSON_FOX/index.m3u8"
-  },
-  {
     "name": "WDEF-TV News Chattanooga TN (720p)",
     "tvg_id": "WDEFDT1.us@SD",
     "logo": "",
     "category": "Undefined",
     "url": "https://townnews.g-mana.live/media/a54a6409-5e91-46f0-9fee-06904c1fd094/main.m3u8"
-  },
-  {
-    "name": "WDFX FOX (Dothan AL)",
-    "tvg_id": "WDFXDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/AL_DOTHAN_FOX/index.m3u8"
-  },
-  {
-    "name": "WDIV NBC (Detroit MI)",
-    "tvg_id": "WDIVDT1.us",
-    "logo": "https://i.imgur.com/DcrlcT4.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/MI_Detroit_NBC/index.m3u8"
   },
   {
     "name": "WDR 1 Live (720p)",
@@ -76209,13 +75551,6 @@
     "url": "https://wdrlokalzeit.akamaized.net/hls/live/2018028-b/wdrlz_wuppertal/master.m3u8"
   },
   {
-    "name": "WDRB FOX (Louisville KY)",
-    "tvg_id": "WDRBDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/KY_Louisville_FOX/index.m3u8"
-  },
-  {
     "name": "WDWL-DT1 (Teleadoración/Enlace PR) (720p) [Not 24/7]",
     "tvg_id": "WDWLDT1.pr@SD",
     "logo": "https://i.imgur.com/B7lqYZe.png",
@@ -76228,13 +75563,6 @@
     "logo": "https://i.imgur.com/iZufxya.jpg",
     "category": "General",
     "url": "http://kl.logicwebs.in:1935/sreemedia/sreemedia/playlist.m3u8"
-  },
-  {
-    "name": "We TV East",
-    "tvg_id": "WeTV.us@East",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/We_TV_logo_2014.svg/512px-We_TV_logo_2014.svg.png",
-    "category": "Series",
-    "url": "http://fl12.moveonjoy.com/WE_TV/index.m3u8"
   },
   {
     "name": "Weather Spy",
@@ -76398,39 +75726,11 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e8df4bc16e34700077e77d3/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=affbdbfa-5fa3-48af-8369-57c005daef42&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=52e84b93-5085-47da-88f2-ad7bef4750ce"
   },
   {
-    "name": "WEWS ABC (Cleveland OH)",
-    "tvg_id": "WEWSDT1.us",
-    "logo": "https://i.imgur.com/sUonBr6.png",
-    "category": "News",
-    "url": "http://fl41.moveonjoy.com/OH_CLEVELAND_ABC/index.m3u8"
-  },
-  {
-    "name": "WFFT FOX (Fort Wayne IN)",
-    "tvg_id": "WFFTDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/IN_Fort_Wayne_FOX/mpegts"
-  },
-  {
-    "name": "WFLA-DT1",
-    "tvg_id": "WFLADT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Tampa_NBC/index.m3u8"
-  },
-  {
     "name": "WFLD-DT1 (1080p)",
     "tvg_id": "WFLDDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
     "category": "Undefined",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wfld-lgus/playlist.m3u8"
-  },
-  {
-    "name": "WFLX-DT1",
-    "tvg_id": "WFLXDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_West_Palm_Beach_FOX/index.m3u8"
   },
   {
     "name": "WFMZ Dorney Park Camera",
@@ -76468,27 +75768,6 @@
     "url": "https://d3b3ldcvgsu291.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-WFN/477.m3u8?ads.vf=RE1gCJub-L0"
   },
   {
-    "name": "WFOR CBS (Miami FL)",
-    "tvg_id": "WFORDT1.us",
-    "logo": "https://zap2it.tmsimg.com/h5/NowShowing/10098/s10098_h5_aa.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Miami_CBS/index.m3u8"
-  },
-  {
-    "name": "WFOX FOX (Jacksonville FL)",
-    "tvg_id": "WFOXDT1.us",
-    "logo": "https://i.imgur.com/tyEvEtW.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Jacksonville_FOX/index.m3u8"
-  },
-  {
-    "name": "WFTS-DT1",
-    "tvg_id": "WFTSDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "News",
-    "url": "https://fl2.moveonjoy.com/FL_Tampa_ABC/index.m3u8"
-  },
-  {
     "name": "WFTT-DT1",
     "tvg_id": "WFTTDT1.us@SD",
     "logo": "https://i.imgur.com/HFmkjiR.png",
@@ -76510,32 +75789,11 @@
     "url": "https://streaming-live-fcdn.api.prd.univisionnow.com/wfut/wfut.isml/hls/wfut.m3u8"
   },
   {
-    "name": "WFXG FOX (Augusta GA)",
-    "tvg_id": "WFXGDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/GA_AUGUSTA_FOX/index.m3u8"
-  },
-  {
-    "name": "WFXR FOX (Roanoke VA)",
-    "tvg_id": "WFXRDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/VA_Roanoke_FOX/mpegts"
-  },
-  {
     "name": "WFXT-DT2 (1080p)",
     "tvg_id": "WFXTDT2.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/ION_Mystery_logo.svg/512px-ION_Mystery_logo.svg.png",
     "category": "Undefined",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionmystery-tablo/playlist.m3u8"
-  },
-  {
-    "name": "WGCL CBS (Atlanta GA)",
-    "tvg_id": "WGCLDT1.us",
-    "logo": "https://i.imgur.com/1yYlLZg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/GA_ATLANTA_CBS/index.m3u8"
   },
   {
     "name": "WGGS-DT1 (720p)",
@@ -76564,13 +75822,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/89/PBS_logo_2019.svg",
     "category": "Undefined",
     "url": "https://wgtvdt3.lls.pbs.org/wgtvdt3-cmaf-hls.m3u8"
-  },
-  {
-    "name": "WGXA CBS (Macon GA)",
-    "tvg_id": "WGXADT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/GA_MACON_CBS/index.m3u8"
   },
   {
     "name": "Whakaata Maori",
@@ -76867,13 +76118,6 @@
     "url": "http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65b38e310d9ab400082bdec2/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc86d9b2-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=76de74af-ffdf-4118-8ab5-330f75070275"
   },
   {
-    "name": "WINK CBS (Fort Myers FL)",
-    "tvg_id": "WINKDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/FL_FORT_MYERS_CBS/index.m3u8"
-  },
-  {
     "name": "Winthrop Community Access TV (WCAT 15) (360p) [Not 24/7]",
     "tvg_id": "WCATDT15.us@SD",
     "logo": "https://i.imgur.com/1odhDRE.png",
@@ -76972,13 +76216,6 @@
     "url": "https://witn.cablecast.tv/live-4/live/live.m3u8"
   },
   {
-    "name": "WIVB CBS (Buffalo NY)",
-    "tvg_id": "WIVBDT1.us",
-    "logo": "https://i.imgur.com/I2zf6us.png",
-    "category": "Undefined",
-    "url": "https://fl7.moveonjoy.com/NY_BUFFALO_CBS/mpegts"
-  },
-  {
     "name": "WJAX-DT1 (1080p)",
     "tvg_id": "WJAXDT1.us@SD",
     "logo": "https://i.imgur.com/TBjVU9L.png",
@@ -77007,13 +76244,6 @@
     "url": "https://e3.thetvapp.to/hls/metv-toons/index.m3u8"
   },
   {
-    "name": "WJTV CBS (Jackson MS)",
-    "tvg_id": "WJTVDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/MS_JACKSON_CBS/index.m3u8"
-  },
-  {
     "name": "WJXT News4JAX (Jacksonville FL) (720p)",
     "tvg_id": "WJXTDT1.us@SD",
     "logo": "https://i.imgur.com/mrWo0P1.png",
@@ -77033,13 +76263,6 @@
     "logo": "https://i.imgur.com/TL6xy4y.png",
     "category": "Undefined",
     "url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master.m3u8"
-  },
-  {
-    "name": "WKBW ABC (Buffalo NY)",
-    "tvg_id": "WKBWDT1.us",
-    "logo": "https://i.imgur.com/dtzR3Y1.png",
-    "category": "News",
-    "url": "https://fl7.moveonjoy.com/NY_BUFFALO_ABC/mpegts"
   },
   {
     "name": "WKCF-DT2",
@@ -77063,41 +76286,6 @@
     "url": "https://dvrfl03.bozztv.com/hondu/hondu-pbs-kids/index.m3u8"
   },
   {
-    "name": "WKRG CBS (Mobile AL)",
-    "tvg_id": "WKRGDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/AL_MOBILE_CBS/index.m3u8"
-  },
-  {
-    "name": "WKRN ABC (Nashville TN)",
-    "tvg_id": "WKRNDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/WKRN-TV_%282016%29.svg/512px-WKRN-TV_%282016%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/TN_NASHVILLE_ABC/index.m3u8"
-  },
-  {
-    "name": "WKYT CBS (Lexington KY)",
-    "tvg_id": "WKYTDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/KY_Lexington_CBS/mpegts"
-  },
-  {
-    "name": "WLBT NBC (Jackson MS)",
-    "tvg_id": "WLBTDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/MS_JACKSON_NBC/index.m3u8"
-  },
-  {
-    "name": "WLKY CBS (Louisville KY)",
-    "tvg_id": "WLKYDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "News",
-    "url": "http://fl41.moveonjoy.com/KY_LOUISVILLE_CBS/index.m3u8"
-  },
-  {
     "name": "WLMB",
     "tvg_id": "WLMB.us@SD",
     "logo": "https://i.imgur.com/KeELZ1Y.png",
@@ -77117,13 +76305,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
     "category": "News",
     "url": "https://content.uplynk.com/channel/ext/aac37e2c66614e699fb189ab391084ff/wls_24x7_news.m3u8"
-  },
-  {
-    "name": "WLS-DT1 ABC",
-    "tvg_id": "WLSDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/IL_CHICAGO_ABC/index.m3u8"
   },
   {
     "name": "WLTV-DT1 [Geo-blocked]",
@@ -77147,13 +76328,6 @@
     "url": "http://d029dcec.kazmazpaz.ru/iptv/GVR4V8HYAGBS5V/1098/manifest.m3u8"
   },
   {
-    "name": "WMC NBC (Memphis TN)",
-    "tvg_id": "WMCDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/TN_Memphis_NBC/index.m3u8"
-  },
-  {
     "name": "WMGT-TV News (Macon GA) (720p)",
     "tvg_id": "WMGTDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
@@ -77168,11 +76342,11 @@
     "url": "https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8"
   },
   {
-    "name": "WNBC NBC (New York NY)",
-    "tvg_id": "WNBCDT1.us",
+    "name": "WNBC-DT1 (720p) [Not 24/7]",
+    "tvg_id": "WNBCDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/512px-WNBC_4_NY.svg.png",
     "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/NY_New_York_NBC/index.m3u8"
+    "url": "https://tvpass.org/live/WNBCDT1/hd"
   },
   {
     "name": "WNJU-DT1",
@@ -77182,32 +76356,11 @@
     "url": "http://104.238.205.28:9090/278678_.m3u8"
   },
   {
-    "name": "WNLO CW (Buffalo NY)",
-    "tvg_id": "WNLODT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/The_CW_2024.svg/512px-The_CW_2024.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/NY_BUFFALO_CW/mpegts"
-  },
-  {
     "name": "WNYW-DT1 (1080p)",
     "tvg_id": "WNYWDT1.us@SD",
     "logo": "https://i.imgur.com/zZd9Tkt.png",
     "category": "Undefined",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-wnyw-lgus/playlist.m3u8"
-  },
-  {
-    "name": "WOAI NBC (San Antonio TX)",
-    "tvg_id": "WOAIDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/TX_San_Antonio_NBC/index.m3u8"
-  },
-  {
-    "name": "WOFL FOX (Orlando FL)",
-    "tvg_id": "WOFLDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_ORLANDO_FOX/index.m3u8"
   },
   {
     "name": "WOIO-DT1 (720p)",
@@ -77271,13 +76424,6 @@
     "logo": "https://i.imgur.com/3lSAWHg.png",
     "category": "Business",
     "url": "http://49.113.179.174:4022/udp/238.125.2.205:5140"
-  },
-  {
-    "name": "World Fishing Network",
-    "tvg_id": "WorldFishingNetwork.us@SD",
-    "logo": "https://i.postimg.cc/NFb8L66n/worldfishingnetwork.png",
-    "category": "Outdoor",
-    "url": "http://fl41.moveonjoy.com/WORLD_FISHING_NETWORK/index.m3u8"
   },
   {
     "name": "World Harvest TV (360p)",
@@ -77490,18 +76636,11 @@
     "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20"
   },
   {
-    "name": "WPEC-DT1",
-    "tvg_id": "WPECDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
+    "name": "WP TV (1080p)",
+    "tvg_id": "WPTV.pl@SD",
+    "logo": "https://ocdn.eu/ptv2-images-transforms/1/NIbkrRsb2dvLW1pZ3JhdGVkL3dwLnBuZ5KVAmQAwsOVAgAowsM",
     "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_West_Palm_Beach_CBS/mpegts"
-  },
-  {
-    "name": "WPGH FOX (Pittsburgh PA)",
-    "tvg_id": "WPGHDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/PA_Pittsburgh_FOX/index.m3u8"
+    "url": "https://liveovh011.cda.pl/P8IjbpepCvx7lF8FyJcdAQ/1755751084/2430238/enc109/wphdraw/wphdraw.m3u8"
   },
   {
     "name": "WPIX-DT1",
@@ -77516,13 +76655,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PIX11_2017.svg/512px-PIX11_2017.svg.png",
     "category": "Undefined",
     "url": "https://dvrfl04.tulix.tv/teleup-wpix/mpegts"
-  },
-  {
-    "name": "WPMI ABC (Mobile AL)",
-    "tvg_id": "WPMIDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/AL_MOBILE_ABC/index.m3u8"
   },
   {
     "name": "WPS TV (360p)",
@@ -77553,13 +76685,6 @@
     "url": "https://content.uplynk.com/channel/ext/10b98e7c615f43a98b180d51797e74aa/wpvi_24x7_news.m3u8"
   },
   {
-    "name": "WPVI ABC (Philadelphia PA)",
-    "tvg_id": "WPVIDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "News",
-    "url": "http://fl41.moveonjoy.com/PA_PHILADELPHIA_ABC/index.m3u8"
-  },
-  {
     "name": "WPXI-DT1 (1080p)",
     "tvg_id": "WPXIDT1.us@SD",
     "logo": "https://i.imgur.com/MNSBpDW.png",
@@ -77572,20 +76697,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ion_logo.svg/512px-Ion_logo.svg.png",
     "category": "Undefined",
     "url": "http://104.255.88.155/ion/index.m3u8"
-  },
-  {
-    "name": "WRC NBC (Washington DC)",
-    "tvg_id": "WRCDT1.us",
-    "logo": "https://i.imgur.com/7JpMArM.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/DC_WASHINGTON_NBC/index.m3u8"
-  },
-  {
-    "name": "WRDW CBS (Augusta GA)",
-    "tvg_id": "WRDWDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/GA_AUGUSTA_CBS/mpegts"
   },
   {
     "name": "Wrestling Central",
@@ -77623,67 +76734,11 @@
     "url": "https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8"
   },
   {
-    "name": "WSBT CBS (South Bend IN)",
-    "tvg_id": "WSBTDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/IN_SOUTH_BEND_CBS/mpegts"
-  },
-  {
-    "name": "WSHM CBS (Springfield MA)",
-    "tvg_id": "WSHMLD1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/MA_SPRINGFIELD_CBS/index.m3u8"
-  },
-  {
-    "name": "WSMV NBC (Nashville TN)",
-    "tvg_id": "WSMVDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/TN_Nashville_NBC/index.m3u8"
-  },
-  {
     "name": "WSOC-DT1 (1080p)",
     "tvg_id": "WSOCDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
     "category": "Undefined",
     "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8"
-  },
-  {
-    "name": "WSVN ABC (Miami FL)",
-    "tvg_id": "WSVNDT2.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/WSVN-WDFL_ABC_Miami_%282025%29.svg/1000px-WSVN-WDFL_ABC_Miami_%282025%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_MIAMI_ABC/index.m3u8"
-  },
-  {
-    "name": "WSVN FOX (Miami FL)",
-    "tvg_id": "WSVNDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Miami_FOX/index.m3u8"
-  },
-  {
-    "name": "WTAE ABC (Pittsburgh PA)",
-    "tvg_id": "WTAEDT1.us",
-    "logo": "",
-    "category": "News",
-    "url": "https://fl2.moveonjoy.com/PA_PITTSBURGH_ABC/index.m3u8"
-  },
-  {
-    "name": "WTEN ABC (Albany NY)",
-    "tvg_id": "WTENDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/NY_ALBANY_ABC/index.m3u8"
-  },
-  {
-    "name": "WTLV NBC (Jacksonville FL)",
-    "tvg_id": "WTLVDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Jacksonville_NBC/index.m3u8"
   },
   {
     "name": "WTMO-CD1",
@@ -77698,27 +76753,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/WWAY_logo.png",
     "category": "Undefined",
     "url": "https://tkx.mp.lura.live/rest/v2/mcp/video/11135425.m3u8?anvack=pDKqMLyG9pVqMkSYRJHWu3XROjAlvR6z&eud=1iqQ+zazzEobWIhmmj6bA8STRJm4HceYQApO7QYBvy9BTps0KI7LuXGD4KK7RLtBTyO8KsbFw40vgX8hrw+xqw=="
-  },
-  {
-    "name": "WTNZ FOX (Knoxville TN)",
-    "tvg_id": "WTNZDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/TN_Knoxville_FOX/index.m3u8"
-  },
-  {
-    "name": "WTOC CBS (Savannah GA)",
-    "tvg_id": "WTOCDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/GA_SAVANNAH_CBS/index.m3u8"
-  },
-  {
-    "name": "WTOG-DT1",
-    "tvg_id": "WTOGDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WTOG_Tampa_Bay_44_2023.svg/1024px-WTOG_Tampa_Bay_44_2023.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Tampa_CW44/index.m3u8"
   },
   {
     "name": "WTTG-DT1 (1080p)",
@@ -77763,13 +76797,6 @@
     "url": "https://content.uplynk.com/channel/ext/f05837c508c44712aa7129d531f7dbe6/wtvd_24x7_news.m3u8"
   },
   {
-    "name": "WTVJ NBC (Miami FL)",
-    "tvg_id": "WTVJDT1.us",
-    "logo": "https://i.imgur.com/p3HXpSv.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Miami_NBC/index.m3u8"
-  },
-  {
     "name": "WTVQ ABC 36 News (Lexington KY) (720p)",
     "tvg_id": "WTVQDT1.us@SD",
     "logo": "https://i.imgur.com/XIoBeja.png",
@@ -77782,34 +76809,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
     "category": "Undefined",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-fox13tampabaywtvt-vizious/playlist.m3u8"
-  },
-  {
-    "name": "WTVY ABC (Dothan AL)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/AL_DOTHAN_ABC/index.m3u8"
-  },
-  {
-    "name": "WTVY CBS (Dothan AL)",
-    "tvg_id": "WTVYDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/AL_DOTHAN_CBS/index.m3u8"
-  },
-  {
-    "name": "WTVY NBC (Dothan AL)",
-    "tvg_id": "WTVYDT4.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/AL_DOTHAN_NBC/index.m3u8"
-  },
-  {
-    "name": "WTWC NBC (Tallahassee FL)",
-    "tvg_id": "WTWCDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/NBC_Peacock_1986.svg/512px-NBC_Peacock_1986.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/FL_Tallahassee_NBC/index.m3u8"
   },
   {
     "name": "WTXF-DT1 (1080p)",
@@ -77826,67 +76825,11 @@
     "url": "https://dvrfl03.bozztv.com/hondu/hondu-ovair1-cwhd/index.m3u8"
   },
   {
-    "name": "WUTV FOX (Buffalo NY)",
-    "tvg_id": "WUTVDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/FOX_wordmark-red.svg/512px-FOX_wordmark-red.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/NY_BUFFALO_FOX/mpegts"
-  },
-  {
     "name": "WVCU-LP Concord University Radio The Cure 97.7 (1080p)",
     "tvg_id": "WVCULP.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG",
     "category": "Music",
     "url": "https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8"
-  },
-  {
-    "name": "WVLA FOX (Baton Rouge LA)",
-    "tvg_id": "WVUEDT1.us",
-    "logo": "",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/LA_BATON_ROUGE_FOX/index.m3u8"
-  },
-  {
-    "name": "WVLA NBC (Baton Rouge LA)",
-    "tvg_id": "WVLADT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/LA_BATON_ROUGE_NBC/index.m3u8"
-  },
-  {
-    "name": "WVTM NBC (Birmingham AL)",
-    "tvg_id": "WVTMDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/AL_Birmingham_NBC/index.m3u8"
-  },
-  {
-    "name": "WVUE ABC (New Orleans LA)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/LA_NEW_ORLEANS_ABC/index.m3u8"
-  },
-  {
-    "name": "WVUE FOX (New Orleans LA)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/LA_NEW_ORLEANS_FOX/index.m3u8"
-  },
-  {
-    "name": "WWBT NBC (Richmond VA)",
-    "tvg_id": "WWBTDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/VA_Richmond_NBC/mpegts"
-  },
-  {
-    "name": "WWLP NBC (Springfield MA)",
-    "tvg_id": "WWLPDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/MA_SPRINGFIELD_NBC/index.m3u8"
   },
   {
     "name": "WWON TV CH 48",
@@ -77917,13 +76860,6 @@
     "url": "https://vip.livecastnet.com:3930/live/maranatharadiolive.m3u8"
   },
   {
-    "name": "WXIN FOX (Indianapolis IN)",
-    "tvg_id": "WXINDT1.us",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://fl41.moveonjoy.com/IN_Indianapolis_FOX/index.m3u8"
-  },
-  {
     "name": "WXIX-DT1 (720p)",
     "tvg_id": "WXIXDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Fox_Networks_Group_US_logo.svg/512px-Fox_Networks_Group_US_logo.svg.png",
@@ -77952,25 +76888,11 @@
     "url": "https://townnews.g-mana.live/media/c8c354e0-672f-4368-a17d-a862ee98af4a/main.m3u8"
   },
   {
-    "name": "WXYZ ABC (Detroit MI)",
-    "tvg_id": "WXYZDT1.us",
-    "logo": "https://ewscripps.brightspotcdn.com/f7/ba/53c4c0b14d649fb08d19e76d3fc2/main-logo.png",
-    "category": "News",
-    "url": "http://fl41.moveonjoy.com/MI_DETROIT_ABC/index.m3u8"
-  },
-  {
     "name": "WZNT (Zeta 93) (1080p) [Not 24/7]",
     "tvg_id": "Zeta93.pr@SD",
     "logo": "https://i.ibb.co/KzqWLZR/images-57.jpg",
     "category": "Music",
     "url": "https://livestream.lamusica.com/nacionz/ngrp:nacionz_all/playlist.m3u8"
-  },
-  {
-    "name": "WZTV FOX (Nashville TN)",
-    "tvg_id": "WZTVDT1.us",
-    "logo": "https://i.imgur.com/2ZjwRof.png",
-    "category": "Undefined",
-    "url": "https://fl2.moveonjoy.com/TN_Nashville_FOX/index.m3u8"
   },
   {
     "name": "X 102.7 FM (720p) [Not 24/7]",
@@ -78328,13 +77250,6 @@
     "logo": "https://i.imgur.com/HARIGQl.png",
     "category": "News",
     "url": "https://customer-ujex1meek7koqd9x.cloudflarestream.com/4f0b316cdb0fbb7f8ca93860ed11d38b/manifest/video.m3u8"
-  },
-  {
-    "name": "Yes Network",
-    "tvg_id": "YesNetwork.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/330px-YES_Network_logo.svg.png",
-    "category": "Undefined",
-    "url": "https://fl31.moveonjoy.com/YES_NETWORK/index.m3u8"
   },
   {
     "name": "Yicai TV",
@@ -79629,7 +78544,7 @@
     "tvg_id": "DumaTV.ru@SD",
     "logo": "https://i.imgur.com/JvlO3PU.png",
     "category": "Legislative",
-    "url": "https://dumatv.iptv2022.com/tracks-v2a1/mono.m3u8"
+    "url": "https://dumatv.iptv2022.com/playlist.m3u8"
   },
   {
     "name": "Евразия (Орск) (720p)",
@@ -79905,25 +78820,11 @@
     "url": "https://mow-9-ll.facecast.io:8443/hls_re/c631505e4fd6d14665c0.m3u8"
   },
   {
-    "name": "Любимое Индийское Кино [Not 24/7]",
-    "tvg_id": "LyubimoeIndijskoeKino.ru@SD",
-    "logo": "https://i.imgur.com/hVptFue.png",
-    "category": "Movies",
-    "url": "https://v2.catcast.tv/content/41596/index.m3u8"
-  },
-  {
     "name": "Магнат ТВ",
     "tvg_id": "Magnat.ru@SD",
     "logo": "https://i.imgur.com/r485aZL.png",
     "category": "Shop",
     "url": "https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8"
-  },
-  {
-    "name": "Малдер Мегахит [Not 24/7]",
-    "tvg_id": "MalderMegahit.ru@SD",
-    "logo": "https://i.imgur.com/Ow2Pawt.png",
-    "category": "Movies",
-    "url": "https://v2.catcast.tv/content/47689/index.m3u8"
   },
   {
     "name": "Матур ТВ (1080p)",
