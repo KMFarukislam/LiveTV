@@ -2786,6 +2786,13 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6812206e1b3e3be031a5c363/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=13a07cf5-9cd9-48a5-8101-764fc4a1e908&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=3523ea1a-8b74-4996-be4c-501ff4a47f27"
   },
   {
+    "name": "Aguila TV (1080p) [Not 24/7]",
+    "tvg_id": "AguilaTV.do@HD",
+    "logo": "https://www.vivalivetv.com/public/files/shows/0/1/3770-294x165-FFFFFF.jpg",
+    "category": "General",
+    "url": "https://fox.hostlagarto.com:8081/aguilatv/playlist.m3u8"
+  },
+  {
     "name": "Ahlulbayt TV (1080p) [Not 24/7]",
     "tvg_id": "AhlulbaytTV.uk@SD",
     "logo": "https://i.imgur.com/lNGJGjy.png",
@@ -3449,6 +3456,13 @@
     "logo": "https://i.imgur.com/pzJAYan.png",
     "category": "General",
     "url": "http://217.182.77.27/live/alcarriatv-livestream.m3u8"
+  },
+  {
+    "name": "Alcarrizos TV (720p) [Not 24/7]",
+    "tvg_id": "AlcarrizosTV.do@SD",
+    "logo": "https://i.ibb.co/C3fdPYGs/Alcarrizo.jpg",
+    "category": "General",
+    "url": "https://5790d294af2dc.streamlock.net/alcarrizostv/alcarrizostv/playlist.m3u8"
   },
   {
     "name": "Alegre TV RD (720p) [Not 24/7]",
@@ -5808,6 +5822,13 @@
     "logo": "https://i.imgur.com/WfKlGbX.png",
     "category": "Series",
     "url": "https://linear-458.frequency.stream/dist/xumo/458/hls/master/playlist.m3u8"
+  },
+  {
+    "name": "Atabal TV (1080p) [Not 24/7]",
+    "tvg_id": "AtabalTV.do@HD",
+    "logo": "https://imgur.com/QWR9SOH.png",
+    "category": "General",
+    "url": "https://vdopanel.jlahozconsulting.com:3648/live/atabaltvlive.m3u8"
   },
   {
     "name": "Atacama Noticias (720p) [Not 24/7]",
@@ -33628,6 +33649,13 @@
     "url": "http://176.65.146.237:8401/play/a0af/index.m3u8"
   },
   {
+    "name": "La Sultana del Este TV (720p) [Not 24/7]",
+    "tvg_id": "LaSultanadelEsteTV.do@SD",
+    "logo": "https://i.imgur.com/UNiyOvd.png",
+    "category": "General",
+    "url": "https://micanal.ovh/livestreams/544.EP3QGO4KPL66.m3u8"
+  },
+  {
     "name": "La Tele",
     "tvg_id": "LaTele.pe@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/512px-LaTele_Per%C3%BA_2018_Logo.png",
@@ -33738,6 +33766,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/667d3534ca74680008696051/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=62b227dc-b436-4646-95c2-26345773df69&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=86b9d43c-5583-4e86-8e7d-c52c97479b0d"
+  },
+  {
+    "name": "Laguna TV (1080p) [Not 24/7]",
+    "tvg_id": "LagunaTV.do@HD",
+    "logo": "https://dominicanchannels.com/wp-content/uploads/lagunatv.jpg",
+    "category": "General",
+    "url": "https://cnn.hostlagarto.com/lagutv/playlist.m3u8"
   },
   {
     "name": "Lahore News (720p) [Not 24/7]",
@@ -59220,6 +59255,13 @@
     "url": "https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/6695294632e25300084bb61b/master.m3u8?appName=web&appVersion=9.19.0&deviceDNT=0&deviceId=07998d5d-dd4a-4bcc-84be-58dcbcec76b7&deviceMake=firefox&deviceModel=web&deviceType=web&deviceVersion=147.0.0&serverSideAds=false&sid=7ee733c5-8c88-46be-b2a3-66c6e1a4ff37"
   },
   {
+    "name": "Sistesur Canal 49 (1080p) [Not 24/7]",
+    "tvg_id": "SistesurCanal49.do@SD",
+    "logo": "https://i.imgur.com/AXUGTAy.png",
+    "category": "General",
+    "url": "https://5790d294af2dc.streamlock.net:443/SISTESUR/SISTESUR/playlist.m3u8"
+  },
+  {
     "name": "Sitcom Legends",
     "tvg_id": "",
     "logo": "",
@@ -63943,6 +63985,13 @@
     "logo": "https://i.imgur.com/LJ9sXaB.png",
     "category": "General",
     "url": "https://edge20.vedge.infomaniak.com/livecast/ik:33dm06/manifest.m3u8"
+  },
+  {
+    "name": "Tele Poder TV (720p) [Not 24/7]",
+    "tvg_id": "TelePoderTV.do@HD",
+    "logo": "https://www.telepoder.online/wp-content/uploads/2024/02/cropped-cropped-Logo-PoderTV2.png",
+    "category": "General",
+    "url": "https://cdn.telepoder.online:3229/dash/stream.m3u8"
   },
   {
     "name": "Tele Proyecto TV [Not 24/7]",
