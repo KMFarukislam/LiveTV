@@ -13566,13 +13566,6 @@
     "url": "https://cdn3.163189.xyz/163189/cctv13"
   },
   {
-    "name": "CCTV-14 (2160p)",
-    "tvg_id": "CCTV14.cn@SD",
-    "logo": "https://i.imgur.com/c5SXW7i.png",
-    "category": "Kids",
-    "url": "http://123.175.209.52:9003/hls/15/index.m3u8"
-  },
-  {
     "name": "CCTV-15 (576p)",
     "tvg_id": "CCTV15.cn@SD",
     "logo": "https://i.imgur.com/CCV0eRG.png",
@@ -34797,6 +34790,13 @@
     "url": "http://lifetv.bitflip.ee/live/stream1_1/index.m3u8"
   },
   {
+    "name": "Life TV (720p)",
+    "tvg_id": "LifeTV.in@SD",
+    "logo": "https://i.ibb.co/v1C0bdR/logo-1.png",
+    "category": "Religious",
+    "url": "https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8"
+  },
+  {
     "name": "Life TV (720p) [Not 24/7]",
     "tvg_id": "LifeTV.tr@SD",
     "logo": "https://i.imgur.com/lWeJxm0.png",
@@ -46767,6 +46767,13 @@
     "url": "https://hls.xtvmedia.pp.ua:8443/hls/trk1tv.m3u8"
   },
   {
+    "name": "Pershyi (1080p) [Geo-blocked]",
+    "tvg_id": "Pershyi.ua@SD",
+    "logo": "https://i.imgur.com/osTQLED.png",
+    "category": "General",
+    "url": "https://ext.cdn.nashnet.tv/228.0.2.45/index.m3u8"
+  },
+  {
     "name": "Persiana Cinema",
     "tvg_id": "PersianaCinema.fr@SD",
     "logo": "https://i.imgur.com/hgIro9r.png",
@@ -57925,11 +57932,11 @@
     "url": "https://58de7a369a9c4.streamlock.net/salvetv/ngrp:stream_720p_web/playlist.m3u8"
   },
   {
-    "name": "Samay Kolkata (720p)",
+    "name": "Samay Kolkata (1080p)",
     "tvg_id": "SamayKolkata.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png",
     "category": "News",
-    "url": "https://5dd3981940faa.streamlock.net/kbcration/kbcration/playlist.m3u8"
+    "url": "https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8"
   },
   {
     "name": "Samen1 TV (720p)",
@@ -62928,6 +62935,20 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SURYA_HD/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "http://103.229.254.25:7001/play/a0dq/index.m3u8"
+  },
+  {
+    "name": "Suspilne. Krym (1080p) [Geo-blocked]",
+    "tvg_id": "SuspilneKrym.ua@SD",
+    "logo": "https://i.imgur.com/m7znCes.png",
+    "category": "General",
+    "url": "https://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8"
+  },
+  {
+    "name": "Suspilne. Kultura (1080p) [Geo-blocked]",
+    "tvg_id": "SuspilneKultura.ua@SD",
+    "logo": "https://i.imgur.com/hHMJV8e.png",
+    "category": "Culture",
+    "url": "https://ext.cdn.nashnet.tv/228.0.0.141/index.m3u8"
   },
   {
     "name": "Sutel TV [Geo-blocked]",
@@ -76704,6 +76725,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg",
     "category": "Undefined",
     "url": "https://dvrfl03.bozztv.com/hondu/hondu-pbs-kids/index.m3u8"
+  },
+  {
+    "name": "WLII-DT1 [Not 24/7]",
+    "tvg_id": "WLIIDT1.pr@SD",
+    "logo": "https://i.ibb.co/KhCnxJB/Crt3P4N.png",
+    "category": "Undefined",
+    "url": "https://moviezona593.com:8443/play/cO7SMyYsfVeNHbC5IQqRpHzyzgpISTmz_ch_ZVKDwhtYpmFqNO-6TFAEvlr9r53X/m3u8"
   },
   {
     "name": "WLMB",
