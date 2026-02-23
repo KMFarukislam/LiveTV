@@ -3983,7 +3983,7 @@
     "url": "https://58de7a369a9c4.streamlock.net/abgtv/abgtv_1080p/playlist.m3u8"
   },
   {
-    "name": "Alterna TV (720p)",
+    "name": "Alterna TV (720p) [Not 24/7]",
     "tvg_id": "AlternaTV.ar@SD",
     "logo": "https://alternatv.ar/alternatv.png",
     "category": "Culture;Documentary;Entertainment;General;Movies;Music",
@@ -12276,6 +12276,13 @@
     "logo": "https://i.imgur.com/JUNP8Rx.png",
     "category": "General",
     "url": "https://tvlocales-live.freecaster.com/live/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5.isml/master.m3u8"
+  },
+  {
+    "name": "Canal+ en clair (720p) [Geo-blocked]",
+    "tvg_id": "CanalPlus.fr@enclair",
+    "logo": "https://i.imgur.com/5HcyMnW.png",
+    "category": "Entertainment",
+    "url": "https://viamotionhsi.netplus.ch/live/eds/canalplusclair/browser-dash/canalplusclair.mpd"
   },
   {
     "name": "Canal+ Haiti [Geo-blocked]",
@@ -30618,6 +30625,13 @@
     "url": "http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8"
   },
   {
+    "name": "Jaya Plus (576p)",
+    "tvg_id": "JayaPlus.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_PLUS/images/LOGO_HD/image.png",
+    "category": "Culture;Entertainment",
+    "url": "https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8"
+  },
+  {
     "name": "Jaya TV (360p)",
     "tvg_id": "JayaTV.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_JAYA_TV/images/LOGO_HD/image.png",
@@ -33416,6 +33430,13 @@
     "logo": "https://i.imgur.com/xdAW0D5.png",
     "category": "Religious",
     "url": "https://w1.manasat.com/ktv/smil:ktv.smil/playlist.m3u8"
+  },
+  {
+    "name": "KUVN-DT1",
+    "tvg_id": "KUVNDT1.us@SD",
+    "logo": "https://i.imgur.com/PGJOFD4.png",
+    "category": "General",
+    "url": "https://streaming-live-fcdn.api.prd.univisionnow.com/kuvn/kuvn.isml/hls/kuvn.m3u8"
   },
   {
     "name": "Kvart i Bold",
@@ -57974,11 +57995,11 @@
     "url": "https://galaxyott.live/hls/sanaplus.m3u8"
   },
   {
-    "name": "Sana TV (1080p) [Not 24/7]",
+    "name": "Sana Tv",
     "tvg_id": "SanaTV.in@SD",
     "logo": "https://i.imgur.com/CR7DGBv.png",
     "category": "Entertainment",
-    "url": "https://galaxyott.live/hls/sanatv.m3u8"
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/index.m3u8?ads.vf=-nqSBaSbTTO"
   },
   {
     "name": "Sanctuary",
@@ -61129,6 +61150,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/eea68b79-bfe2-451e-a227-d637a5b9548a/manifest.m3u8"
+  },
+  {
+    "name": "Sportdigital FUSSBALL HD (1080p)",
+    "tvg_id": "SportdigitalFUSSBALL.de@HD",
+    "logo": "https://i.imgur.com/NDbWxqF.png",
+    "category": "Sports",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/sportdigtal1/playlist.m3u8"
   },
   {
     "name": "Sportitalia (720p) [Geo-blocked]",
@@ -72168,6 +72196,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/512px-TVP_Polonia_Logo_2020.svg.png",
     "category": "Undefined",
     "url": "https://lowa8026-cmyk.github.io/tvpvod/399723.m3u8"
+  },
+  {
+    "name": "TVP Sport (1080p)",
+    "tvg_id": "TVPSport.pl@SD",
+    "logo": "https://i.imgur.com/JUZDOCO.png",
+    "category": "Sports",
+    "url": "https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd"
   },
   {
     "name": "TVP World (1080p)",
