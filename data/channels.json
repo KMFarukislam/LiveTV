@@ -5007,7 +5007,7 @@
   {
     "name": "Astha TV (1080p) [Not 24/7]",
     "tvg_id": "AsthaTV.id@HD",
-    "logo": "https://astha.garuda.tv/assets/logo-DLGyXEGO.png",
+    "logo": "https://asthatv.com/wp-content/uploads/2026/02/Logo-Astha.png",
     "category": "Undefined",
     "url": "https://hgmtv.com:19360/asthatv/asthatv.m3u8"
   },
@@ -5654,6 +5654,13 @@
     "logo": "https://i.imgur.com/NwOQUDp.png",
     "category": "Movies",
     "url": "https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8"
+  },
+  {
+    "name": "B4U Hitz (576p)",
+    "tvg_id": "B4UHitz.in@SD",
+    "logo": "",
+    "category": "Music",
+    "url": "http://115.42.65.142:9981/stream/channelid/1099703605"
   },
   {
     "name": "B4U Kadak (1080p) [Geo-blocked]",
@@ -8484,11 +8491,11 @@
     "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883099"
   },
   {
-    "name": "BUZZR (720p)",
+    "name": "Buzzr",
     "tvg_id": "Buzzr.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/512px-Buzzr_logo.svg.png",
     "category": "Entertainment",
-    "url": "https://aegis-cloudfront-1.tubi.video/d4038326-a3e3-4aba-b1f1-f0526c912c74/playlist.m3u8"
+    "url": "https://buzzrota-ono.amagi.tv/playlist.m3u8"
   },
   {
     "name": "BVG (576p)",
@@ -15626,7 +15633,7 @@
   {
     "name": "DraftKings Network",
     "tvg_id": "DraftKingsNetwork.us@SD",
-    "logo": "",
+    "logo": "https://i.imgur.com/SFYhgrt.png",
     "category": "Sports",
     "url": "https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8"
   },
@@ -17591,6 +17598,13 @@
     "url": "https://live.ecomservice.bg/hls/stream.m3u8"
   },
   {
+    "name": "EWTN",
+    "tvg_id": "EWTN.de@SD",
+    "logo": "https://i.imgur.com/NXeygNk.png",
+    "category": "Religious",
+    "url": "https://dash3.antik.sk/live/test_ewtn_tizen/playlist.m3u8"
+  },
+  {
     "name": "EWTN (720p) [Geo-blocked]",
     "tvg_id": "EWTN.us@English",
     "logo": "https://i.imgur.com/sua70RO.png",
@@ -17631,13 +17645,6 @@
     "logo": "https://i.imgur.com/sua70RO.png",
     "category": "Religious",
     "url": "https://cdn3.wowza.com/1/T2NXeHF6UGlGbHY3/WFluRldQ/hls/live/playlist.m3u8"
-  },
-  {
-    "name": "EWTN Germany (720p)",
-    "tvg_id": "EWTN.de@SD",
-    "logo": "https://i.imgur.com/NXeygNk.png",
-    "category": "Religious",
-    "url": "https://cdn3.wowza.com/1/ZUkxSDBrZHlMbjVn/ZkhNRFNZ/hls/live/playlist.m3u8"
   },
   {
     "name": "EWTN Poland (1080p)",
@@ -17915,14 +17922,14 @@
   {
     "name": "FanDuel Racing",
     "tvg_id": "FanDuelRacing.us@SD",
-    "logo": "",
+    "logo": "https://i.imgur.com/84lMjSj.png",
     "category": "Sports",
     "url": "https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8"
   },
   {
     "name": "FanDuel TV (720p)",
     "tvg_id": "FanDuelTV.us@SD",
-    "logo": "",
+    "logo": "https://i.imgur.com/YPHrFU0.png",
     "category": "Sports",
     "url": "https://d2jl8r92tdc3f1.cloudfront.net/out/v1/59419700344b4625b7cb0693ba265ea3/TVGindex_1.m3u8"
   },
@@ -21382,7 +21389,7 @@
     "tvg_id": "HermanasMirabalTV.do@SD",
     "logo": "https://i.imgur.com/cbKgcGh.png",
     "category": "News",
-    "url": "https://cnn.essastream.com:3091/live/hmtvlive.m3u8"
+    "url": "https://fox.hostlagarto.com:8081/hmtv/index.m3u8"
   },
   {
     "name": "Hero (720p) [Not 24/7]",
@@ -28252,17 +28259,17 @@
     "url": "https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8"
   },
   {
-    "name": "Loveworld TV (1080p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "name": "Loveworld UK (1080p) [Not 24/7]",
+    "tvg_id": "LoveWorldUK.ng",
+    "logo": "https://i.imgur.com/JgHbDmF.png",
+    "category": "Religious",
     "url": "https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8"
   },
   {
     "name": "LoveWorld USA (720p)",
-    "tvg_id": "",
+    "tvg_id": "LoveWorldUSA.ng",
     "logo": "",
-    "category": "Undefined",
+    "category": "Religious",
     "url": "https://cdn3.wowza.com/5/RGtVZkFxL3FOQkxX/LWU/ngrp:lwu.stream_all/playlist.m3u8"
   },
   {
@@ -29202,6 +29209,13 @@
     "logo": "https://i.imgur.com/FTGbu8A.png",
     "category": "General",
     "url": "https://liveingesta318.cdnmedia.tv/m1tvlive/smil:live.smil/playlist.m3u8?DVR="
+  },
+  {
+    "name": "Match! Strana",
+    "tvg_id": "MatchStrana.ru@SD",
+    "logo": "https://i.imgur.com/X02s2UE.png",
+    "category": "Sports",
+    "url": "http://31.148.48.15/Match_Strana/index.m3u8"
   },
   {
     "name": "MaTele (1080p) [Not 24/7]",
@@ -32527,13 +32541,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KXAS_2023.svg/512px-KXAS_2023.svg.png",
     "category": "General",
     "url": "https://amg00884-nbcuniversal-dfwnews-xumo-r5in7.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "NBC 6 Miami FL (WTVJ) [Geo-blocked]",
-    "tvg_id": "WTVJDT1.us@SD",
-    "logo": "https://i.imgur.com/p3HXpSv.png",
-    "category": "Undefined",
-    "url": "https://amg00884-nbcuniversal-nbcnsf-pcr-xumo-78jf2.amagi.tv/playlist.m3u8"
   },
   {
     "name": "NBC 6 Santa Barbara CA (KSBY) (720p)",
@@ -36731,7 +36738,7 @@
   {
     "name": "Persiana Medical",
     "tvg_id": "PersianaMedical.fr@SD",
-    "logo": "",
+    "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-medical-fr.png",
     "category": "Education",
     "url": "https://phd2hls.persiana.live/hls/stream.m3u8"
   },
@@ -36808,7 +36815,7 @@
   {
     "name": "Persiana Travel",
     "tvg_id": "PersianaTravel.fr@SD",
-    "logo": "",
+    "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-travel-fr.png",
     "category": "Documentary",
     "url": "https://ptravelhls.persiana.live/hls/stream.m3u8"
   },
@@ -37279,7 +37286,7 @@
     "tvg_id": "Polsat.pl@SD",
     "logo": "https://i.imgur.com/xff6zGN.png",
     "category": "General",
-    "url": "https://lb2-e2-19.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd"
+    "url": "https://cdn-s-lb2.pluscdn.pl/ch/1502600/308/hls/b399c955/masterlist.m3u8"
   },
   {
     "name": "Polsat 2 (576p)",
@@ -37301,6 +37308,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Polsat_News_Polityka_2024_gradient.svg/320px-Polsat_News_Polityka_2024_gradient.svg.png",
     "category": "News",
     "url": "https://lb2-e3-20.pluscdn.pl/lv/1511888/322/dash/52a9b70b/live.mpd"
+  },
+  {
+    "name": "Polsat Sport 1 (1080p) [Geo-blocked]",
+    "tvg_id": "PolsatSport1.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Polsat_Sport_1_2024.svg/353px-Polsat_Sport_1_2024.svg.png",
+    "category": "Undefined",
+    "url": "http://cdn-s-lb2.pluscdn.pl/lv/1544303/939/dash/7f74b079/live.mpd"
   },
   {
     "name": "Polsat Viasat Nature (1080p)",
@@ -45990,8 +46004,15 @@
     "url": "http://tvn1.chowdhury-shaheb.com/starsport2/index.m3u8"
   },
   {
-    "name": "Star Sports 2 Tamil (1080p)",
+    "name": "Star Sports 2 Tamil (576p)",
     "tvg_id": "StarSports2Tamil.in@SD",
+    "logo": "https://i.imgur.com/eWPoUxB.png",
+    "category": "Sports",
+    "url": "http://103.229.254.25:7001/play/a0dc/index.m3u8"
+  },
+  {
+    "name": "Star Sports 2 Tamil HD (1080p)",
+    "tvg_id": "StarSports2Tamil.in@HD",
     "logo": "https://i.imgur.com/eWPoUxB.png",
     "category": "Sports",
     "url": "http://103.229.254.25:7001/play/a0d1/index.m3u8"
@@ -56343,11 +56364,11 @@
     "url": "https://tvpass.org/live/USANetworkEast/hd"
   },
   {
-    "name": "USA Today News [Geo-blocked]",
+    "name": "USA Today",
     "tvg_id": "USATODAY.us@SD",
     "logo": "https://i.imgur.com/37K0AZX.png",
     "category": "News",
-    "url": "https://usatodaynews-xumo.amagi.tv/playlist.m3u8"
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8"
   },
   {
     "name": "USMPTV",
@@ -59108,6 +59129,13 @@
     "url": "https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8"
   },
   {
+    "name": "WTVJ-DT1 (1080p)",
+    "tvg_id": "WTVJDT1.us@SD",
+    "logo": "https://i.imgur.com/p3HXpSv.png",
+    "category": "Undefined",
+    "url": "https://nbculocallive.akamaized.net/hls/live/2037498/miami/stream1/master.m3u8"
+  },
+  {
     "name": "WTVQ ABC 36 News (Lexington KY) (720p)",
     "tvg_id": "WTVQDT1.us@SD",
     "logo": "https://i.imgur.com/XIoBeja.png",
@@ -60823,13 +60851,6 @@
     "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/stavropol/kavkaz24-hd/index.m3u8"
   },
   {
-    "name": "Карусель",
-    "tvg_id": "Carousel.ru@HD",
-    "logo": "https://i.imgur.com/4wmnx1W.png",
-    "category": "Kids",
-    "url": "http://31.148.48.15/Karusel_HD/index.m3u8"
-  },
-  {
     "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Kids\",Карусель",
     "tvg_id": "Carousel.ru@SD",
     "logo": "https://i.imgur.com/4wmnx1W.png",
@@ -60989,13 +61010,6 @@
     "logo": "https://i.imgur.com/vhyMb9D.png",
     "category": "Sports",
     "url": "https://cdn4.skygo.mn/live/disk1/Match_Planeta/HLSv3-FTA/Match_Planeta.m3u8"
-  },
-  {
-    "name": "Матч! Страна",
-    "tvg_id": "MatchStrana.ru@HD",
-    "logo": "https://i.imgur.com/X02s2UE.png",
-    "category": "Sports",
-    "url": "http://31.148.48.15/Match_Strana/index.m3u8"
   },
   {
     "name": "Миллет (720p)",
