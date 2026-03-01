@@ -287,18 +287,18 @@
     "url": "https://stream.4fun.tv:8888/hls/4f_high/index.m3u8"
   },
   {
-    "name": "4K TRAVEL TV",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8?ads.vf=-W-Hab4e1BO"
-  },
-  {
     "name": "4K Travel TV",
     "tvg_id": "",
     "logo": "",
     "category": "Undefined",
     "url": "https://streams2.sofast.tv/sofastplayout/33c31ac4-51fa-46ae-afd0-0d1fe5e60a80_0_HLS/master.m3u8"
+  },
+  {
+    "name": "4K TRAVEL TV",
+    "tvg_id": "TravelTV.es",
+    "logo": "https://i.imgur.com/zsGt5iH.png",
+    "category": "Travel",
+    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8?ads.vf=-W-Hab4e1BO"
   },
   {
     "name": "4 Kurd",
@@ -1041,13 +1041,6 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Movies",
     "url": "https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8"
-  },
-  {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",(1080p)",
-    "tvg_id": "TV4.mn@SD",
-    "logo": "https://i.imgur.com/WSvUsxy.png",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/TV4/DASH-FTA/TV4.mpd"
   },
   {
     "name": ":24 (1080p)",
@@ -2380,11 +2373,11 @@
     "url": "https://cloudflare.streamgato.us:3148/live/agenda56tvlive.m3u8"
   },
   {
-    "name": "Aghani Aghani TV (1080p) [Not 24/7]",
+    "name": "Aghani Aghani TV (720p)",
     "tvg_id": "AghaniAghaniTV.lb@SD",
     "logo": "https://i.imgur.com/o6HSfNg.png",
     "category": "Music",
-    "url": "https://streaming-a-1035.cdn.nextologies.com/6zj8y5nemi8a32vyjjbkv0oqx/77pcakd8reik3g8qdqnexlkmq/playlist.m3u8"
+    "url": "http://77.42.253.43:9090/stream5/AGHANITV.m3u8"
   },
   {
     "name": "Aghapy Kids (1080p)",
@@ -3473,9 +3466,9 @@
   },
   {
     "name": "Alqanat9 TV (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "AlQanat9.tr",
+    "logo": "https://i.imgur.com/HC91Mho.png",
+    "category": "News",
     "url": "https://cdn.bestream.io:19360/alqanat9/alqanat9.m3u8"
   },
   {
@@ -3956,9 +3949,9 @@
   },
   {
     "name": "AnewZ",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "AnewZTV.az",
+    "logo": "https://i.imgur.com/Lwgdbuu.png",
+    "category": "News",
     "url": "https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8"
   },
   {
@@ -4445,13 +4438,6 @@
     "url": "https://mumt01.tangotv.in/APN/index.m3u8"
   },
   {
-    "name": "Apna Punjab",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://mumt03.tangotv.in/APNAPUNJAB/index.m3u8"
-  },
-  {
     "name": "Apna Punjab TV (720p)",
     "tvg_id": "ApnaPunjabTV.ca@SD",
     "logo": "https://i.imgur.com/IM4D8Wz.png",
@@ -4653,13 +4639,6 @@
     "logo": "https://i.imgur.com/I67WOgT.png",
     "category": "General",
     "url": "https://5eff35271151c.streamlock.net:1936/8002/8002/playlist.m3u8"
-  },
-  {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Arirang (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/Arirang/HLSv3-FTA/Arirang.m3u8"
   },
   {
     "name": "Arirang Radio (720p)",
@@ -5572,13 +5551,6 @@
     "url": "https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8"
   },
   {
-    "name": "Az Star TV (1080p)",
-    "tvg_id": "AzStarTV.ca@SD",
-    "logo": "https://i.imgur.com/di3XX5L.png",
-    "category": "General",
-    "url": "http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8"
-  },
-  {
     "name": " like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"General\",Az TV",
     "tvg_id": "AzTV.az@SD",
     "logo": "https://i.imgur.com/snBMMeH.png",
@@ -5601,16 +5573,16 @@
   },
   {
     "name": "Azerbaijan News TV (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "AznewsTV.se",
+    "logo": "https://i.imgur.com/Kw17XfP.png",
+    "category": "News",
     "url": "https://edge1.socialsmart.tv/aznews/smil/playlist.m3u8"
   },
   {
     "name": "Azstar TV",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "AzStarTV.ca",
+    "logo": "https://i.imgur.com/di3XX5L.png",
+    "category": "General",
     "url": "https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8"
   },
   {
@@ -7112,13 +7084,6 @@
     "url": "https://mumt03.tangotv.in/BFLIX/index.m3u8"
   },
   {
-    "name": " like Gecko) Chrome/108.0.0.0 Safari/537.36\" group-title=\"Undefined\",BFM 2 (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM2/index.m3u8?end=END&start=LIVE"
-  },
-  {
     "name": "BFM2",
     "tvg_id": "BFM2.fr@HD",
     "logo": "https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg",
@@ -7546,13 +7511,6 @@
     "url": "https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Bloomberg (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/Bloomberg/HLSv3-FTA/Bloomberg.m3u8"
-  },
-  {
     "name": "Bloomberg HT (720p) [Not 24/7]",
     "tvg_id": "BloombergHT.tr@SD",
     "logo": "https://i.imgur.com/bmkXfIE.png",
@@ -7623,11 +7581,11 @@
     "url": "https://viamotionhsi.netplus.ch/live/eds/bloomberg/browser-HLS8/bloomberg.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Business\",Bloomberg TV Mongolia HD (1080p)",
-    "tvg_id": "BloombergTVMongolia.mn@SD",
+    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Business\",Bloomberg TV Mongolia (720p)",
+    "tvg_id": "BloombergTVMongolia.mn",
     "logo": "https://i.imgur.com/OuogLHx.png",
     "category": "Business",
-    "url": "https://cdn4.skygo.mn/live/disk1/BloombergMon/DASH-FTA/BloombergMon.mpd"
+    "url": "https://cdn4.skygo.mn/live/disk1/Bloomberg/HLSv3-FTA/Bloomberg.m3u8"
   },
   {
     "name": "Bloomberg TV US (720p)",
@@ -8268,9 +8226,9 @@
   },
   {
     "name": "BTB HD (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "BTB.pl",
+    "logo": "https://btb.j00r.us/images/logo_BTB.webp",
+    "category": "General",
     "url": "https://fa723fc1b171.us-west-2.playback.live-video.net/api/video/v1/us-west-2.196233775518.channel.tm5ELzwtPY6t.m3u8"
   },
   {
@@ -10549,20 +10507,6 @@
     "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/D6NOXKW7TYP8TG7YMYZH/hls3/now,-1m/m.m3u8?ads.vf=7TNIxrkadpW"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Cartoon Network (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8"
-  },
-  {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Cartoonito 720p",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8"
-  },
-  {
     "name": "Caruban TV (1080p)",
     "tvg_id": "CarubanTV.id@HD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png",
@@ -11053,31 +10997,31 @@
     "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8"
   },
   {
-    "name": "CCTV-1 (2160p)",
+    "name": "CCTV-1 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV1.cn@SD",
     "logo": "https://i.imgur.com/TpA3cUl.png",
     "category": "General",
     "url": "http://123.175.209.52:9003/hls/1/index.m3u8"
   },
   {
-    "name": "CCTV-2 (2160p)",
+    "name": "CCTV-2 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV2.cn@SD",
     "logo": "https://i.imgur.com/ILamhwU.png",
     "category": "Business",
     "url": "http://123.175.209.52:9003/hls/2/index.m3u8"
   },
   {
-    "name": "CCTV-3 (2160p)",
+    "name": "CCTV-3 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV3.cn@SD",
     "logo": "https://i.imgur.com/iFlkIuw.png",
     "category": "Entertainment",
     "url": "http://123.175.209.52:9003/hls/3/index.m3u8"
   },
   {
-    "name": "CCTV-4 (2160p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "name": "CCTV-4 (2160p) [Geo-blocked]",
+    "tvg_id": "CCTV4Asia.cn",
+    "logo": "https://i.imgur.com/tWt4Wou.png",
+    "category": "General",
     "url": "http://123.175.209.52:9003/hls/4/index.m3u8"
   },
   {
@@ -11095,63 +11039,63 @@
     "url": "https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8"
   },
   {
-    "name": "CCTV-5 (2160p)",
+    "name": "CCTV-5 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV5.cn@SD",
     "logo": "https://i.imgur.com/nbmnGwE.png",
     "category": "Sports",
     "url": "http://123.175.209.52:9003/hls/5/index.m3u8"
   },
   {
-    "name": "CCTV-5+ (2160p)",
+    "name": "CCTV-5+ (2160p) [Geo-blocked]",
     "tvg_id": "CCTV5Plus.cn@SD",
     "logo": "https://i.imgur.com/OK8mdJV.png",
     "category": "Sports",
     "url": "http://123.175.209.52:9003/hls/6/index.m3u8"
   },
   {
-    "name": "CCTV-6 (2160p)",
+    "name": "CCTV-6 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV6.cn@SD",
     "logo": "https://i.imgur.com/rFiaef7.png",
     "category": "Movies",
     "url": "http://123.175.209.52:9003/hls/7/index.m3u8"
   },
   {
-    "name": "CCTV-7 (2160p)",
+    "name": "CCTV-7 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV7.cn@SD",
     "logo": "https://i.imgur.com/CKcPMQC.png",
     "category": "Education",
     "url": "http://123.175.209.52:9003/hls/8/index.m3u8"
   },
   {
-    "name": "CCTV-8 (2160p)",
+    "name": "CCTV-8 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV8.cn@SD",
     "logo": "https://i.imgur.com/GyHaZ8X.png",
     "category": "Culture",
     "url": "http://123.175.209.52:9003/hls/9/index.m3u8"
   },
   {
-    "name": "CCTV-9 (2160p)",
+    "name": "CCTV-9 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV9.cn@SD",
     "logo": "https://i.imgur.com/3tivvMm.png",
     "category": "Documentary",
     "url": "http://123.175.209.52:9003/hls/10/index.m3u8"
   },
   {
-    "name": "CCTV-10 (2160p)",
+    "name": "CCTV-10 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV10.cn@SD",
     "logo": "https://i.imgur.com/sSSO7UD.png",
     "category": "Education",
     "url": "http://123.175.209.52:9003/hls/11/index.m3u8"
   },
   {
-    "name": "CCTV-11 (576p)",
+    "name": "CCTV-11 (576p) [Geo-blocked]",
     "tvg_id": "CCTV11.cn@SD",
     "logo": "https://i.imgur.com/CjOWx7L.png",
     "category": "Music",
     "url": "http://123.175.209.52:9003/hls/12/index.m3u8"
   },
   {
-    "name": "CCTV-12 (2160p)",
+    "name": "CCTV-12 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV12.cn@SD",
     "logo": "https://i.imgur.com/3yTuiOM.png",
     "category": "Lifestyle",
@@ -11172,14 +11116,14 @@
     "url": "http://123.175.209.52:9003/hls/16/index.m3u8"
   },
   {
-    "name": "CCTV-16 (2160p)",
+    "name": "CCTV-16 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV16.cn@SD",
     "logo": "https://i.imgur.com/ZzV6JQp.png",
     "category": "Sports",
     "url": "http://123.175.209.52:9003/hls/17/index.m3u8"
   },
   {
-    "name": "CCTV-17 (2160p)",
+    "name": "CCTV-17 (2160p) [Geo-blocked]",
     "tvg_id": "CCTV17.cn@SD",
     "logo": "https://i.imgur.com/jSQURxS.png",
     "category": "Education;Outdoor",
@@ -12094,13 +12038,6 @@
     "logo": "https://i.imgur.com/bZWoDTg.png",
     "category": "Movies",
     "url": "https://a-cdn.klowdtv.com/live1/cine_720p/playlist.m3u8"
-  },
-  {
-    "name": "Cine Western (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://f7ad58aa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X1dQX0hMUw/playlist.m3u8"
   },
   {
     "name": "CineLife",
@@ -13455,9 +13392,9 @@
   },
   {
     "name": "Cricket Gold (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "CricketGold.au",
+    "logo": "https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png",
+    "category": "Sports",
     "url": "https://d382r3rgbxdixq.cloudfront.net/scheduler/scheduleMaster/418.m3u8"
   },
   {
@@ -13707,9 +13644,9 @@
   },
   {
     "name": "CTS (HUA-CHI CTS) (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "CTS.tw",
+    "logo": "https://upload.wikimedia.org/wikipedia/zh/8/8a/CTS_Logo.png",
+    "category": "General",
     "url": "rtmp://59.124.75.138:1935/sat/tv111"
   },
   {
@@ -13749,9 +13686,9 @@
   },
   {
     "name": "CTV Barranquilla (1080p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "CTVBarranquilla.co",
+    "logo": "https://i.imgur.com/w35ICn7.png",
+    "category": "General",
     "url": "https://59a564764e2b6.streamlock.net/ctvbarranquilla/ctv/playlist.m3u8"
   },
   {
@@ -15716,9 +15653,9 @@
   },
   {
     "name": "DroneTV",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "DroneTV.us",
+    "logo": "https://i.ibb.co/S71C9RJC/dronetv.webp",
+    "category": "Relax;Travel",
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/playlist.m3u8?ads.vf=hSBeWdMc_Oi"
   },
   {
@@ -15734,13 +15671,6 @@
     "logo": "https://i.imgur.com/3N2C60N.png",
     "category": "Comedy",
     "url": "https://drybar-drybarcomedy-1-au.samsung.wurl.tv/playlist.m3u8"
-  },
-  {
-    "name": "DryBar Comedy",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://drybar-drybarcomedy-1-ca.samsung.wurl.tv/playlist.m3u8"
   },
   {
     "name": "DSTV (614p) [Not 24/7]",
@@ -16038,9 +15968,9 @@
   },
   {
     "name": "E! Keeping Up",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "EKeepingUp.us",
+    "logo": "https://i.imgur.com/9F7VYDM.png",
+    "category": "Entertainment",
     "url": "https://xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com/live/master.m3u8"
   },
   {
@@ -16338,13 +16268,6 @@
     "url": "https://cdn4.skygo.mn/live/disk1/Education/DASH-FTA/Education.mpd"
   },
   {
-    "name": "EducaTV (720p) [Not 24/7]",
-    "tvg_id": "EducaTV.ec@SD",
-    "logo": "https://i.imgur.com/nDRVsIc.png",
-    "category": "Education",
-    "url": "https://vid2.ecuamedia.net/educatv/live/playlist.m3u8"
-  },
-  {
     "name": "Eduvision (1080p)",
     "tvg_id": "Eduvision.co@SD",
     "logo": "https://i.imgur.com/ppBdqel.png",
@@ -16640,9 +16563,9 @@
   },
   {
     "name": "Elsharq TV (1080p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "ElsharqTV.tr",
+    "logo": "https://i.imgur.com/8vmfZb5.png",
+    "category": "General",
     "url": "https://mn-nl.mncdn.com/elsharq_live/live/playlist.m3u8"
   },
   {
@@ -16738,9 +16661,9 @@
   },
   {
     "name": "EnerGeek Fan",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "EnerGeekFAN.cl",
+    "logo": "https://cdn.energeek.cl/logos/EG-Fan-2025_pfp.png",
+    "category": "Animation",
     "url": "https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=ZZDemoIPTVGH"
   },
   {
@@ -17477,13 +17400,6 @@
     "logo": "https://i.imgur.com/8t9mdg9.png",
     "category": "News",
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8?ads.vf=DLlKFAN37a8"
-  },
-  {
-    "name": "Euronews Français",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://euronews-live-fra-fr.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6564/bitok/eyJzdGlkIjoiYjA1ZmVmMzAtYjhkZC00Y2E5LThkM2ItMTRkNjE1MjdmYjE0IiwibWt0IjoiZnIiLCJjaCI6NjU2NCwicHRmIjo1fQ==/26032/euronews-fr.m3u8"
   },
   {
     "name": "Euronews French (720p)",
@@ -18816,17 +18732,10 @@
     "url": "https://live-manifest.production-public.tubi.io/live/6035c7fd-efff-4ec7-93dc-aa0c7a58ba47/playlist.m3u8"
   },
   {
-    "name": "Fox Sports 2 (360p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://tvpass.org/live/FoxSports2/sd"
-  },
-  {
     "name": "Fox Sports 2 (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "FoxSports2.us",
+    "logo": "https://i.imgur.com/LHtxKI8.png",
+    "category": "Sports",
     "url": "https://tvpass.org/live/FoxSports2/hd"
   },
   {
@@ -20468,13 +20377,6 @@
     "url": "https://2-fss-2.streamhoster.com/pl_118/201450-1248872-1/playlist.m3u8"
   },
   {
-    "name": "Goodnews TV (576p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://mumt05.tangotv.in/GOODNEWSTV/index.m3u8"
-  },
-  {
     "name": "GoodNews TV (720p)",
     "tvg_id": "GoodNewsTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOODNEWS_TV/images/LOGO_HD/image.png",
@@ -20994,9 +20896,9 @@
   },
   {
     "name": "Haiti News Channel (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "HaitiNewsChannel.ht",
+    "logo": "https://m.media-amazon.com/images/I/51bJg+c7vRL.png",
+    "category": "News",
     "url": "https://haititivi.com/website/haitinews/index.m3u8"
   },
   {
@@ -21680,9 +21582,9 @@
   },
   {
     "name": "Hmong Star TV (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "HmongStarTV.us",
+    "logo": "https://i.imgur.com/dRsacao.png",
+    "category": "Culture",
     "url": "https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8"
   },
   {
@@ -22345,17 +22247,10 @@
   },
   {
     "name": "I24 News Hebrew (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/playlist.m3u8"
-  },
-  {
-    "name": "i24NEWS Hebrew",
-    "tvg_id": "i24NEWSHebrew.il@SD",
+    "tvg_id": "i24NEWSHebrew.il",
     "logo": "https://www.i24news.tv/images/favicon.png",
     "category": "News",
-    "url": "https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8"
+    "url": "https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/playlist.m3u8"
   },
   {
     "name": "I Am Channel (576p)",
@@ -22618,13 +22513,6 @@
   },
   {
     "name": "Ictimai TV",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://node19.connect.az:9081/tv/live/playlist.m3u8"
-  },
-  {
-    "name": "Ictimai TV",
     "tvg_id": "IctimaiTV.az@SD",
     "logo": "https://i.imgur.com/HzY4VMo.png",
     "category": "General",
@@ -22821,17 +22709,10 @@
   },
   {
     "name": "Iman TV (480p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8"
-  },
-  {
-    "name": "Iman TV (720p)",
-    "tvg_id": "ImanTV.us@SD",
+    "tvg_id": "ImanTV.us",
     "logo": "https://i.imgur.com/Vo6cEYi.png",
     "category": "Religious",
-    "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/index.m3u8"
+    "url": "https://live.relentlessinnovations.net:1936/imantv/imantv/playlist.m3u8"
   },
   {
     "name": "Imás TV (1080p) [Not 24/7]",
@@ -23128,39 +23009,11 @@
     "url": "https://amg01324-infamous-amg01324c1-cineverse-us-1102.playouts.now.amagi.tv/playlist/amg01324-infamousmedia-infamoustv-cineverseus/playlist.m3u8"
   },
   {
-    "name": "InFast [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00861-terncloud-amg00861c5-cineverse-us-963.playouts.now.amagi.tv/playlist/amg00861-terninternationalfast-lifestyleushd-cineverseus/playlist.m3u8"
-  },
-  {
     "name": "INFAST (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8"
-  },
-  {
-    "name": "INFAST (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00861-terninternation-lifestyle-samsungnz-e3zqy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungnz/playlist.m3u8"
-  },
-  {
-    "name": "INFAST (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://lifestyle-rakuten.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "INFAST (1080p) [Geo-blocked]",
-    "tvg_id": "INFAST.nl@SD",
+    "tvg_id": "INFAST.nl",
     "logo": "https://i.imgur.com/VwAMqA7.png",
     "category": "Lifestyle",
-    "url": "https://amg00861-amg00861c5-firetv-us-4727.playouts.now.amagi.tv/playlist.m3u8"
+    "url": "https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg00861-terninternation-lifestyle-samsungau/playlist.m3u8"
   },
   {
     "name": "Infinita TV (1080p)",
@@ -23318,17 +23171,10 @@
   },
   {
     "name": "InTravel (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "INTRAVEL.nl",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Intravel.png",
+    "category": "Travel",
     "url": "https://amg00861-amg00861c10-rakuten-uk-3152.playouts.now.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "INTRAVEL (1080p) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00861-amg00861c10-firetv-us-4726.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
     "name": "InTrouble (1080p) [Geo-blocked]",
@@ -23798,13 +23644,6 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://amg00654-itvstudios-itvchoice-samsungau-2bacj.amagi.tv/playlist/amg00654-itvstudios-itvchoice-samsungau/playlist.m3u8"
-  },
-  {
-    "name": "ITV Deportes",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=3010"
   },
   {
     "name": "ITV Deportes",
@@ -25004,17 +24843,10 @@
     "url": "http://yayin3.canlitv.com:1935/live/kanal38/playlist.m3u8"
   },
   {
-    "name": "KANAL 58 (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8"
-  },
-  {
     "name": "KANAL 58 (1080p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "Kanal58.tr",
+    "logo": "https://i.imgur.com/Rgc66sv.png",
+    "category": "General",
     "url": "https://edge1.socialsmart.tv/kanal58/bant1/playlist.m3u8"
   },
   {
@@ -25103,8 +24935,8 @@
   },
   {
     "name": "Kanal S TV",
-    "tvg_id": "",
-    "logo": "",
+    "tvg_id": "StartTV.az",
+    "logo": "https://www.lyngsat.com/logo/tv/ss/start-tv-az.png",
     "category": "Undefined",
     "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/kanal-s.m3u8"
   },
@@ -25579,9 +25411,9 @@
   },
   {
     "name": "Kids Pang TV (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "KidsPangTV.us",
+    "logo": "https://i.imgur.com/mhAAIa2.png",
+    "category": "Kids",
     "url": "https://newidco-kidspangtv-1-us.roku.wurl.tv/playlist.m3u8"
   },
   {
@@ -27326,13 +27158,6 @@
     "logo": "https://i.imgur.com/n24MrsX.png",
     "category": "Legislative",
     "url": "https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8"
-  },
-  {
-    "name": "Legislative Assembly of Ontario (without interpretation)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://temp2.isilive.ca/live/_definst_/ontla/house-en-cc/playlist.m3u8"
   },
   {
     "name": "Legislative Assembly of Ontario Committees (room 1)",
@@ -29940,9 +29765,9 @@
   },
   {
     "name": "Melody Hits",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "MelodyHits.ca",
+    "logo": "https://i.imgur.com/OOMkVrU.png",
+    "category": "Music",
     "url": "https://mumt03.tangotv.in/MELODYHITS/index.m3u8"
   },
   {
@@ -30227,9 +30052,9 @@
   },
   {
     "name": "MH One Movies (576p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "MHOneMovies.in",
+    "logo": "https://www.lyngsat.com/logo/tv/mm/mh-1-movies-in.png",
+    "category": "Movies",
     "url": "https://mumt03.tangotv.in/MHONEMOVIE/index.m3u8"
   },
   {
@@ -30563,9 +30388,9 @@
   },
   {
     "name": "Mission Asia (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "MissionAsia.au",
+    "logo": "https://i.imgur.com/B5mKwF6.png",
+    "category": "Religious",
     "url": "https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8"
   },
   {
@@ -31130,9 +30955,9 @@
   },
   {
     "name": "Motorvision.tv (French)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "MotorvisionPlus.de",
+    "logo": "https://i.imgur.com/5cs5GkJ.png",
+    "category": "Auto",
     "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883047"
   },
   {
@@ -31158,17 +30983,10 @@
   },
   {
     "name": "Movieplex (576p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "MoviePlex.in",
+    "logo": "https://i.imgur.com/THJEAqJ.png",
+    "category": "Movies",
     "url": "http://103.78.149.54:8000/play/a020/index.m3u8"
-  },
-  {
-    "name": "Movieplex (576p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://mumt04.tangotv.in/MOVIEPLEX/index.m3u8"
   },
   {
     "name": "Movies Action (1080p)",
@@ -31200,24 +31018,10 @@
   },
   {
     "name": "MovieSphere (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8"
-  },
-  {
-    "name": "MovieSphere (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00353-amg00353c32-samsung-nz-3588.playouts.now.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "MovieSphere (720p)",
-    "tvg_id": "MovieSphere.us@SD",
+    "tvg_id": "MovieSphere.us",
     "logo": "https://i.imgur.com/h1ejU90.png",
     "category": "Movies",
-    "url": "https://aegis-cloudfront-1.tubi.video/8b127a5b-3054-4f39-93a2-1c4aab9ef5ff/playlist.m3u8"
+    "url": "https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8"
   },
   {
     "name": "MovieSphere (1080p)",
@@ -31249,9 +31053,9 @@
   },
   {
     "name": "Mr. Bean Animated (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "MrBeanAnimated.uk",
+    "logo": "https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png",
+    "category": "Animation;Kids",
     "url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
@@ -31379,20 +31183,6 @@
     "logo": "https://i.imgur.com/TilslGU.png",
     "category": "General",
     "url": "https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8"
-  },
-  {
-    "name": "MSNBC (360p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://tvpass.org/live/MSNBC/sd"
-  },
-  {
-    "name": "MSNBC (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://tvpass.org/live/MSNBC/hd"
   },
   {
     "name": "MST3K (1080p)",
@@ -31526,13 +31316,6 @@
     "logo": "https://i.imgur.com/xj1gvrq.png",
     "category": "General",
     "url": "https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8"
-  },
-  {
-    "name": "MTV (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://shls-live-enc.edgenextcdn.net/out/v1/45ad6fbe1f7149ad9f05f8aefc38f6c0/index.m3u8"
   },
   {
     "name": "MTV (1080p) [Geo-Blocked]",
@@ -31956,9 +31739,9 @@
   },
   {
     "name": "MyTime Movie Network (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "MyTimeMovieNetwork.uk",
+    "logo": "https://i.imgur.com/pw4NZK1.png",
+    "category": "Movies",
     "url": "https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8"
   },
   {
@@ -32243,9 +32026,9 @@
   },
   {
     "name": "NAT TV (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "NATTV.us",
+    "logo": "https://i.imgur.com/a7tNaD5.png",
+    "category": "General",
     "url": "https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8"
   },
   {
@@ -32635,9 +32418,9 @@
   },
   {
     "name": "NBC Comedy Vault",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "NBCComedyVault.us",
+    "logo": "https://i.imgur.com/nydZWwg.png",
+    "category": "Comedy",
     "url": "https://xumo-xumoent-vc-105-z0vpm.fast.nbcuni.com/live/master.m3u8"
   },
   {
@@ -32646,13 +32429,6 @@
     "logo": "https://i.imgur.com/JZt2qh5.png",
     "category": "News",
     "url": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003"
-  },
-  {
-    "name": "NBC Sports",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8"
   },
   {
     "name": "NBC Sports Bay Area (720p) [Not 24/7]",
@@ -32943,9 +32719,9 @@
   },
   {
     "name": "NET [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "NET.mt",
+    "logo": "https://i.imgur.com/K4Uve1n.png",
+    "category": "General",
     "url": "http://80.79.6.221:25461/smash/public/22"
   },
   {
@@ -32957,9 +32733,9 @@
   },
   {
     "name": "NETALKOLE TV (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "NetalkoleTV.ht",
+    "logo": "https://i.imgur.com/SdVrpzY.png",
+    "category": "General",
     "url": "https://watch.haitilive.net/naktvhd/index.m3u8"
   },
   {
@@ -33384,9 +33160,9 @@
   },
   {
     "name": "NewsWorld",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "NewsWorld.pl",
+    "logo": "https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/e58c409f-711e-4690-98de-e92a88440011-width200-quality90.jpeg",
+    "category": "News",
     "url": "https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8"
   },
   {
@@ -34244,69 +34020,6 @@
     "url": "https://nrk-live-no.akamaized.net/nrk1/muxed.m3u8"
   },
   {
-    "name": "NRK 1 (Agder) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk8/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Innlandet) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk10/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Midtnytt) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk4/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Møre og Romsdal) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk5/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Nordland) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk3/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Nordnytt) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk2/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Rogaland) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk7/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Vestfold og Telemark) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk9/muxed.m3u8"
-  },
-  {
-    "name": "NRK 1 (Vestlandsrevyen) (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://nrk-live-no.akamaized.net/nrk1_dk6/muxed.m3u8"
-  },
-  {
     "name": "NRK 2 (1080i) [Geo-blocked]",
     "tvg_id": "NRK2.no@SD",
     "logo": "https://i.imgur.com/SiAdoK9.png",
@@ -34329,9 +34042,9 @@
   },
   {
     "name": "NRK Tegnspråk (1080i) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "NRKTegnsprak.no",
+    "logo": "https://i.imgur.com/VCpWG3h.png",
+    "category": "General",
     "url": "https://nrk-live-no.akamaized.net/nrk_tegnspraak/muxed.m3u8"
   },
   {
@@ -35504,6 +35217,27 @@
     "url": "https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8"
   },
   {
+    "name": "One TV Cinema 2 (1080p)",
+    "tvg_id": "OneTVCinema2.kh@SD",
+    "logo": "https://i.imgur.com/H8PiAbA.png",
+    "category": "Movies",
+    "url": "http://43.252.18.195:5080/live/streams/ChineseDrama.playlist.m3u8"
+  },
+  {
+    "name": "One TV Drama 3 (1080p)",
+    "tvg_id": "OneTVDrama3.kh@SD",
+    "logo": "https://i.imgur.com/wHtqMqB.png",
+    "category": "Series",
+    "url": "http://43.252.18.195:5080/live/streams/KoreanDrama.playlist.m3u8"
+  },
+  {
+    "name": "One TV E-School Cambodia (1080p)",
+    "tvg_id": "OneTVESchoolCambodia.kh@SD",
+    "logo": "https://i.imgur.com/wLzVdeT.png",
+    "category": "Education",
+    "url": "http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8"
+  },
+  {
     "name": "ONE-TV (720p) [Not 24/7]",
     "tvg_id": "ONETV.cd@SD",
     "logo": "https://i.imgur.com/Wob7gjp.png",
@@ -36478,17 +36212,10 @@
   },
   {
     "name": "PBS Retro (1080p) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "PBSRetro.us",
+    "logo": "https://i.imgur.com/3iWzQqw.png",
+    "category": "Classic;Kids",
     "url": "https://amg02333-pbs-amg02333c6-firetv-us-4236.playouts.now.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "PBS Retro (1080p) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://d2spdq8rliqjem.cloudfront.net/v1/master/43fcaa28f618f06de1eb896cc4c2469172c85466/ac2206ef-c654-4325-8725-85d995901b62/live.m3u8"
   },
   {
     "name": "PBS Science (1080p)",
@@ -36499,9 +36226,9 @@
   },
   {
     "name": "Peace Of Mind TV (576p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "PeaceofMindTV.in",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PEACE_OF_MIND/images/LOGO_HD/image.png",
+    "category": "Religious",
     "url": "https://mumt03.tangotv.in/PEACEOFMIND/index.m3u8"
   },
   {
@@ -37205,6 +36932,13 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/master.m3u8?ads.vf=xdliEBYtdWS"
   },
   {
+    "name": "PNN (1080p)",
+    "tvg_id": "PNN.kh@SD",
+    "logo": "https://i.imgur.com/ObtFGBW.png",
+    "category": "Undefined",
+    "url": "http://43.252.18.195:5080/live/streams/PNN.playlist.m3u8.m3u8"
+  },
+  {
     "name": "Podium.TV (1080p) [Not 24/7]",
     "tvg_id": "PodiumTV.nl@SD",
     "logo": "https://i.imgur.com/bAhMhuz.jpg",
@@ -37646,95 +37380,11 @@
     "url": "https://amg19223-amg19223c3-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c3-amgplt0351/playlist.m3u8"
   },
   {
-    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 1 (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSPrime/HLSv3-FTA/SPSPrime.m3u8"
-  },
-  {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 1 (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSPrime/DASH-FTA/SPSPrime.mpd"
-  },
-  {
-    "name": "Premier Sports 1 (480p)",
-    "tvg_id": "PremierSports1.mn@SD",
-    "logo": "https://i.imgur.com/t5qCejI.png",
-    "category": "Sports",
-    "url": "http://cdn4.skygo.mn/live/disk1/SPSPrime/HLS-FTA/SPSPrime.m3u8"
-  },
-  {
-    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 2 (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLSv3-FTA/SPSPlay.m3u8"
-  },
-  {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 2 (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/DASH-FTA/SPSPlay.mpd"
-  },
-  {
-    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Sports\",Premier Sports 2",
-    "tvg_id": "PremierSports2.mn@SD",
-    "logo": "https://i.imgur.com/eMNWhDq.png",
-    "category": "Sports",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSPlay/HLS-FTA/SPSPlay.m3u8"
-  },
-  {
     "name": "Premier Sports 2 (1080p)",
     "tvg_id": "PremierSports2.ph@SD",
     "logo": "https://i.imgur.com/UQeXWd2.png",
     "category": "Sports",
     "url": "https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8"
-  },
-  {
-    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 4 (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSFight/HLSv3-FTA/SPSFight.m3u8"
-  },
-  {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 4 (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSFight/DASH-FTA/SPSFight.mpd"
-  },
-  {
-    "name": "Premier Sports 4 (480p)",
-    "tvg_id": "PremierSports4.mn@SD",
-    "logo": "https://i.imgur.com/XHBJ7UB.png",
-    "category": "Sports",
-    "url": "http://cdn4.skygo.mn/live/disk1/SPSFight/HLS-FTA/SPSFight.m3u8"
-  },
-  {
-    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 5 (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSPlus/HLSv3-FTA/SPSPlus.m3u8"
-  },
-  {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Premier Sports 5 (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://cdn4.skygo.mn/live/disk1/SPSPlus/DASH-FTA/SPSPlus.mpd"
-  },
-  {
-    "name": "Premier Sports 5 (480p)",
-    "tvg_id": "PremierSports5.mn@SD",
-    "logo": "https://i.imgur.com/LkIe9gR.png",
-    "category": "Sports",
-    "url": "http://cdn4.skygo.mn/live/disk1/SPSPlus/HLS-FTA/SPSPlus.m3u8"
   },
   {
     "name": "Prensa Latina TV (1080p)",
@@ -40180,13 +39830,6 @@
     "url": "https://newidco-rakutenviki-2-eu.rakuten.wurl.tv/playlist.m3u8"
   },
   {
-    "name": "Rakuten Viki (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://newidco-rakutenviki-1-us.roku.wurl.tv/playlist.m3u8"
-  },
-  {
     "name": "Rakuten VIKI",
     "tvg_id": "RakutenViki.es@Poland",
     "logo": "https://i.imgur.com/pbyd1g2.png",
@@ -40199,6 +39842,13 @@
     "logo": "https://i.imgur.com/pbyd1g2.png",
     "category": "Undefined",
     "url": "https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8"
+  },
+  {
+    "name": "Rakuten Viki (1080p)",
+    "tvg_id": "RakutenViki.es@US",
+    "logo": "https://i.imgur.com/pbyd1g2.png",
+    "category": "Undefined",
+    "url": "https://newidco-rakutenviki-1-us.roku.wurl.tv/playlist.m3u8"
   },
   {
     "name": "Rakyat Bengkulu TV (720p)",
@@ -40381,13 +40031,6 @@
     "logo": "https://i.imgur.com/hXs9b7v.png",
     "category": "Undefined",
     "url": "https://5caf24a595d94.streamlock.net:1937/stream56/stream56/playlist.m3u8"
-  },
-  {
-    "name": "RCG TV (Timeshifted -2 Hours) (432p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://video1.getstreamhosting.com:1936/8246/8246/playlist.m3u8"
   },
   {
     "name": "RCM (1080p)",
@@ -40647,13 +40290,6 @@
     "logo": "https://i.imgur.com/ICcQUCH.png",
     "category": "Education",
     "url": "https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8"
-  },
-  {
-    "name": "Red Bull TV (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://e7c8f7d5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVi0xX0hMUw/playlist.m3u8"
   },
   {
     "name": "Red Bull TV (1080p)",
@@ -42015,9 +41651,9 @@
   },
   {
     "name": "RTHK TV 35 (港台電視35) (1080p) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "RTHKTV35.hk",
+    "logo": "https://i.imgur.com/FQmNKDS.png",
+    "category": "News",
     "url": "https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8"
   },
   {
@@ -42750,9 +42386,9 @@
   },
   {
     "name": "RTV Rijnmond Extra (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "RTVRijnmondExtra.nl",
+    "logo": "https://i.imgur.com/mlrd5ia.png",
+    "category": "General",
     "url": "http://dcur8bjarl5c2.cloudfront.net/live/rijnmond/tv-extra/index.m3u8"
   },
   {
@@ -44661,8 +44297,8 @@
   },
   {
     "name": "Sindh TV",
-    "tvg_id": "",
-    "logo": "",
+    "tvg_id": "SindhTV.pk",
+    "logo": "https://i.imgur.com/izpeOsx.png",
     "category": "Undefined",
     "url": "https://mumt01.tangotv.in/SINDHTV/index.m3u8"
   },
@@ -45571,8 +45207,8 @@
   },
   {
     "name": "Spark TV (1080p)",
-    "tvg_id": "",
-    "logo": "",
+    "tvg_id": "SparkTV.uk",
+    "logo": "https://i.imgur.com/svc98Kg.png",
     "category": "Undefined",
     "url": "https://candlelightmedia-sparklightlove-4-us.roku.wurl.tv/playlist.m3u8"
   },
@@ -49694,8 +49330,8 @@
   },
   {
     "name": "Teve2 (1080p)",
-    "tvg_id": "",
-    "logo": "",
+    "tvg_id": "tv2.tr",
+    "logo": "https://i.imgur.com/rsoSLih.png",
     "category": "Undefined",
     "url": "https://demiroren-live.daioncdn.net/teve2/teve2.m3u8"
   },
@@ -49708,9 +49344,9 @@
   },
   {
     "name": "TeveColombia (720p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "TeveColombia.co",
+    "logo": "https://i.imgur.com/vPwiJTw.png",
+    "category": "Entertainment",
     "url": "https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8"
   },
   {
@@ -49960,9 +49596,9 @@
   },
   {
     "name": "The Cycling Channel",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "TheCyclingChannel.at",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbjHW_j4DfsuAn4278ebtzhibMvY7KSOyow&s",
+    "category": "Sports",
     "url": "https://cyclingtv.playout.vju.tv/cyclingtv/main.m3u8"
   },
   {
@@ -50575,16 +50211,9 @@
     "url": "http://hls.tmacaraibes.com/live/index.m3u8"
   },
   {
-    "name": "TMB",
-    "tvg_id": "TMB.tr@SD",
-    "logo": "https://i.imgur.com/28AyWHe.png",
-    "category": "Undefined",
-    "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/tmb-tv.m3u8"
-  },
-  {
     "name": "TMB TV",
-    "tvg_id": "",
-    "logo": "",
+    "tvg_id": "TMB.tr",
+    "logo": "https://i.imgur.com/28AyWHe.png",
     "category": "Undefined",
     "url": "https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8"
   },
@@ -50877,9 +50506,9 @@
   },
   {
     "name": "Top Gear (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "TopGear.uk",
+    "logo": "https://i.imgur.com/S6Su6QH.png",
+    "category": "Auto;Entertainment",
     "url": "https://aegis-cloudfront-1.tubi.video/33ccaca5-a666-4b28-8578-55a9ab9f06d5/playlist.m3u8"
   },
   {
@@ -51528,9 +51157,9 @@
   },
   {
     "name": "TRT EBA Ortaokul (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "TRTEBA.tr",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/TRT_EBA_TV_logo.svg/400px-TRT_EBA_TV_logo.svg.png",
+    "category": "Education",
     "url": "https://tv-e-okul01.medya.trt.com.tr/master.m3u8"
   },
   {
@@ -51609,13 +51238,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/True_Crime_Network_logo.svg/512px-True_Crime_Network_logo.svg.png",
     "category": "Series",
     "url": "https://dvrfl03.bozztv.com/hdirect/hdirect-ovair1-truecrimenetwork/index.m3u8"
-  },
-  {
-    "name": "True Crime Network+ (1080p) [Geo-blocked]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://amg00979-amg00979c1-firetv-us-3622.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
     "name": "True Crime Now (1080p)",
@@ -51973,6 +51595,13 @@
     "logo": "https://i.ibb.co/X2yd0zL/logo-tv3v.jpg",
     "category": "General",
     "url": "https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8"
+  },
+  {
+    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV4 (1080p)",
+    "tvg_id": "TV4.mn@SD",
+    "logo": "https://i.imgur.com/WSvUsxy.png",
+    "category": "Undefined",
+    "url": "https://cdn4.skygo.mn/live/disk1/TV4/DASH-FTA/TV4.mpd"
   },
   {
     "name": "TV4 (1080p) [Geo-blocked]",
@@ -53711,13 +53340,6 @@
     "url": "https://edge06.cdn.emitel.pl/bpk-tv/Puls_HD/hbbtv-hls/index.m3u8"
   },
   {
-    "name": "TV Punjab",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8?ads.vf=FKWvIiyQPz8"
-  },
-  {
     "name": "TV Punjab (720p) [Geo-blocked]",
     "tvg_id": "TVPunjab.ca@SD",
     "logo": "https://en.tvpunjab.com/storage/2022/03/logo-2022.png",
@@ -54419,9 +54041,9 @@
   },
   {
     "name": "TVcom (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "TVcom.be",
+    "logo": "https://i.imgur.com/3KuRD19.png",
+    "category": "General",
     "url": "https://tvlocales-live.freecaster.com/tvcom/95d2f656-ba85-4e13-affc-f1936be1a86d/95d2f656-ba85-4e13-affc-f1936be1a86d.isml/master.m3u8"
   },
   {
@@ -54486,13 +54108,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Star_TVE_2026.svg/512px-Star_TVE_2026.svg.png",
     "category": "Series",
     "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8"
-  },
-  {
-    "name": "TVE Star HD",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8"
   },
   {
     "name": "TVE Star HD (1080p)",
@@ -59004,13 +58619,6 @@
   },
   {
     "name": "WPIX-DT1",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://e1.thetvapp.to/hls/WPIX/index.m3u8"
-  },
-  {
-    "name": "WPIX-DT1",
     "tvg_id": "WPIXDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PIX11_2017.svg/512px-PIX11_2017.svg.png",
     "category": "Undefined",
@@ -59312,17 +58920,10 @@
   },
   {
     "name": "XITE (720p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://xite-rakuten.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "XITE (720p) [Not 24/7]",
-    "tvg_id": "XITE.nl@SD",
+    "tvg_id": "XITE.nl",
     "logo": "https://i.imgur.com/jxuwGRi.png",
     "category": "Music",
-    "url": "https://ms2.mx-cd.net/tv/226-1855782/XITE_NL.smil/playlist.m3u8"
+    "url": "https://xite-rakuten.amagi.tv/playlist.m3u8"
   },
   {
     "name": "XITE Rock x Metal (1080p) [Geo-blocked]",
@@ -59865,9 +59466,9 @@
   },
   {
     "name": "Zee Alwan (576p) [Not 24/7]",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
+    "tvg_id": "ZeeAlwan.ae",
+    "logo": "https://i.imgur.com/OLuCox7.png",
+    "category": "Entertainment;Series",
     "url": "https://tgn.bozztv.com/gin-dvrfl05/ga-zeealwan/index.m3u8"
   },
   {
@@ -60030,13 +59631,6 @@
     "logo": "https://i.imgur.com/OqlxU7t.png",
     "category": "Undefined",
     "url": "https://amg17931-zee-amg17931c4-samsung-th-5592.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeenung-samsungth/playlist.m3u8"
-  },
-  {
-    "name": "Zee One",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://87e3eec452134557a82da031f54a1899.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-fr_ZeeMagic/playlist.m3u8"
   },
   {
     "name": "Zee One (1080p)",
