@@ -7567,11 +7567,11 @@
     "url": "https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8"
   },
   {
-    "name": "Bloomberg Quicktake (1080p)",
-    "tvg_id": "BloombergQuicktake.us@SD",
-    "logo": "https://i.imgur.com/T4HwPUn.png",
-    "category": "General",
-    "url": "https://bloomberg.com/media-manifest/streams/qt.m3u8"
+    "name": "Bloomberg Originals (1080p)",
+    "tvg_id": "BloombergOriginals.us@US",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png",
+    "category": "Business",
+    "url": "https://dai.google.com/linear/hls/event/jKwfd4apQcuxQtyRI9Q6-Q/master.m3u8"
   },
   {
     "name": "Bloomberg TV + (2160p)",
@@ -24731,6 +24731,13 @@
     "url": "http://82.212.74.2:8000/live/7311.m3u8"
   },
   {
+    "name": "Kairali Arabia (576p)",
+    "tvg_id": "KairaliArabia.in@SD",
+    "logo": "https://i.imgur.com/BBEfplL.png",
+    "category": "General",
+    "url": "https://mumt03.tangotv.in/KAIRALIARABIA/index.m3u8"
+  },
+  {
     "name": "Kairali News (720p)",
     "tvg_id": "KairaliNews.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KAIRALI_NEWS/images/LOGO_HD/image.png",
@@ -28176,7 +28183,7 @@
   },
   {
     "name": "Love The Planet (1080p) [Geo-blocked]",
-    "tvg_id": "LoveThePlanet.es@SD",
+    "tvg_id": "LoveThePlanet.es@EN",
     "logo": "https://i.imgur.com/RBcD49X.png",
     "category": "Documentary",
     "url": "https://amg01821-lovetv-amg01821c8-xumo-us-3443.playouts.now.amagi.tv/playlist.m3u8"
@@ -29218,6 +29225,20 @@
     "url": "http://146.59.85.40:89/max4/index.m3u8"
   },
   {
+    "name": "Max Movies (1080p)",
+    "tvg_id": "MaxMovies.in@HD",
+    "logo": "https://livetv.ashokadigital.net/upload/logo/1732168422_WhatsApp%20Image%202024-11-21%20at%2010.18.47%20AM.jpeg",
+    "category": "Movies",
+    "url": "https://live.maxtn.in/maxmovies/maxmovies/index.m3u8"
+  },
+  {
+    "name": "Max Music (1080p)",
+    "tvg_id": "MaxMusic.in@HD",
+    "logo": "https://livetv.ashokadigital.net/upload/logo/1732168750_WhatsApp%20Image%202024-11-21%20at%2011.05.55%20AM%20(1).jpeg",
+    "category": "Music",
+    "url": "https://live.maxtn.in/maxmusic/maxmusic/index.m3u8"
+  },
+  {
     "name": "Max TV (1080p)",
     "tvg_id": "MaxTV.bz@SD",
     "logo": "https://i.imgur.com/TF4snV6.jpeg",
@@ -29545,6 +29566,13 @@
     "logo": "https://i.imgur.com/lxWdjXG.png",
     "category": "Movies",
     "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8"
+  },
+  {
+    "name": "MBG TV (1080p)",
+    "tvg_id": "MBGTV.id@FHD",
+    "logo": "https://i.imgur.com/t7GsFJN.jpeg",
+    "category": "Legislative",
+    "url": "https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8"
   },
   {
     "name": "MBS (544p)",
@@ -34977,6 +35005,13 @@
     "logo": "https://i.imgur.com/0qe2R8b.png",
     "category": "Entertainment",
     "url": "https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_013/playlist.m3u8"
+  },
+  {
+    "name": "Oli TV (1080p)",
+    "tvg_id": "OliTV.in@SD",
+    "logo": "https://i.ibb.co/XfvTQyJn/main-removebg-preview.png",
+    "category": "Entertainment",
+    "url": "https://live.olidigital.in/olitv/olitv/index.m3u8"
   },
   {
     "name": " like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Olot TV (1080p)",
@@ -41391,18 +41426,18 @@
     "url": "https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8"
   },
   {
-    "name": "Rotana Cinema KSA (1080p)",
+    "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
     "tvg_id": "RotanaCinemaKSA.sa@SD",
     "logo": "https://i.imgur.com/pGgp38I.png",
     "category": "Movies",
-    "url": "https://bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/6057955906001/playlist.m3u8"
+    "url": "https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8"
   },
   {
-    "name": "Rotana Classic (1080p)",
+    "name": "Rotana Classic (1080p) [Geo-blocked]",
     "tvg_id": "RotanaClassic.sa@SD",
     "logo": "https://i.imgur.com/pMMUvkt.png",
     "category": "Classic",
-    "url": "https://bcovlive-a.akamaihd.net/0debf5648e584e5fb795c3611c5c0252/eu-central-1/6057955906001/playlist.m3u8"
+    "url": "https://rotana.hibridcdn.net/rotananet/classical_net-7Y83PP5adWixDF93/playlist.m3u8"
   },
   {
     "name": "Rotana Clip (1080p) [Geo-blocked]",
@@ -51611,6 +51646,13 @@
     "url": "https://vpn.video2go.live:444/trzic/tv/playlist.m3u8"
   },
   {
+    "name": "Tsargrad TV (1080p) [Geo-blocked]",
+    "tvg_id": "TsargradTV.ru@SD",
+    "logo": "https://i.imgur.com/34RINpb.png",
+    "category": "Religious",
+    "url": "https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?s=is_mLq_kjPYLsOJ4qj85tw&e=2070278263&scheme=https"
+  },
+  {
     "name": "Tshwane TV (576p)",
     "tvg_id": "TshwaneTV.za@SD",
     "logo": "https://admango.cdn.mangomolo.com/analytics/uploads/188/654a3ec660.png",
@@ -55263,13 +55305,6 @@
     "logo": "https://i.imgur.com/a2YX1oj.jpg",
     "category": "Entertainment",
     "url": "https://imagenuniversaltv.net:3741/live/tvslive.m3u8"
-  },
-  {
-    "name": "TVS (576p) [Geo-blocked]",
-    "tvg_id": "TVS.pl@SD",
-    "logo": "https://i.imgur.com/RHwlp35.png",
-    "category": "Undefined",
-    "url": "https://vs2129.vcdn.biz/01c0d67a9f854c6858817f6891f744ec_megogo/live/hls/b/700_2490/u_sid/0/o/157767001/rsid/c6ef76cc-cde3-4b96-8684-3828e229c6d4/u_uid/0/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/37.109.163.147*asn/u_srvc/81255/u_did/web_13KAuOjcvMvSypM1dvXHzz0O9IIFWwyq/type.live/chunklist-sid2756675719062283008-b2490000.m3u8"
   },
   {
     "name": "TVS (720p)",
@@ -59043,6 +59078,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/512px-Telemundo_logo_2018.svg.png",
     "category": "Undefined",
     "url": "http://181.114.57.246:4000/play/NnnBAHA2yQc4AG82/index.m3u8"
+  },
+  {
+    "name": "WSOC Now (1080p) [Geo-blocked]",
+    "tvg_id": "WSOCNow.us@SD",
+    "logo": "https://i.imgur.com/tUb1mdc.png",
+    "category": "News",
+    "url": "https://amg00327-coxmediagroup-wsocbreaking-plex-t51et.amagi.tv/playlist/amg00327-coxmediagroup-wsocbreaking-plex/playlist.m3u8"
   },
   {
     "name": "WSOC-DT1 (1080p)",
