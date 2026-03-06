@@ -19348,11 +19348,11 @@
     "url": "https://tvpass.org/live/FoxBusiness/hd"
   },
   {
-    "name": " like Gecko) Version/18.0 Mobile/15E148 Safari/604.1\" group-title=\"News\",Fox News Channel (720p)",
+    "name": "Fox News Channel (720p) [Not 24/7]",
     "tvg_id": "FoxNewsChannel.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Fox_News_Channel_logo.svg/512px-Fox_News_Channel_logo.svg.png",
     "category": "News",
-    "url": "https://stream.livenewsplay.com:9443/hls/foxnews/foxsd.m3u8"
+    "url": "https://tvpass.org/live/FoxNewsChannel/hd"
   },
   {
     "name": "Fox News Radio (720p)",
@@ -27349,6 +27349,13 @@
     "url": "https://2-fss-2.streamhoster.com/pl_138/amlst:201950-1309230/playlist.m3u8"
   },
   {
+    "name": "KXAS-DT1 (1080p)",
+    "tvg_id": "KXASDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KXAS_2023.svg/512px-KXAS_2023.svg.png",
+    "category": "General",
+    "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889706/hls/master.m3u8?ads.xumo_channelId=88889706a&ads.xumo_ifaType=&ads.xumo_providerId=3831&ads.xumo_providerName=NBCNDAL"
+  },
+  {
     "name": "KYOU-DT2 (720p)",
     "tvg_id": "KYOUDT2.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
@@ -30709,6 +30716,13 @@
     "url": "http://54.36.110.140/live3/live3.m3u8"
   },
   {
+    "name": "Medi1TV Afrique (1080p)",
+    "tvg_id": "Medi1TVAfrique.ma@SD",
+    "logo": "https://i.imgur.com/a20DHnj.png",
+    "category": "News",
+    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8"
+  },
+  {
     "name": "Medi 1 TV Arabic (720p)",
     "tvg_id": "Medi1TVArabic.ma@SD",
     "logo": "https://i.imgur.com/3YsZPY6.jpeg",
@@ -33551,25 +33565,11 @@
     "url": "https://aegis-cloudfront-1.tubi.video/d4d923f2-17de-4371-b86d-43490499bcdb/playlist.m3u8"
   },
   {
-    "name": "NBC 4 Washington DC (WRC) [Geo-blocked]",
-    "tvg_id": "WRCDT1.us@SD",
-    "logo": "https://i.imgur.com/7JpMArM.png",
-    "category": "Undefined",
-    "url": "https://amg00884-nbcuniversal-wanews-xumo-oamde.amagi.tv/playlist.m3u8"
-  },
-  {
     "name": "NBC 5 Chicago Live News (1080p)",
     "tvg_id": "WMAQDT1.us@SD",
     "logo": "https://i.imgur.com/wblxisu.png",
     "category": "Undefined",
     "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889704/hls/master.m3u8?ads.xumo_channelId=88889704a&ads.xumo_ifaType=&ads.xumo_providerId=3818&ads.xumo_providerName=NBCNCHI"
-  },
-  {
-    "name": "NBC 5 Dallas-Fort Worth TX (KXAS) [Geo-blocked]",
-    "tvg_id": "KXASDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KXAS_2023.svg/512px-KXAS_2023.svg.png",
-    "category": "General",
-    "url": "https://amg00884-nbcuniversal-dfwnews-xumo-r5in7.amagi.tv/playlist.m3u8"
   },
   {
     "name": "NBC 6 Santa Barbara CA (KSBY) (720p)",
@@ -33598,20 +33598,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/NBC_logo_2022_%28vertical%29.svg/512px-NBC_logo_2022_%28vertical%29.svg.png",
     "category": "General",
     "url": "https://aegis-cloudfront-1.tubi.video/8e6af50d-76df-4208-ab8d-3ff8f512cd38/playlist.m3u8"
-  },
-  {
-    "name": "NBC 10 Boston NH (WBTS) [Geo-blocked]",
-    "tvg_id": "WBTSCD1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/WBTS-LD_NBC_10_Boston_logo.png/512px-WBTS-LD_NBC_10_Boston_logo.png",
-    "category": "Undefined",
-    "url": "https://amg00884-nbcuniversal-nbcbos-pcr-xumo-9xxph.amagi.tv/playlist.m3u8"
-  },
-  {
-    "name": "NBC 10 Philadelphia PA (WCAU) [Geo-blocked]",
-    "tvg_id": "WCAUDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WCAUlogo2.svg/512px-WCAUlogo2.svg.png",
-    "category": "Undefined",
-    "url": "https://amg00884-nbcuniversal-nbcpa-pcr-xumo-q61uw.amagi.tv/playlist.m3u8"
   },
   {
     "name": "NBC 10 Providence MA (1080p)",
@@ -33647,13 +33633,6 @@
     "logo": "https://i.imgur.com/bzgfmRL.png",
     "category": "Undefined",
     "url": "https://aegis-cloudfront-1.tubi.video/b32c0573-4add-4b47-b826-24412d952164/playlist.m3u8"
-  },
-  {
-    "name": "NBC 30 West Hartford CT (WVIT) [Geo-blocked]",
-    "tvg_id": "WVITDT1.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WVIT_Logo_2017.svg/512px-WVIT_Logo_2017.svg.png",
-    "category": "Undefined",
-    "url": "https://amg00884-nbcuniversal-ctnews-xumo-cdfzg.amagi.tv/playlist.m3u8"
   },
   {
     "name": "NBC Chicago News",
@@ -59626,6 +59605,13 @@
     "url": "http://157.245.196.186/live/livestream.m3u8"
   },
   {
+    "name": "WBTS-CD1 (1080p)",
+    "tvg_id": "WBTSCD1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/WBTS-LD_NBC_10_Boston_logo.png/512px-WBTS-LD_NBC_10_Boston_logo.png",
+    "category": "Undefined",
+    "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889713/hls/master.m3u8?ads.xumo_channelId=88889713a&ads.xumo_ifaType=&ads.xumo_providerId=3820&ads.xumo_providerName=NBCNBOS"
+  },
+  {
     "name": "WBTV At the Movies [Geo-blocked]",
     "tvg_id": "",
     "logo": "",
@@ -59792,6 +59778,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CBS_logo_%282020%29.svg/512px-CBS_logo_%282020%29.svg.png",
     "category": "Undefined",
     "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00312-graytelevisioni-wbtvnews-vizious/playlist.m3u8"
+  },
+  {
+    "name": "WCAU-DT1 (1080p)",
+    "tvg_id": "WCAUDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/WCAUlogo2.svg/512px-WCAUlogo2.svg.png",
+    "category": "Undefined",
+    "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889705/hls/master.m3u8?ads.xumo_channelId=88889705a&ads.xumo_ifaType=&ads.xumo_providerId=3819&ads.xumo_providerName=NBCNPHI"
   },
   {
     "name": "WCBI (Columbus MI) (720p)",
@@ -60536,11 +60529,11 @@
     "url": "https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8"
   },
   {
-    "name": "WNBC-DT1 (720p) [Not 24/7]",
+    "name": "WNBC-DT1 (1080p)",
     "tvg_id": "WNBCDT1.us@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/WNBC_4_NY.svg/512px-WNBC_4_NY.svg.png",
     "category": "Undefined",
-    "url": "https://tvpass.org/live/WNBCDT1/hd"
+    "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889709/hls/master.m3u8?ads.xumo_channelId=88889709a&ads.xumo_ifaType=&ads.xumo_providerId=3816&ads.xumo_providerName=NBCNNY"
   },
   {
     "name": "WNET-DT1 (1080p) [Not 24/7]",
@@ -60767,6 +60760,13 @@
     "url": "http://104.255.88.155/ion/index.m3u8"
   },
   {
+    "name": "WRC-DT1 (1080p)",
+    "tvg_id": "WRCDT1.us@SD",
+    "logo": "https://i.imgur.com/7JpMArM.png",
+    "category": "Undefined",
+    "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889708/hls/master.m3u8?ads.xumo_channelId=88889708a&ads.xumo_ifaType=&ads.xumo_providerId=3830&ads.xumo_providerName=NBCNWAS"
+  },
+  {
     "name": "WRUA-DT1 (Tiva TV) (720p)",
     "tvg_id": "WRUADT1.pr@SD",
     "logo": "https://i.imgur.com/YtTlZq3.png",
@@ -60898,6 +60898,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/en/0/0f/WVCU-LP_2015.PNG",
     "category": "Music",
     "url": "https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8"
+  },
+  {
+    "name": "WVIT-DT1 (1080p)",
+    "tvg_id": "WVITDT1.us@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/WVIT_Logo_2017.svg/512px-WVIT_Logo_2017.svg.png",
+    "category": "Undefined",
+    "url": "https://d368vp0qqzvkid.cloudfront.net/11603/88889707/hls/master.m3u8?ads.xumo_channelId=88889707a&ads.xumo_ifaType=&ads.xumo_providerId=3832&ads.xumo_providerName=NBCNCT"
   },
   {
     "name": "WWE Superstar Central (1080p)",
