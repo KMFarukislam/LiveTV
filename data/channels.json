@@ -5068,7 +5068,7 @@
     "url": "https://cdn.vegasplus.us/vegas/actv/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Entertainment\",AsianBox (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Entertainment\",AsianBox (1080p)",
     "tvg_id": "AsianBox.mn@SD",
     "logo": "https://i.imgur.com/WAYZSgx.png",
     "category": "Entertainment",
@@ -5537,7 +5537,7 @@
     "url": "https://live.obslivestream.com/autenticatvmux/index.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Auto TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Auto TV (1080p)",
     "tvg_id": "",
     "logo": "",
     "category": "Undefined",
@@ -7868,7 +7868,7 @@
     "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Business\",Bloomberg TV Mongolia HD (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Business\",Bloomberg TV Mongolia HD (1080p)",
     "tvg_id": "BloombergTVMongolia.mn@SD",
     "logo": "https://i.imgur.com/OuogLHx.png",
     "category": "Business",
@@ -8834,7 +8834,7 @@
     "url": "https://d13j8jpstr8iqz.cloudfront.net/BYUtv.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",C1 (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",C1 (1080p)",
     "tvg_id": "C1.mn@SD",
     "logo": "https://i.imgur.com/v1mHG5x.png",
     "category": "General",
@@ -9364,6 +9364,13 @@
     "logo": "https://i.imgur.com/0nzNMuP.jpeg",
     "category": "General",
     "url": "https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8"
+  },
+  {
+    "name": "Canal 5 TV Max (720p)",
+    "tvg_id": "Canal5TVMax.py@SD",
+    "logo": "https://i.imgur.com/6oihaDM.png",
+    "category": "General",
+    "url": "https://video.wilohosting.com:19360/tvmax/tvmax.m3u8"
   },
   {
     "name": "Canal 6 (720p) [Geo-blocked]",
@@ -11564,7 +11571,7 @@
     "url": "https://5790d294af2dc.streamlock.net/cenovision/cenovision/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Central TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Central TV (1080p)",
     "tvg_id": "CentralTV.mn@SD",
     "logo": "https://i.imgur.com/E9wAUrT.png",
     "category": "General",
@@ -11907,7 +11914,7 @@
     "url": "https://cdn3.wowza.com/5/cFh0V0QwUVc4SDl2/santa-paula/G0930_002/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Channel 11 (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Channel 11 (1080p)",
     "tvg_id": "Channel11.mn@SD",
     "logo": "https://i.imgur.com/GztOajC.png",
     "category": "General",
@@ -12397,7 +12404,7 @@
     "url": "https://magnolia-cinelife.amagi.tv/hls/amagi_hls_data_magnoliaA-cinelife-oando/CDN/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Movies\",Cinema (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Movies\",Cinema (1080p)",
     "tvg_id": "Cinema.mn@SD",
     "logo": "https://i.imgur.com/yib6dM2.png",
     "category": "Movies",
@@ -12847,7 +12854,7 @@
   {
     "name": "CNBC (720p)",
     "tvg_id": "CNBC.us@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/512px-CNBC_2025.svg.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",
     "category": "Business",
     "url": "https://stream.livenewsplay.com:9443/hls/cnbc/cnbcsd.m3u8"
   },
@@ -12868,7 +12875,7 @@
   {
     "name": "CNBC Awaaz (1080p)",
     "tvg_id": "CNBCAwaaz.in@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/CNBC_Awaaz_logo.png/512px-CNBC_Awaaz_logo.png",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_AWAAZ/images/LOGO_HD/image.png",
     "category": "Business",
     "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8"
   },
@@ -12894,7 +12901,7 @@
     "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",CNBC MGL (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",CNBC MGL (1080p)",
     "tvg_id": "",
     "logo": "",
     "category": "Undefined",
@@ -16128,7 +16135,7 @@
     "url": "https://live.duhnet.tv/S2/HLS_LIVE/dreamturknp/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Dream TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Dream TV (1080p)",
     "tvg_id": "DreamTV.mn@SD",
     "logo": "https://i.imgur.com/YPbvzgV.png",
     "category": "Entertainment",
@@ -16527,7 +16534,7 @@
     "url": "https://live-evg17.tv360.metfone.com.kh/LiveApp/streams/eacnews.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"News\",Eagle News HD (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"News\",Eagle News HD (1080p)",
     "tvg_id": "EagleNews.mn@SD",
     "logo": "https://i.imgur.com/2oqXpve.jpg",
     "category": "News",
@@ -17766,7 +17773,7 @@
     "url": "https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"News\",ETV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"News\",ETV (1080p)",
     "tvg_id": "ETV.mn@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/ETV_Mongolia_logo.png/512px-ETV_Mongolia_logo.png",
     "category": "News",
@@ -19929,7 +19936,7 @@
     "url": "https://v2.azulstream.com:8081/gamtv/gamtv/index.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Gandan TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Gandan TV (1080p)",
     "tvg_id": "GTV.mn@SD",
     "logo": "https://i.imgur.com/z18PSIo.png",
     "category": "Undefined",
@@ -20517,7 +20524,7 @@
     "url": "https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Global TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Global TV (1080p)",
     "tvg_id": "GlobalTV.mn@SD",
     "logo": "https://i.imgur.com/Es5FX4z.png",
     "category": "Undefined",
@@ -20788,6 +20795,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GOLDMINES/images/LOGO_HD/image.png",
     "category": "Movies",
     "url": "http://103.78.149.54:8000/play/a00z/index.m3u8"
+  },
+  {
+    "name": "Goldmines 2 (576p)",
+    "tvg_id": "Goldmines2.in@SD",
+    "logo": "https://www.lyngsat.com/logo/tv/gg/goldmines-2-in.png",
+    "category": "Movies",
+    "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8"
   },
   {
     "name": "Goldmines Bollywood (576p)",
@@ -29001,11 +29015,11 @@
     "url": "https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8"
   },
   {
-    "name": "Lotus Macau HD (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Lotus Macau HD 720p",
     "tvg_id": "LotusTV.mo@SD",
     "logo": "https://i.imgur.com/7j8Lnog.png",
     "category": "General",
-    "url": "https://cdn1.skygo.mn/live/disk1/Lotus/HLS-FTA/Lotus.m3u8"
+    "url": "https://cdn4.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8"
   },
   {
     "name": "Louga TV (480p)",
@@ -29771,7 +29785,7 @@
     "url": "https://cdn-3.pishow.tv/live/473/master.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Culture\",Malchin TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Culture\",Malchin TV (1080p)",
     "tvg_id": "MalchinTV.mn@SD",
     "logo": "https://i.imgur.com/vCdEBZo.png",
     "category": "Culture",
@@ -31689,14 +31703,14 @@
     "url": "https://live.mnb.mn/hls/mnb_sport.stream.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",MNB World (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",MNB World (1080p)",
     "tvg_id": "MNBWorld.mn@SD",
     "logo": "https://i.imgur.com/PHlj84Q.png",
     "category": "General",
     "url": "https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",MNB Гэр бүл (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",MNB Гэр бүл (1080p)",
     "tvg_id": "",
     "logo": "",
     "category": "Undefined",
@@ -31717,7 +31731,7 @@
     "url": "https://cdn4.skygo.mn/live/disk1/MNB2/DASH-FTA/MNB2.mpd"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"News\",MNC (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"News\",MNC (1080p)",
     "tvg_id": "MongolianNewsChannel.mn@SD",
     "logo": "https://i.imgur.com/gMVqbwU.png",
     "category": "News",
@@ -32172,7 +32186,7 @@
     "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/mouv.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Movies\",MovieBox (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Movies\",MovieBox (1080p)",
     "tvg_id": "MovieBox.mn@SD",
     "logo": "https://i.imgur.com/xeO1Zb4.png",
     "category": "Movies",
@@ -34517,7 +34531,7 @@
     "url": "https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Entertainment\",NHK World Premium (720p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Entertainment\",NHK World Premium (720p)",
     "tvg_id": "NHKWorldPremium.jp@SD",
     "logo": "https://i.imgur.com/4ESi2La.png",
     "category": "Entertainment",
@@ -36561,7 +36575,7 @@
     "url": "https://stream.kaztrk.kz/regional/shymkenttv/index.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",ONTV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",ONTV (1080p)",
     "tvg_id": "ONTV.mn@SD",
     "logo": "https://i.imgur.com/EzODUBO.png",
     "category": "General",
@@ -37254,7 +37268,7 @@
     "url": "http://80.79.6.221:25461/smash/public/23"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Legislative\",Parliament TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Legislative\",Parliament TV (1080p)",
     "tvg_id": "ParliamentTV.mn@SD",
     "logo": "https://i.imgur.com/OD7YKuz.jpeg",
     "category": "Legislative",
@@ -38486,7 +38500,7 @@
     "url": "https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Popcorn (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Popcorn (1080p)",
     "tvg_id": "",
     "logo": "",
     "category": "Undefined",
@@ -44856,7 +44870,7 @@
     "url": "http://cdn.mediavisionuae.com:1935/live/sbctv.stream/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",SBN (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",SBN (1080p)",
     "tvg_id": "SBN.mn@SD",
     "logo": "https://i.imgur.com/E3fvpwn.png",
     "category": "General",
@@ -45316,13 +45330,6 @@
     "logo": "https://i.imgur.com/dbJKErB.png",
     "category": "Education",
     "url": "https://5d0d1d7a6be9e.streamlock.net/sicom/canal2/playlist.m3u8"
-  },
-  {
-    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Seven Channel (480p)",
-    "tvg_id": "SevenChannel.mn@SD",
-    "logo": "https://i.imgur.com/9Ld5ATz.png",
-    "category": "General",
-    "url": "https://cdn4.skygo.mn/live/disk1/TV7/HLS-FTA/TV7.m3u8"
   },
   {
     "name": "Sevilla FC TV (360p) [Not 24/7]",
@@ -47390,6 +47397,13 @@
     "url": "https://viamotionhsi.netplus.ch/live/eds/startv/browser-HLS8/startv.m3u8"
   },
   {
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Star TV (1080p)",
+    "tvg_id": "StarTV.mn@SD",
+    "logo": "https://i.imgur.com/R6hxJgl.png",
+    "category": "General",
+    "url": "https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd"
+  },
+  {
     "name": "Star Utsav (576p)",
     "tvg_id": "StarUtsav.in@SD",
     "logo": "https://i.imgur.com/H1jhHDl.png",
@@ -48034,7 +48048,7 @@
     "url": "https://tv.webmedialive.com/sulatv/live/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Suld TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Suld TV (1080p)",
     "tvg_id": "SuldTV.mn@SD",
     "logo": "https://i.imgur.com/CnLxehv.png",
     "category": "Undefined",
@@ -51079,7 +51093,7 @@
     "url": "https://mlb.essastream.com:8081/tenarensestvrd/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TenGer TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TenGer TV (1080p)",
     "tvg_id": "TenGerTV.mn@SD",
     "logo": "https://i.imgur.com/MmPvkcO.png",
     "category": "General",
@@ -51914,7 +51928,7 @@
   {
     "name": "Times Brasil (1080p)",
     "tvg_id": "TimesBrasil.br@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Times_Brasil_CNBC_logo_2025.svg/512px-Times_Brasil_CNBC_logo_2025.svg.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Times_Brasil_CNBC_logo_2025.svg/960px-Times_Brasil_CNBC_logo_2025.svg.png",
     "category": "News",
     "url": "https://cr7v.short.gy/ManoTV/TimesBrasil/Whats75991634025/CNBC/Index.m3u8"
   },
@@ -52080,7 +52094,7 @@
     "url": "http://69.64.57.208/tm1/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TM TV (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TM TV (1080p)",
     "tvg_id": "TMTV.mn@SD",
     "logo": "https://i.imgur.com/Bza9r7U.png",
     "category": "General",
@@ -53543,7 +53557,7 @@
     "url": "https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV4 (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV4 (1080p)",
     "tvg_id": "TV4.mn@SD",
     "logo": "https://i.imgur.com/WSvUsxy.png",
     "category": "Undefined",
@@ -53669,7 +53683,7 @@
     "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV7 (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",TV7 (1080p)",
     "tvg_id": "",
     "logo": "",
     "category": "Undefined",
@@ -53732,7 +53746,7 @@
     "url": "https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TV8 HD (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TV8 HD (1080p)",
     "tvg_id": "TV8.mn@SD",
     "logo": "https://i.imgur.com/EguOdxW.png",
     "category": "General",
@@ -53774,7 +53788,7 @@
     "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TV9 HD (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",TV9 HD (1080p)",
     "tvg_id": "TV9.mn@SD",
     "logo": "https://i.imgur.com/QFteAgd.png",
     "category": "General",
@@ -62496,7 +62510,7 @@
     "url": "https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Время (720p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Время (720p)",
     "tvg_id": "Vremya.ru@SD",
     "logo": "https://i.imgur.com/jZlj3ga.png",
     "category": "Undefined",
@@ -62951,7 +62965,7 @@
     "url": "http://31.148.48.15/Match_Igra/index.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Sports\",Матч! Планета (720p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Sports\",Матч! Планета (720p)",
     "tvg_id": "MatchPlaneta.ru@SD",
     "logo": "https://i.imgur.com/vhyMb9D.png",
     "category": "Sports",
@@ -63406,7 +63420,7 @@
     "url": "http://gohoski.fvds.ru:3000/mediabay/697/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Өлзий ТВ (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Өлзий ТВ (1080p)",
     "tvg_id": "UlziiTV.mn@SD",
     "logo": "https://i.imgur.com/p7tsUTI.png",
     "category": "General",
@@ -63490,7 +63504,7 @@
     "url": "https://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Победа 720p",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Победа 720p",
     "tvg_id": "Pobeda.ru@SD",
     "logo": "https://i.imgur.com/4KiYSln.png",
     "category": "Undefined",
@@ -63994,7 +64008,7 @@
     "url": "https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Соён Гэгээрүүлэгч (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Соён Гэгээрүүлэгч (1080p)",
     "tvg_id": "SoyonGegeeruulegchTV.mn@SD",
     "logo": "https://i.imgur.com/iBZVvtW.png",
     "category": "General",
@@ -64120,7 +64134,7 @@
     "url": "https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221.smil/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",ТВ Центр International (720p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",ТВ Центр International (720p)",
     "tvg_id": "TVCentrInternational.ru@SD",
     "logo": "https://i.imgur.com/tsCOnBW.png",
     "category": "Undefined",
@@ -64183,7 +64197,7 @@
     "url": "http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Cooking\",Телекафе",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Cooking\",Телекафе",
     "tvg_id": "Telecafe.ru@SD",
     "logo": "https://i.imgur.com/1H3h1HL.png",
     "category": "Cooking",
@@ -64386,7 +64400,7 @@
     "url": "https://void.greenhosting.ru/HochuVjeZnat_Mpeg4/index.m3u8"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Хөгжим (1080p)",
+    "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Undefined\",Хөгжим (1080p)",
     "tvg_id": "",
     "logo": "",
     "category": "Undefined",
