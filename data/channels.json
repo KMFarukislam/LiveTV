@@ -17766,11 +17766,11 @@
     "url": "https://amg01201-amg01201c31-cineverse-us-2915.playouts.now.amagi.tv/playlist/amg01201-cinedigmentertainment-entrepreneurtv-cineverseus/playlist.m3u8"
   },
   {
-    "name": "Entuno TV [Not 24/7]",
+    "name": "Entuno TV (1080p) [Not 24/7]",
     "tvg_id": "EntunoTV.do@HD",
     "logo": "https://imgur.com/U9OsybQ.jpg",
     "category": "General",
-    "url": "https://vdopanel.jlahozconsulting.com:3460/hybrid/play.m3u8"
+    "url": "https://soportedvb.click:3442/live/entunotvlive.m3u8"
   },
   {
     "name": "Envoy FAST (720p) [Geo-blocked]",
@@ -49119,6 +49119,13 @@
     "url": "http://191.102.39.254:5000/live/5up3r5/playlist.m3u8"
   },
   {
+    "name": "Super Canal (1080p) [Not 24/7]",
+    "tvg_id": "SuperCanal.do@SD",
+    "logo": "https://i.imgur.com/AZBamNi.png",
+    "category": "Undefined",
+    "url": "https://cnn.hostlagarto.com/supercanalhd/playlist.m3u8"
+  },
+  {
     "name": "Super Channel 12 (1080p)",
     "tvg_id": "SuperChannel12.mx@SD",
     "logo": "https://i.imgur.com/dLHIvKz.png",
@@ -51797,7 +51804,7 @@
     "tvg_id": "Televida.do@SD",
     "logo": "https://i.imgur.com/S8Zdn41.png",
     "category": "Religious",
-    "url": "https://fox.hostlagarto.com:8081/televida/tracks-v1a1/mono.m3u8"
+    "url": "https://cnn.hostlagarto.com:8081/televida/playlist.m3u8"
   },
   {
     "name": "TeleVigo (1080p) [Not 24/7]",
