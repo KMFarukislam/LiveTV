@@ -1309,6 +1309,13 @@
     "url": "https://cdn-4.pishow.tv/live/969/master.m3u8"
   },
   {
+    "name": "Aamar Bangla (720p)",
+    "tvg_id": "AamarBangla.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Amaar_Bangla.png",
+    "category": "Entertainment",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8"
+  },
+  {
     "name": "Aaseervatham TV (576p)",
     "tvg_id": "AaseervathamTV.in@SD",
     "logo": "https://i.imgur.com/GlfrYs7.png",
@@ -5444,6 +5451,20 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/atmadarshan-tv/index.m3u8?ads.vf=7uUA7ZPQxdm"
+  },
+  {
+    "name": "ATN Bangla UK (576p)",
+    "tvg_id": "ATNBanglaUK.uk@SD",
+    "logo": "https://i.imgur.com/vFpjggf.png",
+    "category": "General",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8"
+  },
+  {
+    "name": "ATN Music (360p)",
+    "tvg_id": "ATNMusic.bd@SD",
+    "logo": "https://www.jagobd.com/wp-content/uploads/2015/12/atnmusic.jpg?x50681",
+    "category": "Music",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8"
   },
   {
     "name": "ATN Televisión (720p) [Not 24/7]",
@@ -10290,6 +10311,13 @@
     "url": "https://tv.livestreaminggroup.info:3052/live/catorcetvlive.m3u8"
   },
   {
+    "name": "Canal Clave (480p) [Not 24/7]",
+    "tvg_id": "CanalClave.cu@SD",
+    "logo": "https://i.imgur.com/7tMkA4Z.png",
+    "category": "Music",
+    "url": "https://tv.picta.cu/clave/clave_0.m3u8"
+  },
+  {
     "name": "Canal Coín (1080p)",
     "tvg_id": "CanalCoinTV.es@SD",
     "logo": "https://i.imgur.com/3QPJIpa.png",
@@ -10374,6 +10402,20 @@
     "url": "https://canaleducacao-stream.ebc.com.br/index.m3u8"
   },
   {
+    "name": "Canal Educativo (480p) [Not 24/7]",
+    "tvg_id": "CanalEducativo.cu@SD",
+    "logo": "https://i.imgur.com/huBxZpP.png",
+    "category": "Education",
+    "url": "https://tv.picta.cu/educativo/educativo_0.m3u8"
+  },
+  {
+    "name": "Canal Educativo 2 (480p) [Not 24/7]",
+    "tvg_id": "CanalEducativo2.cu@SD",
+    "logo": "https://i.imgur.com/nOl3H5X.png",
+    "category": "Education",
+    "url": "https://tv.picta.cu/educativo2/educativo2_0.m3u8"
+  },
+  {
     "name": "Canal Extremadura (576p) [Not 24/7]",
     "tvg_id": "CanalExtremadura.es@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/CEXMA_new.png/500px-CEXMA_new.png",
@@ -10393,6 +10435,13 @@
     "logo": "https://i.imgur.com/rHPY0Yv.png",
     "category": "Legislative",
     "url": "https://canalgov-stream.ebc.com.br/index.m3u8"
+  },
+  {
+    "name": "Canal Habana (480p) [Not 24/7]",
+    "tvg_id": "CanalHabana.cu@SD",
+    "logo": "https://i.imgur.com/0EUc52w.png",
+    "category": "General",
+    "url": "https://tv.picta.cu/infantil/infantil_0.m3u8"
   },
   {
     "name": "Canal Iglesia Luz y Verdad (1080p)",
@@ -10896,7 +10945,7 @@
     "tvg_id": "Capital21.mx@SD",
     "logo": "https://i.imgur.com/8ign49i.png",
     "category": "Culture;Entertainment",
-    "url": "hhttps://video.cdmx.gob.mx/redes/stream.m3u8"
+    "url": "https://video.cdmx.gob.mx/redes/stream.m3u8"
   },
   {
     "name": "Capital TV (1080p)",
@@ -11032,11 +11081,11 @@
     "url": "https://dvrfl04.tulix.tv/teleup-carstv/mpegts"
   },
   {
-    "name": "Cartago Medios TV (576p)",
+    "name": "Cartago Medios TV (720p) [Not 24/7]",
     "tvg_id": "CartagoMediosTV.cr@SD",
     "logo": "https://i.imgur.com/Vcd40AL.png",
     "category": "General",
-    "url": "https://acceso.mediosdecostarica.com:3511/live/cartagomediostvlive.m3u8"
+    "url": "https://acceso.mediosdecostarica.com:3511/stream/play.m3u8"
   },
   {
     "name": "Cartoon Classics",
@@ -12271,11 +12320,11 @@
     "url": "https://edge2.roarzone.info:8447/roarzone/edge3/channel-s/index.m3u8"
   },
   {
-    "name": "Channel S (576p) [Not 24/7]",
+    "name": "Channel S (576p)",
     "tvg_id": "ChannelS.uk@SD",
     "logo": "https://i.imgur.com/hJxFLvF.png",
     "category": "Culture",
-    "url": "https://cdn149.anystream.uk:8082/g1/tvchsuk03/playlist.m3u8"
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8"
   },
   {
     "name": "Channel U",
@@ -14504,11 +14553,18 @@
     "url": "https://live.legitpro.co.in/ctvnakdplus/index.m3u8"
   },
   {
-    "name": "Cubavision Internacional",
+    "name": "Cubavision (480p) [Not 24/7]",
+    "tvg_id": "Cubavision.cu@SD",
+    "logo": "https://i.imgur.com/ki9ipMU.png",
+    "category": "General",
+    "url": "https://tv.picta.cu/cubavision/cubavision_0.m3u8"
+  },
+  {
+    "name": "Cubavision Internacional (480p)",
     "tvg_id": "CubavisionInternacional.cu@SD",
     "logo": "https://i.imgur.com/0ZHm9f6.png",
     "category": "General",
-    "url": "https://dvrfl06.bozztv.com/astv-cubavisionint/index.m3u8"
+    "url": "https://tv.picta.cu/cvi/cvi_0.m3u8"
   },
   {
     "name": "Cúcuta Retro TV [Not 24/7]",
@@ -20426,6 +20482,13 @@
     "url": "http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8"
   },
   {
+    "name": "Gazi TV (1080p)",
+    "tvg_id": "GaziTV.bd@SD",
+    "logo": "https://i.imgur.com/2Lzhiq6.png",
+    "category": "General",
+    "url": "http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8"
+  },
+  {
     "name": "GB News (1080p)",
     "tvg_id": "GBNews.uk@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/GB_News_Logo.svg/960px-GB_News_Logo.svg.png",
@@ -21658,6 +21721,13 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8?ads.vf=rF2BAuiapmm"
   },
   {
+    "name": "Green TV (1080p)",
+    "tvg_id": "GreenTV.bd@SD",
+    "logo": "https://www.jagobd.com/wp-content/uploads/2022/12/green-tv.jpg",
+    "category": "Family",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8"
+  },
+  {
     "name": "Greensboro TV (Greensboro NC) (720p)",
     "tvg_id": "GreensboroTV.us@SD",
     "logo": "",
@@ -22657,6 +22727,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/SOLUN7O6J2CB9D8VZDG7/hls3/now,-1m/m.m3u8?ads.vf=y5kiBbtngdq"
+  },
+  {
+    "name": "Hir TV (1080p)",
+    "tvg_id": "HirTV.hu@SD",
+    "logo": "https://i.imgur.com/xmIUDRN.png",
+    "category": "News",
+    "url": "https://video11.videa.hu/static/live/8.2966061.2530409.1.5.590.590/index.m3u8"
   },
   {
     "name": "Hirshabelle TV (576p)",
@@ -33229,6 +33306,13 @@
     "url": "https://mdstrm.com/live-stream-playlist/5d5d51a4e9a40e25f4a0332c.m3u8"
   },
   {
+    "name": "Multivision (480p) [Not 24/7]",
+    "tvg_id": "Multivision.cu@SD",
+    "logo": "https://i.imgur.com/wBX0GNs.png",
+    "category": "General",
+    "url": "https://tv.picta.cu/multivision/multivision_1.m3u8"
+  },
+  {
     "name": "Multivisión Canal 3 (720p) [Not 24/7]",
     "tvg_id": "MultivisionCanal3.gt@SD",
     "logo": "https://i.imgur.com/6bdj2BV.jpg",
@@ -37212,11 +37296,11 @@
     "url": "https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8"
   },
   {
-    "name": "ORF 1 (720p)",
+    "name": "ORF 1",
     "tvg_id": "ORF1.at@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ORF_1_2019.svg/960px-ORF_1_2019.svg.png",
     "category": "General",
-    "url": "http://87.106.2.165:8443/orf1hd/index.m3u8"
+    "url": "https://dash2.antik.sk/live/test_orf_eins_tizen/playlist.m3u8"
   },
   {
     "name": "ORF 1 HD (720p) [Geo-Blocked]",
@@ -37233,11 +37317,11 @@
     "url": "https://orf2-247.mdn.ors.at/orf/orf2/qxa-247/manifest.m3u8"
   },
   {
-    "name": "ORF 2 (720p)",
+    "name": "ORF 2",
     "tvg_id": "ORF2.at@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg",
     "category": "General",
-    "url": "http://87.106.2.165:8443/orf2hd/index.m3u8"
+    "url": "https://dash4.antik.sk/live/test_orf_zwei_tizen/playlist.m3u8"
   },
   {
     "name": "ORF 2 Tirol HD (720p) [Geo-Blocked]",
@@ -37258,7 +37342,7 @@
     "tvg_id": "ORFIII.at@HD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/960px-ORF_III_Logo_Monochrom.svg.png",
     "category": "Culture",
-    "url": "http://87.106.2.165:8443/orf3hd/index.m3u8"
+    "url": "https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8"
   },
   {
     "name": "ORF Kids (720p)",
@@ -37266,13 +37350,6 @@
     "logo": "https://i.imgur.com/Zxuah2b.png",
     "category": "Kids",
     "url": "https://web12.mdn.ors.at/orf/web12/qxa/manifest.mpd"
-  },
-  {
-    "name": "ORF Sport+ HD (720p)",
-    "tvg_id": "ORFSportPlus.at@HD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/960px-ORF_Sport%2B.svg.png",
-    "category": "Sports",
-    "url": "http://87.106.2.165:8443/orfsporthd/index.m3u8"
   },
   {
     "name": "Orler TV (420p) [Not 24/7]",
@@ -39011,11 +39088,11 @@
     "url": "http://cdn-s-lb2.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd"
   },
   {
-    "name": "Polsat News (720p)",
+    "name": "Polsat News (1080p) [Geo-blocked]",
     "tvg_id": "PolsatNews.pl@SD",
     "logo": "https://i.imgur.com/sx1yPuc.png",
     "category": "News",
-    "url": "https://cdn-s-lb2.pluscdn.pl/lv/1517830/349/hls/f03a76f3/masterlist.m3u8"
+    "url": "https://cdn-s-playnow-live.pluscdn.pl/lv/1517830/349/dash/81ec4c32/live.mpd"
   },
   {
     "name": "Polsat News Polityka (1080p) [Geo-blocked]",
@@ -39872,13 +39949,6 @@
     "url": "https://edge06.cdn.emitel.pl/bpk-tv/Puls2_HD/hbbtv-hls/index.m3u8"
   },
   {
-    "name": "Puls 4 (576p)",
-    "tvg_id": "Puls4.at@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Puls4.svg/960px-Puls4.svg.png",
-    "category": "Undefined",
-    "url": "http://87.106.2.165:8443/puls4/index.m3u8"
-  },
-  {
     "name": "Pulse (1080p)",
     "tvg_id": "",
     "logo": "",
@@ -40544,18 +40614,18 @@
     "url": "https://racingvic-i.akamaized.net/hls/live/598695/racingvic/index1500.m3u8"
   },
   {
+    "name": "Radar Lampung TV (480p)",
+    "tvg_id": "RadarLampungTV.id@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/id/4/42/Logo_RadarTV_Lampung.png",
+    "category": "Undefined",
+    "url": "https://www.streaming.radartv.co.id/hls/test.m3u8"
+  },
+  {
     "name": "Radar Tasikmalaya TV (720p) [Not 24/7]",
     "tvg_id": "RadarTasikmalayaTV.id@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png",
     "category": "Undefined",
     "url": "https://v2.siar.us/radartasikmalaya/live/playlist.m3u8"
-  },
-  {
-    "name": "Radar TV Lampung (480p) [Not 24/7]",
-    "tvg_id": "RadarLampungTV.id@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/id/4/42/Logo_RadarTV_Lampung.png",
-    "category": "Undefined",
-    "url": "http://122.248.43.138:1935/ch17/myStream/playlist.m3u8"
   },
   {
     "name": "Radio 3i (720p)",
@@ -44359,6 +44429,13 @@
     "url": "http://iptv.rtv-ooe.at/stream.m3u8"
   },
   {
+    "name": "RTV (480p)",
+    "tvg_id": "RTV.bd@SD",
+    "logo": "https://i.imgur.com/yu8ugqt.png",
+    "category": "General",
+    "url": "http://tvn3.chowdhury-shaheb.com/rtv/index.m3u8"
+  },
+  {
     "name": "RTV",
     "tvg_id": "RTV.hn@SD",
     "logo": "https://i.imgur.com/c8wAvxC.png",
@@ -45763,7 +45840,7 @@
     "tvg_id": "SCTV2.vn@SD",
     "logo": "https://i.imgur.com/8i5DXIg.png",
     "category": "Undefined",
-    "url": "ttps://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8"
+    "url": "https://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8"
   },
   {
     "name": "SCTV4 (720p)",
@@ -49938,18 +50015,18 @@
     "url": "https://app.ashokadigital.net/app/324ea1b0/index.m3u8"
   },
   {
-    "name": "Tamil Vision TV (1080p)",
-    "tvg_id": "TamilVisionTV.ca@SD",
-    "logo": "https://i.imgur.com/DodsLuW.png",
-    "category": "Undefined",
-    "url": "http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8"
-  },
-  {
     "name": "Tamilan TV (1080p)",
     "tvg_id": "TamilanTV.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Tamilan_Television.png",
     "category": "Undefined",
     "url": "https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8"
+  },
+  {
+    "name": "TamilVision-TV (1080p)",
+    "tvg_id": "TamilVisionTV.ca@SD",
+    "logo": "https://i.imgur.com/DodsLuW.png",
+    "category": "Undefined",
+    "url": "https://live.cmr24.fm/TVI/HD/chunks.m3u8"
   },
   {
     "name": "Tampa Bay Communnity Network TBCN (Tampa Bay FL) (480p)",
@@ -49996,7 +50073,7 @@
   {
     "name": "Tarang Music (720p)",
     "tvg_id": "TarangMusic.in@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/Tarang_Miusic.tif/lossless-page1-512px-Tarang_Miusic.tif.png",
+    "logo": "https://i.imgur.com/oSm8zFD.png",
     "category": "Music",
     "url": "https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8"
   },
@@ -50643,6 +50720,13 @@
     "logo": "https://i.imgur.com/uyNOVUW.png",
     "category": "Undefined",
     "url": "http://5cbd3bc28341f.streamlock.net:1935/trs_live/teleradiosciacca-tv/playlist.m3u8"
+  },
+  {
+    "name": "Tele Rebelde (480p) [Not 24/7]",
+    "tvg_id": "TeleRebelde.cu@SD",
+    "logo": "https://i.imgur.com/M6wZzuz.png",
+    "category": "Sports",
+    "url": "https://tv.picta.cu/telerebelde/telerebelde_1.m3u8"
   },
   {
     "name": "Tele Safor (720p) [Not 24/7]",
@@ -51804,7 +51888,7 @@
     "tvg_id": "Televida.do@SD",
     "logo": "https://i.imgur.com/S8Zdn41.png",
     "category": "Religious",
-    "url": "https://cnn.hostlagarto.com:8081/televida/playlist.m3u8"
+    "url": "https://cnn.hostlagarto.com/televida/playlist.m3u8"
   },
   {
     "name": "TeleVigo (1080p) [Not 24/7]",
@@ -57479,7 +57563,7 @@
   {
     "name": "TVP Info (1080p)",
     "tvg_id": "TVPInfo.pl@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/TVP_Info_logo.svg/960px-TVP_Info_logo.svg.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/28/TVP_info_%282024%29.png",
     "category": "Undefined",
     "url": "http://78.130.250.2:8023/play/a03b/index.m3u8"
   },
