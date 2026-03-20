@@ -814,7 +814,7 @@
   {
     "name": "24 News (576p)",
     "tvg_id": "24News.in@SD",
-    "logo": "https://i.imgur.com/xraizkS.png",
+    "logo": "https://sund-images.sunnxt.com/202222/300x300_24News_202222_d63feca0-79ae-47ea-b75a-66c17d456f4c.png",
     "category": "News",
     "url": "https://segment.yuppcdn.net/110322/channel24/playlist.m3u8"
   },
@@ -2508,7 +2508,7 @@
   {
     "name": "Adithya TV (576p)",
     "tvg_id": "AdithyaTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ADITHYA_TV/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z1V12.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0571/master.m3u8"
   },
@@ -5985,6 +5985,13 @@
     "url": "http://217.20.112.199/asianet/index.m3u8"
   },
   {
+    "name": "Asianet Middle East (576p)",
+    "tvg_id": "AsianetMiddleEast.in@SD",
+    "logo": "https://i.imgur.com/du9iZ0s.png",
+    "category": "Entertainment",
+    "url": "https://mumt03.tangotv.in/ASIANETMIDDLEEAST/index.m3u8"
+  },
+  {
     "name": "Asianet Movies (576p)",
     "tvg_id": "AsianetMovies.in@SD",
     "logo": "https://i.imgur.com/cps67hs.png",
@@ -9448,6 +9455,13 @@
     "logo": "https://i.imgur.com/eJa6sFY.png",
     "category": "Undefined",
     "url": "https://mn-nl.mncdn.com/blutv_bizimev/bizimev_sd.smil/playlist.m3u8"
+  },
+  {
+    "name": "Biznes 24",
+    "tvg_id": "Biznes24.pl@SD",
+    "logo": "https://i.imgur.com/0yoFsuq.png",
+    "category": "Undefined",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc109/biznes24hdraw/biznes24hdraw.m3u8"
   },
   {
     "name": "Biznet Adventure (1080p)",
@@ -15003,7 +15017,7 @@
   {
     "name": "Chintu TV (576p)",
     "tvg_id": "ChintuTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHINTU_TV/images/LOGO_HD/image.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Chintu_TV.png",
     "category": "Animation;Kids",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0587/master.m3u8"
   },
@@ -15108,8 +15122,8 @@
   {
     "name": "Chutti TV (576p)",
     "tvg_id": "ChuttiTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CHUTTI_TV/images/LOGO_HD/image.png",
-    "category": "Animation",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z1TS1.png?lock=720x540",
+    "category": "Animation;Kids",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0572/master.m3u8"
   },
   {
@@ -16434,6 +16448,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://jmp2.uk/plu-61c0b550e0d3a700072b6a2a.m3u8"
+  },
+  {
+    "name": "Comedy Central",
+    "tvg_id": "ComedyCentral.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png",
+    "category": "Comedy",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc006/comedycentralhdraw/comedycentralhdraw.m3u8"
   },
   {
     "name": "Comedy Central Animation",
@@ -19535,6 +19556,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL/images/LOGO_HD/image.png",
     "category": "Kids",
     "url": "http://103.182.170.32:8888/play/a04g"
+  },
+  {
+    "name": "Disney Channel",
+    "tvg_id": "DisneyChannel.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg",
+    "category": "Kids",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc103/disneychannelhdraw/disneychannelhdraw.m3u8"
   },
   {
     "name": "Disney Channel (576p)",
@@ -25559,43 +25587,43 @@
   {
     "name": "Gemini Comedy (576p)",
     "tvg_id": "GeminiComedy.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_COMEDY/images/LOGO_HD/image.png",
-    "category": "Comedy",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0573/master.m3u8"
   },
   {
     "name": "Gemini Life (576p)",
     "tvg_id": "GeminiLife.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_LIFE/images/LOGO_HD/image.png",
-    "category": "Lifestyle",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0584/master.m3u8"
   },
   {
     "name": "Gemini Movies (576p)",
     "tvg_id": "GeminiMovies.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_MOVIES/images/LOGO_HD/image.png",
-    "category": "Movies",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0586/master.m3u8"
   },
   {
     "name": "Gemini Movies HD (1080p)",
     "tvg_id": "GeminiMovies.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_MOVIES/images/LOGO_HD/image.png",
-    "category": "Movies",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://111.88.78.21:8000/play/a0zf/index.m3u8"
   },
   {
     "name": "Gemini Music SD (576p)",
     "tvg_id": "GeminiMusic.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_MUSIC/images/LOGO_HD/image.png",
-    "category": "Music",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0589/master.m3u8"
   },
   {
     "name": "Gemini TV (576p)",
     "tvg_id": "GeminiTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_GEMINI_TV/images/LOGO_HD/image.png",
-    "category": "General",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0568/master.m3u8"
   },
   {
@@ -29113,13 +29141,6 @@
     "url": "https://netstreaming.eu/hd1.m3u8"
   },
   {
-    "name": "Hungama TV (576p)",
-    "tvg_id": "HungamaTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HUNGAMA/images/LOGO_HD/image.png",
-    "category": "Kids",
-    "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8"
-  },
-  {
     "name": "Hungry (720p)",
     "tvg_id": "Hungry.us@SD",
     "logo": "https://i.imgur.com/MIUDYh0.png",
@@ -32347,11 +32368,11 @@
     "url": "https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8"
   },
   {
-    "name": "Kalaignar Murasu (576p)",
+    "name": "Kalaignar Murasu (396p)",
     "tvg_id": "KalaignarMurasu.in@SD",
     "logo": "https://dtil.tmsimg.com/assets/s143561_ld_h15_aa.png?lock=720x540",
     "category": "Entertainment",
-    "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0320/master.m3u8"
+    "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/murasu_nim_https/050522/murasu/playlist.m3u8"
   },
   {
     "name": "Kalaignar Seithigal (720p)",
@@ -32361,11 +32382,11 @@
     "url": "https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8"
   },
   {
-    "name": "Kalaignar TV (576p)",
+    "name": "Kalaignar TV (396p)",
     "tvg_id": "KalaignarTV.in@SD",
     "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Kalaignar%20TV.png",
     "category": "General",
-    "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0316/master.m3u8"
+    "url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8"
   },
   {
     "name": "Kalinga TV (720p)",
@@ -33285,6 +33306,20 @@
     "url": "http://83.167.253.107/hdmi1_ext"
   },
   {
+    "name": "Kino Polska",
+    "tvg_id": "KinoPolska.pl@SD",
+    "logo": "https://i.imgur.com/lbl8K23.png",
+    "category": "Movies",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc105/kinopolskahdraw/kinopolskahdraw.m3u8"
+  },
+  {
+    "name": "Kino TV",
+    "tvg_id": "KinoTV.pl@SD",
+    "logo": "https://i.imgur.com/sqjuXUO.png",
+    "category": "Movies",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc023/kinotvhdraw/kinotvhdraw.m3u8"
+  },
+  {
     "name": "Kinoteatr (1080p)",
     "tvg_id": "Kinoteatr.uz@SD",
     "logo": "https://i.imgur.com/emH1BgC.png",
@@ -33539,8 +33574,8 @@
   {
     "name": "Kochu TV (576p)",
     "tvg_id": "KochuTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KOCHU_TV/images/LOGO_HD/image.png",
-    "category": "Kids",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kochu_TV.png",
+    "category": "Animation;Kids",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0564/master.m3u8"
   },
   {
@@ -33924,7 +33959,7 @@
   {
     "name": "KTV (576p)",
     "tvg_id": "KTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KTV/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z1SVS.png?lock=720x540",
     "category": "Movies",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0575/master.m3u8"
   },
@@ -33973,7 +34008,7 @@
   {
     "name": "KTV HD (1080p)",
     "tvg_id": "KTV.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KTV_HD/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z1SEP.png?lock=720x540",
     "category": "Movies",
     "url": "http://103.121.6.5:8000/play/a05i/index.m3u8"
   },
@@ -34211,7 +34246,7 @@
   {
     "name": "Kushi TV (576p)",
     "tvg_id": "KushiTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_KUSHI_TV/images/LOGO_HD/LOGO_HD_image.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Kushi_TV.png",
     "category": "Kids",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0583/master.m3u8"
   },
@@ -36608,6 +36643,13 @@
     "logo": "https://i.imgur.com/xPoycVY.png",
     "category": "General",
     "url": "https://p-ltv.akamaized.net/ltv/ltv.m3u8"
+  },
+  {
+    "name": "LTV (2160p) [Not 24/7]",
+    "tvg_id": "LTV.cl@SD",
+    "logo": "https://i.imgur.com/XHs06BX.png",
+    "category": "Undefined",
+    "url": "https://live.cdnlivecdn.com/live/c9fe062eed2978749aa00df6485940d298449f5e.m3u8"
   },
   {
     "name": "LTV (720p) [Not 24/7]",
@@ -40367,6 +40409,13 @@
     "logo": "https://i.imgur.com/5cs5GkJ.png",
     "category": "Auto",
     "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883047"
+  },
+  {
+    "name": "Motowizja",
+    "tvg_id": "Motowizja.pl@SD",
+    "logo": "https://ocdn.eu/ptv2-images-transforms/1/bqxkrtsb2dvLW1pZ3JhdGVkL21vdG93aXpqYS5wbmeSlQJkAMLDlQIAKMLD",
+    "category": "Auto",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc116/motowizjahdraw/motowizjahdraw.m3u8"
   },
   {
     "name": "Motus La Chaîne",
@@ -55083,6 +55132,13 @@
     "url": "https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8"
   },
   {
+    "name": "Red Bull TV US (1080p)",
+    "tvg_id": "RedBullTV.at@US",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Red_Bull_TV.png",
+    "category": "Outdoor;Sports",
+    "url": "https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8"
+  },
+  {
     "name": "Red CCTV (480p)",
     "tvg_id": "RedCCTV.bo@SD",
     "logo": "https://i.imgur.com/YC5FRmq.png",
@@ -60753,20 +60809,6 @@
     "url": "http://103.229.254.25:7001/play/a0ed/index.m3u8"
   },
   {
-    "name": "Sony SAB (720p)",
-    "tvg_id": "SonySAB.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png",
-    "category": "Entertainment",
-    "url": "http://103.229.254.25:7001/play/a09s/index.m3u8"
-  },
-  {
-    "name": "Sony SAB HD (1080p)",
-    "tvg_id": "SonySAB.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png",
-    "category": "Entertainment",
-    "url": "http://103.229.254.25:7001/play/a0db/index.m3u8"
-  },
-  {
     "name": "Sony Sports Ten 2 HD (1080p)",
     "tvg_id": "SonySportsTen2.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png",
@@ -61691,13 +61733,6 @@
     "url": "http://116.90.120.151:8000/play/a0h2/index.m3u8"
   },
   {
-    "name": "Star Bharat HD (1080p)",
-    "tvg_id": "StarBharat.in@HD",
-    "logo": "https://i.imgur.com/Q8ajPij.png",
-    "category": "News",
-    "url": "http://103.121.6.5:8000/play/a05z/index.m3u8"
-  },
-  {
     "name": "STAR Channel (Finland) (720p)",
     "tvg_id": "STARChannel.fi@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
@@ -62251,18 +62286,11 @@
     "url": "https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8"
   },
   {
-    "name": "StarPlus (576p)",
-    "tvg_id": "StarPlus.in@SD",
-    "logo": "https://i.imgur.com/xWxNy3L.png",
-    "category": "Entertainment",
-    "url": "http://103.229.254.25:7001/play/a09p/index.m3u8"
-  },
-  {
-    "name": "StarPlus HD (1080p)",
+    "name": "StarPlus HD (720p)",
     "tvg_id": "StarPlus.in@HD",
     "logo": "https://i.imgur.com/xWxNy3L.png",
     "category": "Entertainment",
-    "url": "http://103.229.254.25:7001/play/a09z/index.m3u8"
+    "url": "https://padmaonline.duckdns.org:8088/StarPlusHD/index.m3u8"
   },
   {
     "name": "START Air",
@@ -62608,6 +62636,13 @@
     "url": "https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/stockton/G0044_008/playlist.m3u8"
   },
   {
+    "name": "Stopklatka TV",
+    "tvg_id": "StopklatkaTV.pl@SD",
+    "logo": "https://i.imgur.com/qqNsIkx.png",
+    "category": "Undefined",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc102/stopklatkatvhdraw/stopklatkatvhdraw.m3u8"
+  },
+  {
     "name": "Storage Wars by A&E",
     "tvg_id": "",
     "logo": "",
@@ -62946,63 +62981,63 @@
   {
     "name": "Sun Bangla (720p)",
     "tvg_id": "SunBangla.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_BANGLA/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0506.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://103.161.153.165:8000/play/a03k/index.m3u8"
   },
   {
     "name": "Sun Life (576p)",
     "tvg_id": "SunLife.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_LIFE/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z1JE4.png?lock=720x540",
     "category": "Entertainment;Music",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0585/master.m3u8"
   },
   {
     "name": "Sun Marathi (1080p)",
     "tvg_id": "SunMarathi.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_MARATHI/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0769.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0576/master.m3u8"
   },
   {
     "name": "Sun Marathi SD (576p)",
     "tvg_id": "SunMarathi.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_MARATHI/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0769.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0577/master.m3u8"
   },
   {
     "name": "Sun Music (576p)",
     "tvg_id": "SunMusic.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_MUSIC/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0P8V.png?lock=720x540",
     "category": "Music",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0563/master.m3u8"
   },
   {
     "name": "Sun Music HD (720p)",
     "tvg_id": "SunMusic.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_MUSIC/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z1CL8.png?lock=720x540",
     "category": "Music",
     "url": "http://15.235.144.106:14055"
   },
   {
     "name": "Sun Neo (576p)",
     "tvg_id": "SunNeo.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_NEO/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z06B5.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://163.61.227.29:8000/play/a04t/index.m3u8"
   },
   {
     "name": "Sun Neo HD (576p)",
     "tvg_id": "SunNeo.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_NEO/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z06B5.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0582/master.m3u8"
   },
   {
     "name": "Sun News (576p)",
     "tvg_id": "SunNews.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_NEWS/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0MBD.png?lock=720x540",
     "category": "News",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0565/master.m3u8"
   },
@@ -63023,14 +63058,14 @@
   {
     "name": "Sun TV (576p)",
     "tvg_id": "SunTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_TV/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0DG5.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0532/master.m3u8"
   },
   {
     "name": "Sun TV HD (720p)",
     "tvg_id": "SunTV.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SUN_TV/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG002Z0M0Y.png?lock=720x540",
     "category": "Entertainment",
     "url": "http://15.235.144.106:14054"
   },
@@ -63457,36 +63492,36 @@
   {
     "name": "Surya Comedy (576p)",
     "tvg_id": "SuryaComedy.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SURYA_COMEDY/images/LOGO_HD/image.png",
-    "category": "Comedy",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0578/master.m3u8"
   },
   {
     "name": "Surya Movies (576p)",
     "tvg_id": "SuryaMovies.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SURYA_MOVIES/images/LOGO_HD/image.png",
-    "category": "Movies",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0567/master.m3u8"
   },
   {
     "name": "Surya Music (576p)",
     "tvg_id": "SuryaMusic.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SURYA_MUSIC/images/LOGO_HD/image.png",
-    "category": "Music",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0579/master.m3u8"
   },
   {
     "name": "Surya TV (576p)",
     "tvg_id": "SuryaTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SURYA_TV/images/LOGO_HD/image.png",
-    "category": "Entertainment",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0566/master.m3u8"
   },
   {
     "name": "Surya TV HD (1080p)",
     "tvg_id": "SuryaTV.in@HD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SURYA_HD/images/LOGO_HD/image.png",
-    "category": "Entertainment",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://livestream10.sunnxt.com/DolbyVision/SuryaTV_HDR/SuryaTV_HDR_Endpoints/SuryaTV-HDR10-IN-index.m3u8"
   },
   {
@@ -71638,6 +71673,13 @@
     "url": "https://cloud5.livescast.com:19360/canaltvquisqueya/canaltvquisqueya.m3u8"
   },
   {
+    "name": "TV Republika",
+    "tvg_id": "TVRepublika.pl@SD",
+    "logo": "https://i.imgur.com/ljpK6dZ.png",
+    "category": "Undefined",
+    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc120/tvrepublikahdraw/tvrepublikahdraw.m3u8"
+  },
+  {
     "name": "TV Rheintal (720p)",
     "tvg_id": "TVRheintal.ch@SD",
     "logo": "https://i.imgur.com/8PY1o81.jpg",
@@ -73747,8 +73789,8 @@
   {
     "name": "Udaya Comedy (576p)",
     "tvg_id": "UdayaComedy.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_UDAYA_COMEDY/images/LOGO_HD/image.png",
-    "category": "Comedy",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0574/master.m3u8"
   },
   {
@@ -73761,15 +73803,15 @@
   {
     "name": "Udaya Music (576p)",
     "tvg_id": "UdayaMusic.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_UDAYA_MUSIC/images/LOGO_HD/image.png",
-    "category": "Music",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0588/master.m3u8"
   },
   {
     "name": "Udaya TV (576p)",
     "tvg_id": "UdayaTV.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_UDAYA_TV/images/LOGO_HD/image.png",
-    "category": "Entertainment",
+    "logo": "",
+    "category": "Undefined",
     "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0569/master.m3u8"
   },
   {
