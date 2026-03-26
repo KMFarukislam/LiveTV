@@ -989,21 +989,21 @@
   {
     "name": "48 Hours",
     "tvg_id": "48Hours.us@CA",
-    "logo": "https://i.imgur.com/Q7THHhX.png",
+    "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
     "category": "Series",
     "url": "https://jmp2.uk/plu-62e925bc68d18a00077bb990.m3u8"
   },
   {
     "name": "48 Hours",
     "tvg_id": "48Hours.us@UK",
-    "logo": "https://i.imgur.com/Q7THHhX.png",
+    "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
     "category": "Series",
     "url": "https://jmp2.uk/plu-6299e5afdd5833000727e795.m3u8"
   },
   {
     "name": "48 Hours",
     "tvg_id": "48Hours.us@US",
-    "logo": "https://i.imgur.com/Q7THHhX.png",
+    "logo": "https://images.pluto.tv/channels/6176f39e709f160007ec61c3/colorLogoPNG.png",
     "category": "Series",
     "url": "https://dai.google.com/linear/hls/event/JUr94WL2QAiVpGNHY5n5dA/master.m3u8"
   },
@@ -1628,7 +1628,7 @@
     "tvg_id": "AbadanTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/3/39/Abadan_tv.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227000/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/abadan/live/playlist.m3u8"
   },
   {
     "name": "Abai TV (720p)",
@@ -2657,7 +2657,7 @@
     "tvg_id": "AflakTV.ir@SD",
     "logo": "https://i.imgur.com/LkLCHpf.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226675/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/aflak/live/playlist.m3u8"
   },
   {
     "name": "Aflam (1080p)",
@@ -2811,7 +2811,7 @@
     "tvg_id": "AftabTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/6/6e/Arak_AFTAB.svg/960px-Arak_AFTAB.svg.png",
     "category": "Undefined",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226899/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/aftab/live/playlist.m3u8"
   },
   {
     "name": "Aftershock",
@@ -3927,13 +3927,6 @@
     "url": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8"
   },
   {
-    "name": "AlKawthar",
-    "tvg_id": "AlKawtharTV.ir@SD",
-    "logo": "https://i.imgur.com/x4zUmY1.png",
-    "category": "Culture;Religious",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226158/index.m3u8"
-  },
-  {
     "name": "Alkhuzama Radio (1080p)",
     "tvg_id": "AlkhuzamaRadio.sa@SD",
     "logo": "https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b",
@@ -4624,7 +4617,7 @@
     "tvg_id": "AmouzeshTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Amouzesh_TV_logo_%282023%29.svg/500px-Amouzesh_TV_logo_%282023%29.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226151/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8"
   },
   {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",Amplified Voices TV (1080p)",
@@ -4711,11 +4704,11 @@
     "url": "https://account19.livebox.co.in/Anandabarta2hls/live.m3u8"
   },
   {
-    "name": "Ananda TV (480p)",
+    "name": "Ananda TV (1080p)",
     "tvg_id": "AnandaTV.bd@SD",
     "logo": "https://i.imgur.com/jkbo7Qe.png",
     "category": "Entertainment",
-    "url": "http://103.99.249.139/anandatv/index.m3u8"
+    "url": "https://bozztv.com/rongo/rongo-AnandaTV/index.m3u8"
   },
   {
     "name": "Anandam Abi TV",
@@ -6892,7 +6885,7 @@
     "tvg_id": "WestAzerbaijanTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/2/21/Urmia_TV.svg/960px-Urmia_TV.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226800/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8"
   },
   {
     "name": "Azerbaijan News TV (720p) [Not 24/7]",
@@ -7396,7 +7389,7 @@
     "tvg_id": "BaranTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/b/b9/TV_Baran.svg/500px-TV_Baran.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226902/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/baran/live/playlist.m3u8"
   },
   {
     "name": "Baraza TV (1080p) [Geo-blocked]",
@@ -9679,6 +9672,13 @@
     "logo": "https://i.imgur.com/nTeE4xu.png",
     "category": "General",
     "url": "https://reflect-batv.cablecast.tv/live-5/live/live.m3u8"
+  },
+  {
+    "name": "Blu Radio (720p)",
+    "tvg_id": "BluRadio.co@SD",
+    "logo": "https://i.imgur.com/w2t8CGT.png",
+    "category": "General",
+    "url": "https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8"
   },
   {
     "name": "Blue Bloods",
@@ -18747,7 +18747,7 @@
   },
   {
     "name": "Dej TV",
-    "tvg_id": "DejTV.ir",
+    "tvg_id": "DejTV.ir@HD",
     "logo": "https://www.lyngsat.com/logo/tv/dd/dej-tv.png",
     "category": "Undefined",
     "url": "https://rdejhls.wns.live/hls/stream.m3u8"
@@ -22792,6 +22792,13 @@
     "url": "https://jmp2.uk/plu-6661739641af6400080cd8f1.m3u8"
   },
   {
+    "name": "Extreme Sports Channel Polska",
+    "tvg_id": "ExtremeSportsChannelPolska.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f0/Extreme_Sports_Channel.svg/960px-Extreme_Sports_Channel.svg.png",
+    "category": "Sports",
+    "url": "https://liveovh010.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc124/extremesportshdraw/extremesportshdraw.mpd"
+  },
+  {
     "name": "F1 Channel",
     "tvg_id": "F1Channel.ie@SD",
     "logo": "https://i.imgur.com/cjXzWsI.png",
@@ -23209,7 +23216,7 @@
     "tvg_id": "FarsTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/7/7b/Iribfars.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226701/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/fars/live/playlist.m3u8"
   },
   {
     "name": "Farscape",
@@ -27379,8 +27386,8 @@
   {
     "name": "Haunt TV (1080p)",
     "tvg_id": "HauntTV.us@SD",
-    "logo": "https://images.pluto.tv/channels/63934c218ef524000757b122/colorLogoPNG.png",
-    "category": "Entertainment",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://amg01446-blueantmediacan-haunttvaussam-samsungau-vcnai.amagi.tv/playlist/amg01446-blueantmediacan-haunttvaussam-samsungau/playlist.m3u8"
   },
   {
@@ -30479,7 +30486,7 @@
   },
   {
     "name": "Iran National Revolution TV",
-    "tvg_id": "IranNationalRevolutionTV.us",
+    "tvg_id": "IranNationalRevolutionTV.us@HD",
     "logo": "https://www.lyngsat.com/logo/tv/ii/iran-national-revolution-tv-us.png",
     "category": "Undefined",
     "url": "https://hls.irannrtv.live/hls/stream.m3u8"
@@ -30517,35 +30524,28 @@
     "tvg_id": "IRIB1.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/IRIBTV1.svg/960px-IRIBTV1.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226637/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8"
   },
   {
     "name": "IRIB2",
     "tvg_id": "IRIB2.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IRIB_TV2_logo.svg/960px-IRIB_TV2_logo.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226176/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8"
   },
   {
-    "name": "IRIB3 (1080p)",
+    "name": "IRIB3",
     "tvg_id": "IRIB3.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/960px-IRIB_TV3_LOGO.svg.png",
     "category": "Sports",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226868/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8"
   },
   {
     "name": "IRIB4",
     "tvg_id": "IRIB4.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png",
     "category": "Culture",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226140/index.m3u8"
-  },
-  {
-    "name": "IRIB5 Tehran TV",
-    "tvg_id": "TehranTV.ir@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/IRIBTV5.svg/500px-IRIBTV5.svg.png",
-    "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226141/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8"
   },
   {
     "name": "IRIB UHD (2160p)",
@@ -30562,18 +30562,18 @@
     "url": "https://www.hellasnet.tv/rest2.live.hn/w2r.iri/playlist.m3u8"
   },
   {
-    "name": "IRINN",
-    "tvg_id": "IRINN.ir@SD",
-    "logo": "https://i.imgur.com/8tzsC9h.png",
-    "category": "News",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226142/index.m3u8"
-  },
-  {
-    "name": "IRINN2",
+    "name": "IRINN2 Live Farsi News",
     "tvg_id": "IRINN2.ir@SD",
     "logo": "https://i.imgur.com/8tzsC9h.png",
     "category": "News",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227020/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8"
+  },
+  {
+    "name": "IRINN Live Farsi News",
+    "tvg_id": "IRINN.ir@SD",
+    "logo": "https://i.imgur.com/8tzsC9h.png",
+    "category": "News",
+    "url": "https://ncdn.telewebion.ir/irinn/live/playlist.m3u8"
   },
   {
     "name": "Iris [Geo-blocked]",
@@ -30643,7 +30643,7 @@
     "tvg_id": "IsfahanTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/IsfahanTV.svg/960px-IsfahanTV.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226652/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8"
   },
   {
     "name": "Ishwar Bhakti TV (720p)",
@@ -32201,7 +32201,7 @@
   },
   {
     "name": "Kalemeh TV",
-    "tvg_id": "KalemehTV.uk",
+    "tvg_id": "KalemehTV.uk@HD",
     "logo": "https://i.imgur.com/RsKKULI.png",
     "category": "Religious",
     "url": "https://klmhls.wns.live/hls/stream.m3u8"
@@ -32820,7 +32820,7 @@
     "tvg_id": "KermanTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/960px-Kerman_irib_logo_%28blue_version%29.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226856/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/kerman/live/playlist.m3u8"
   },
   {
     "name": "Kern County Television",
@@ -32887,7 +32887,7 @@
   },
   {
     "name": "Khabarbin TV",
-    "tvg_id": "KhabarbinTV.ir",
+    "tvg_id": "KhabarbinTV.ir@HD",
     "logo": "https://www.lyngsat.com/logo/tv/kk/khabarbin-tv.png",
     "category": "Undefined",
     "url": "https://khbhls.wns.live/hls/stream.m3u8"
@@ -32901,7 +32901,7 @@
   },
   {
     "name": "Khalij TV",
-    "tvg_id": "KhalijTV.ir",
+    "tvg_id": "KhalijTV.ir@HD",
     "logo": "https://www.lyngsat.com/logo/tv/kk/khalij-tv.png",
     "category": "Undefined",
     "url": "https://khalijhls.wns.live/hls/stream.m3u8"
@@ -32963,11 +32963,11 @@
     "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8"
   },
   {
-    "name": "KhozestanTV",
+    "name": "Khozestan",
     "tvg_id": "KhozestanTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/9/9a/Ahwaz_TV.svg/960px-Ahwaz_TV.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226415/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8"
   },
   {
     "name": "Khushboo Bangla (720p)",
@@ -33143,6 +33143,13 @@
     "logo": "https://i.imgur.com/lbl8K23.png",
     "category": "Movies",
     "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc105/kinopolskahdraw/kinopolskahdraw.m3u8"
+  },
+  {
+    "name": "Kino Polska Muzyka",
+    "tvg_id": "KinoPolskaMuzyka.pl@SD",
+    "logo": "https://i.imgur.com/lE1IlPQ.png",
+    "category": "Music",
+    "url": "https://liveovh010.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc122/kinopolskamuzykaraw/kinopolskamuzykaraw.mpd"
   },
   {
     "name": "Kino TV",
@@ -33520,7 +33527,7 @@
     "tvg_id": "KordestanTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/2/2c/Sanandaj_KORDESTAN.svg/960px-Sanandaj_KORDESTAN.svg.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226647/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8"
   },
   {
     "name": "Kordia TV (1080p)",
@@ -35096,20 +35103,6 @@
     "logo": "https://i.imgur.com/fc5IHSy.png",
     "category": "News",
     "url": "https://lencatelevision.com/hls/stream.m3u8"
-  },
-  {
-    "name": "Lenz Animation",
-    "tvg_id": "LenzAnimation.ir@SD",
-    "logo": "",
-    "category": "Kids",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227043/index.m3u8"
-  },
-  {
-    "name": "Lenz Film",
-    "tvg_id": "LenzFilm.ir@SD",
-    "logo": "",
-    "category": "Movies",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227021/index.m3u8"
   },
   {
     "name": "LEO Middelsé TV (480p)",
@@ -37744,13 +37737,6 @@
     "url": "http://131.153.22.8:1935/MAYYAZHI/live/playlist.m3u8"
   },
   {
-    "name": "Mazandaran TV",
-    "tvg_id": "TabarestanTV.ir@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/960px-IRIB_Mazandaran_Last_Orange_Logo.png",
-    "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226786/index.m3u8"
-  },
-  {
     "name": "Mazhavil Manorama (396p)",
     "tvg_id": "MazhavilManorama.in@SD",
     "logo": "https://i.imgur.com/fjgzW20.png",
@@ -40135,7 +40121,7 @@
     "tvg_id": "IRIBMostanad.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/8/89/Mostanad-tv.png",
     "category": "General",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226901/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8"
   },
   {
     "name": "MotoGP Channel (1080p)",
@@ -41871,7 +41857,7 @@
     "tvg_id": "NamayeshTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Namayesh_TV_logo.svg/960px-Namayesh_TV_logo.svg.png",
     "category": "Entertainment",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226148/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8"
   },
   {
     "name": "Nambikkai TV (576p)",
@@ -42053,7 +42039,7 @@
     "tvg_id": "Nasim.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nasim_TV_logo.svg/960px-Nasim_TV_logo.svg.png",
     "category": "Entertainment",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226653/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/nasim/live/playlist.m3u8"
   },
   {
     "name": "Nasul TV (720p) [Not 24/7]",
@@ -42289,8 +42275,8 @@
   {
     "name": "NatureTime (1080p)",
     "tvg_id": "NatureTime.es@SD",
-    "logo": "https://i.imgur.com/72JmyjM.png",
-    "category": "Documentary",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8"
   },
   {
@@ -42866,6 +42852,13 @@
     "logo": "https://dtil.tmsimg.com/assets/s143584_ld_h15_aa.png?lock=720x540",
     "category": "Entertainment",
     "url": "https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8"
+  },
+  {
+    "name": "Nesfejahan",
+    "tvg_id": "",
+    "logo": "",
+    "category": "Undefined",
+    "url": "https://ncdn.telewebion.ir/nesfejahan/live/playlist.m3u8"
   },
   {
     "name": "NESN Nation (1080p)",
@@ -43596,13 +43589,6 @@
     "url": "https://viamotionhsi.netplus.ch/live/eds/comedycentralnick/browser-HLS8/comedycentralnick.m3u8"
   },
   {
-    "name": "Nickelodeon",
-    "tvg_id": "Nickelodeon.br@SD",
-    "logo": "https://i.imgur.com/E84jnP8.png",
-    "category": "Kids",
-    "url": "http://x1co.com.br:8080/hls/0/stream.m3u8"
-  },
-  {
     "name": "Nickelodeon (576p)",
     "tvg_id": "Nickelodeon.ee@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/960px-Nickelodeon_2023_logo_%28outline%29.svg.png",
@@ -43747,7 +43733,7 @@
     "tvg_id": "NickOnline.br@SD",
     "logo": "https://x1co.com.br/logo.png",
     "category": "Animation;Kids",
-    "url": "http://x1co.com.br:8080/hls/stream.m3u8"
+    "url": "https://x1co.com.br:8443/hls/stream.m3u8"
   },
   {
     "name": "NickToons",
@@ -45140,7 +45126,7 @@
     "tvg_id": "OfoghTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/960px-Ofogh_TV_logo.svg.png",
     "category": "Culture",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226143/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8"
   },
   {
     "name": "Oggy e as Baratas Tontas",
@@ -45469,7 +45455,7 @@
     "tvg_id": "IRIBOmid.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/500px-IRIB_Omid.svg.png",
     "category": "Kids",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226159/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/omid/live/playlist.m3u8"
   },
   {
     "name": "Omide Iran",
@@ -47493,34 +47479,6 @@
     "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-series-fr.png",
     "category": "Series",
     "url": "https://onehls.persiana.live/hls/stream.m3u8"
-  },
-  {
-    "name": "Persiana Sports",
-    "tvg_id": "PersianaSports.fr@SD",
-    "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png",
-    "category": "Sports",
-    "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/Persiana%20Sports/chunks.m3u8"
-  },
-  {
-    "name": "Persiana Sports 2",
-    "tvg_id": "PersianaSports2.fr@HD",
-    "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png",
-    "category": "Sports",
-    "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/Persiana%20Sports2/chunks.m3u8"
-  },
-  {
-    "name": "Persiana Sports 3",
-    "tvg_id": "PersianaSports3.fr@HD",
-    "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png",
-    "category": "Sports",
-    "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/Persiana%20Sports3/chunks.m3u8"
-  },
-  {
-    "name": "Persiana Sports 4",
-    "tvg_id": "PersianaSports4.fr@HD",
-    "logo": "https://www.lyngsat.com/logo/tv/pp/persiana-sports-fr.png",
-    "category": "Sports",
-    "url": "https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/Persiana%20Sports4/chunks.m3u8"
   },
   {
     "name": "Persiana Teen",
@@ -51289,6 +51247,13 @@
     "url": "http://cdn-s-lb2.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd"
   },
   {
+    "name": "Polsat JimJam",
+    "tvg_id": "PolsatJimJam.pl@SD",
+    "logo": "https://i.imgur.com/GjppUlg.png",
+    "category": "Kids",
+    "url": "https://liveovh010.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc119/polsatjimjamraw/polsatjimjamraw.mpd"
+  },
+  {
     "name": "Polsat News (1080p) [Geo-blocked]",
     "tvg_id": "PolsatNews.pl@SD",
     "logo": "https://i.imgur.com/sx1yPuc.png",
@@ -51363,7 +51328,7 @@
     "tvg_id": "PooyaTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png",
     "category": "Kids",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226145/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/pooya/live/playlist.m3u8"
   },
   {
     "name": "Pooya TV Plus",
@@ -51812,6 +51777,13 @@
     "logo": "https://i.imgur.com/Vji81jB.png",
     "category": "Entertainment",
     "url": "http://cdn27.live247stream.com/primecanada/247/primecanada/stream1/playlist.m3u8"
+  },
+  {
+    "name": "Prime News (576p)",
+    "tvg_id": "PrimeNews.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Prime_News.png",
+    "category": "News",
+    "url": "https://mumt02.tangotv.in/PRIMENEWS/index.m3u8"
   },
   {
     "name": "Prime News TV (720p)",
@@ -52532,7 +52504,7 @@
     "tvg_id": "QazvinTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/960px-QazvinTV.svg.png",
     "category": "Undefined",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226888/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8"
   },
   {
     "name": "Qello Concerts",
@@ -52707,7 +52679,7 @@
     "tvg_id": "QuranTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png",
     "category": "Religious",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226144/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/quran/live/playlist.m3u8"
   },
   {
     "name": "Quran Radio (1080p)",
@@ -56112,6 +56084,13 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/romance-channel/manifest.m3u8?ads.vf=PiSO0lq9aTW"
   },
   {
+    "name": "Romance TV",
+    "tvg_id": "RomanceTV.pl@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Romance_TV_Logo_10.2019.svg/960px-Romance_TV_Logo_10.2019.svg.png",
+    "category": "Undefined",
+    "url": "https://liveovh010.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc116/romancetvhdraw/romancetvhdraw.mpd"
+  },
+  {
     "name": "Romania TV (576p)",
     "tvg_id": "RomaniaTV.ro@SD",
     "logo": "https://i.imgur.com/ZIfEp5I.png",
@@ -57908,7 +57887,7 @@
     "tvg_id": "SahandTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/3/37/Tabriz_Sahand.svg/960px-Tabriz_Sahand.svg.png",
     "category": "Undefined",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226423/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/sahand/live/playlist.m3u8"
   },
   {
     "name": "Sailor Moon",
@@ -57964,7 +57943,7 @@
     "tvg_id": "SalamatTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/f/f0/IRIB_Salamat_Logo.png",
     "category": "Undefined",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226152/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/salamat/live/playlist.m3u8"
   },
   {
     "name": "Salem News Channel (1080p)",
@@ -59000,7 +58979,7 @@
     "tvg_id": "SepehrTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sepehrtv.png/960px-Sepehrtv.png",
     "category": "Undefined",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226161/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8"
   },
   {
     "name": "Seraphim TV [Not 24/7]",
@@ -59109,7 +59088,7 @@
   },
   {
     "name": "Setareh TV",
-    "tvg_id": "SetarehTV.uk",
+    "tvg_id": "SetarehTV.uk@HD",
     "logo": "https://www.lyngsat.com/logo/tv/ss/setareh-tv-uk.png",
     "category": "Undefined",
     "url": "https://setarehhls.wns.live/hls/stream.m3u8"
@@ -59386,6 +59365,13 @@
     "logo": "https://i.imgur.com/p0QzCFs.png",
     "category": "Undefined",
     "url": "http://tv.sheffieldlive.org/hls/main.m3u8"
+  },
+  {
+    "name": "Shekinah TV (1080p)",
+    "tvg_id": "ShekinahTV.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Shekinah.png",
+    "category": "Undefined",
+    "url": "https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8"
   },
   {
     "name": "Shelanu TV (720p)",
@@ -60517,14 +60503,14 @@
   {
     "name": "Sony Aath (720p)",
     "tvg_id": "SonyAath.in@SD",
-    "logo": "https://i.imgur.com/q4AwVq9.png",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_8/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "http://103.161.153.165:8000/play/sonyatth/index.m3u8"
   },
   {
     "name": "Sony BBC Earth HD (1080p)",
     "tvg_id": "SonyBBCEarth.in@HD",
-    "logo": "https://i.imgur.com/XVUGLxa.png",
+    "logo": "https://dtil.tmsimg.com/assets/s143800_ld_h15_aa.png?lock=720x540",
     "category": "Documentary",
     "url": "http://116.90.120.151:8000/play/a0j1/index.m3u8"
   },
@@ -62013,13 +61999,6 @@
     "url": "https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8"
   },
   {
-    "name": "StarPlus HD (720p)",
-    "tvg_id": "StarPlus.in@HD",
-    "logo": "https://i.imgur.com/xWxNy3L.png",
-    "category": "Entertainment",
-    "url": "https://padmaonline.duckdns.org:8088/StarPlusHD/index.m3u8"
-  },
-  {
     "name": "START Air",
     "tvg_id": "STARTAir.ru@SD",
     "logo": "https://i.imgur.com/4bACa7x.png",
@@ -62552,6 +62531,13 @@
     "url": "https://mumt01.tangotv.in/STUDIOYUVA/index.m3u8"
   },
   {
+    "name": "StudioMed TV",
+    "tvg_id": "StudioMedTV.pl@SD",
+    "logo": "https://i.imgur.com/prF1T3P.png",
+    "category": "Undefined",
+    "url": "https://liveovh010.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc112/studiomedtvhdraw/studiomedtvhdraw.mpd"
+  },
+  {
     "name": "Stugfixarna Norge",
     "tvg_id": "",
     "logo": "",
@@ -62578,6 +62564,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/zh/9/94/Shanghai_City_TV.PNG",
     "category": "General",
     "url": "http://61.173.144.157:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1"
+  },
+  {
+    "name": "STV Haryana News (576p)",
+    "tvg_id": "STVHaryanaNews.in@SD",
+    "logo": "https://i.imgur.com/TJRZo9e.png",
+    "category": "News",
+    "url": "https://mumt01.tangotv.in/STVHARYANANEWS/index.m3u8"
   },
   {
     "name": "STV News and General",
@@ -63532,6 +63525,20 @@
     "url": "https://unlimited1-us.dps.live/inet2/inet2.smil/playlist.m3u8"
   },
   {
+    "name": "Taaza TV (720p)",
+    "tvg_id": "TaazaTV.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Taaza_TV.png",
+    "category": "Undefined",
+    "url": "https://live.we2live.in/taazatv/live/playlist.m3u8"
+  },
+  {
+    "name": "Tabarestan",
+    "tvg_id": "TabarestanTV.ir@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/960px-IRIB_Mazandaran_Last_Orange_Logo.png",
+    "category": "General",
+    "url": "https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8"
+  },
+  {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Music\",Tabbar Hits (1080p)",
     "tvg_id": "TabbarHits.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_TABBAR_HITS/images/LOGO_HD/image.png",
@@ -63565,6 +63572,13 @@
     "logo": "https://i.imgur.com/usXedIj.png",
     "category": "Religious",
     "url": "https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8"
+  },
+  {
+    "name": "Taftan",
+    "tvg_id": "",
+    "logo": "",
+    "category": "Undefined",
+    "url": "https://ncdn.telewebion.ir/taftan/live/playlist.m3u8"
   },
   {
     "name": "TAG TV (1080p) [Not 24/7]",
@@ -63690,7 +63704,7 @@
     "tvg_id": "Tamasha.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/960px-IRIB_tamashaTV.svg.png",
     "category": "Movies",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226879/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8"
   },
   {
     "name": "Tamazight TV (576p)",
@@ -64321,6 +64335,13 @@
     "logo": "https://i.imgur.com/0Vp3f2J.png",
     "category": "Undefined",
     "url": "http://wms.klikhost.com:1935/tegartv/tegartv/playlist.m3u8"
+  },
+  {
+    "name": "Tehran",
+    "tvg_id": "TehranTV.ir@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/IRIBTV5.svg/500px-IRIBTV5.svg.png",
+    "category": "General",
+    "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8"
   },
   {
     "name": "Tehzeeb TV (720p)",
@@ -65583,13 +65604,6 @@
     "url": "https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/streams/UIO-HD_adaptive.m3u8"
   },
   {
-    "name": "Telesud",
-    "tvg_id": "Telesud.fr@SD",
-    "logo": "https://i.imgur.com/bC3qiGK.png",
-    "category": "Undefined",
-    "url": "https://raw.githubusercontent.com/Sibprod/streams/main/ressources/dm/py/hls/telesud.m3u8"
-  },
-  {
     "name": "Telesud Trapani (720p) [Not 24/7]",
     "tvg_id": "TelesudTrapani.it@SD",
     "logo": "https://i.imgur.com/JNohS1G.png",
@@ -65889,27 +65903,6 @@
     "logo": "https://i.imgur.com/jT95ZEI.png",
     "category": "General",
     "url": "https://live.tv-m.net/hls/stream.m3u8"
-  },
-  {
-    "name": "Telewebion Sport",
-    "tvg_id": "TelewebionSport.ir@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png/960px-%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png",
-    "category": "Sports",
-    "url": "https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://gg.hls2.xyz/live/Twsport1/chunks.m3u8"
-  },
-  {
-    "name": "Telewebion Sport 2",
-    "tvg_id": "TelewebionSport2.ir@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png/960px-%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png",
-    "category": "Sports",
-    "url": "https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://gg.hls2.xyz/live/Twsport2/chunks.m3u8"
-  },
-  {
-    "name": "Telewebion Sport 3",
-    "tvg_id": "TelewebionSport3.ir@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png/960px-%D9%84%D9%88%DA%AF%D9%88%DB%8C_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AA%D9%84%D9%88%D8%A8%DB%8C%D9%88%D9%86_%D9%88%D8%B1%D8%B2%D8%B4%DB%8C_%DB%B1.png",
-    "category": "Sports",
-    "url": "https://still-mud-3642.nqanzvyuupxwcahtfq.workers.dev/?url=https://gg.hls2.xyz/live/Twsport3/chunks.m3u8"
   },
   {
     "name": "Telewizja Biznesowa (1080p)",
@@ -69347,6 +69340,13 @@
     "logo": "https://i.imgur.com/KbMkEIn.png",
     "category": "Undefined",
     "url": "https://streaming10.huberwebmedia.at/LiveApp/streams/238985177034727564068269_adaptive.m3u8"
+  },
+  {
+    "name": "TV1 Plus [Not 24/7]",
+    "tvg_id": "",
+    "logo": "",
+    "category": "Undefined",
+    "url": "https://ncdn.telewebion.ir/tv1plus/live/playlist.m3u8"
   },
   {
     "name": "TV1 Samoa (720p)",
@@ -74435,7 +74435,7 @@
     "tvg_id": "VarzeshTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png",
     "category": "Sports",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221226845/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8"
   },
   {
     "name": "Vasanth TV (576p)",
@@ -75164,6 +75164,13 @@
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISSA_TV/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "https://mumt02.tangotv.in/VISSATV/index.m3u8"
+  },
+  {
+    "name": "Vistaar News (576p)",
+    "tvg_id": "VistaarNews.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VISTAAR_NEWS/images/LOGO_HD/image.png",
+    "category": "News",
+    "url": "https://mumt04.tangotv.in/VISTAARNEWS/index.m3u8"
   },
   {
     "name": "Visual Radio (576p) [Not 24/7]",
@@ -78061,7 +78068,7 @@
     "tvg_id": "YazdTV.ir@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Yazd_taban.svg/960px-Yazd_taban.svg.png",
     "category": "Undefined",
-    "url": "https://lenz.splus.ir/PLTV/88888888/224/3221227023/index.m3u8"
+    "url": "https://ncdn.telewebion.ir/taban/live/playlist.m3u8"
   },
   {
     "name": "Yemen Shabab Channel (1080p)",
@@ -78471,7 +78478,7 @@
   },
   {
     "name": "Zed TV",
-    "tvg_id": "ZedTV.ir",
+    "tvg_id": "ZedTV.ir@HD",
     "logo": "https://www.lyngsat.com/logo/tv/zz/zed-tv.png",
     "category": "Undefined",
     "url": "https://zedhls.wns.live/hls/stream.m3u8"
