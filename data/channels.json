@@ -1246,13 +1246,6 @@
     "url": "http://103.161.153.165:8000/play/a05u/index.m3u8"
   },
   {
-    "name": "&prive HD (1080p)",
-    "tvg_id": "AndpriveHD.in@SD",
-    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022J69M.png?lock=720x540",
-    "category": "Movies",
-    "url": "http://103.161.153.165:8000/play/a05m/index.m3u8"
-  },
-  {
     "name": "&TV (576p)",
     "tvg_id": "AndTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
@@ -2643,7 +2636,7 @@
     "tvg_id": "Aflam.sa@SD",
     "logo": "https://i.imgur.com/cTLj7Yt.png",
     "category": "Movies",
-    "url": "https://shls-live-enc.edgenextcdn.net/out/v1/0044dd4b001a466c941ad77b04a574a2/index.m3u8"
+    "url": "https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8"
   },
   {
     "name": "AFN TV",
@@ -3054,14 +3047,14 @@
   {
     "name": "Al Arabiya (1080p)",
     "tvg_id": "Alarabiya.ae@SD",
-    "logo": "https://i.imgur.com/NXFkYFj.png",
+    "logo": "https://shahid.mbc.net/mediaObject/a4c125db-ede8-4970-9eed-963948c78651?height=auto&width=512&croppingPoint=&version=1&type=png",
     "category": "News",
     "url": "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8"
   },
   {
     "name": "Al Arabiya Business (1080p)",
     "tvg_id": "AlArabiyaBusiness.ae@SD",
-    "logo": "https://i.imgur.com/eEV4r6J.jpg",
+    "logo": "https://shahid.mbc.net/mediaObject/73142189-aeca-4f65-8977-d769c91e2573?height=auto&width=600&croppingPoint=&version=1&type=png",
     "category": "Business",
     "url": "https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8"
   },
@@ -4977,13 +4970,6 @@
     "url": "https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8"
   },
   {
-    "name": "Anime (1080p)",
-    "tvg_id": "Anime.sa@SD",
-    "logo": "https://shahid.mbc.net/mediaObject/a5893f8d-8488-4c21-ab97-a627f99c7676?height=auto&width=512&croppingPoint=&version=1&type=png",
-    "category": "Animation",
-    "url": "https://shls-live-enc.edgenextcdn.net/out/v1/e7350ddf46c94dddafe14b099394ff56/index.m3u8"
-  },
-  {
     "name": "Anime Vision (1080p)",
     "tvg_id": "AnimeVision.es@SD",
     "logo": "https://i.imgur.com/pUpKznl.png",
@@ -5938,8 +5924,8 @@
   {
     "name": "Asomavisión (614p)",
     "tvg_id": "Asomavision.ec@SD",
-    "logo": "https://i.imgur.com/a5avk5R.png",
-    "category": "Undefined",
+    "logo": "https://i.imgur.com/VqwyCV1.png",
+    "category": "Religious",
     "url": "https://asomatv.cloud-ip.cc/livestream/stream.m3u8"
   },
   {
@@ -15787,14 +15773,14 @@
   {
     "name": "CNBC Awaaz (1080p)",
     "tvg_id": "CNBCAwaaz.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_AWAAZ/images/LOGO_HD/image.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNBCAwaaz.png",
     "category": "Business",
     "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8"
   },
   {
     "name": "CNBC Bajar (1080p)",
     "tvg_id": "CNBCBajar.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_BAJAR/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00216V90.png?lock=720x540",
     "category": "Business",
     "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8"
   },
@@ -15829,14 +15815,14 @@
   {
     "name": "CNBC TV18 (1080p)",
     "tvg_id": "CNBCTV18.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_TV18/images/LOGO_HD/image.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNBCTV18.png",
     "category": "Business",
     "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8"
   },
   {
     "name": "CNBC TV18 Prime HD (1080p)",
     "tvg_id": "CNBCTV18PrimeHD.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CNBC_PRIME_HD/images/LOGO_HD/LOGO_HD_image.png",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/CNBCTV18Prime.png",
     "category": "Business",
     "url": "https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8"
   },
@@ -32095,11 +32081,11 @@
     "url": "https://ap02.iqplay.tv:8082/iqb8002/ka1s0n/playlist.m3u8"
   },
   {
-    "name": "Kalu TV (720p)",
+    "name": "Kalu TV (1080p)",
     "tvg_id": "KaluTV.co@SD",
     "logo": "https://i.imgur.com/MO4w3OT.jpeg",
     "category": "General",
-    "url": "https://tv.kaludecolombia.com/memfs/800a956d-5ada-4bf1-ac15-0d11e689179c.m3u8"
+    "url": "https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8"
   },
   {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",Kalyan TV (720p)",
@@ -32562,6 +32548,13 @@
     "logo": "https://i.imgur.com/r8lLsyh.png",
     "category": "Legislative",
     "url": "https://brightonco.cablecast.tv/live-4/live/live.m3u8"
+  },
+  {
+    "name": "KBS World",
+    "tvg_id": "KBSWorld.kr@SD",
+    "logo": "https://i.imgur.com/7DqgELX.png",
+    "category": "General",
+    "url": "https://liveh12.vtvprime.vn/hls/KBS/03.m3u8"
   },
   {
     "name": "KC2 (720p) [Not 24/7]",
@@ -34764,7 +34757,7 @@
   {
     "name": "LBC (1080p) [Geo-blocked]",
     "tvg_id": "LBC.sa@SD",
-    "logo": "https://i.imgur.com/whyZXzW.png",
+    "logo": "https://s3.eu-central-1.amazonaws.com/rotana.website/channels/1688402500.webp",
     "category": "General",
     "url": "https://rotana.hibridcdn.net/rotananet/lbc_net-7Y83PP5adWixDF93/playlist.m3u8"
   },
@@ -44191,6 +44184,13 @@
     "url": "https://video1.getstreamhosting.com:1936/8284/8284/playlist.m3u8"
   },
   {
+    "name": "Novela TV (1080p)",
+    "tvg_id": "NovelaTV.pl@SD",
+    "logo": "https://i.imgur.com/qgqS2vy.png",
+    "category": "Series",
+    "url": "https://liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc021/novelatvhdraw/novelatvhdraw.mpd"
+  },
+  {
     "name": "Novelas Turcas (1080p)",
     "tvg_id": "",
     "logo": "",
@@ -52763,7 +52763,7 @@
     "tvg_id": "RabehSaqer.sa@HD",
     "logo": "https://shahid.mbc.net/mediaObject/b98b0635-c8ed-4a7c-9efa-5856e278f54b?type=png",
     "category": "Music",
-    "url": "https://shls-live-enc.edgenextcdn.net/out/v1/ea4275b6dc0840c198c17f6dc6f1ec49/index.m3u8"
+    "url": "https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8"
   },
   {
     "name": "Race Central TV (720p) [Not 24/7]",
@@ -53555,13 +53555,6 @@
     "logo": "https://i.imgur.com/sEY21rg.png",
     "category": "Undefined",
     "url": "https://mediapolisevent.rai.it/relinker/relinkerServlet.htm?cont=746966"
-  },
-  {
-    "name": "RAI 4K [Geo-blocked]",
-    "tvg_id": "Rai4K.it@SD",
-    "logo": "https://i.imgur.com/O1K1fv4.png",
-    "category": "Undefined",
-    "url": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8"
   },
   {
     "name": "Rai 5 (1080p)",
@@ -61217,8 +61210,8 @@
   {
     "name": "Spooky Nights (1080p)",
     "tvg_id": "SpookyNights.sa@SD",
-    "logo": "https://shahid.mbc.net/mediaObject/b0016b19-b35b-4ea6-afb9-5b74a0aac825?height=auto&width=512&croppingPoint=&version=1&type=png",
-    "category": "Movies",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://shls-live-enc.edgenextcdn.net/out/v1/18cffab0757d448ca6c1a686d330b346/index.m3u8"
   },
   {
@@ -64246,11 +64239,11 @@
     "url": "https://stream.oursnetworktv.com/latin/encoder53/playlist.m3u8"
   },
   {
-    "name": "Tele5",
+    "name": "Tele5 (1080p)",
     "tvg_id": "Tele5.pl@SD",
     "logo": "https://i.imgur.com/36ZNsIL.png",
     "category": "Undefined",
-    "url": "http://78.130.250.2:8023/play/a05s/index.m3u8"
+    "url": "https://liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc013/tele5hdraw/tele5hdraw.mpd"
   },
   {
     "name": " like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Tele 7 (720p)",
@@ -64554,7 +64547,7 @@
     "url": "https://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/fd4ab346-b4e3-4628-abf0-b5a1bc192428.m3u8"
   },
   {
-    "name": " like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Teleantioquia (360p) [Not 24/7]",
+    "name": " like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Teleantioquia (720p)",
     "tvg_id": "Teleantioquia.co@SD",
     "logo": "https://i.imgur.com/6WMV2Az.png",
     "category": "General",
@@ -65023,7 +65016,7 @@
     "url": "https://tvlocales-live.freecaster.com/telemb/95d2f6ca-817a-48c0-aba5-6323a621c2d6/95d2f6ca-817a-48c0-aba5-6323a621c2d6.isml/master.m3u8"
   },
   {
-    "name": "Telemedellin (720p)",
+    "name": " like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Telemedellin (720p)",
     "tvg_id": "Telemedellin.co@SD",
     "logo": "https://i.imgur.com/GnxzRTC.png",
     "category": "General",
@@ -68544,7 +68537,7 @@
     "url": "https://5fe2654d6127d.streamlock.net/trc/videotrc/playlist.m3u8"
   },
   {
-    "name": "Trece (720p)",
+    "name": " like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160\" group-title=\"General\",Trece (720p)",
     "tvg_id": "Trece.co@SD",
     "logo": "https://i.imgur.com/jsuXXIg.png",
     "category": "General",
@@ -68758,7 +68751,7 @@
     "tvg_id": "TRT1.tr@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png",
     "category": "Undefined",
-    "url": "https://trt.daioncdn.net/trt-1/master.m3u8?app=web"
+    "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8"
   },
   {
     "name": "TRT 3 (720p)",
@@ -72296,13 +72289,6 @@
     "url": "https://5ca3e84a76d30.streamlock.net/gpacifico1/smil:gpculiacan.smil/playlist.m3u8"
   },
   {
-    "name": "TVP HD (1080p)",
-    "tvg_id": "TVPHD.pl@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/960px-TVP_HD_logo.svg.png",
-    "category": "Undefined",
-    "url": "http://78.130.250.2:8023/play/a03a/index.m3u8"
-  },
-  {
     "name": "TVP Info (1080p)",
     "tvg_id": "TVPInfo.pl@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/28/TVP_info_%282024%29.png",
@@ -75717,6 +75703,13 @@
     "logo": "https://i.imgur.com/jdr22Sk.jpeg",
     "category": "General",
     "url": "http://htvint.mada.ps:8889/orient/index.m3u8"
+  },
+  {
+    "name": "Water Planet (1080p)",
+    "tvg_id": "WaterPlanet.pl@SD",
+    "logo": "https://i.imgur.com/ZKczKhD.png",
+    "category": "Undefined",
+    "url": "https://liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc021/waterplanethdraw/waterplanethdraw.mpd"
   },
   {
     "name": "Waterbear (1080p)",
