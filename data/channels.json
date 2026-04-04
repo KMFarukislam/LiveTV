@@ -2012,7 +2012,7 @@
     "name": "ABC-TV Paraguay",
     "tvg_id": "ABCTVParaguay.py@SD",
     "logo": "https://i.imgur.com/OqfBMGy.png",
-    "category": "General",
+    "category": "News",
     "url": "http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/7.m3u8"
   },
   {
@@ -10810,7 +10810,7 @@
   {
     "name": "C9N",
     "tvg_id": "C9N.py@SD",
-    "logo": "https://i.imgur.com/Cp4zJ7O.png",
+    "logo": "https://i.imgur.com/iXkwP31.png",
     "category": "News",
     "url": "https://alba-py-c9n-c9n.stream.mediatiquestream.com/playlist.m3u8"
   },
@@ -78472,7 +78472,7 @@
   {
     "name": "Zee Cine Classic (1080p)",
     "tvg_id": "ZeeCineClassic.in@SD",
-    "logo": "https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zcinecla.png",
+    "logo": "https://i.imgur.com/QCRhS1n.png",
     "category": "Classic",
     "url": "https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8"
   },
