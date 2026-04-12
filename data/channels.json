@@ -3458,6 +3458,13 @@
     "url": "https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8"
   },
   {
+    "name": "Al-Souriya TV (1080p)",
+    "tvg_id": "AlSouriyaTV.sy@HD",
+    "logo": "https://i.imgur.com/8FILgXT.jpeg",
+    "category": "Family",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8"
+  },
+  {
     "name": "Al-Zahra TV Turkic (720p) [Not 24/7]",
     "tvg_id": "AlZahraTVTurkic.tr@SD",
     "logo": "https://i.imgur.com/QEHKGnG.png",
@@ -7490,13 +7497,6 @@
     "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd"
   },
   {
-    "name": "BBC Brit (1080p)",
-    "tvg_id": "BBCBrit.uk@Poland",
-    "logo": "https://i.imgur.com/i4remZo.png",
-    "category": "Entertainment",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc116/bbcbrithdraw/bbcbrithdraw.m3u8"
-  },
-  {
     "name": "BBC Comedy (720p)",
     "tvg_id": "",
     "logo": "",
@@ -7540,24 +7540,10 @@
   },
   {
     "name": "BBC Earth (1080p)",
-    "tvg_id": "BBCEarth.uk@Poland",
-    "logo": "https://i.imgur.com/nGSsUd4.png",
-    "category": "Documentary",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc126/bbcearthhdraw/bbcearthhdraw.m3u8"
-  },
-  {
-    "name": "BBC Earth (1080p)",
     "tvg_id": "BBCEarth.uk@US",
     "logo": "https://i.imgur.com/nGSsUd4.png",
     "category": "Documentary",
     "url": "https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8"
-  },
-  {
-    "name": "BBC First (1080p)",
-    "tvg_id": "BBCFirst.uk@Poland",
-    "logo": "https://i.imgur.com/UBoBYUI.png",
-    "category": "Entertainment",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc113/bbcfirsthdraw/bbcfirsthdraw.m3u8"
   },
   {
     "name": "BBC Food (1080p)",
@@ -7607,13 +7593,6 @@
     "logo": "https://i.imgur.com/vKUD64a.png",
     "category": "Kids",
     "url": "https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8"
-  },
-  {
-    "name": "BBC Lifestyle (1080p)",
-    "tvg_id": "BBCLifestyle.uk@Singapore",
-    "logo": "https://i.imgur.com/9mzJJ3y.png",
-    "category": "Lifestyle",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc114/bbclifestylehdraw/bbclifestylehdraw.m3u8"
   },
   {
     "name": " like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Lifestyle\",BBC Lifestyle Asia (720p)",
@@ -14385,6 +14364,13 @@
     "url": "https://9now-livestreams-fhd-t.akamaized.net/u/prod/simulcast/syd/ch9/hls/r1/index.m3u8"
   },
   {
+    "name": "Channel 10 (576i)",
+    "tvg_id": "Channel10.ru@SD",
+    "logo": "https://i.imgur.com/k8JjFDw.png",
+    "category": "General",
+    "url": "https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?s=eqlTXebDP9wSWTZgre6BwQ&e=2072611029&scheme=https"
+  },
+  {
     "name": "Channel 10 (720p)",
     "tvg_id": "Channel10.us@SD",
     "logo": "https://spcity.org/ImageRepository/Document?documentID=4246",
@@ -19747,13 +19733,6 @@
     "url": "https://streams2.sofast.tv/sofastplayout/7e8d2a51-985d-4e76-bf7e-91edf0aa6e5f_0_HLS/master.m3u8"
   },
   {
-    "name": "DocuBox (1080p)",
-    "tvg_id": "DocuBox.nl@SD",
-    "logo": "https://i.imgur.com/pX4U9OG.png",
-    "category": "Documentary",
-    "url": "https://liveovh011.cda.pl/2SHZi_SkX4h0MDflza1PPw/1753748478/3480440/enc110/docuboxhdraw/docuboxhdraw.m3u8"
-  },
-  {
     "name": "Documentary+ (1080p)",
     "tvg_id": "DocumentaryPlus.us@US",
     "logo": "https://i.imgur.com/x57klfS.png",
@@ -21623,11 +21602,11 @@
     "url": "http://31.148.48.15/English_club_TV_HD/index.m3u8"
   },
   {
-    "name": "English Club TV (1080p)",
+    "name": "English Club TV",
     "tvg_id": "EnglishClubTV.uk@SD",
     "logo": "https://i.imgur.com/9FMvaRK.png",
     "category": "Education",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc101/englishclubtvhdraw/englishclubtvhdraw.m3u8"
+    "url": "https://dash2.antik.sk/live/test_ectv_hd_1200/playlist.m3u8"
   },
   {
     "name": "English TV (1080p)",
@@ -22064,11 +22043,11 @@
     "url": "https://directes-tv-cat.3catdirectes.cat/live-content/esport3-hls/master.m3u8"
   },
   {
-    "name": "Espreso TV (1080p)",
+    "name": "Espreso TV",
     "tvg_id": "EspresoTV.ua@SD",
     "logo": "https://i.imgur.com/xNatV8K.png",
     "category": "News",
-    "url": "https://liveovh009.cda.pl/2mwlMj_cpciQwY9XKkuwooIeujskIie828C5uElA/1760154894/24372638/enc024/espresotvraw/espresotvraw.m3u8"
+    "url": "https://dash4.antik.sk/live/test_espresso/playlist.m3u8"
   },
   {
     "name": "Estado Paranormal",
@@ -23261,13 +23240,6 @@
     "url": "https://qvc-amd-live.akamaized.net/hls/live/2034113/lsqvc5us/master.m3u8"
   },
   {
-    "name": "FashionBox (1080p)",
-    "tvg_id": "FashionBox.nl@SD",
-    "logo": "https://i.imgur.com/Taqj4yi.png",
-    "category": "Lifestyle",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/278259/enc123/fashionboxhdraw/fashionboxhdraw.m3u8"
-  },
-  {
     "name": "FashionTV Europe (1080p)",
     "tvg_id": "FashionTVEurope.fr@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png",
@@ -23639,13 +23611,6 @@
     "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/70e45fc8-1f6c-4492-ac26-9868f70f4e02/manifest.m3u8"
   },
   {
-    "name": "FightBox (1080p)",
-    "tvg_id": "FightBox.nl@SD",
-    "logo": "https://i.imgur.com/mRsnztA.png",
-    "category": "Sports",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc002/fightboxhdraw/fightboxhdraw.m3u8"
-  },
-  {
     "name": "Filamchi Bhojpuri (1080p)",
     "tvg_id": "EpicBhojpuri.in@SD",
     "logo": "https://dtil.tmsimg.com/assets/s157803_ld_h15_aa.png?lock=720x540",
@@ -23686,27 +23651,6 @@
     "logo": "https://i.imgur.com/hpTCANa.png",
     "category": "Movies",
     "url": "http://103.250.28.74:8000/play/a02k/index.m3u8"
-  },
-  {
-    "name": "FilmBox Action (576p)",
-    "tvg_id": "FilmBoxAction.nl@Africa",
-    "logo": "https://i.imgur.com/y7VMgXK.png",
-    "category": "Movies",
-    "url": "https://liveovh010.cda.pl/zkraGNESGht4_0Wk12cQ1A/1753142936/2430238/enc023/filmboxactionraw/filmboxactionraw.mpd"
-  },
-  {
-    "name": "FilmBox Family (576p)",
-    "tvg_id": "FilmBoxFamily.nl@Africa",
-    "logo": "https://i.imgur.com/CGFyAyc.png",
-    "category": "Movies",
-    "url": "https://liveovh010.cda.pl/zkraGNESGht4_0Wk12cQ1A/1753142936/2430238/enc004/filmboxfamilyraw/filmboxfamilyraw.mpd"
-  },
-  {
-    "name": "FilmBox Premium (1080p)",
-    "tvg_id": "FilmBoxPremium.nl@Hungary",
-    "logo": "https://i.imgur.com/RydfsE9.png",
-    "category": "Movies",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc105/filmboxpremiumhdraw/filmboxpremiumhdraw.m3u8"
   },
   {
     "name": "Filmelier TV",
@@ -25128,13 +25072,6 @@
     "logo": "https://i.imgur.com/Lj69WbR.png",
     "category": "Sports",
     "url": "https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8"
-  },
-  {
-    "name": "Gametoon (1080p)",
-    "tvg_id": "Gametoon.nl@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/tr/b/b6/Gametoon_HD_logo.png",
-    "category": "Entertainment",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc122/gametoonhdraw/gametoonhdraw.m3u8"
   },
   {
     "name": "Gaming Central: League of Legends",
@@ -39410,13 +39347,6 @@
     "url": "https://avr.host247.net/live/Mix-kurdy/playlist.m3u8"
   },
   {
-    "name": "Mixtape TV (1080p)",
-    "tvg_id": "MixtapeTV.pl@SD",
-    "logo": "https://i.imgur.com/DlRChDx.png",
-    "category": "Music",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc122/mixtapehdraw/mixtapehdraw.m3u8"
-  },
-  {
     "name": "MK Six (720p) [Not 24/7]",
     "tvg_id": "MKSix.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/MK_Six.png",
@@ -43629,13 +43559,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png",
     "category": "Kids",
     "url": "http://151.80.18.177:86/Nickelodeon_Junior/index.m3u8"
-  },
-  {
-    "name": "Nickelodeon Latin America (480p)",
-    "tvg_id": "NickelodeonLatinAmerica.us@Panregional",
-    "logo": "https://i.imgur.com/E84jnP8.png",
-    "category": "Kids",
-    "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-33_480.m3u8"
   },
   {
     "name": "Nickelodeon Pluto TV (720p)",
@@ -53214,6 +53137,13 @@
     "url": "https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8"
   },
   {
+    "name": "Radio Norba TV (1080p)",
+    "tvg_id": "RadioNorbaTV.it@SD",
+    "logo": "https://i.imgur.com/Tucoyzy.png",
+    "category": "General",
+    "url": "https://stream12.xdevel.com/video0s975885-2349/stream/playlist_dvr.m3u8"
+  },
+  {
     "name": "Radio Number One (720p) [Not 24/7]",
     "tvg_id": "RadioNumberOne.it@SD",
     "logo": "https://i.imgur.com/8cpuaG5.png",
@@ -58541,11 +58471,11 @@
     "url": "https://cdn4.skygo.mn/live/disk1/SBN/DASH-FTA/SBN.mpd"
   },
   {
-    "name": "SBN TV International (576p)",
+    "name": "SBN TV International",
     "tvg_id": "SBNTVInternational.us@SD",
     "logo": "https://i.imgur.com/NJu6oYB.png",
     "category": "Religious",
-    "url": "https://liveovh010.cda.pl/zkr7GNESGht4_0Wk12c78A/17538736/2782059/enc011/sbnraw/sbnraw.mpd"
+    "url": "http://trn03.bozztv.com/gin-sbntv/index.m3u8"
   },
   {
     "name": "SBS6 Classics (1080p) [Geo-blocked]",
@@ -63362,13 +63292,6 @@
     "logo": "https://i.imgur.com/FjuVuXF.jpeg",
     "category": "News",
     "url": "https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8"
-  },
-  {
-    "name": "Syrian Satellite Channel (1080p)",
-    "tvg_id": "SyrianSatelliteChannel.sy@SD",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8"
   },
   {
     "name": "Syros TV1 (720p)",
@@ -76790,6 +76713,13 @@
     "url": "https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8"
   },
   {
+    "name": "Win Sports (1080p)",
+    "tvg_id": "WinSports.co@SD",
+    "logo": "https://i.imgur.com/DuSSrHV.png",
+    "category": "Sports",
+    "url": "http://190.60.40.34:8001/play/a0ef"
+  },
+  {
     "name": "Win TV (576p)",
     "tvg_id": "WinTV.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Win_TV.png",
@@ -76797,11 +76727,11 @@
     "url": "https://cdn-4.pishow.tv/live/1531/master.m3u8"
   },
   {
-    "name": "Win+ Futbol (1080p)",
+    "name": "Win+ Futbol",
     "tvg_id": "WinPlusFutbol.co@SD",
     "logo": "https://i.imgur.com/0UN87vB.png",
     "category": "Sports",
-    "url": "https://live20.bozztv.com/akamaissh101/ssh101/winsporplusco/playlist.m3u8"
+    "url": "http://190.60.40.34:8001/play/a02r"
   },
   {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",Wine Watches & Whiskey (1080p)",
