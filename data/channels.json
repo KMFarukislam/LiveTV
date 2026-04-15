@@ -8512,18 +8512,11 @@
     "url": "https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5"
   },
   {
-    "name": " like Gecko Chrome/144.0.0.0 Safari/537.36\" group-title=\"Business\",Berita Satu [Geo-blocked]",
+    "name": "BeritaSatu (1080p)",
     "tvg_id": "BeritaSatu.id@SD",
     "logo": "https://i.postimg.cc/6pycF7Vx/300px-IDTV.png",
     "category": "Business",
-    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h209/index.m3u8"
-  },
-  {
-    "name": "BeritaSatu English (1080p)",
-    "tvg_id": "BeritaSatuEnglish.id@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/BeritaSatu_%28Flat%29.svg/960px-BeritaSatu_%28Flat%29.svg.png",
-    "category": "News",
-    "url": "https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008/srtoutput/manifest.m3u8"
+    "url": "https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008r/srtoutput/manifest.m3u8"
   },
   {
     "name": "Berks Community TV (1080p)",
@@ -10456,6 +10449,13 @@
     "logo": "https://kononopedia.ru/lib/exe/fetch.php?cache=&w=700&h=700&tok=dbc35d&media=kanaly:btbinternational.png",
     "category": "Undefined",
     "url": "https://emisja.btb.j00r.us/iptv/session/2/hls.m3u8"
+  },
+  {
+    "name": "BTB Music (1080p)",
+    "tvg_id": "BTBMusic.pl@HD",
+    "logo": "https://btb.j00r.us/images/logo_BTBMusic.webp",
+    "category": "Music",
+    "url": "https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8"
   },
   {
     "name": "BTL TV (720p) [Not 24/7]",
@@ -25725,6 +25725,13 @@
     "url": "https://jmp2.uk/plu-68d27437e6767bdeb23f0336.m3u8"
   },
   {
+    "name": "GikTVMX (720p)",
+    "tvg_id": "GikTVMX.mx@SD",
+    "logo": "https://i.imgur.com/Gwz78jZ.png",
+    "category": "Animation;Culture;Entertainment",
+    "url": "https://pistream.ddns.net/hls/stream.m3u8"
+  },
+  {
     "name": "Gilroy CMAP TV Channel 17 (720p)",
     "tvg_id": "CMAPChannel17.us@SD",
     "logo": "https://i.imgur.com/wlYUEYc.png",
@@ -26584,6 +26591,13 @@
     "logo": "https://i.imgur.com/LI52X2q.png",
     "category": "Religious",
     "url": "https://na.linear.zype.com/bf94f9f4-383c-40e0-9d49-279a4f33ab8d/f29b8836-d990-4c8d-b421-192a8f43edc4-zype/manifest.m3u8"
+  },
+  {
+    "name": "Gospel TV India (720p)",
+    "tvg_id": "GospelTVIndia.in@SD",
+    "logo": "https://i.ibb.co/xhbZvzt/cropped-final-logo-300x127.png",
+    "category": "Religious",
+    "url": "https://server.livelegitpro.in:9899/gospeltv/index.m3u8"
   },
   {
     "name": "GoTraveler (720p) [Geo-blocked]",
@@ -34629,6 +34643,13 @@
     "url": "http://118.107.85.5:1935/live/smil:LTV.smil/chunklist.m3u8"
   },
   {
+    "name": "Lana TV (576p)",
+    "tvg_id": "LanaTV.lb@SD",
+    "logo": "https://i.imgur.com/xPoycVY.png",
+    "category": "General",
+    "url": "https://cdn.streamlane.tv/hls/ltv/master.m3u8"
+  },
+  {
     "name": "Lancelot TV (404p)",
     "tvg_id": "LancelotTV.es@SD",
     "logo": "https://i.imgur.com/RlzVIJP.png",
@@ -34920,7 +34941,7 @@
     "tvg_id": "LCI.fr@HD",
     "logo": "https://i.imgur.com/DED8EXs.png",
     "category": "News",
-    "url": "https://viamotionhsi.netplus.ch/live/eds/lci/browser-dash/lci.mpd"
+    "url": "https://viamotionhsi.netplus.ch/live/eds/lci/browser-HLS8/lci.m3u8"
   },
   {
     "name": "LCN [Geo-blocked]",
@@ -36414,13 +36435,6 @@
     "url": "http://103.250.28.74:8000/play/a02j/index.m3u8"
   },
   {
-    "name": "LTV (360p)",
-    "tvg_id": "LanaTV.lb@SD",
-    "logo": "https://i.imgur.com/xPoycVY.png",
-    "category": "General",
-    "url": "https://p-ltv.akamaized.net/ltv/ltv.m3u8"
-  },
-  {
     "name": "LTV (2160p) [Not 24/7]",
     "tvg_id": "LTV.cl@SD",
     "logo": "https://i.imgur.com/XHs06BX.png",
@@ -36792,11 +36806,11 @@
     "url": "https://srvx1.selftv.video/dmchannel/live/playlist.m3u8"
   },
   {
-    "name": "Madha TV (600p)",
+    "name": "Madha TV (576p)",
     "tvg_id": "MadhaTV.in@SD",
     "logo": "https://dtil.tmsimg.com/assets/s143287_ld_h15_aa.png?lock=720x540",
     "category": "Religious",
-    "url": "https://60e68b19dd194.streamlock.net:55/madhatv/madhatv.stream_HDp/playlist.m3u8"
+    "url": "https://mumt02.tangotv.in/MADHATV/index.m3u8"
   },
   {
     "name": "Madhimugam TV (576p)",
@@ -37270,7 +37284,7 @@
   {
     "name": "Manoranjan Movies (720p)",
     "tvg_id": "ManoranjanMovies.in@SD",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MANORANJAN_MOVIES/images/LOGO_HD/image.png",
+    "logo": "https://dtil.tmsimg.com/assets/s143303_ld_h15_aa.png?lock=720x540",
     "category": "Movies",
     "url": "http://103.213.31.109:90/ManoranjanMovies/playlist.m3u8"
   },
@@ -42289,7 +42303,7 @@
   {
     "name": "Nazara (1080p)",
     "tvg_id": "EpicBharat.in@SD",
-    "logo": "https://dtil.tmsimg.com/assets/s158303_ld_h15_aa.png?lock=720x540",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0032BW6T.png?lock=720x540",
     "category": "Entertainment",
     "url": "https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8"
   },
@@ -43204,6 +43218,13 @@
     "url": "http://tv.balkanweb.com:8081/news24/livestream/playlist.m3u8"
   },
   {
+    "name": "News 24 MP & Chhattisgarh (576p)",
+    "tvg_id": "News24MPChhattisgarh.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_NEWS24_MPCG/images/LOGO_HD/image.png",
+    "category": "News",
+    "url": "https://mumt04.tangotv.in/NEWS24MPCG/index.m3u8"
+  },
+  {
     "name": "News Central",
     "tvg_id": "NewsCentral.ng@SD",
     "logo": "https://i.imgur.com/qvCgI8N.png",
@@ -43671,6 +43692,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://jmp2.uk/plu-645951c0e94c38000802d2cb.m3u8"
+  },
+  {
+    "name": "NickOnline (720p)",
+    "tvg_id": "NickOnline.br@HD",
+    "logo": "https://x1co.com.br:8443/logo.png",
+    "category": "Animation;Kids",
+    "url": "https://x1co.com.br/hls/stream.m3u8"
   },
   {
     "name": "NickToons",
@@ -59073,13 +59101,6 @@
     "url": "https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8"
   },
   {
-    "name": "ServusTV HD (1080p) [Geo-Blocked]",
-    "tvg_id": "ServusTV.at@HD",
-    "logo": "https://i.imgur.com/6W637Gn.png",
-    "category": "Movies",
-    "url": "https://viamotionhsi.netplus.ch/live/eds/servustvhd/browser-HLS8/servustvhd.m3u8"
-  },
-  {
     "name": "SESC TV (1080p)",
     "tvg_id": "SESCTV.br@SD",
     "logo": "https://i.imgur.com/Mu8O6CV.png",
@@ -59374,13 +59395,6 @@
     "url": "https://59nyqa5elwap-hls-live.5centscdn.com/Sharq/eec89088ee408b80387155272b113256.sdp/playlist.m3u8"
   },
   {
-    "name": "Shaun the Sheep & Friends (1080p)",
-    "tvg_id": "ShauntheSheepFriends.uk@US",
-    "logo": "https://i.imgur.com/jQgnFcQ.png",
-    "category": "Animation;Kids",
-    "url": "https://aar-shaun-xumo.otteravision.com/aar/shaun/shaun.m3u8"
-  },
-  {
     "name": "Sheffield Live TV (360p) [Not 24/7]",
     "tvg_id": "SheffieldLiveTV.uk@SD",
     "logo": "https://i.imgur.com/p0QzCFs.png",
@@ -59414,6 +59428,13 @@
     "logo": "https://i.imgur.com/TFxLj80.png",
     "category": "Undefined",
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/playlist.m3u8?ads.vf=_XgQMVzDJuK"
+  },
+  {
+    "name": "Shemaroo Filmi Gaane (1080p)",
+    "tvg_id": "ShemarooFilmiGaane.in@HD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/0d5b07555b2d4415aa9f145273095ed7.png",
+    "category": "Movies;Music",
+    "url": "http://103.213.31.109:90/ShemarooFilmiGaane/playlist.m3u8"
   },
   {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",Shemaroo Filmigaane (1080p)",
@@ -73262,11 +73283,11 @@
     "url": "https://stream.twoja.tv/ttv_hls/live.m3u8"
   },
   {
-    "name": "TyC Sports (720p)",
+    "name": "TyC Sports (1080p) [Geo-blocked]",
     "tvg_id": "TyCSports.ar@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png",
     "category": "Sports",
-    "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-90.playlist.m3u8"
+    "url": "https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8"
   },
   {
     "name": "TyC Sports Latin America (1080p)",
