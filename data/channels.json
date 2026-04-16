@@ -1218,13 +1218,6 @@
     "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8"
   },
   {
-    "name": "&pictures HD (1080p)",
-    "tvg_id": "Andpictures.in@HD",
-    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540",
-    "category": "Movies",
-    "url": "http://103.229.254.25:7001/play/a033/index.m3u8"
-  },
-  {
     "name": "&TV (576p)",
     "tvg_id": "AndTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png",
@@ -8515,7 +8508,7 @@
     "name": "BeritaSatu (1080p)",
     "tvg_id": "BeritaSatu.id@SD",
     "logo": "https://i.postimg.cc/6pycF7Vx/300px-IDTV.png",
-    "category": "Business",
+    "category": "News",
     "url": "https://beritasatu.secureswiftcontent.com/han/beritasatu/bsatu10008r/srtoutput/manifest.m3u8"
   },
   {
@@ -23655,7 +23648,7 @@
   {
     "name": "Filamchi Bhojpuri (1080p)",
     "tvg_id": "EpicBhojpuri.in@SD",
-    "logo": "https://dtil.tmsimg.com/assets/s157803_ld_h15_aa.png?lock=720x540",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540",
     "category": "Movies",
     "url": "https://epiconvh.akamaized.net/live/filamchi/master.m3u8"
   },
@@ -29720,6 +29713,13 @@
     "logo": "https://i.imgur.com/DP6HmDV.png",
     "category": "General",
     "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8"
+  },
+  {
+    "name": "Imai TV (1080p)",
+    "tvg_id": "ImaiTV.lk@SD",
+    "logo": "https://i.imgur.com/9tODclu.png",
+    "category": "Culture",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8"
   },
   {
     "name": "Imam Hussein TV 1 (1080p) [Not 24/7]",
@@ -39853,7 +39853,7 @@
   {
     "name": "Monaco Info (1080p)",
     "tvg_id": "MonacoInfo.mc@SD",
-    "logo": "https://i.imgur.com/FPyPaL1.png",
+    "logo": "https://i.imgur.com/dIrKYH7.png",
     "category": "News",
     "url": "https://webtv.monacoinfo.com/live/prod/index.m3u8"
   },
@@ -75885,6 +75885,13 @@
     "logo": "https://i.imgur.com/jdr22Sk.jpeg",
     "category": "General",
     "url": "http://htvint.mada.ps:8889/orient/index.m3u8"
+  },
+  {
+    "name": "Watch it KID! (480i)",
+    "tvg_id": "WatchitKID.us@SD",
+    "logo": "https://i.imgur.com/YNx0j1b.png",
+    "category": "Kids",
+    "url": "https://stream-us-east-1.getpublica.com/cl/260415d7g24jv4hnf3ahfafgog/318x234_424101_3_f.m3u8?i=513_2256"
   },
   {
     "name": "Waterbear (1080p)",
