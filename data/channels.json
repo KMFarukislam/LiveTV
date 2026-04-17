@@ -12082,6 +12082,13 @@
     "url": "https://tv.livestreaminggroup.info:3052/live/catorcetvlive.m3u8"
   },
   {
+    "name": "Canal CHD",
+    "tvg_id": "CanalCHD.co@SD",
+    "logo": "https://new.opencaster.com/uploads/logos/logo_142_1754063328.png",
+    "category": "General",
+    "url": "https://vs20.live.opencaster.com/canalchd2025_8d99626c/index.m3u8"
+  },
+  {
     "name": "Canal Claro (720p)",
     "tvg_id": "",
     "logo": "",
@@ -12367,6 +12374,13 @@
     "logo": "https://i.imgur.com/bXHHtcb.png",
     "category": "General",
     "url": "https://streaming.telered.com.ar/provincial/streaming/mystream.m3u8"
+  },
+  {
+    "name": "Canal Pulpo TV",
+    "tvg_id": "CanalPulpoTV.ar@SD",
+    "logo": "https://new.opencaster.com/uploads/logos/logo_306_1756336707.png",
+    "category": "Entertainment",
+    "url": "https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8"
   },
   {
     "name": "Canal PyC (720p)",
@@ -21525,6 +21539,13 @@
     "url": "https://d1ahlswyjfz32r.cloudfront.net/Emeril_Lagasse.m3u8"
   },
   {
+    "name": "Emisora Las Vegas",
+    "tvg_id": "EmisoraLasVegas.co@SD",
+    "logo": "https://new.opencaster.com/uploads/logos/logo_70_1759816048.png",
+    "category": "Undefined",
+    "url": "https://vs20.live.opencaster.com/emisoralasvegas_b84f5781/index.m3u8"
+  },
+  {
     "name": "Empeños a lo bestia",
     "tvg_id": "",
     "logo": "",
@@ -21777,8 +21798,8 @@
     "url": "http://103.213.31.109:90/ShowBox/playlist.m3u8"
   },
   {
-    "name": "Epic TV (1080p)",
-    "tvg_id": "EpicTV.in@SD",
+    "name": "Epic TV Digital (1080p)",
+    "tvg_id": "EpicTV.in@Digital",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_EPIC/images/LOGO_HD/image.png",
     "category": "Entertainment",
     "url": "https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8"
@@ -26891,7 +26912,7 @@
     "tvg_id": "GuaroTV.ve@SD",
     "logo": "https://i.ibb.co/LN92K6h/IMG-20230705-154347.jpg",
     "category": "Entertainment",
-    "url": "https://streamtv.intervenhosting.net:3592/stream/play.m3u8"
+    "url": "https://streamtv.intervenhosting.net:3592/hybrid/play.m3u8"
   },
   {
     "name": "Guaymate TV (720p) [Not 24/7]",
@@ -34433,6 +34454,13 @@
     "url": "https://streamunoapp.com:3983/live/larutatvlive.m3u8"
   },
   {
+    "name": "La Salvacion del Alma TV",
+    "tvg_id": "LaSalvaciondelAlmaTV.do@SD",
+    "logo": "https://www.zradios.com/files/1/1/9/11942-627.jpg",
+    "category": "Religious",
+    "url": "https://vs20.live.opencaster.com/lasalvaciondelalmatv_dfc663c0/index.m3u8"
+  },
+  {
     "name": "La Selección",
     "tvg_id": "",
     "logo": "",
@@ -38231,21 +38259,21 @@
     "tvg_id": "Medi1TVAfrique.ma@SD",
     "logo": "https://i.imgur.com/a20DHnj.png",
     "category": "News",
-    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8"
+    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8"
   },
   {
-    "name": "Medi 1 TV Arabic (720p)",
+    "name": "Medi 1 TV Arabic (1080p)",
     "tvg_id": "Medi1TVArabic.ma@SD",
     "logo": "https://i.imgur.com/3YsZPY6.jpeg",
     "category": "News",
-    "url": "https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8"
+    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8"
   },
   {
-    "name": "Medi 1 TV Maghreb (720p)",
+    "name": "Medi 1 TV Maghreb (1080p)",
     "tvg_id": "Medi1TVMaghreb.ma@SD",
     "logo": "https://i.imgur.com/F5OFQsp.jpeg",
     "category": "News",
-    "url": "https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8"
+    "url": "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8"
   },
   {
     "name": "Media One (720p)",
@@ -38694,6 +38722,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://jmp2.uk/plu-686cd8bb9d079f48dbbdfecb.m3u8"
+  },
+  {
+    "name": "Metaleitor TV",
+    "tvg_id": "MetaleitorTV.us@SD",
+    "logo": "https://new.opencaster.com/uploads/logos/logo_14_1752798826.png",
+    "category": "Music",
+    "url": "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8"
   },
   {
     "name": "Meteonews (1080p)",
@@ -39184,6 +39219,13 @@
     "logo": "https://i.imgur.com/WWOlm1x.png",
     "category": "Kids",
     "url": "http://88.212.15.19/live/test_minimax/playlist.m3u8"
+  },
+  {
+    "name": "Ministerio La Voz De Un Remanente TV",
+    "tvg_id": "MinisterioLaVozDeUnRemanenteTV.us@SD",
+    "logo": "https://new.opencaster.com/uploads/logos/logo_188_1754869413.png",
+    "category": "Religious",
+    "url": "https://vs20.live.opencaster.com/remanente_5925b089/index.m3u8"
   },
   {
     "name": "Minuto Para Ganar",
@@ -43706,6 +43748,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://jmp2.uk/plu-654ca7f92c1d3300086b608c.m3u8"
+  },
+  {
+    "name": "NickToons Brasil (480p)",
+    "tvg_id": "NickToonsBrasil.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nicktoons_logo_%282023%29.svg/330px-Nicktoons_logo_%282023%29.svg.png",
+    "category": "Animation;Kids",
+    "url": "https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8"
   },
   {
     "name": "Nicoya TV (720p) [Not 24/7]",
@@ -51611,6 +51660,13 @@
     "url": "https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8"
   },
   {
+    "name": "Prattel TV",
+    "tvg_id": "PrattelTV.pe@SD",
+    "logo": "https://new.opencaster.com/uploads/logos/logo_244_1761928734.png",
+    "category": "Music",
+    "url": "https://vs20.live.opencaster.com/prattelpe_a2b8d350/index.m3u8"
+  },
+  {
     "name": "Pravasi Channel (1080p)",
     "tvg_id": "PravasiChannel.in@SD",
     "logo": "https://i.imgur.com/1dHarb7.png",
@@ -55069,6 +55125,13 @@
     "url": "https://streaming.cloudecast.com/hls/redetves/index.m3u8"
   },
   {
+    "name": "Rede TV! Mais",
+    "tvg_id": "RedeTVMais.br@SD",
+    "logo": "https://i.ibb.co/F0Tm2WP/2103f4c07b851d64b4c96955765a9a95.png",
+    "category": "General",
+    "url": "https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8"
+  },
+  {
     "name": "Rede TV! SP (720p) [Not 24/7]",
     "tvg_id": "RedeTV.br@SD",
     "logo": "https://i.imgur.com/ZJgD38F.png",
@@ -55081,6 +55144,13 @@
     "logo": "https://i.imgur.com/63SmAby.png",
     "category": "Religious",
     "url": "https://live.nixsat.com/play/rtm/index.m3u8"
+  },
+  {
+    "name": "RedeTV! Parana",
+    "tvg_id": "RedeTVParana.br@SD",
+    "logo": "https://i.imgur.com/D8R0Af4.png",
+    "category": "Undefined",
+    "url": "https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8"
   },
   {
     "name": "RedMusic (720p)",
@@ -58114,6 +58184,13 @@
     "url": "http://103.250.28.74:8000/play/a022/index.m3u8"
   },
   {
+    "name": "Samachar Plus",
+    "tvg_id": "SamacharPlus.in@SD",
+    "logo": "https://i.imgur.com/n7FhveH.png",
+    "category": "News",
+    "url": "https://cdn-2.pishow.tv/live/269/master.m3u8"
+  },
+  {
     "name": "Samachar Plus 24x7 (576p)",
     "tvg_id": "SamacharPlus24x7.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Samachar_Plus.png",
@@ -58665,6 +58742,27 @@
     "logo": "https://i.imgur.com/IkZfa4j.png",
     "category": "General",
     "url": "https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8"
+  },
+  {
+    "name": "SBT Nova Mutum",
+    "tvg_id": "SBTNovaMutum.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/d/d0/Logotipo_do_SBT_Nova_Mutum.png",
+    "category": "Undefined",
+    "url": "https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8"
+  },
+  {
+    "name": "SBT Rondonopolis",
+    "tvg_id": "SBTRondonopolis.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/d/d5/Logotipo_do_SBT_Rondon%C3%B3polis.png",
+    "category": "Undefined",
+    "url": "https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8"
+  },
+  {
+    "name": "SBT Sinop",
+    "tvg_id": "SBTSinop.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/pt/8/8b/Logotipo_do_SBT_Sinop.png",
+    "category": "Undefined",
+    "url": "https://video09.logicahost.com.br/sbtsinop/sbtsinop/playlist.m3u8"
   },
   {
     "name": "SBT TV",
@@ -75920,6 +76018,13 @@
     "logo": "https://i.imgur.com/V8Hfgis.jpg",
     "category": "Music",
     "url": "https://streamer2.nexgen.bz/08-WAVE/index.m3u8"
+  },
+  {
+    "name": "Wavez FM",
+    "tvg_id": "WavezFM.aw@SD",
+    "logo": "https://www.wavezfmaruba.com/WAVEZ.png",
+    "category": "Undefined",
+    "url": "https://vs20.live.opencaster.com/wavezfm1075aruba_37766c9d/index.m3u8"
   },
   {
     "name": "Way TV",
