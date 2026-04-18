@@ -679,6 +679,13 @@
     "url": "https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8"
   },
   {
+    "name": "13 Ulica (1080p)",
+    "tvg_id": "13Ulica.pl@SD",
+    "logo": "https://i.imgur.com/0gCNnLq.png",
+    "category": "Entertainment",
+    "url": "https://lowa8026-cmyk.github.io/13Ulica.m3u8"
+  },
+  {
     "name": "15+ Music (1080p)",
     "tvg_id": "15PlusMusic.ru@HD",
     "logo": "https://i.imgur.com/kj21hwd.png",
@@ -4058,6 +4065,13 @@
     "logo": "https://i.imgur.com/YTyCBvB.png",
     "category": "News",
     "url": "https://jmc-live.ercdn.net/altaghier/altaghier.m3u8"
+  },
+  {
+    "name": "Altanto TV (1080p) [Not 24/7]",
+    "tvg_id": "AltantoTV.do@SD",
+    "logo": "https://i.imgur.com/KWvVLhc.png",
+    "category": "General",
+    "url": "https://stream.haislin.com/ls_j3BOKxBbUJ/index.m3u8"
   },
   {
     "name": "Altas TV (1080p)",
@@ -10479,11 +10493,11 @@
     "url": "https://tv.btnrwanda.com:3086/live/btnlive.m3u8"
   },
   {
-    "name": "BTV (720p)",
+    "name": "BTV (1080p)",
     "tvg_id": "BTV.id@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/BTV_%28Indonesia%29_logo_%282025%29.svg/960px-BTV_%28Indonesia%29_logo_%282025%29.svg.png",
     "category": "News",
-    "url": "https://btv.secureswiftcontent.com/han/btv/btv10005/srtoutput/manifest.m3u8"
+    "url": "https://btv.secureswiftcontent.com/han/btv/btv10005r/srtoutput/manifest.m3u8"
   },
   {
     "name": "BTV (480p)",
@@ -15330,11 +15344,11 @@
     "url": "https://aegis-cloudfront-1.tubi.video/72b8dd6b-391b-401c-a3e4-03f9c29555c8/playlist.m3u8"
   },
   {
-    "name": "Cinevision Canal 19 (720p)",
+    "name": "Cinevision Canal 19 (1080p) [Not 24/7]",
     "tvg_id": "CinevisionCanal19.do@SD",
     "logo": "https://i.imgur.com/mJN2XNm.png",
     "category": "General",
-    "url": "https://cdn.mycloudstream.io/hls/live/broadcast/etyetihk/index.m3u8"
+    "url": "https://5790d294af2dc.streamlock.net/tvhdlive/tvhdlive/playlist.m3u8"
   },
   {
     "name": "Cira TV",
@@ -31147,7 +31161,7 @@
     "tvg_id": "JakartaGlobeNewsChannel.id@SD",
     "logo": "https://i.postimg.cc/B6GFBy9C/In_Shot_20260121_203812695.png",
     "category": "News",
-    "url": "https://jktglobe.secureswiftcontent.com/han/jktglobe/jktglobe/srtoutput/manifest.m3u8"
+    "url": "https://jktglobe.secureswiftcontent.com/han/jktglobe/jktglober/srtoutput/manifest.m3u8"
   },
   {
     "name": "Jakt är Jakt",
@@ -37079,11 +37093,11 @@
     "url": "https://live.obslivestream.com/makaomux/tracks-v2a1/playlist.m3u8"
   },
   {
-    "name": "Makina TV [Not 24/7]",
+    "name": "Makina TV (720p) [Not 24/7]",
     "tvg_id": "MakinaTV.do@SD",
     "logo": "https://www.vivalivetv.com/public/files/shows/0/1/2951-294x165-FFFFFF.jpg",
     "category": "General",
-    "url": "https://vdopanel.jlahozconsulting.com/p/3303/live/makinalive.m3u8"
+    "url": "https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8"
   },
   {
     "name": "Makkah TV (576p)",
@@ -40168,8 +40182,8 @@
   {
     "name": "Most Haunted",
     "tvg_id": "MostHaunted.us@UK",
-    "logo": "https://images.pluto.tv/channels/66d722d31878f200081c2c64/colorLogoPNG.png",
-    "category": "Series",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://jmp2.uk/plu-6081648340382e0007f73d45.m3u8"
   },
   {
@@ -43741,6 +43755,13 @@
     "logo": "https://x1co.com.br:8443/logo.png",
     "category": "Animation;Kids",
     "url": "https://x1co.com.br/hls/stream.m3u8"
+  },
+  {
+    "name": "NickOnline Spongebob (720p) [Not 24/7]",
+    "tvg_id": "NickOnlineSpongebob.br@HD",
+    "logo": "https://x1co.com.br/logobob.png",
+    "category": "Animation;Kids",
+    "url": "https://x1co.com.br:2083/hls/stream.m3u8"
   },
   {
     "name": "NickToons",
@@ -51289,6 +51310,13 @@
     "url": "http://78.130.250.2:8023/play/a064/index.m3u8"
   },
   {
+    "name": "Polsat Rodzina (1080p)",
+    "tvg_id": "PolsatRodzina.pl@SD",
+    "logo": "https://i.imgur.com/IS0AW48.png",
+    "category": "Undefined",
+    "url": "https://lowa8026-cmyk.github.io/PolsatRodzina.m3u8"
+  },
+  {
     "name": "Polsat Seriale (1080p)",
     "tvg_id": "PolsatSeriale.pl@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png",
@@ -51686,6 +51714,62 @@
     "logo": "https://i.imgur.com/UQeXWd2.png",
     "category": "Sports",
     "url": "https://amg19223-amg19223c4-amgplt0351.playout.now3.amagi.tv/playlist/amg19223-amg19223c4-amgplt0351/playlist.m3u8"
+  },
+  {
+    "name": "Premiere FC 1",
+    "tvg_id": "PremiereFC1.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "Premiere FC 2",
+    "tvg_id": "PremiereFC2.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "Premiere FC 3",
+    "tvg_id": "PremiereFC3.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "Premiere FC 4",
+    "tvg_id": "PremiereFC4.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20009/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "Premiere FC 5",
+    "tvg_id": "PremiereFC5.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20012/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "Premiere FC 6",
+    "tvg_id": "PremiereFC6.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20015/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "Premiere FC 7",
+    "tvg_id": "PremiereFC7.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20018/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "Premiere FC 8",
+    "tvg_id": "PremiereFC8.br@SD",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Premiere_(2017)_logo.png/960px-Premiere_(2017)_logo.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/20021/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
   },
   {
     "name": "Prensa Latina TV (1080p)",
@@ -61558,6 +61642,27 @@
     "url": "https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/NKXQTWMREOB2XFJRLAHO/hls3/now,-1m/m.m3u8?ads.vf=SqsoCl37PjC"
   },
   {
+    "name": "SporTV (1280p)",
+    "tvg_id": "SporTV.br@SD",
+    "logo": "https://i.postimg.cc/gr9x3z71/Spor-TV-2021.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/21000/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "SporTV 2 (1280p)",
+    "tvg_id": "SporTV2.br@SD",
+    "logo": "https://i.imgur.com/pBiUnb2.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/21003/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
+    "name": "SporTV 3 (1080p)",
+    "tvg_id": "SporTV3.br@SD",
+    "logo": "https://i.imgur.com/mWOR8pi.png",
+    "category": "Sports",
+    "url": "https://stm.sinalmycn.com/21006/video.m3u8?token=EkP2qSi13ckjQRLSIDoxI5rMZsF5rZyEYzqWjxD248ScEUPYQ0"
+  },
+  {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",spot on news (1080p)",
     "tvg_id": "",
     "logo": "",
@@ -61808,6 +61913,13 @@
     "logo": "https://i.imgur.com/01yz22a.png",
     "category": "Music",
     "url": "https://live.muzickatv.mk/live/StarMusic2.m3u8"
+  },
+  {
+    "name": "Star Sports 1 HD (1080p)",
+    "tvg_id": "StarSports1.in@HD",
+    "logo": "https://i.imgur.com/E5jjKHI.png",
+    "category": "Sports",
+    "url": "http://ptuf.ridsys.in/riptv/live/STAR_SPORTS_1_HD/index.m3u8"
   },
   {
     "name": "Star Sports 1 Hindi (576p)",
@@ -72534,6 +72646,13 @@
     "url": "http://78.130.250.2:8023/play/a03b/index.m3u8"
   },
   {
+    "name": "TVP Kultura (1080p)",
+    "tvg_id": "TVPKultura.pl@SD",
+    "logo": "https://i.imgur.com/JU858Es.png",
+    "category": "Undefined",
+    "url": "https://lowa8026-cmyk.github.io/TVPKultura.m3u8"
+  },
+  {
     "name": "TVP Los Mochis (720p) [Not 24/7]",
     "tvg_id": "TVPLosMochis.mx@SD",
     "logo": "https://i.imgur.com/uX1S3kt.png",
@@ -76023,7 +76142,7 @@
     "name": "Wavez FM",
     "tvg_id": "WavezFM.aw@SD",
     "logo": "https://www.wavezfmaruba.com/WAVEZ.png",
-    "category": "Undefined",
+    "category": "Music",
     "url": "https://vs20.live.opencaster.com/wavezfm1075aruba_37766c9d/index.m3u8"
   },
   {
