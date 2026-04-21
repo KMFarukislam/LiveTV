@@ -765,8 +765,8 @@
   {
     "name": "24 Horas Internacional [Geo-Blocked]",
     "tvg_id": "24HorasInternacional.es@SD",
-    "logo": "https://i.ibb.co/21sXZ3GT/24h.png",
-    "category": "News;Public",
+    "logo": "",
+    "category": "Undefined",
     "url": "https://viamotionhsi.netplus.ch/live/eds/canal24horas/browser-HLS8/canal24horas.m3u8"
   },
   {
@@ -1223,6 +1223,13 @@
     "logo": "https://i.imgur.com/300c1ZH.png",
     "category": "Entertainment",
     "url": "https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8"
+  },
+  {
+    "name": "&flix HD (1080p)",
+    "tvg_id": "Andflix.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDFLIX/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Movies",
+    "url": "http://103.154.3.101:5001/live/1322.m3u8"
   },
   {
     "name": "&pictures HD (1080p)",
@@ -1839,6 +1846,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg/500px-WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg.png",
     "category": "News",
     "url": "https://pubads.g.doubleclick.net/ssai/event/tQD6w9OJQVOobcyV3Dammw/master.m3u8"
+  },
+  {
+    "name": "ABC Australia (1080p)",
+    "tvg_id": "ABCAustralia.au@SD",
+    "logo": "https://i.imgur.com/qQ33TVM.png",
+    "category": "General",
+    "url": "http://103.154.3.101:5001/live/2782.m3u8"
   },
   {
     "name": "ABC Entertains (720p)",
@@ -3155,6 +3169,13 @@
     "logo": "https://i.imgur.com/7bRVpnu.png",
     "category": "News",
     "url": "https://live-hls-apps-aja-fa.getaj.net/AJA/01.m3u8"
+  },
+  {
+    "name": "Al Jazeera 2 (1080p)",
+    "tvg_id": "AlJazeera2.qa@HD",
+    "logo": "https://i.imgur.com/miq8O1Q.png",
+    "category": "News",
+    "url": "https://live-hls-web-aja2-gcp.thehlive.com/AJA2/index.m3u8"
   },
   {
     "name": "Al Jazeera Documentary (1080p) [Geo-blocked]",
@@ -5915,11 +5936,11 @@
     "url": "https://linear-900.frequency.stream/dist/cineverse/900/hls/master/playlist.m3u8"
   },
   {
-    "name": "Asianet HD (1080p)",
-    "tvg_id": "Asianet.in@HD",
+    "name": "Asianet (576p)",
+    "tvg_id": "Asianet.in@SD",
     "logo": "https://i.imgur.com/Wv7MOzg.png",
     "category": "Entertainment",
-    "url": "http://103.157.248.140:8000/play/a00s/index.m3u8"
+    "url": "https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starasianet1_live_https/index.m3u8"
   },
   {
     "name": "Asianet Middle East (576p)",
@@ -5927,6 +5948,13 @@
     "logo": "https://i.imgur.com/du9iZ0s.png",
     "category": "Entertainment",
     "url": "https://mumt03.tangotv.in/ASIANETMIDDLEEAST/index.m3u8"
+  },
+  {
+    "name": "Asianet Movies (1080p)",
+    "tvg_id": "AsianetMovies.in@SD",
+    "logo": "https://i.imgur.com/cps67hs.png",
+    "category": "Movies",
+    "url": "https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/asianetmovies_live_https/index.m3u8"
   },
   {
     "name": "Asianet News (1080p)",
@@ -11536,11 +11564,11 @@
     "url": "https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/playlist.m3u8"
   },
   {
-    "name": "Canal 10 (720p) [Geo-blocked]",
+    "name": "Canal 10 (720p) [Not 24/7]",
     "tvg_id": "Canal10.cr@SD",
     "logo": "https://i.imgur.com/TO6WQbW.png",
     "category": "General",
-    "url": "https://acceso.mediosdecostarica.com:3606/live/canal10costaricalive.m3u8"
+    "url": "https://acceso.mediosdecostarica.com:3606/hybrid/play.m3u8"
   },
   {
     "name": "Canal 10 (720p)",
@@ -16114,11 +16142,18 @@
     "url": "http://103.229.254.25:7001/play/a077/index.m3u8"
   },
   {
+    "name": "Colors Bangla (576p)",
+    "tvg_id": "ColorsBangla.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/1369.m3u8"
+  },
+  {
     "name": "Colors Bangla Cinema (576p)",
     "tvg_id": "ColorsBanglaCinema.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_BANGLA_CINEMA/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://116.90.120.151:8000/play/a0jh/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/1657.m3u8"
   },
   {
     "name": "Colors Bangla HD (1080p)",
@@ -16128,25 +16163,32 @@
     "url": "http://103.229.254.25:7001/play/a0ds/index.m3u8"
   },
   {
+    "name": "Colors Cineplex (576p)",
+    "tvg_id": "ColorsCineplex.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.154.3.101:5001/live/482.m3u8"
+  },
+  {
     "name": "Colors Cineplex Bollywood (576p)",
     "tvg_id": "ColorsCineplexBollywood.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_BOLLYWOOD/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://103.157.248.140:8000/play/a00x/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/1763.m3u8"
   },
   {
     "name": "Colors Cineplex HD (1080p)",
     "tvg_id": "ColorsCineplex.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_HD/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://116.90.120.151:8000/play/a0ji/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/1477.m3u8"
   },
   {
     "name": "Colors Cineplex Superhits (576p)",
     "tvg_id": "ColorsCineplexSuperhits.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_CINEPLEX_SUPERHITS/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "http://116.90.120.151:8000/play/a0kl/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/1450.m3u8"
   },
   {
     "name": "Colors Gujarati (1080p)",
@@ -16156,11 +16198,25 @@
     "url": "http://103.154.3.101:5001/live/196.m3u8"
   },
   {
+    "name": "Colors Gujarati Cinema (360p)",
+    "tvg_id": "ColorsGujaratiCinema.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_GUJARATI_CINEMA/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.154.3.101:5001/live/1324.m3u8"
+  },
+  {
     "name": "Colors HD (1080p)",
     "tvg_id": "Colors.in@HD",
     "logo": "https://i.imgur.com/M8uCJ0D.png",
     "category": "Entertainment",
     "url": "http://103.229.254.25:7001/play/a0a1/index.m3u8"
+  },
+  {
+    "name": "Colors Infinity (576p)",
+    "tvg_id": "ColorsInfinity.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_INFINITY/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/1325.m3u8"
   },
   {
     "name": "Colors Infinity HD (1080p)",
@@ -16170,6 +16226,41 @@
     "url": "http://103.229.254.25:7001/play/a0du/index.m3u8"
   },
   {
+    "name": "Colors Kannada (576p)",
+    "tvg_id": "ColorsKannada.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/1370.m3u8"
+  },
+  {
+    "name": "Colors Kannada Cinema (576p)",
+    "tvg_id": "ColorsKannadaCinema.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_CINEMA/images/LOGO_HD/image.png",
+    "category": "Movies",
+    "url": "http://103.154.3.101:5001/live/1632.m3u8"
+  },
+  {
+    "name": "Colors Kannada HD (1080p)",
+    "tvg_id": "ColorsKannada.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_KANNADA_HD/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/757.m3u8"
+  },
+  {
+    "name": "Colors Marathi (576p)",
+    "tvg_id": "ColorsMarathi.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/1326.m3u8"
+  },
+  {
+    "name": "Colors Marathi HD (1080p)",
+    "tvg_id": "ColorsMarathi.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_MARATHI/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/755.m3u8"
+  },
+  {
     "name": "Colors Rishtey Asia (1080p)",
     "tvg_id": "ColorsRishteyAsia.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_RISHTEY/images/LOGO_HD/LOGO_HD_image.png",
@@ -16177,11 +16268,18 @@
     "url": "http://103.154.3.101:5001/live/279.m3u8"
   },
   {
+    "name": "Colors Super (1080p)",
+    "tvg_id": "ColorsSuper.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_SUPER/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/785.m3u8"
+  },
+  {
     "name": "Colors Tamil HD (1080p)",
     "tvg_id": "ColorsTamil.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_COLORS_TAMIL/images/LOGO_HD/image.png",
     "category": "Entertainment",
-    "url": "http://ptuf.ridsys.in/riptv/live/COLORS_TAMIL/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/429.m3u8"
   },
   {
     "name": "Colosal TV (720p) [Not 24/7]",
@@ -19271,6 +19369,13 @@
     "url": "https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8"
   },
   {
+    "name": "Digi Shala (576p)",
+    "tvg_id": "DigiShala.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Digishala.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1227.m3u8"
+  },
+  {
     "name": "Digimon Adventure",
     "tvg_id": "",
     "logo": "",
@@ -20818,11 +20923,60 @@
     "url": "http://103.154.3.101:5001/live/406.m3u8"
   },
   {
+    "name": "E-Vidya 5 (576p)",
+    "tvg_id": "EVidya5.in@SD",
+    "logo": "https://i.imgur.com/0sz6t9F.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/407.m3u8"
+  },
+  {
+    "name": "E-Vidya 6 (576p)",
+    "tvg_id": "EVidya6.in@SD",
+    "logo": "https://i.imgur.com/0sz6t9F.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/408.m3u8"
+  },
+  {
     "name": "E-Vidya 7 (576p)",
     "tvg_id": "EVidya7.in@SD",
     "logo": "https://i.imgur.com/0sz6t9F.png",
     "category": "Education",
     "url": "http://103.154.3.101:5001/live/404.m3u8"
+  },
+  {
+    "name": "E-Vidya 8 (576p)",
+    "tvg_id": "EVidya8.in@SD",
+    "logo": "https://i.imgur.com/0sz6t9F.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/409.m3u8"
+  },
+  {
+    "name": "E-Vidya 9 (576p)",
+    "tvg_id": "EVidya9.in@SD",
+    "logo": "https://i.imgur.com/0sz6t9F.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/410.m3u8"
+  },
+  {
+    "name": "E-Vidya 10 (576p)",
+    "tvg_id": "EVidya10.in@SD",
+    "logo": "https://i.imgur.com/0sz6t9F.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/411.m3u8"
+  },
+  {
+    "name": "E-Vidya 11 (576p)",
+    "tvg_id": "EVidya11.in@SD",
+    "logo": "https://i.imgur.com/0sz6t9F.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1410.m3u8"
+  },
+  {
+    "name": "E-Vidya 12 (576p)",
+    "tvg_id": "EVidya12.in@SD",
+    "logo": "https://i.imgur.com/0sz6t9F.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1532.m3u8"
   },
   {
     "name": "EAC News TV (720p)",
@@ -28210,6 +28364,13 @@
     "url": "http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-40_480.m3u8"
   },
   {
+    "name": "History TV18 (576p)",
+    "tvg_id": "HistoryTV18.in@SD",
+    "logo": "https://dtil.tmsimg.com/assets/s143132_ld_h15_aa.png?lock=720x540",
+    "category": "Documentary",
+    "url": "http://103.154.3.101:5001/live/1471.m3u8"
+  },
+  {
     "name": "History TV18 HD (1080p)",
     "tvg_id": "HistoryTV18.in@HD",
     "logo": "https://dtil.tmsimg.com/assets/s143133_ld_h15_aa.png?lock=720x540",
@@ -29090,6 +29251,13 @@
     "logo": "https://i.imgur.com/9bz15ad.png",
     "category": "General",
     "url": "https://netstreaming.eu/hd1.m3u8"
+  },
+  {
+    "name": "Hungama TV (576p)",
+    "tvg_id": "HungamaTV.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_HUNGAMA/images/LOGO_HD/image.png",
+    "category": "Kids",
+    "url": "https://mini.allinonereborn.fun/tata.php?id=11647"
   },
   {
     "name": "Hungry (720p)",
@@ -31332,6 +31500,13 @@
     "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8"
   },
   {
+    "name": "Janapriyam TV (480p)",
+    "tvg_id": "JanapriyamTV.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Janapriyam_News.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/1455.m3u8"
+  },
+  {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",Janataa TV Kannada (720p)",
     "tvg_id": "",
     "logo": "",
@@ -32088,6 +32263,27 @@
     "url": "https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/c7e85b21-ea01-42b4-85db-15dcfec98942/manifest.m3u8"
   },
   {
+    "name": "Jus Hindi (1080p)",
+    "tvg_id": "JusHindi.us@SD",
+    "logo": "https://i.imgur.com/5GI7Nh7.png",
+    "category": "Culture",
+    "url": "http://103.154.3.101:5001/live/960.m3u8"
+  },
+  {
+    "name": "Jus One (1080p)",
+    "tvg_id": "JusOne.us@SD",
+    "logo": "https://i.imgur.com/8NutGr2.png",
+    "category": "Culture",
+    "url": "http://103.154.3.101:5001/live/961.m3u8"
+  },
+  {
+    "name": "Jus Punjabi (1080p)",
+    "tvg_id": "JusPunjabi.us@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/JUSPunjabi.png",
+    "category": "Culture",
+    "url": "http://103.154.3.101:5001/live/959.m3u8"
+  },
+  {
     "name": "Just for Laughs GAGS (720p)",
     "tvg_id": "",
     "logo": "",
@@ -32340,11 +32536,11 @@
     "url": "https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8"
   },
   {
-    "name": "Kalaignar TV (396p)",
+    "name": "Kalaignar TV (576p)",
     "tvg_id": "KalaignarTV.in@SD",
     "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Kalaignar%20TV.png",
     "category": "General",
-    "url": "https://segment.yuppcdn.net/240122/kalaignartv/playlist.m3u8"
+    "url": "http://103.154.3.101:5001/live/1209.m3u8"
   },
   {
     "name": "Kalemeh TV",
@@ -36687,6 +36883,13 @@
     "url": "https://pb-0yvknepz2ngjh.akamaized.net/playlist.m3u8"
   },
   {
+    "name": "Luxe TV (1080p)",
+    "tvg_id": "LuxeTV.lu@SD",
+    "logo": "https://i.imgur.com/24ehonx.png",
+    "category": "Lifestyle",
+    "url": "http://103.154.3.101:5001/live/1736.m3u8"
+  },
+  {
     "name": "Luxury Dreams TV (1080p)",
     "tvg_id": "",
     "logo": "",
@@ -36769,6 +36972,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Radio_m2o_-_Logo_2019.svg/500px-Radio_m2o_-_Logo_2019.svg.png",
     "category": "Music",
     "url": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8"
+  },
+  {
+    "name": "M2 Petofi (720 p)",
+    "tvg_id": "M2Petofi.hu@SD",
+    "logo": "https://i.imgur.com/N7fc9X6.png",
+    "category": "Kids",
+    "url": "http://46.149.191.217:9005/play/a016"
   },
   {
     "name": "M4 Sport",
@@ -40866,6 +41076,13 @@
     "url": "https://viamotionhsi.netplus.ch/live/eds/mtvfrance/browser-HLS8/mtvfrance.m3u8"
   },
   {
+    "name": "MTV (1080p)",
+    "tvg_id": "MTV.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/248.m3u8"
+  },
+  {
     "name": "MTV3 (720p)",
     "tvg_id": "MTV3.fi@SD",
     "logo": "https://i.imgur.com/C5rQbBM.png",
@@ -41122,7 +41339,7 @@
     "tvg_id": "MTV.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MTV/images/LOGO_HD/image.png",
     "category": "Entertainment",
-    "url": "http://103.154.3.101:5001/live/248.m3u8"
+    "url": "http://103.154.3.101:5001/live/1145.m3u8"
   },
   {
     "name": "MTV Japan (544p)",
@@ -42341,6 +42558,13 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png",
     "category": "Documentary",
     "url": "https://tvpass.org/live/NationalGeographicWildEast/hd"
+  },
+  {
+    "name": "National Gold TV",
+    "tvg_id": "NationalGoldTV.np@SD",
+    "logo": "https://i.imgur.com/p0Wwf20.jpg",
+    "category": "General",
+    "url": "http://maxotts.maxdigitaltv.com/x-media/C170/master.m3u8"
   },
   {
     "name": "National Iranian Congress TV",
@@ -43712,7 +43936,7 @@
     "tvg_id": "NickHDPlus.in@HD",
     "logo": "https://dtil.tmsimg.com/assets/s159121_ld_h15_aa.png?lock=720x540",
     "category": "Kids",
-    "url": "http://116.90.120.151:8000/play/a0i3/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/1226.m3u8"
   },
   {
     "name": "Nick Jr. (576p)",
@@ -54075,11 +54299,11 @@
     "url": "https://d2fbuk9n5icao0.cloudfront.net/playlist.m3u8"
   },
   {
-    "name": "Raj Digital Plus (1080p)",
+    "name": "Raj Digital Plus (576p)",
     "tvg_id": "RajDigitalPlus.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_DIGITAL_PLUS/images/LOGO_HD/image.png",
     "category": "Movies",
-    "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8"
+    "url": "http://103.154.3.101:5001/live/683.m3u8"
   },
   {
     "name": "Raj Musix Kannada (576p)",
@@ -54096,11 +54320,25 @@
     "url": "https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8"
   },
   {
+    "name": "Raj Musix Tamil (576p)",
+    "tvg_id": "RajMusixTamil.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TAMIL/images/LOGO_HD/image.png",
+    "category": "Music",
+    "url": "http://103.154.3.101:5001/live/748.m3u8"
+  },
+  {
     "name": "Raj Musix Telugu (720p)",
     "tvg_id": "RajMusixTelugu.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TELUGU/images/LOGO_HD/image.png",
     "category": "Music",
     "url": "https://cdn-1.pishow.tv/live/1213/master.m3u8"
+  },
+  {
+    "name": "Raj News (576p)",
+    "tvg_id": "RajNews.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_NEWS_TAMIL/images/LOGO_HD/image.png",
+    "category": "News",
+    "url": "http://103.154.3.101:5001/live/767.m3u8"
   },
   {
     "name": "Raj News Kannada (576p)",
@@ -54131,11 +54369,11 @@
     "url": "http://103.154.3.101:5001/live/533.m3u8"
   },
   {
-    "name": "Raj TV (1080p)",
+    "name": "Raj TV (576p)",
     "tvg_id": "RajTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png",
     "category": "Entertainment",
-    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2839e3d1e0f84a2e821c1708d5fdfdf0/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/707.m3u8"
   },
   {
     "name": "Raj TV (720p) [Not 24/7]",
@@ -57890,6 +58128,13 @@
     "url": "https://cdn-4.pishow.tv/live/1039/master.m3u8"
   },
   {
+    "name": "Rupavahini (720p)",
+    "tvg_id": "Rupavahini.lk@SD",
+    "logo": "https://i.imgur.com/vgHTfR0.png",
+    "category": "Undefined",
+    "url": "https://mini.allinonereborn.fun/tata.php?id=11611"
+  },
+  {
     "name": "Rustavi 2",
     "tvg_id": "Rustavi2.ge@SD",
     "logo": "https://i.imgur.com/rPqd1Cx.png",
@@ -58758,6 +59003,13 @@
     "url": "http://158.69.124.9:1935/sardaritv/sardaritv/playlist.m3u8"
   },
   {
+    "name": "Sarv Dharam Sangam (576p)",
+    "tvg_id": "SarvDharamSangam.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SARV_DHARAM_SANGAM/images/LOGO_HD/image.png",
+    "category": "Undefined",
+    "url": "http://103.154.3.101:5001/live/972.m3u8"
+  },
+  {
     "name": "Saryarqa (720p) [Not 24/7]",
     "tvg_id": "Saryarqa.kz@SD",
     "logo": "https://i.imgur.com/EIXwi1c.png",
@@ -59591,11 +59843,11 @@
     "url": "https://xumo-fusebeats.amagi.tv/playlist.m3u8"
   },
   {
-    "name": "Shakthi TV (360p)",
+    "name": "Shakthi TV (720p)",
     "tvg_id": "ShakthiTV.lk@SD",
     "logo": "https://i.imgur.com/RX6IwK8.png",
     "category": "Undefined",
-    "url": "https://edge4-moblive.yuppcdn.net/transsd/smil:saktv10.smil/playlist.m3u8?dvr="
+    "url": "https://mini.allinonereborn.fun/tata.php?id=11612"
   },
   {
     "name": "Shalini TV (576p)",
@@ -60844,11 +61096,11 @@
     "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8"
   },
   {
-    "name": "Songdew TV (396p)",
+    "name": "Songdew TV (576p)",
     "tvg_id": "SongdewTV.in@SD",
     "logo": "https://dtil.tmsimg.com/assets/s142920_ld_h9_aa.png?lock=720x540",
     "category": "Music",
-    "url": "https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b"
+    "url": "http://103.154.3.101:5001/live/1411.m3u8"
   },
   {
     "name": "SONGTV Russia",
@@ -61045,6 +61297,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://jmp2.uk/plu-6647c02422494d000804b13a.m3u8"
+  },
+  {
+    "name": "Sony Pal (1080p) [Geo-blocked]",
+    "tvg_id": "SonyPal.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_PAL/images/LOGO_HD/image.png",
+    "category": "Entertainment",
+    "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20PAL.m3u8"
   },
   {
     "name": "Sony Pix HD (1080p) [Geo-blocked]",
@@ -62062,6 +62321,13 @@
     "url": "http://103.250.28.74:8000/play/a010/index.m3u8"
   },
   {
+    "name": "Star Bharat (576p)",
+    "tvg_id": "StarBharat.in@SD",
+    "logo": "https://i.imgur.com/Q8ajPij.png",
+    "category": "News",
+    "url": "http://103.253.18.58:8000/play/a00u"
+  },
+  {
     "name": "STAR Channel (Finland) (720p)",
     "tvg_id": "STARChannel.fi@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png",
@@ -62087,14 +62353,7 @@
     "tvg_id": "StarGold2.in@SD",
     "logo": "https://i.imgur.com/G0ZfzZr.png",
     "category": "Movies",
-    "url": "http://103.157.248.140:8000/play/a00e/index.m3u8"
-  },
-  {
-    "name": "Star Gold 2 HD (1080p)",
-    "tvg_id": "StarGold2.in@HD",
-    "logo": "https://i.imgur.com/G0ZfzZr.png",
-    "category": "Movies",
-    "url": "http://103.229.254.25:7001/play/a0d0/index.m3u8"
+    "url": "http://103.253.18.58:8000/play/a00r"
   },
   {
     "name": "Star Gold HD (1080p)",
@@ -62108,7 +62367,7 @@
     "tvg_id": "StarGoldRomance.in@SD",
     "logo": "https://i.imgur.com/gSWv9U3.png",
     "category": "Movies",
-    "url": "http://103.157.248.140:8000/play/a01i/index.m3u8"
+    "url": "http://103.253.18.58:8000/play/a017"
   },
   {
     "name": "Star Gold Select HD (1080p)",
@@ -62122,7 +62381,7 @@
     "tvg_id": "StarGoldThrills.in@SD",
     "logo": "https://i.imgur.com/azqtpYh.png",
     "category": "Movies",
-    "url": "http://103.157.248.140:8000/play/a00b/index.m3u8"
+    "url": "http://103.253.18.58:8000/play/a00o"
   },
   {
     "name": "STAR HD (1080p) [Non geo blocked]",
@@ -62160,6 +62419,20 @@
     "url": "http://103.121.6.5:8000/play/a063/index.m3u8"
   },
   {
+    "name": "Star Maa HD (1080p)",
+    "tvg_id": "StarMaa.in@HD",
+    "logo": "https://i.imgur.com/5c9PVS0.png",
+    "category": "Entertainment",
+    "url": "https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/starmaa1_live_https/index.m3u8"
+  },
+  {
+    "name": "Star Maa Movies HD (1080p)",
+    "tvg_id": "StarMaaMovies.in@HD",
+    "logo": "https://dtil.tmsimg.com/assets/s143826_ld_h15_aa.png?lock=720x540",
+    "category": "Movies",
+    "url": "https://anet.keralive.workers.dev/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/maamovies_live_https/index.m3u8"
+  },
+  {
     "name": "Star Movies HD (1080p)",
     "tvg_id": "StarMovies.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_MOVIES/images/LOGO_HD/image.png",
@@ -62185,14 +62458,14 @@
     "tvg_id": "StarSports1.in@HD",
     "logo": "https://i.imgur.com/E5jjKHI.png",
     "category": "Sports",
-    "url": "http://ptuf.ridsys.in/riptv/live/STAR_SPORTS_1_HD/index.m3u8"
+    "url": "http://103.253.18.58:8000/play/a00m"
   },
   {
     "name": "Star Sports 1 Hindi (576p)",
     "tvg_id": "StarSports1Hindi.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_1_HINDI/images/LOGO_HD/image.png",
     "category": "Sports",
-    "url": "http://103.157.248.140:8000/play/a00g/index.m3u8"
+    "url": "http://103.253.18.58:8000/play/a03o"
   },
   {
     "name": "Star Sports 2 Hindi HD (1080p)",
@@ -62461,8 +62734,8 @@
     "url": "https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8"
   },
   {
-    "name": "StarPlus (1080p)",
-    "tvg_id": "StarPlus.in@SD",
+    "name": "StarPlus HD (1080p)",
+    "tvg_id": "StarPlus.in@HD",
     "logo": "https://i.imgur.com/xWxNy3L.png",
     "category": "Entertainment",
     "url": "http://103.229.254.25:7001/play/a09z/index.m3u8"
@@ -63812,6 +64085,125 @@
     "url": "https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8"
   },
   {
+    "name": "Swayam Prabha 1 (576p)",
+    "tvg_id": "SwayamPrabha1.in@SD",
+    "logo": "https://i.imgur.com/og6ZGzP.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/980.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 3 (576p)",
+    "tvg_id": "SwayamPrabha3.in@SD",
+    "logo": "https://i.imgur.com/KyktF1N.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/982.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 4 (576p)",
+    "tvg_id": "SwayamPrabha4.in@SD",
+    "logo": "https://i.imgur.com/ARcspGv.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/984.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 5 (576p)",
+    "tvg_id": "SwayamPrabha5.in@SD",
+    "logo": "https://i.imgur.com/8MrrMFF.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/986.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 6 (576p)",
+    "tvg_id": "SwayamPrabha6.in@SD",
+    "logo": "https://i.imgur.com/8tynFFn.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/987.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 7 (576p)",
+    "tvg_id": "SwayamPrabha7.in@SD",
+    "logo": "https://i.imgur.com/TNRG1i0.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/985.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 8 (576p)",
+    "tvg_id": "SwayamPrabha8.in@SD",
+    "logo": "https://i.imgur.com/nN5bkZO.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/983.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 9 (576p)",
+    "tvg_id": "SwayamPrabha9.in@SD",
+    "logo": "https://i.imgur.com/UjFRkfW.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/988.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 10 (576p)",
+    "tvg_id": "SwayamPrabha10.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_10.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/989.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 11 (576p)",
+    "tvg_id": "SwayamPrabha11.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_11.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/990.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 12 (576p)",
+    "tvg_id": "SwayamPrabha12.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_12.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/991.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 13 (576p)",
+    "tvg_id": "SwayamPrabha13.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_13.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/992.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 14 (576p)",
+    "tvg_id": "SwayamPrabha14.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_14.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/993.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 15 (576p)",
+    "tvg_id": "SwayamPrabha15.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_15.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/995.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 16 (576p)",
+    "tvg_id": "SwayamPrabha16.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_16.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/994.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 17 (576p)",
+    "tvg_id": "SwayamPrabha17.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_17.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/996.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 18 (576p)",
+    "tvg_id": "SwayamPrabha18.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_18.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/999.m3u8"
+  },
+  {
     "name": "Swayam Prabha 19 (576p)",
     "tvg_id": "SwayamPrabha19.in@SD",
     "logo": "https://i.imgur.com/qM5MKoe.png",
@@ -63824,6 +64216,20 @@
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_20.png",
     "category": "Education",
     "url": "http://103.154.3.101:5001/live/403.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 21 (576p)",
+    "tvg_id": "SwayamPrabha21.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_21.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/997.m3u8"
+  },
+  {
+    "name": "Swayam Prabha 22 (576p)",
+    "tvg_id": "SwayamPrabha22.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swayam_Prabha_22.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/998.m3u8"
   },
   {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",Swerve Combat (1080p)",
@@ -65590,11 +65996,11 @@
     "url": "https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8"
   },
   {
-    "name": "TeleMas (480p) [Geo-blocked]",
+    "name": "TeleMas (720p) [Not 24/7]",
     "tvg_id": "TeleMas.cr@SD",
     "logo": "https://i.imgur.com/5Rc8mA5.png",
     "category": "Entertainment",
-    "url": "https://mist01.homestream.fun/hls/tlmas904/0_1/index.m3u8"
+    "url": "https://acceso.mediosdecostarica.com:3192/hybrid/play.m3u8"
   },
   {
     "name": "Telemás (720p)",
@@ -68005,6 +68411,13 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-news/master.m3u8?ads.vf=yxbqJWPCXd4"
   },
   {
+    "name": "Times Now World (1080p)",
+    "tvg_id": "TimesNowWorld.in@SD",
+    "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Times-Now-World-transparent.png",
+    "category": "News",
+    "url": "http://103.154.3.101:5001/live/876.m3u8"
+  },
+  {
     "name": "Timor TV (1080p)",
     "tvg_id": "TimorTV.id@HD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/83/Logo_Timor_TV.png",
@@ -69165,6 +69578,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://travelxp-travelxp-5-eu.rakuten.wurl.tv/playlist.m3u8"
+  },
+  {
+    "name": "Travelxp Tamil (576p)",
+    "tvg_id": "TravelxpTamil.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Travel_XP_Tamil.png",
+    "category": "Travel",
+    "url": "http://103.154.3.101:5001/live/814.m3u8"
   },
   {
     "name": "Traverse Area Community Media CommunityTV Channel 189 (Traverse City MI) (1080p) [Geo-blocked]",
@@ -72536,14 +72956,14 @@
   {
     "name": "TVE Internacional Europe-Asia (720p) [Geo-Blocked]",
     "tvg_id": "TVEInternacionalEuropeAsia.es@SD",
-    "logo": "https://i.ibb.co/RpKLCMvp/tve.png",
+    "logo": "",
     "category": "Undefined",
     "url": "https://viamotionhsi.netplus.ch/live/eds/tveinternacional/browser-HLS8/tveinternacional.m3u8"
   },
   {
     "name": "TVE Internacional Europe-Asia HD (1080p)",
     "tvg_id": "TVEInternacionalEuropeAsia.es@HD",
-    "logo": "https://i.ibb.co/RpKLCMvp/tve.png",
+    "logo": "",
     "category": "Undefined",
     "url": "https://siarlive.psce.pw/channel5"
   },
@@ -74914,6 +75334,118 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/vande-bharat-news/index.m3u8?ads.vf=FOrCnxHlHG8"
   },
   {
+    "name": "Vande Gujarat 1 (576p)",
+    "tvg_id": "VandeGujarat1.in@SD",
+    "logo": "https://i.imgur.com/JjZj5JE.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1069.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 2 (576p)",
+    "tvg_id": "VandeGujarat2.in@SD",
+    "logo": "https://i.imgur.com/fZeOwSM.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1070.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 3 (576p)",
+    "tvg_id": "VandeGujarat3.in@SD",
+    "logo": "https://i.imgur.com/Q1b3XRZ.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1082.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 4 (576p)",
+    "tvg_id": "VandeGujarat4.in@SD",
+    "logo": "https://i.imgur.com/67GZ2hN.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1071.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 5 (576p)",
+    "tvg_id": "VandeGujarat5.in@SD",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Vande_Gujarat_5.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1083.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 6 (576p)",
+    "tvg_id": "VandeGujarat6.in@SD",
+    "logo": "https://i.imgur.com/hClW7Cv.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1084.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 7 (576p)",
+    "tvg_id": "VandeGujarat7.in@SD",
+    "logo": "https://i.imgur.com/epnEnpG.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1085.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 8 (576p)",
+    "tvg_id": "VandeGujarat8.in@SD",
+    "logo": "https://i.imgur.com/UDcdxXl.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1086.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 9 (576p)",
+    "tvg_id": "VandeGujarat9.in@SD",
+    "logo": "https://i.imgur.com/dU05ftn.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1087.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 10 (576p)",
+    "tvg_id": "VandeGujarat10.in@SD",
+    "logo": "https://i.imgur.com/YSECJPy.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1088.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 11 (576p)",
+    "tvg_id": "VandeGujarat11.in@SD",
+    "logo": "https://i.imgur.com/OkXeGI9.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1089.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 12 (576p)",
+    "tvg_id": "VandeGujarat12.in@SD",
+    "logo": "https://i.imgur.com/K0F4jQ1.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1090.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 13 (576p)",
+    "tvg_id": "VandeGujarat13.in@SD",
+    "logo": "https://i.imgur.com/eoDwNZx.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1091.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 14 (576p)",
+    "tvg_id": "VandeGujarat14.in@SD",
+    "logo": "https://i.imgur.com/1n2gMHF.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1092.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 15 (576p)",
+    "tvg_id": "VandeGujarat15.in@SD",
+    "logo": "https://i.imgur.com/5xN2AnH.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1093.m3u8"
+  },
+  {
+    "name": "Vande Gujarat 16 (576p)",
+    "tvg_id": "VandeGujarat16.in@SD",
+    "logo": "https://i.imgur.com/xVRuk5X.png",
+    "category": "Education",
+    "url": "http://103.154.3.101:5001/live/1094.m3u8"
+  },
+  {
     "name": "Vanitha TV (576p)",
     "tvg_id": "VanithaTV.in@SD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_VANITHA/images/LOGO_HD/image.png",
@@ -74974,7 +75506,7 @@
     "tvg_id": "VasanthamTV.lk@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/en/1/18/Vasanthamtv_channel.jpg",
     "category": "Undefined",
-    "url": "https://j78dp2pnlq5r-hls-live.comcities.net/ITNDigital/20a317b0496a4930b375290505e5d628.sdp/playlist_dvr.m3u8"
+    "url": "https://mini.allinonereborn.fun/tata.php?id=11610"
   },
   {
     "name": "Vásárhelyi Televízió (576p)",
@@ -79142,6 +79674,13 @@
     "url": "https://tgn.bozztv.com/gin-dvrfl05/ga-zeealwan/index.m3u8"
   },
   {
+    "name": "Zee Bangla (576p)",
+    "tvg_id": "ZeeBangla.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_BANGLA_HD/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/625.m3u8"
+  },
+  {
     "name": "Zee Bangla Sonar (576p)",
     "tvg_id": "ZeeBanglaSonar.in@SD",
     "logo": "https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540",
@@ -79303,6 +79842,13 @@
     "url": "http://103.154.3.101:5001/live/445.m3u8"
   },
   {
+    "name": "Zee Marathi HD (1080p)",
+    "tvg_id": "ZeeMarathi.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_MARATHI/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/1360.m3u8"
+  },
+  {
     "name": "Zee News (1080p)",
     "tvg_id": "ZeeNews.in@SD",
     "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0023VWYC.png?lock=720x540",
@@ -79352,6 +79898,13 @@
     "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8"
   },
   {
+    "name": "Zee Sarthak (576p)",
+    "tvg_id": "ZeeSarthak.in@SD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_SARTHAK/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/722.m3u8"
+  },
+  {
     "name": "Zee South Flix (1080p)",
     "tvg_id": "ZeeSouthFlix.in@HD",
     "logo": "https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png",
@@ -79363,7 +79916,21 @@
     "tvg_id": "ZeeTalkies.in@HD",
     "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png",
     "category": "Movies",
-    "url": "http://116.90.120.151:8000/play/a0io/index.m3u8"
+    "url": "http://103.154.3.101:5001/live/1358.m3u8"
+  },
+  {
+    "name": "Zee Tamil (576p)",
+    "tvg_id": "ZeeTamil.in@SD",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022S29Y.png?lock=720x540",
+    "category": "Entertainment",
+    "url": "http://103.154.3.101:5001/live/628.m3u8"
+  },
+  {
+    "name": "Zee Tamil News (720p)",
+    "tvg_id": "ZeeTamilNews.in@SD",
+    "logo": "https://english.cdn.zeenews.com/images/logo/zee-tamil-logo-20.svg",
+    "category": "News",
+    "url": "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8"
   },
   {
     "name": "Zee Telugu HD (1080p)",
@@ -79378,6 +79945,13 @@
     "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0023178R.png?lock=720x540",
     "category": "News",
     "url": "https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8"
+  },
+  {
+    "name": "Zee Thirai HD (1080p)",
+    "tvg_id": "ZeeThirai.in@HD",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_THIRAI/images/LOGO_HD/LOGO_HD_image.png",
+    "category": "Movies",
+    "url": "http://103.154.3.101:5001/live/3051.m3u8"
   },
   {
     "name": "Zee TV (1080p)",
