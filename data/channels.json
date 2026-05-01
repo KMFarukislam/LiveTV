@@ -2072,11 +2072,11 @@
     "url": "https://mediaserver.abnvideos.com/streams/abnafrica.m3u8"
   },
   {
-    "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"News\",ABN Andhra Jyothy (1080p)",
+    "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"News\",ABN Andhra Jyoti (1080p)",
     "tvg_id": "ABNAndhraJyoti.in@SD",
     "logo": "https://dtil.tmsimg.com/assets/s142517_ld_h15_aa.png?lock=720x540",
     "category": "News",
-    "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abn-andhra-jyothy/index.m3u8?ads.vf=UlAYFOs6jHe"
+    "url": "https://d18a8tqmogafg2.cloudfront.net/abnandhrajyothy/playlist.m3u8"
   },
   {
     "name": "ABN Bible Movies (720p)",
@@ -4088,11 +4088,11 @@
     "url": "https://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8"
   },
   {
-    "name": "Alpha TV (720p) [Not 24/7]",
+    "name": "Alpha TV (1080p)",
     "tvg_id": "AlphaTV.gr@SD",
     "logo": "https://i.imgur.com/6twzd38.png",
     "category": "General",
-    "url": "http://alphatvlive.siliconweb.com/1/Y2Rsd1lUcUVoajcv/UVdCN25h/hls/live/playlist.m3u8"
+    "url": "https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8"
   },
   {
     "name": "Alqanat9 TV (1080p)",
@@ -7070,32 +7070,18 @@
     "url": "https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8"
   },
   {
-    "name": "B4U Movies APAC (720p)",
-    "tvg_id": "B4UMovies.in@APAC",
-    "logo": "https://i.imgur.com/M9kMFJl.png",
-    "category": "Movies",
-    "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=edge3/b4u-movies-apac"
-  },
-  {
-    "name": "B4U Movies India (1080p)",
+    "name": "B4U Movies (1080p) [Geo-blocked]",
     "tvg_id": "B4UMovies.in@India",
     "logo": "https://i.imgur.com/M9kMFJl.png",
     "category": "Movies",
-    "url": "https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8"
+    "url": "https://amg00877-b4unew-amg00877c2-lg-in-5260.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
-    "name": "B4U Music (1080p)",
+    "name": "B4U Music (576p)",
     "tvg_id": "B4UMusic.in@India",
     "logo": "https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540",
     "category": "Music",
-    "url": "https://cdn-2.pishow.tv/live/415/master.m3u8"
-  },
-  {
-    "name": "B4U Music APAC (720p)",
-    "tvg_id": "B4UMusic.in@APAC",
-    "logo": "https://dtil.tmsimg.com/assets/s158141_ld_h15_aa.png?lock=720x540",
-    "category": "Music",
-    "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=edge3/b4u-music"
+    "url": "http://103.213.31.109:90/B4UMusic/playlist.m3u8"
   },
   {
     "name": "B15 Fresnillo (1080p)",
@@ -10624,6 +10610,13 @@
     "logo": "https://static.wikia.nocookie.net/logopedia/images/3/39/BSTVTokyo_2024logo-TeletoVer.svg/revision/latest/scale-to-width-down/512",
     "category": "General",
     "url": "http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05"
+  },
+  {
+    "name": "BT TV (720p)",
+    "tvg_id": "BTTV.in@SD",
+    "logo": "https://akm-img-a-in.tosshub.com/businesstoday/resource/img/best-bank-new.png",
+    "category": "Business;News",
+    "url": "https://feeds.intoday.in/bttv/itgd.m3u8"
   },
   {
     "name": "BTA TV (720p)",
@@ -20671,13 +20664,6 @@
     "url": "https://hls.drochia.tv/tv/web.m3u8"
   },
   {
-    "name": "Drone TV (1080p)",
-    "tvg_id": "",
-    "logo": "",
-    "category": "Undefined",
-    "url": "https://airvuz-dronetv-1-us.ohlscdn.wurl.tv/playlist.m3u8"
-  },
-  {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Relax;Travel\",DroneTV (1080p)",
     "tvg_id": "DroneTV.us@SD",
     "logo": "https://i.ibb.co/S71C9RJC/dronetv.webp",
@@ -22386,18 +22372,18 @@
     "url": "https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8"
   },
   {
-    "name": "ERT1",
+    "name": "ERT1 (1080p)",
     "tvg_id": "ERT1.gr@SD",
     "logo": "https://i.imgur.com/UKbCtC1.png",
     "category": "General",
-    "url": "http://88.99.254.101/ert1/mono.m3u8"
+    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT1/default/index.m3u8"
   },
   {
-    "name": "ERT2",
+    "name": "ERT2 (1080p)",
     "tvg_id": "ERT2.gr@SD",
     "logo": "https://i.imgur.com/nMHKG3A.png",
     "category": "General",
-    "url": "http://88.99.254.101/ert2/mono.m3u8"
+    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT2/default/index.m3u8"
   },
   {
     "name": "ERT2 HD (1080p)",
@@ -22407,11 +22393,11 @@
     "url": "http://31.121.110.30:4000/play/a02a/index.m3u8"
   },
   {
-    "name": "ERT3",
+    "name": "ERT3 (1080p)",
     "tvg_id": "ERT3.gr@SD",
     "logo": "https://i.imgur.com/f2l9bDR.png",
     "category": "Entertainment",
-    "url": "http://88.99.254.101/ert3/mono.m3u8"
+    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8"
   },
   {
     "name": "ERT3 HD (1080p)",
@@ -22435,11 +22421,11 @@
     "url": "http://hbbtvapp.ert.gr/stream.php/v/vid_ertplay2_mpeg.2ts"
   },
   {
-    "name": "ERT World (720p)",
+    "name": "ERT World (1080p)",
     "tvg_id": "ERTWorld.gr@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ChannelLogo-ERTWORLD1.png/960px-ChannelLogo-ERTWORLD1.png",
     "category": "General",
-    "url": "https://ert-live-bcbs15228.siliconweb.com/media/ert_world/ert_world.m3u8"
+    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTWorld/default/index.m3u8"
   },
   {
     "name": "Ertis (1080p) [Not 24/7]",
@@ -24540,6 +24526,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://amg02278-amg02278c1-distrotv-us-7534.playouts.now.amagi.tv/playlist/amg02278-flosports-floracing24x7-distrotvus/playlist.m3u8"
+  },
+  {
+    "name": "FloRacing 24/7 (1080p)",
+    "tvg_id": "FloRacing.us@HD",
+    "logo": "https://a.jsrdn.com/hls/22883/floracing-247/logo_20231219_225054_24.png",
+    "category": "Sports",
+    "url": "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8"
   },
   {
     "name": "Flow Caribe",
@@ -28306,6 +28299,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://amg00654-itv-amg00654c20-rakuten-it-3615.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  {
+    "name": "Hellenic Parliament TV (1080p)",
+    "tvg_id": "HellenicParliamentTV.gr@SD",
+    "logo": "https://i.imgur.com/o2cvqv3.png",
+    "category": "Legislative",
+    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8"
   },
   {
     "name": "Hellenic TV (720p) [Not 24/7]",
@@ -60214,6 +60214,13 @@
     "url": "https://live.fptplay53.net/epzhd2/film360_vhls.smil/chunklist.m3u8"
   },
   {
+    "name": "SCTV16 (720p)",
+    "tvg_id": "SCTV16.vn@SD",
+    "logo": "https://i.imgur.com/ldCYtvt.png",
+    "category": "Undefined",
+    "url": "https://liveh34.vtvprime.vn/hls/SCTV16/03.m3u8"
+  },
+  {
     "name": "SCVTV (Santa Clarita CA) (1080p)",
     "tvg_id": "SCVTV.us@SD",
     "logo": "https://i.imgur.com/qEsZbZz.png",
@@ -81471,13 +81478,6 @@
     "logo": "https://i.imgur.com/NuYwGok.png",
     "category": "Series",
     "url": "https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8"
-  },
-  {
-    "name": "Βουλή Τηλεόραση (360p) [Not 24/7]",
-    "tvg_id": "HellenicParliamentTV.gr@SD",
-    "logo": "https://i.imgur.com/o2cvqv3.png",
-    "category": "Legislative",
-    "url": "https://streamer-cache.grnet.gr/parliament/parltv.sdp/master.m3u8"
   },
   {
     "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
