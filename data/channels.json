@@ -37464,13 +37464,6 @@
     "url": "https://tv.wracanal10.com:3776/live/luzdivinatvlive.m3u8"
   },
   {
-    "name": "Lychnos TV (1080p)",
-    "tvg_id": "LychnosTV.gr@SD",
-    "logo": "https://i.ibb.co/pJbKsVm/Lychnos-Tv-live-vipotv-greece.png",
-    "category": "Religious",
-    "url": "https://thor.mental-media.gr:19360/imp/imp.m3u8"
-  },
-  {
     "name": "Lyon Capitale TV (180p)",
     "tvg_id": "LyonCapitaleTV.fr@SD",
     "logo": "https://i.imgur.com/4WfnEaj.png",
@@ -52332,11 +52325,11 @@
     "url": "http://78.130.250.2:8023/play/a05t/index.m3u8"
   },
   {
-    "name": "Polsat (1080p) [Geo-blocked]",
+    "name": "Polsat (1080p)",
     "tvg_id": "Polsat.pl@SD",
     "logo": "https://i.imgur.com/xff6zGN.png",
     "category": "General",
-    "url": "https://cdn-s-playnow-live.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd"
+    "url": "https://srv7.flussonic111.com/PL_POLSAT_HD/index.m3u8"
   },
   {
     "name": "Polsat 1 (1080p)",
@@ -53662,18 +53655,18 @@
     "url": "https://acasmedia3.acangroup.org/qausaintv/qausaintv_output/playlist.m3u8"
   },
   {
+    "name": " like Gecko) Chrome/120.0.0.0 Safari/537.36\" group-title=\"General\",Qazaqstan (1080p)",
+    "tvg_id": "Qazaqstan.kz@SD",
+    "logo": "https://i.imgur.com/oI8g396.png",
+    "category": "General",
+    "url": "https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_MjE7M10AtBKsWN3CHzhzNBgiG7LkULPx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8"
+  },
+  {
     "name": "Qazaqstan International (1080p)",
     "tvg_id": "QazaqstanInternational.kz@SD",
     "logo": "https://cdn.qazaqstan.tv/qazaqstan.png?w=420&h=196&format=png&resize=aspectfill&g=centeralt=",
     "category": "General",
     "url": "https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8"
-  },
-  {
-    "name": "Qazaqstan TV (720p) [Not 24/7]",
-    "tvg_id": "Qazaqstan.kz@SD",
-    "logo": "https://i.imgur.com/oI8g396.png",
-    "category": "General",
-    "url": "https://qazaqstantv-stream.qazcdn.com/qazaqstantv/qazaqstantv/playlist.m3u8"
   },
   {
     "name": "QazSport (480p) [Geo-blocked]",
@@ -81506,20 +81499,6 @@
     "logo": "https://i.imgur.com/NuYwGok.png",
     "category": "Series",
     "url": "https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8"
-  },
-  {
-    "name": "Βουλή Τηλεόραση 2 (540p) [Not 24/7]",
-    "tvg_id": "HellenicParliamentTV2.gr@SD",
-    "logo": "https://i.imgur.com/o2cvqv3.png",
-    "category": "Legislative",
-    "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv2.m3u8"
-  },
-  {
-    "name": "Βουλή Τηλεόραση 3 (540p) [Not 24/7]",
-    "tvg_id": "HellenicParliamentTV3.gr@SD",
-    "logo": "https://i.imgur.com/o2cvqv3.png",
-    "category": "Legislative",
-    "url": "https://streamer-cache.grnet.gr/parliament/hls/webtv3.m3u8"
   },
   {
     "name": "АБАЗА-ТВ (1080p)",
