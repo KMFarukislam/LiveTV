@@ -5817,6 +5817,13 @@
     "url": "https://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8"
   },
   {
+    "name": "ART (1080p)",
+    "tvg_id": "ART.gr@SD",
+    "logo": "https://i.imgur.com/mNeLu04.png",
+    "category": "Culture",
+    "url": "https://1a-1791.com/live/qt9k24wa/slot-55/2k5m-t871_1080p/playlist.m3u8"
+  },
+  {
     "name": "ART Television (720p)",
     "tvg_id": "ARTTelevision.lk@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/ART_Television_%28Sri_Lanka%29_%28logo%29.png/960px-ART_Television_%28Sri_Lanka%29_%28logo%29.png",
@@ -23387,6 +23394,13 @@
     "url": "https://samson.streamerr.co:8081/xtelevisionrd/tracks-v1a1/mono.m3u8"
   },
   {
+    "name": "Extra ProNews (576p)",
+    "tvg_id": "ExtraProNews.gr@SD",
+    "logo": "https://i.imgur.com/VKW9xw6.png",
+    "category": "Entertainment;News;Shop",
+    "url": "http://62.1.176.18:8888/extra/index.m3u8"
+  },
+  {
     "name": "Extra TV (1080p)",
     "tvg_id": "ExtraTV.hr@SD",
     "logo": "https://i.imgur.com/5edYPBO.png",
@@ -24428,6 +24442,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://pb-rhq7yj8tne4rm.akamaized.net/Fireplace_4K_SONO20.m3u8"
+  },
+  {
+    "name": "First Business (720p)",
+    "tvg_id": "FirstBusiness.ua@SD",
+    "logo": "https://i.imgur.com/0wotE9n.png",
+    "category": "Business",
+    "url": "https://lowa8026-cmyk.github.io/Ukraine/FirstBussines.m3u8"
   },
   {
     "name": "First Channel News (1080p)",
@@ -44625,13 +44646,6 @@
     "url": "https://streamer.filmowo.xyz/memfs/cd3264be-9df6-43cb-91ca-364082c257eb.m3u8"
   },
   {
-    "name": "Nickelodeon (720p)",
-    "tvg_id": "Nickelodeon.tr@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png",
-    "category": "Kids",
-    "url": "http://95.70.222.188:1234/stream/tivibucocuk/nickelodeon/stream.m3u8"
-  },
-  {
     "name": "Nickelodeon (1080p)",
     "tvg_id": "Nickelodeon.us@East",
     "logo": "https://i.imgur.com/E84jnP8.png",
@@ -44762,7 +44776,7 @@
     "tvg_id": "NickOnlineSpongebob.br@HD",
     "logo": "https://x1co.com.br/logobob.png",
     "category": "Animation;Kids",
-    "url": "https://spongebob.x1co.com.br/hls/stream.m3u8"
+    "url": "https://spongebobnew.x1co.com.br/hls/stream.m3u8"
   },
   {
     "name": "NickToons",
@@ -48678,6 +48692,20 @@
     "url": "https://5be80bd118c27.streamlock.net:433/phenomenaltv/phenomenal/playlist.m3u8"
   },
   {
+    "name": "PhillyCAM (720p)",
+    "tvg_id": "PhillyCAM.us@SD",
+    "logo": "https://i.imgur.com/ENOr31n.png",
+    "category": "General",
+    "url": "https://livestream.telvue.com/phillycam1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+  },
+  {
+    "name": "PHLgovTV (720p)",
+    "tvg_id": "PHLgovTV.us@SD",
+    "logo": "https://i.imgur.com/BmNc3hu.png",
+    "category": "Legislative",
+    "url": "https://livestream.telvue.com/ctyphiladelphia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8"
+  },
+  {
     "name": "phoenix (720p) [Geo-Blocked]",
     "tvg_id": "phoenix.de@HD",
     "logo": "https://i.imgur.com/T1532t9.png",
@@ -48941,7 +48969,7 @@
     "tvg_id": "PlayTV.br@SD",
     "logo": "https://i.imgur.com/Ikrj3lk.png",
     "category": "Undefined",
-    "url": "https://playtv.mediastreaming.com.br/play/live.stream/playlist.m3u8"
+    "url": "https://isaocorp.cloudecast.com/playtv/index.m3u8"
   },
   {
     "name": "Play TV (720p) [Not 24/7]",
@@ -52164,13 +52192,6 @@
     "url": "https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/master.m3u8?ads.vf=S1kySuSK58S"
   },
   {
-    "name": "PNN (1080p)",
-    "tvg_id": "PNN.kh@SD",
-    "logo": "https://i.imgur.com/ObtFGBW.png",
-    "category": "Undefined",
-    "url": "http://43.252.18.195:5080/live/streams/PNN.playlist.m3u8.m3u8"
-  },
-  {
     "name": "pocket.watch Game On (1080p)",
     "tvg_id": "pocketwatch.us@SD",
     "logo": "https://i.imgur.com/T0V90Lz.png",
@@ -53275,6 +53296,13 @@
     "logo": "https://i.imgur.com/EhISpCd.png",
     "category": "Religious",
     "url": "https://storage.sardius.media/archives/-KyMV-J0vDqnClcSXs8p/events/site_1a4721d3BA/playlist.m3u8"
+  },
+  {
+    "name": "PTV (720p)",
+    "tvg_id": "PTV.ua@SD",
+    "logo": "https://i.imgur.com/WDHoSVz.png",
+    "category": "News",
+    "url": "https://cdn15.live-tv.cloud/ua_infinitas_tv/hrpl-abr/playlist.m3u8"
   },
   {
     "name": "PTV 4 (480p) [Not 24/7]",
@@ -71790,6 +71818,13 @@
     "logo": "https://i.imgur.com/stzE1Ij.png",
     "category": "Undefined",
     "url": "https://streamtv.cdn.dvmr.fr/TV78/ngrp:tv78.stream_all/master.m3u8"
+  },
+  {
+    "name": "TV 100 (720p)",
+    "tvg_id": "TV100.gr@SD",
+    "logo": "https://i.imgur.com/OBH2DfE.png",
+    "category": "General",
+    "url": "https://gwebstream.net/hls/master.m3u8"
   },
   {
     "name": "TV 100 (1080p)",
