@@ -44387,13 +44387,6 @@
     "url": "https://watch.haitilive.net/naktvhd/index.m3u8"
   },
   {
-    "name": "Nethra TV (360p)",
-    "tvg_id": "NethraTV.lk@SD",
-    "logo": "https://i.imgur.com/vSrIN1U.jpg",
-    "category": "General",
-    "url": "https://edge3-moblive.yuppcdn.net/transsd/smil:chii02.smil/playlist.m3u8?dvr="
-  },
-  {
     "name": "Netlink TV (720p)",
     "tvg_id": "",
     "logo": "",
@@ -65625,13 +65618,6 @@
     "url": "https://cdn-2.pishow.tv/live/477/master.m3u8"
   },
   {
-    "name": "Swarnavahini (720p)",
-    "tvg_id": "Swarnavahini.lk@SD",
-    "logo": "https://i.imgur.com/0hnpeq9.png",
-    "category": "Undefined",
-    "url": "https://jk3lz8xklw79-hls-live.5centscdn.com/live/6226f7cbe59e99a90b5cef6f94f966fd.sdp/playlist.m3u8"
-  },
-  {
     "name": "Swatantra TV (1080p)",
     "tvg_id": "SwatantraTV.in@SD",
     "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Swatantra_News.png",
@@ -70376,13 +70362,6 @@
     "logo": "https://i.imgur.com/8nvCXzt.png",
     "category": "General",
     "url": "https://bozztv.com/dvrfl03/hdirect/hdirect-telecaraibes/index.m3u8"
-  },
-  {
-    "name": "TNL TV (360p)",
-    "tvg_id": "TNLTV.lk@SD",
-    "logo": "https://i.imgur.com/UWsxPJK.png",
-    "category": "General",
-    "url": "https://edge3-moblive.yuppcdn.net/transsd/smil:tnl12.smil/playlist.m3u8?dvr="
   },
   {
     "name": "TNN 16 (720p)",
@@ -76450,7 +76429,7 @@
     "name": "UNE TV (720p)",
     "tvg_id": "UNETV.hn@SD",
     "logo": "https://i.imgur.com/V9Fpd3Y.png",
-    "category": "Undefined",
+    "category": "News",
     "url": "https://amixtv.com:8081/unetvhn/tracks-v1a1/mono.m3u8"
   },
   {
