@@ -3514,11 +3514,11 @@
     "url": "https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8"
   },
   {
-    "name": "Al Sunnah Al Nabawiyah TV (720p)",
+    "name": "Al Sunnah Al Nabawiyah TV (1080p)",
     "tvg_id": "AlSunnahAlNabawiyahTV.sa@SD",
     "logo": "https://aloula.faulio.com/storage/mediagallery/33/92/fullhd_879e557011826f507a045b4e0b4c3b57ba93edae.png",
     "category": "Religious",
-    "url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8"
+    "url": "https://aloula-redirect.vercel.app/6/playlist.m3u8"
   },
   {
     "name": "Al Wilayah (720p)",
@@ -5915,13 +5915,6 @@
     "url": "https://arputharyesutv.arputharyesutv.com/live/md/index.m3u8"
   },
   {
-    "name": "ART (1080p)",
-    "tvg_id": "ART.gr@SD",
-    "logo": "https://i.imgur.com/mNeLu04.png",
-    "category": "Culture",
-    "url": "https://1a-1791.com/live/qt9k24wa/slot-55/2k5m-t871_1080p/playlist.m3u8"
-  },
-  {
     "name": "ART Television (720p)",
     "tvg_id": "ARTTelevision.lk@SD",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/ART_Television_%28Sri_Lanka%29_%28logo%29.png/960px-ART_Television_%28Sri_Lanka%29_%28logo%29.png",
@@ -6382,6 +6375,13 @@
     "logo": "https://whiplash.cc/assets/img/channels/atlas.png",
     "category": "Documentary",
     "url": "https://cdn.whiplash.cc/whiplash-atlas/index.m3u8"
+  },
+  {
+    "name": "ATM Rozrywka REWORK (1080p)",
+    "tvg_id": "ATMRozrywkaREWORK.pl@HD",
+    "logo": "https://i.ibb.co/B5BfmQNs/ATM.jpg",
+    "category": "Entertainment",
+    "url": "https://grupaatmrr.org.pl:8888/fallback/index.m3u8"
   },
   {
     "name": " like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Undefined\",Atmadarshan Tv (720p)",
@@ -29827,13 +29827,6 @@
     "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web"
   },
   {
-    "name": "HTV1 (720p)",
-    "tvg_id": "HTV1.vn@SD",
-    "logo": "",
-    "category": "General",
-    "url": "https://vc.101vn.com/htv/htvcmb.php?id=2631"
-  },
-  {
     "name": "HTV 1 Houston Television (720p)",
     "tvg_id": "HTV1HoustonTelevision.us@SD",
     "logo": "https://i.imgur.com/zvj1boM.jpg",
@@ -29855,11 +29848,11 @@
     "url": "https://stream.swagit.com/live-edge/houstontx/smil:hd-16x9-2-b/playlist.m3u8"
   },
   {
-    "name": "HTV3 (720p)",
+    "name": "HTV3",
     "tvg_id": "HTV3.vn@SD",
     "logo": "",
     "category": "Entertainment;General;Series",
-    "url": "https://vc.101vn.com/htv/htvcmb.php?id=2535"
+    "url": "https://liveh12byt.vtvprime.vn/hls/HTV3/03.m3u8"
   },
   {
     "name": "HTV7 HD (1080p)",
@@ -34732,6 +34725,27 @@
     "logo": "https://i.imgur.com/dQJQv1X.png",
     "category": "Music",
     "url": "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8"
+  },
+  {
+    "name": "KSA Sports 1 (1080p)",
+    "tvg_id": "KSASports1.sa@SD",
+    "logo": "https://i.imgur.com/ONKNOAp.png",
+    "category": "Sports",
+    "url": "https://aloula-redirect.vercel.app/9/playlist.m3u8"
+  },
+  {
+    "name": "KSA Sports 2 (1080p)",
+    "tvg_id": "KSASports2.sa@SD",
+    "logo": "https://i.imgur.com/v8ULLqg.png",
+    "category": "Sports",
+    "url": "https://aloula-redirect.vercel.app/10/playlist.m3u8"
+  },
+  {
+    "name": "KSA Sports 3 (1080p)",
+    "tvg_id": "KSASports3.sa@SD",
+    "logo": "https://i.imgur.com/BXfCvez.png",
+    "category": "Sports",
+    "url": "https://aloula-redirect.vercel.app/16/playlist.m3u8"
   },
   {
     "name": "KSAZ-DT1 (1080p)",
@@ -47290,13 +47304,6 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg",
     "category": "General",
     "url": "https://orf2-247.mdn.ors.at/orf/orf2/qxa-247/manifest.m3u8"
-  },
-  {
-    "name": "ORF 2",
-    "tvg_id": "ORF2.at@SD",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg",
-    "category": "General",
-    "url": "https://dash4.antik.sk/live/test_orf_zwei_tizen/playlist.m3u8"
   },
   {
     "name": "ORF 2 Tirol HD (720p) [Geo-Blocked]",
@@ -69291,6 +69298,13 @@
     "logo": "",
     "category": "Undefined",
     "url": "https://d11iia85bv1ffj.cloudfront.net/playlist.m3u8"
+  },
+  {
+    "name": "Thikrayat TV (1080p)",
+    "tvg_id": "ThikrayatTV.sa@SD",
+    "logo": "https://i.imgur.com/AKa1X9d.png",
+    "category": "Classic",
+    "url": "https://aloula-redirect.vercel.app/3/playlist.m3u8"
   },
   {
     "name": "This is Bulgaria HD (1080p)",
