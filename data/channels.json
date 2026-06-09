@@ -8199,7 +8199,7 @@
   {
     "name": "Binge",
     "tvg_id": "Binge.us@SD",
-    "logo": "",
+    "logo": "https://i.imgur.com/kEETRln.png",
     "category": "General",
     "url": "https://videostack1.cdnstream1.com:1936/binge-tv/binge-tv/playlist.m3u8"
   },
